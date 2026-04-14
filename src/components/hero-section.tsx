@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { Phone } from "lucide-react";
 import { siteConfig } from "@/lib/site-config";
 
@@ -13,48 +14,67 @@ export function HeroSection() {
           "linear-gradient(135deg, rgb(26,26,26), rgb(45,45,45), rgb(26,26,26))",
       }}
     >
+      {/* Pittsburgh skyline background photo */}
       <div className="absolute inset-0">
+        <Image
+          src="/images/pittsburgh/pittsburgh-skyline-hero.jpg"
+          alt="Pittsburgh skyline at dusk showing the Duquesne Incline, Fort Pitt Bridge, and downtown from Mount Washington"
+          fill
+          priority
+          sizes="100vw"
+          className="object-cover object-center"
+        />
+        {/* Dark gradient overlay so the text stays legible */}
+        <div
+          className="absolute inset-0"
+          style={{
+            background:
+              "linear-gradient(180deg, rgba(29,29,29,0.55) 0%, rgba(29,29,29,0.75) 60%, rgba(29,29,29,0.92) 100%)",
+          }}
+        />
+        {/* Orange spot light — keeps brand color present */}
         <div
           className="absolute inset-0"
           style={{
             backgroundImage:
-              "radial-gradient(ellipse at 70% 30%, rgba(237,102,35,0.22), transparent 60%), radial-gradient(ellipse at 20% 80%, rgba(255,255,255,0.05), transparent 60%)",
-          }}
-        />
-        <div className="absolute inset-0 bg-black/30" />
-        <div
-          className="absolute inset-0 opacity-[0.08]"
-          style={{
-            backgroundImage:
-              "linear-gradient(rgba(255,255,255,0.5) 1px, transparent 1px), linear-gradient(90deg, rgba(255,255,255,0.5) 1px, transparent 1px)",
-            backgroundSize: "60px 60px",
+              "radial-gradient(ellipse at 70% 25%, rgba(237,102,35,0.25), transparent 55%)",
           }}
         />
       </div>
 
-      <div className="relative z-10 mx-auto flex min-h-screen max-w-[800px] flex-col items-center justify-center gap-[30px] px-5 pt-[180px] pb-20 text-center max-md:min-h-0 max-md:max-w-full max-md:justify-start max-md:gap-5 max-md:px-5 max-md:pt-[100px] max-md:pb-0">
+      {/* Content */}
+      <div className="relative z-10 mx-auto flex min-h-screen max-w-[900px] flex-col items-center justify-center gap-[30px] px-5 pt-[180px] pb-20 text-center max-md:min-h-0 max-md:max-w-full max-md:justify-start max-md:gap-5 max-md:px-5 max-md:pt-[100px] max-md:pb-0">
+        <div className="mb-2 inline-flex items-center gap-2 rounded-full border-2 border-white/20 bg-black/40 px-4 py-2 backdrop-blur-sm">
+          <span className="h-2 w-2 animate-pulse rounded-full bg-[#ed6623]" />
+          <span className="font-[family-name:var(--font-heading)] text-[13px] uppercase tracking-wider text-white">
+            Family-Owned · Pittsburgh, PA
+          </span>
+        </div>
+
         <div className="relative text-center">
           <h1
             className="m-0 uppercase text-white font-[family-name:var(--font-heading)]"
             style={{
-              fontSize: "clamp(28px, 5vw, 56px)",
-              lineHeight: "1.07",
+              fontSize: "clamp(32px, 5.5vw, 64px)",
+              lineHeight: "1.02",
               fontWeight: 400,
+              textShadow: "0 4px 30px rgba(0,0,0,0.6)",
             }}
           >
             {siteConfig.tagline}
             <br />
-            {siteConfig.location}
+            <span className="text-[#ed6623]">{siteConfig.location}</span>
           </h1>
         </div>
 
         <p
-          className="max-w-[600px] text-white font-[family-name:var(--font-body)] max-md:max-w-full max-md:px-2"
+          className="max-w-[620px] text-white font-[family-name:var(--font-body)] max-md:max-w-full max-md:px-2"
           style={{
             fontSize: "clamp(15px, 1.6vw, 18px)",
             lineHeight: "1.55",
             fontWeight: 500,
             margin: 0,
+            textShadow: "0 2px 12px rgba(0,0,0,0.7)",
           }}
         >
           <a

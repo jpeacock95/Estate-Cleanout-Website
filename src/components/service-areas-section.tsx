@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { MapPin } from "lucide-react";
 
 const allegheny = [
@@ -60,63 +61,27 @@ export function ServiceAreasSection() {
 
         <div className="mx-auto grid max-w-[1200px] grid-cols-2 items-start gap-[60px] max-lg:grid-cols-1 max-lg:gap-10">
           <div className="relative overflow-hidden rounded-[20px] border-2 border-black shadow-[10px_10px_0_#000]">
-            <div
-              className="relative aspect-[720/658] w-full"
-              style={{
-                background:
-                  "linear-gradient(135deg, #2a2a2a 0%, #1d1d1d 40%, #0f0f0f 100%)",
-              }}
-            >
-              <svg
-                className="absolute inset-0 h-full w-full opacity-20"
-                viewBox="0 0 720 658"
-                preserveAspectRatio="xMidYMid slice"
-              >
-                <defs>
-                  <pattern id="topo" x="0" y="0" width="60" height="60" patternUnits="userSpaceOnUse">
-                    <path d="M0 30 Q15 20 30 30 T60 30" stroke="#ed6623" strokeWidth="1" fill="none" />
-                    <path d="M0 45 Q15 35 30 45 T60 45" stroke="#fff" strokeWidth="0.5" fill="none" />
-                  </pattern>
-                </defs>
-                <rect width="720" height="658" fill="url(#topo)" />
-              </svg>
+            <div className="relative aspect-[720/658] w-full">
+              <Image
+                src="/images/pittsburgh/pittsburgh-bridges-aerial.jpg"
+                alt="Aerial view of Pittsburgh's Point State Park, Fort Pitt Bridge, and the three rivers — the heart of our service area"
+                fill
+                sizes="(max-width: 1024px) 100vw, 50vw"
+                className="object-cover object-center"
+              />
 
-              <svg
-                className="absolute inset-0 h-full w-full"
-                viewBox="0 0 720 658"
-                preserveAspectRatio="xMidYMid slice"
-              >
-                <path
-                  d="M120 120 Q260 260 360 320"
-                  stroke="#ed6623"
-                  strokeWidth="6"
-                  fill="none"
-                  opacity="0.7"
-                  strokeLinecap="round"
-                />
-                <path
-                  d="M600 140 Q460 260 360 320"
-                  stroke="#ed6623"
-                  strokeWidth="6"
-                  fill="none"
-                  opacity="0.7"
-                  strokeLinecap="round"
-                />
-                <path
-                  d="M360 320 Q360 480 260 580"
-                  stroke="#ed6623"
-                  strokeWidth="8"
-                  fill="none"
-                  opacity="0.85"
-                  strokeLinecap="round"
-                />
-                <circle cx="360" cy="320" r="16" fill="#ed6623" stroke="#fff" strokeWidth="3" />
-                <circle cx="360" cy="320" r="32" fill="none" stroke="#ed6623" strokeWidth="2" opacity="0.4" />
-                <circle cx="360" cy="320" r="60" fill="none" stroke="#ed6623" strokeWidth="2" opacity="0.25" />
-              </svg>
+              {/* Dark vignette for label contrast */}
+              <div
+                className="absolute inset-0"
+                style={{
+                  background:
+                    "radial-gradient(ellipse at center, rgba(0,0,0,0.15) 0%, rgba(0,0,0,0.55) 100%)",
+                }}
+              />
 
-              <div className="absolute inset-0 flex items-center justify-center bg-black/30">
-                <div className="rounded-[60px] border-[3px] border-white bg-[#ed6623] px-[60px] py-5 shadow-[0_4px_20px_rgba(0,0,0,0.3)] max-md:px-10 max-md:py-[15px]">
+              {/* Corridor label */}
+              <div className="absolute inset-0 flex items-center justify-center">
+                <div className="rounded-[60px] border-[3px] border-white bg-[#ed6623] px-[60px] py-5 shadow-[0_8px_30px_rgba(0,0,0,0.5)] max-md:px-10 max-md:py-[15px]">
                   <span
                     className="font-[family-name:var(--font-heading)] font-bold text-white"
                     style={{ fontSize: "clamp(24px, 3vw, 32px)", letterSpacing: "2px" }}
@@ -124,6 +89,13 @@ export function ServiceAreasSection() {
                     PITTSBURGH METRO
                   </span>
                 </div>
+              </div>
+
+              {/* Bottom caption */}
+              <div className="absolute inset-x-0 bottom-0 bg-gradient-to-t from-black/80 to-transparent p-5 pt-16">
+                <p className="m-0 text-[13px] font-semibold uppercase tracking-wider text-white/90 font-[family-name:var(--font-heading)]">
+                  Point State Park · Downtown Pittsburgh
+                </p>
               </div>
             </div>
           </div>

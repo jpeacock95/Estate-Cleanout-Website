@@ -1,6 +1,7 @@
 import { SiteHeader } from "@/components/site-header";
 import { HeroSection } from "@/components/hero-section";
 import { ServicesSection } from "@/components/services-section";
+import { LocalStripSection } from "@/components/local-strip-section";
 import { WhyChooseSection } from "@/components/why-choose-section";
 import { ReviewsSection } from "@/components/reviews-section";
 import { ServiceAreasSection } from "@/components/service-areas-section";
@@ -15,6 +16,7 @@ export default function Home() {
       <main className="flex-1">
         <HeroSection />
         <ServicesSection />
+        <LocalStripSection />
         <WhyChooseSection />
         <ReviewsSection />
         <ServiceAreasSection />

@@ -121,9 +121,41 @@ export function SiteFooter() {
 
         <div className="mt-10">
           <div className="flex items-center justify-between max-md:flex-col max-md:gap-5 max-md:text-center">
-            <p className="m-0 text-[14px] opacity-70 font-[family-name:var(--font-body)]">
-              © {new Date().getFullYear()} Steel City Cleanouts. All rights reserved. Licensed & Insured.
-            </p>
+            <div className="max-md:text-center">
+              <p className="m-0 text-[14px] opacity-70 font-[family-name:var(--font-body)]">
+                © {new Date().getFullYear()} Steel City Cleanouts. All rights reserved. Licensed & Insured.
+              </p>
+              <p className="mt-1 text-[12px] opacity-50 font-[family-name:var(--font-body)]">
+                Pittsburgh photography by{" "}
+                <a
+                  href="https://unsplash.com/@ventiviews"
+                  className="underline hover:opacity-80"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  Venti Views
+                </a>
+                ,{" "}
+                <a
+                  href="https://unsplash.com/@vidarnm"
+                  className="underline hover:opacity-80"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  Vidar Nordli-Mathisen
+                </a>
+                , and{" "}
+                <a
+                  href="https://unsplash.com/@tylerrutherford"
+                  className="underline hover:opacity-80"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  Tyler Rutherford
+                </a>{" "}
+                on Unsplash.
+              </p>
+            </div>
             <div className="flex items-center gap-5">
               {[FacebookIcon, InstagramIcon, LinkedinIcon].map((Icon, i) => (
                 <a
