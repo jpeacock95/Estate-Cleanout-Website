@@ -4,16 +4,16 @@ import { siteConfig } from "@/lib/site-config";
 
 const slides = [
   {
+    src: "/images/work/crew-armchair-steps.jpg",
+    alt: "Two Steel City Cleanouts crew members in orange safety vests carrying a leather armchair down the front steps of a Pittsburgh red-brick row house",
+  },
+  {
+    src: "/images/work/crew-loading-truck.jpg",
+    alt: "Two Steel City Cleanouts crew members in orange safety vests loading an old sofa into the bed of their black pickup truck on a Pittsburgh residential street",
+  },
+  {
     src: "/images/pittsburgh/pittsburgh-skyline-hero.jpg",
     alt: "Pittsburgh skyline at dusk from the Duquesne Incline showing downtown and the Fort Pitt Bridge",
-  },
-  {
-    src: "/images/pittsburgh/pittsburgh-street-hillside.jpg",
-    alt: "Pittsburgh hillside neighborhood with row houses stacked up the slope and a residential street below",
-  },
-  {
-    src: "/images/work/crew-loading-couch.jpg",
-    alt: "Two Steel City Cleanouts crew members loading a couch into the back of their van on a Pittsburgh street",
   },
 ];
 
