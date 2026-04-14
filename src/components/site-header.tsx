@@ -1,0 +1,92 @@
+"use client";
+
+import { useState } from "react";
+import { Menu, X, Phone } from "lucide-react";
+import { siteConfig } from "@/lib/site-config";
+
+export function SiteHeader() {
+  const [open, setOpen] = useState(false);
+
+  return (
+    <header className="fixed inset-x-0 top-0 z-[1020] bg-white shadow-[0_2px_4px_rgba(0,0,0,0.1)]">
+      <nav className="mx-auto flex h-[102px] max-w-[1440px] items-center justify-between px-5 max-lg:h-20 relative">
+        <div className="flex-1" />
+
+        <a
+          href="#top"
+          className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 z-[1]"
+          aria-label="Steel City Cleanouts — home"
+        >
+          <div className="flex flex-col items-center leading-none">
+            <span className="font-[family-name:var(--font-heading)] text-[38px] leading-none tracking-wide text-[#1d1d1d] max-lg:text-[30px]">
+              STEEL CITY
+            </span>
+            <span className="font-[family-name:var(--font-heading)] text-[22px] leading-none tracking-[0.15em] text-[#ed6623] max-lg:text-[18px]">
+              CLEANOUTS
+            </span>
+          </div>
+        </a>
+
+        <div className="flex-1 flex items-center justify-end gap-12 max-lg:hidden">
+          <ul className="flex list-none gap-8 p-0 m-0">
+            {siteConfig.nav.map((item) => (
+              <li key={item.href}>
+                <a
+                  href={item.href}
+                  className="font-[family-name:var(--font-heading)] text-[20px] text-[#1d1d1d] transition-colors hover:text-[#ed6623]"
+                >
+                  {item.label}
+                </a>
+              </li>
+            ))}
+          </ul>
+          <a
+            href={`tel:${siteConfig.phone.tel}`}
+            className="inline-flex min-h-[42px] items-center justify-center gap-2 whitespace-nowrap rounded-full bg-[#ed6623] px-6 py-3 font-[family-name:var(--font-heading)] text-[20px] text-white transition-all duration-300 hover:-translate-y-[2px] hover:bg-[#ff6b00]"
+          >
+            <Phone className="h-4 w-4" strokeWidth={3} />
+            CALL NOW
+          </a>
+        </div>
+
+        <button
+          type="button"
+          onClick={() => setOpen((o) => !o)}
+          aria-label="Toggle navigation"
+          className="hidden max-lg:flex ml-auto mr-4 flex-col gap-1 border-0 bg-transparent p-2"
+        >
+          {open ? <X className="h-7 w-7 text-[#1d1d1d]" /> : <Menu className="h-7 w-7 text-[#1d1d1d]" />}
+        </button>
+      </nav>
+
+      <div
+        className={`lg:hidden fixed left-0 right-0 top-20 bg-white shadow-lg transition-all duration-300 ${
+          open ? "translate-y-0 opacity-100 visible" : "-translate-y-[150%] opacity-0 invisible"
+        }`}
+      >
+        <ul className="flex flex-col items-center gap-6 p-6 list-none">
+          {siteConfig.nav.map((item) => (
+            <li key={item.href}>
+              <a
+                href={item.href}
+                onClick={() => setOpen(false)}
+                className="font-[family-name:var(--font-heading)] text-[22px] text-[#1d1d1d] hover:text-[#ed6623]"
+              >
+                {item.label}
+              </a>
+            </li>
+          ))}
+          <li className="w-full max-w-[300px]">
+            <a
+              href={`tel:${siteConfig.phone.tel}`}
+              className="flex w-full items-center justify-center gap-2 rounded-full bg-[#ed6623] px-6 py-3 font-[family-name:var(--font-heading)] text-[20px] text-white"
+            >
+              <Phone className="h-4 w-4" strokeWidth={3} />
+              CALL NOW
+            </a>
+          </li>
+        </ul>
+      </div>
+    </header>
+  );
+}
