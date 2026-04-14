@@ -6,7 +6,7 @@ export const siteConfig = {
     display: "(585) 200-0871",
     tel: "5852000871",
   },
-  email: "peacockj131@gmail.com",
+  email: "hello@steelcitycleanouts.com",
   nav: [
     { label: "SERVICES", href: "#services" },
     { label: "SERVICE AREA", href: "#service-areas" },
