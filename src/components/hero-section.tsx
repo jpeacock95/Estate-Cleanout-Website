@@ -12,8 +12,8 @@ const slides = [
     alt: "Two Steel City Cleanouts crew members in orange safety vests loading an old sofa into the bed of their black pickup truck on a Pittsburgh residential street",
   },
   {
-    src: "/images/pittsburgh/pittsburgh-skyline-hero.jpg",
-    alt: "Pittsburgh skyline at dusk from the Duquesne Incline showing downtown and the Fort Pitt Bridge",
+    src: "/images/work/crew-loaded-truck-curbside.jpg",
+    alt: "Steel City Cleanouts crew member in orange safety vest securing a fully loaded junk removal truck at the curb in front of a Pittsburgh row house",
   },
 ];
 
