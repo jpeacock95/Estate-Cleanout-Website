@@ -14,7 +14,7 @@ type Props = {
 
 export function PageHero({ headline, sub, image, imageAlt, eyebrow, trackingLocation }: Props) {
   return (
-    <section className="relative -mt-[88px] lg:-mt-[120px] min-h-[540px] lg:min-h-[620px] overflow-hidden bg-[#1d1d1d]">
+    <section className="relative -mt-[88px] lg:-mt-[120px] min-h-[580px] lg:min-h-[640px] overflow-hidden bg-[#1d1d1d]">
       <div className="absolute inset-0">
         <Image src={image} alt={imageAlt} fill priority sizes="100vw" className="object-cover object-center" />
         <div
@@ -33,7 +33,7 @@ export function PageHero({ headline, sub, image, imageAlt, eyebrow, trackingLoca
         />
       </div>
 
-      <div className="relative z-10 mx-auto flex min-h-[540px] lg:min-h-[620px] max-w-[900px] flex-col items-center justify-center gap-6 px-5 pt-[140px] pb-14 text-center max-md:pt-[120px] max-md:pb-10 lg:pt-[170px] lg:pb-16">
+      <div className="relative z-10 mx-auto flex min-h-[580px] lg:min-h-[640px] max-w-[900px] flex-col items-center justify-center gap-6 px-5 pt-[200px] pb-[24px] text-center lg:pt-[260px] lg:pb-[20px]">
         {eyebrow ? (
           <div className="inline-flex items-center gap-2 rounded-full border-2 border-white/20 bg-black/40 px-4 py-2 backdrop-blur-sm">
             <span className="h-2 w-2 animate-pulse rounded-full bg-[#ed6623]" />

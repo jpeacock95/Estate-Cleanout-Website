@@ -57,7 +57,7 @@ export function HeroSection() {
       </div>
 
       {/* Content */}
-      <div className="relative z-10 mx-auto flex min-h-[100svh] lg:min-h-[912px] max-w-[900px] flex-col items-center justify-center gap-7 px-5 pt-[130px] pb-12 text-center max-md:gap-5 max-md:pt-[120px] max-md:pb-12 lg:pt-[170px] lg:pb-20">
+      <div className="relative z-10 mx-auto flex min-h-[100svh] lg:min-h-[912px] max-w-[900px] flex-col items-center justify-center gap-7 px-5 pt-[200px] pb-[24px] text-center max-md:gap-5 lg:pt-[260px] lg:pb-[20px]">
         <div className="inline-flex items-center gap-2 rounded-full border-2 border-white/20 bg-black/40 px-4 py-2 backdrop-blur-sm">
           <span className="h-2 w-2 animate-pulse rounded-full bg-[#ed6623]" />
           <span className="font-[family-name:var(--font-heading)] text-[12px] uppercase tracking-wider text-white max-md:text-[11px]">

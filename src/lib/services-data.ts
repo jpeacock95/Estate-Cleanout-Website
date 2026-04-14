@@ -237,6 +237,147 @@ export const services: Service[] = [
   },
 ];
 
+services.push(
+  {
+    slug: "hoarder-cleanouts",
+    name: "Hoarder Cleanouts",
+    shortName: "Hoarder Cleanouts",
+    seoTitle: "Hoarder Cleanouts Pittsburgh PA | Discreet, Compassionate Service",
+    seoDescription:
+      "Discreet, compassionate hoarder cleanouts in Pittsburgh and surrounding areas. Multi-day jobs, full-PPE crews, no judgment. Call (585) 200-0871.",
+    heroHeadline: "Pittsburgh Hoarder Cleanouts",
+    heroSub: "Discreet, compassionate, done right.",
+    intro:
+      "Hoarder cleanouts are some of the hardest jobs we do. They're also some of the most important. We handle every Pittsburgh hoarder cleanout with discretion, patience, and zero judgment. Our crews arrive in unmarked trucks when requested, wear full PPE when needed, and work at a pace the family or property owner can actually handle emotionally and physically.",
+    keyPoints: [
+      "Discreet crews, unmarked trucks on request",
+      "Full PPE and biohazard handling when needed",
+      "Multi-day jobs handled by experienced teams",
+      "Work directly with family members or social workers",
+      "No judgment, full confidentiality",
+    ],
+    whatsIncluded: [
+      "Walk-through and private written estimate",
+      "Heavy sorting — keep, donate, haul",
+      "Sharps, biohazard, and animal waste handling",
+      "Multi-truck loads over one or more days",
+      "Final clean-out to broom-swept condition",
+    ],
+    pricingAnchor: "Hoarder cleanouts vary widely — most fall between $2,000 and $8,000. Free private walk-through.",
+    heroImage: "/images/work/crew-loading-truck.jpg",
+    faqs: [
+      {
+        q: "Will the neighbors see?",
+        a: "We can bring unmarked trucks and work early mornings or weekends if discretion is a priority. Just ask when you call.",
+      },
+      {
+        q: "Can you handle homes with pests or animal waste?",
+        a: "Yes. We handle homes with rodent infestations, cat waste, and other biohazards. Our crews wear full PPE and follow proper disposal protocols.",
+      },
+      {
+        q: "How long does a hoarder cleanout take?",
+        a: "Most Pittsburgh hoarder jobs take 2-5 days depending on severity. Lighter cases can finish in a day. Severe multi-room situations may run longer.",
+      },
+      {
+        q: "Do you work with social workers or family members?",
+        a: "Both. We regularly coordinate with adult children, siblings, and local social service agencies. We'll communicate at whatever pace works for the situation.",
+      },
+    ],
+  },
+  {
+    slug: "foreclosure-cleanouts",
+    name: "Foreclosure Cleanouts",
+    shortName: "Foreclosure Cleanouts",
+    seoTitle: "Foreclosure Cleanouts Pittsburgh PA | Bank & Realtor Service",
+    seoDescription:
+      "Fast foreclosure cleanouts in Pittsburgh for banks, asset managers, and realtors. Full property trash-outs, lawn care, boarding. Call (585) 200-0871.",
+    heroHeadline: "Pittsburgh Foreclosure Cleanouts",
+    heroSub: "Bank-ready property trash-outs, fast.",
+    intro:
+      "Foreclosed properties need to be emptied, cleaned, and listing-ready fast. We work with banks, asset managers, and Pittsburgh realtors to handle trash-outs on REO (real estate owned) homes. Whole-property cleanouts, yard work, lock changes coordinated with your preferred locksmith, and photo-ready finishes. Invoicing works with standard asset management platforms.",
+    keyPoints: [
+      "Whole-property trash-outs in 1-2 days",
+      "Work with banks, asset managers, REO agents",
+      "Photo-ready finish for listing day",
+      "Yard debris, leftover belongings, appliances — all handled",
+      "Invoicing compatible with asset management platforms",
+    ],
+    whatsIncluded: [
+      "Complete interior trash-out (every room, every level)",
+      "Yard debris, fencing, outdoor furniture, playsets",
+      "Detached garages, sheds, outbuildings",
+      "Broom-swept interior, ready for inspection photos",
+      "Detailed itemized invoice with before/after photos",
+    ],
+    pricingAnchor: "Most foreclosure jobs $700–$2,800 depending on property size and volume. Volume pricing for asset managers.",
+    heroImage: "/images/work/crew-loaded-truck-curbside.jpg",
+    faqs: [
+      {
+        q: "Do you work with asset management companies?",
+        a: "Yes. We work with banks, asset managers, and REO realtors. We can invoice through standard asset management platforms and provide before/after photo documentation with every job.",
+      },
+      {
+        q: "How fast can you trash out a property?",
+        a: "Most single-family REO properties are done in 1-2 days. We scale crew size to match your timeline. If you need it by Friday for listing photos, tell us when you call.",
+      },
+      {
+        q: "Can you handle properties with severe damage or biohazards?",
+        a: "Yes. We handle properties that have been abandoned, vandalized, or left in poor condition. Biohazard situations get full PPE crews and proper disposal protocols.",
+      },
+      {
+        q: "Do you provide photo documentation?",
+        a: "Yes. Every foreclosure job includes before/after photos documenting the condition and the finished work. Essential for bank and asset manager records.",
+      },
+    ],
+  },
+  {
+    slug: "eviction-cleanouts",
+    name: "Eviction Cleanouts",
+    shortName: "Eviction Cleanouts",
+    seoTitle: "Eviction Cleanouts Pittsburgh PA | Same-Day Landlord Service",
+    seoDescription:
+      "Same-day eviction cleanouts for Pittsburgh landlords and property managers. Full unit trash-outs, fast turnaround between tenants. Call (585) 200-0871.",
+    heroHeadline: "Pittsburgh Eviction Cleanouts",
+    heroSub: "Get the unit rent-ready. Fast.",
+    intro:
+      "After an eviction, time is money. Every day the unit sits full of the previous tenant's belongings is a day of lost rent. We show up same-day or next-day, trash out the entire unit, and leave it broom-swept and ready for turnover. Single-family homes, duplexes, apartments — we handle all of it for Pittsburgh landlords and property managers.",
+    keyPoints: [
+      "Same-day or next-day service",
+      "Whole-unit trash-outs in a single visit",
+      "Apartments, duplexes, single-family homes",
+      "Broom-swept and ready for turnover cleaning",
+      "Volume pricing for property managers",
+    ],
+    whatsIncluded: [
+      "Complete removal of abandoned tenant property",
+      "Furniture, appliances, clothing, trash, and debris",
+      "Yard items if applicable",
+      "Swept and vacuumed finish, ready for painter or cleaner",
+      "Itemized invoice for record-keeping",
+    ],
+    pricingAnchor: "Apartment units from $350. Single-family trash-outs $650–$2,000. Volume discounts for property managers.",
+    heroImage: "/images/work/crew-loading-truck.jpg",
+    faqs: [
+      {
+        q: "How fast can you turn a unit?",
+        a: "Most eviction trash-outs are done in 3-6 hours on single units. Call us in the morning, the unit is ready by afternoon. Multi-unit jobs get scheduled around your turnover timeline.",
+      },
+      {
+        q: "Do you handle PA legal abandoned property requirements?",
+        a: "We're familiar with PA tenant property rules. We can hold items aside if you need to follow the 10-day notice process, or trash-out immediately if the lease allows and you've followed proper procedure. When in doubt, check with your attorney first.",
+      },
+      {
+        q: "Can you coordinate with my cleaner and painter?",
+        a: "Yes. We coordinate schedules with turnover cleaners, painters, and maintenance crews so the unit flows through the turnover pipeline without waiting around.",
+      },
+      {
+        q: "Do you offer volume discounts for property managers?",
+        a: "Yes. If you manage multiple Pittsburgh-area properties, we'll set up a standing rate that's below our single-job pricing. Call us for a volume agreement.",
+      },
+    ],
+  },
+);
+
 export function getServiceBySlug(slug: string): Service | undefined {
   return services.find((s) => s.slug === slug);
 }
