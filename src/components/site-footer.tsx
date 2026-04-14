@@ -74,13 +74,13 @@ export function SiteFooter() {
       <div className="container-wide">
         <div className="grid grid-cols-[1.5fr_1fr_1fr_1fr_1fr] gap-10 border-b border-white/10 pb-10 max-lg:grid-cols-3 max-md:grid-cols-2 max-sm:grid-cols-1 max-sm:text-center">
           <div className="max-lg:col-span-full max-lg:text-center">
-            <div className="mb-5 inline-block rounded-lg bg-white p-3 shadow-[4px_4px_0_rgba(237,102,35,0.4)]">
+            <div className="mb-6 inline-block rounded-xl bg-white p-0 shadow-[6px_6px_0_rgba(237,102,35,0.5)] overflow-hidden">
               <Image
                 src="/images/logo/steel-city-cleanouts.png"
                 alt="Steel City Cleanouts — Pittsburgh, PA"
-                width={260}
-                height={260}
-                className="h-[110px] w-auto max-lg:mx-auto"
+                width={520}
+                height={520}
+                className="block h-[220px] w-[220px] object-cover max-lg:mx-auto"
               />
             </div>
             <div className="mt-5">

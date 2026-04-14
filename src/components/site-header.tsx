@@ -10,7 +10,7 @@ export function SiteHeader() {
 
   return (
     <header className="fixed inset-x-0 top-0 z-[1020] bg-white shadow-[0_2px_4px_rgba(0,0,0,0.1)]">
-      <nav className="mx-auto flex h-[102px] max-w-[1440px] items-center justify-between px-5 max-lg:h-20 relative">
+      <nav className="mx-auto flex h-[160px] max-w-[1440px] items-center justify-between px-5 max-lg:h-[110px] relative">
         <div className="flex-1" />
 
         <a
@@ -21,10 +21,10 @@ export function SiteHeader() {
           <Image
             src="/images/logo/steel-city-cleanouts.png"
             alt="Steel City Cleanouts — Pittsburgh, PA"
-            width={260}
-            height={260}
+            width={640}
+            height={640}
             priority
-            className="h-[84px] w-auto max-lg:h-[64px]"
+            className="h-[220px] w-auto max-lg:h-[150px]"
           />
         </a>
 
@@ -61,7 +61,7 @@ export function SiteHeader() {
       </nav>
 
       <div
-        className={`lg:hidden fixed left-0 right-0 top-20 bg-white shadow-lg transition-all duration-300 ${
+        className={`lg:hidden fixed left-0 right-0 top-[110px] bg-white shadow-lg transition-all duration-300 ${
           open ? "translate-y-0 opacity-100 visible" : "-translate-y-[150%] opacity-0 invisible"
         }`}
       >

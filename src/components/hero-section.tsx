@@ -21,7 +21,7 @@ export function HeroSection() {
   return (
     <section
       id="top"
-      className="relative -mt-[80px] lg:-mt-[102px] min-h-[100svh] lg:h-[912px] overflow-hidden bg-[#1d1d1d]"
+      className="relative -mt-[110px] lg:-mt-[160px] min-h-[100svh] lg:h-[912px] overflow-hidden bg-[#1d1d1d]"
     >
       {/* Slideshow background */}
       <div className="absolute inset-0">
