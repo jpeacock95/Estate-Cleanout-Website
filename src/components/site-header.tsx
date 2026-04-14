@@ -10,12 +10,10 @@ export function SiteHeader() {
 
   return (
     <header className="fixed inset-x-0 top-0 z-[1020] bg-white shadow-[0_2px_4px_rgba(0,0,0,0.1)]">
-      <nav className="mx-auto flex h-[160px] max-w-[1440px] items-center justify-between px-5 max-lg:h-[110px] relative">
-        <div className="flex-1" />
-
+      <nav className="mx-auto flex h-[88px] max-w-[1440px] items-center justify-between gap-6 px-5 max-lg:h-[72px]">
         <a
           href="#top"
-          className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 z-[1]"
+          className="flex-shrink-0"
           aria-label="Steel City Cleanouts — home"
         >
           <Image
@@ -24,11 +22,11 @@ export function SiteHeader() {
             width={748}
             height={415}
             priority
-            className="h-[128px] w-auto max-lg:h-[84px]"
+            className="h-[60px] w-auto max-lg:h-[48px]"
           />
         </a>
 
-        <div className="flex-1 flex items-center justify-end gap-12 max-lg:hidden">
+        <div className="flex items-center justify-end gap-10 max-lg:hidden">
           <ul className="flex list-none gap-8 p-0 m-0">
             {siteConfig.nav.map((item) => (
               <li key={item.href}>
@@ -61,7 +59,7 @@ export function SiteHeader() {
       </nav>
 
       <div
-        className={`lg:hidden fixed left-0 right-0 top-[110px] bg-white shadow-lg transition-all duration-300 ${
+        className={`lg:hidden fixed left-0 right-0 top-[72px] bg-white shadow-lg transition-all duration-300 ${
           open ? "translate-y-0 opacity-100 visible" : "-translate-y-[150%] opacity-0 invisible"
         }`}
       >
