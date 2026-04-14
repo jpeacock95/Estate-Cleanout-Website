@@ -19,12 +19,12 @@ export function SiteHeader() {
           aria-label="Steel City Cleanouts — home"
         >
           <Image
-            src="/images/logo/steel-city-cleanouts.png"
+            src="/images/logo/steel-city-cleanouts-wordmark.png"
             alt="Steel City Cleanouts — Pittsburgh, PA"
-            width={640}
-            height={640}
+            width={748}
+            height={415}
             priority
-            className="h-[220px] w-auto max-lg:h-[150px]"
+            className="h-[128px] w-auto max-lg:h-[84px]"
           />
         </a>
 
