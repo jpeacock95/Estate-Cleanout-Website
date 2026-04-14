@@ -117,27 +117,27 @@ export function ServicesSection() {
           </h2>
         </div>
 
-        <div className="mx-auto mb-20 grid max-w-[1200px] grid-cols-4 gap-x-[30px] gap-y-10 max-lg:grid-cols-3 max-md:grid-cols-2 max-md:gap-[30px_20px] max-sm:grid-cols-1">
+        <div className="mx-auto mb-16 grid max-w-[1200px] grid-cols-4 gap-x-[30px] gap-y-10 max-lg:grid-cols-3 max-md:grid-cols-2 max-md:gap-y-7 max-md:gap-x-3 max-md:mb-12">
           {services.map(({ icon: Icon, title }) => (
             <div
               key={title}
-              className="group block rounded-[15px] p-[30px_20px] text-center text-[#1d1d1d] no-underline transition-transform duration-300 hover:-translate-y-[3px] max-md:p-[20px_15px]"
+              className="group block rounded-[15px] p-[30px_20px] text-center text-[#1d1d1d] no-underline transition-transform duration-300 hover:-translate-y-[3px] max-md:p-[16px_8px]"
             >
-              <div className="mx-auto mb-5 flex h-[76px] w-[76px] items-center justify-center rounded-full bg-[#ed6623]/10">
-                <Icon className="h-10 w-10 text-[#ed6623]" strokeWidth={1.75} />
+              <div className="mx-auto mb-4 flex h-[68px] w-[68px] items-center justify-center rounded-full bg-[#ed6623]/10 max-md:h-[60px] max-md:w-[60px]">
+                <Icon className="h-9 w-9 text-[#ed6623] max-md:h-7 max-md:w-7" strokeWidth={1.75} />
               </div>
               <h3
-                className="mb-[15px] uppercase text-[#1d1d1d] font-[family-name:var(--font-heading)]"
+                className="mb-[10px] uppercase text-[#1d1d1d] font-[family-name:var(--font-heading)]"
                 style={{
-                  fontSize: "clamp(24px, 2.4vw, 32px)",
-                  lineHeight: "1.05",
-                  margin: "0 0 15px",
+                  fontSize: "clamp(18px, 2.4vw, 28px)",
+                  lineHeight: "1.1",
+                  margin: "0 0 10px",
                 }}
               >
                 {title}
               </h3>
-              <div className="mt-[10px] flex items-center justify-center opacity-70 transition-all duration-300 group-hover:-translate-y-[2px] group-hover:opacity-100">
-                <span className="mr-2 font-[family-name:var(--font-heading)] text-[14px] uppercase text-[#ed6623]">
+              <div className="mt-2 flex items-center justify-center opacity-70 transition-all duration-300 group-hover:-translate-y-[2px] group-hover:opacity-100">
+                <span className="mr-1 font-[family-name:var(--font-heading)] text-[12px] uppercase text-[#ed6623] max-md:text-[11px]">
                   Learn More
                 </span>
                 <ArrowRight className="h-3 w-3 text-[#ed6623]" strokeWidth={2.5} />
