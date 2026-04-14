@@ -12,8 +12,8 @@ const slides = [
     alt: "Pittsburgh hillside neighborhood with row houses stacked up the slope and a residential street below",
   },
   {
-    src: "/images/pittsburgh/pittsburgh-bridges-aerial.jpg",
-    alt: "Aerial view of Pittsburgh's Point State Park, Fort Pitt Bridge, and the three rivers",
+    src: "/images/work/crew-loading-couch.jpg",
+    alt: "Two Steel City Cleanouts crew members loading a couch into the back of their van on a Pittsburgh street",
   },
 ];
 

@@ -1,3 +1,4 @@
+import Image from "next/image";
 import {
   Home,
   Trash2,
@@ -13,14 +14,16 @@ import {
 
 const emergencyCards = [
   {
-    icon: Home,
+    image: "/images/work/empty-living-room.jpg",
+    imageAlt: "Empty living room with hardwood floors after a full estate cleanout by Steel City Cleanouts",
     title: "Estate Cleanouts",
     description:
       "Full-home cleanouts for probate, downsizing, and estate sales. Respectful, thorough, and fast.",
     href: "#services",
   },
   {
-    icon: Trash2,
+    image: "/images/work/workers-carrying-boxes.jpg",
+    imageAlt: "Two Steel City Cleanouts crew members in matching uniforms carrying cardboard boxes out of a home",
     title: "Same-Day Junk Removal",
     description:
       "We show up when we say we will and haul everything out. No sorting, no stress, no hidden fees.",
@@ -62,14 +65,21 @@ export function ServicesSection() {
         </div>
 
         <div className="mx-auto mb-[120px] grid max-w-[1200px] grid-cols-2 gap-5 max-md:mb-[80px] max-md:grid-cols-1 max-md:gap-[30px]">
-          {emergencyCards.map(({ icon: Icon, title, description, href }) => (
+          {emergencyCards.map(({ image, imageAlt, title, description, href }) => (
             <a
               key={title}
               href={href}
               className="group relative block overflow-hidden rounded-[20px] border-2 border-[#1d1d1d] bg-white p-10 text-center text-[#1d1d1d] no-underline shadow-[10px_10px_0_#000] transition-all duration-300 hover:-translate-y-[5px] hover:shadow-[15px_15px_0_#000] max-md:p-[30px_20px]"
             >
-              <div className="mb-[30px] flex h-[200px] items-center justify-center rounded-[10px] bg-gradient-to-br from-[#ed6623]/10 to-[#1d1d1d]/5 max-md:mb-5 max-md:h-[140px]">
-                <Icon className="h-24 w-24 text-[#ed6623] max-md:h-16 max-md:w-16" strokeWidth={1.5} />
+              <div className="relative mb-[30px] h-[240px] overflow-hidden rounded-[10px] max-md:mb-5 max-md:h-[180px]">
+                <Image
+                  src={image}
+                  alt={imageAlt}
+                  fill
+                  sizes="(max-width: 768px) 100vw, 50vw"
+                  className="object-cover object-center transition-transform duration-500 group-hover:scale-[1.04]"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-black/30 via-transparent to-transparent" />
               </div>
               <h3
                 className="mb-5 uppercase text-[#1d1d1d] font-[family-name:var(--font-heading)]"

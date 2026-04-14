@@ -126,8 +126,7 @@ export function SiteFooter() {
                 © {new Date().getFullYear()} Steel City Cleanouts. All rights reserved. Licensed & Insured.
               </p>
               <p className="mt-1 text-[12px] opacity-50 font-[family-name:var(--font-body)]">
-                Pittsburgh photography by Venti Views, Jimmy Woo, Vidar
-                Nordli-Mathisen, and Tyler Rutherford on{" "}
+                Photography via{" "}
                 <a
                   href="https://unsplash.com"
                   className="underline hover:opacity-80"
@@ -135,8 +134,17 @@ export function SiteFooter() {
                   target="_blank"
                 >
                   Unsplash
+                </a>{" "}
+                and{" "}
+                <a
+                  href="https://www.pexels.com"
+                  className="underline hover:opacity-80"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  Pexels
                 </a>
-                .
+                . Used under their respective free-use licenses.
               </p>
             </div>
             <div className="flex items-center gap-5">
