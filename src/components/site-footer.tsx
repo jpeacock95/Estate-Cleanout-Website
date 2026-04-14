@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { siteConfig } from "@/lib/site-config";
 
 function FacebookIcon({ className }: { className?: string }) {
@@ -73,13 +74,14 @@ export function SiteFooter() {
       <div className="container-wide">
         <div className="grid grid-cols-[1.5fr_1fr_1fr_1fr_1fr] gap-10 border-b border-white/10 pb-10 max-lg:grid-cols-3 max-md:grid-cols-2 max-sm:grid-cols-1 max-sm:text-center">
           <div className="max-lg:col-span-full max-lg:text-center">
-            <div className="mb-5 inline-flex flex-col leading-none">
-              <span className="font-[family-name:var(--font-heading)] text-[40px] leading-none tracking-wide text-white">
-                STEEL CITY
-              </span>
-              <span className="font-[family-name:var(--font-heading)] text-[24px] leading-none tracking-[0.15em] text-[#ed6623]">
-                CLEANOUTS
-              </span>
+            <div className="mb-5 inline-block rounded-lg bg-white p-3 shadow-[4px_4px_0_rgba(237,102,35,0.4)]">
+              <Image
+                src="/images/logo/steel-city-cleanouts.png"
+                alt="Steel City Cleanouts — Pittsburgh, PA"
+                width={260}
+                height={260}
+                className="h-[110px] w-auto max-lg:mx-auto"
+              />
             </div>
             <div className="mt-5">
               <p className="m-0 mb-[5px] text-[14px] opacity-80 font-[family-name:var(--font-body)]">

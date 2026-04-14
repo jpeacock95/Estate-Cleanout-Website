@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import Image from "next/image";
 import { Menu, X, Phone } from "lucide-react";
 import { siteConfig } from "@/lib/site-config";
 
@@ -17,14 +18,14 @@ export function SiteHeader() {
           className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 z-[1]"
           aria-label="Steel City Cleanouts — home"
         >
-          <div className="flex flex-col items-center leading-none">
-            <span className="font-[family-name:var(--font-heading)] text-[38px] leading-none tracking-wide text-[#1d1d1d] max-lg:text-[30px]">
-              STEEL CITY
-            </span>
-            <span className="font-[family-name:var(--font-heading)] text-[22px] leading-none tracking-[0.15em] text-[#ed6623] max-lg:text-[18px]">
-              CLEANOUTS
-            </span>
-          </div>
+          <Image
+            src="/images/logo/steel-city-cleanouts.png"
+            alt="Steel City Cleanouts — Pittsburgh, PA"
+            width={260}
+            height={260}
+            priority
+            className="h-[84px] w-auto max-lg:h-[64px]"
+          />
         </a>
 
         <div className="flex-1 flex items-center justify-end gap-12 max-lg:hidden">
