@@ -64,7 +64,7 @@ export function ServiceAreasSection() {
             <div className="relative aspect-[720/658] w-full">
               <Image
                 src="/images/pittsburgh/pittsburgh-bridges-aerial.jpg"
-                alt="Aerial view of Pittsburgh's Point State Park, Fort Pitt Bridge, and the three rivers — the heart of our service area"
+                alt="Aerial view of Pittsburgh's Point State Park, Fort Pitt Bridge, and the three rivers, the heart of our service area"
                 fill
                 sizes="(max-width: 1024px) 100vw, 50vw"
                 className="object-cover object-center"
@@ -149,7 +149,7 @@ export function ServiceAreasSection() {
 
             <div className="mt-10 rounded-[10px] bg-[#ed6623]/10 p-5 text-center">
               <p className="m-0 text-[#1d1d1d] font-[family-name:var(--font-body)] text-[15px] font-semibold max-md:text-[14px]">
-                Not sure if we cover your area? Give us a call — if you&apos;re within an
+                Not sure if we cover your area? Give us a call. If you&apos;re within an
                 hour of Pittsburgh, chances are we&apos;ll come clean it out.
               </p>
             </div>

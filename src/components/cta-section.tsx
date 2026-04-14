@@ -24,7 +24,7 @@ export function CTASection() {
             className="mb-10 text-[#1d1d1d] font-[family-name:var(--font-body)]"
             style={{ fontSize: 16, lineHeight: "22px", fontWeight: 500, margin: "0 0 40px" }}
           >
-            Contact Steel City Cleanouts today — we&apos;ll be at your door tomorrow.
+            Contact Steel City Cleanouts today. We&apos;ll be at your door tomorrow.
           </p>
 
           <div className="flex flex-wrap justify-center gap-5 max-md:flex-col max-md:items-center">

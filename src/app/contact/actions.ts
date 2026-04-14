@@ -58,7 +58,7 @@ export async function submitContactForm(input: ContactFormInput): Promise<Contac
     auth: { user, pass },
   });
 
-  const subject = `New quote request from ${name} — ${input.service || "General"}`;
+  const subject = `New quote request from ${name}: ${input.service || "General"}`;
   const textBody = [
     `New quote request from Steel City Cleanouts site`,
     ``,

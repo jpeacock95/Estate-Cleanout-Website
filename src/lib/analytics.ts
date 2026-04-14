@@ -45,7 +45,7 @@ export function trackEvent(
       window.gtag("event", name, params);
     }
   } catch {
-    // swallow analytics errors — never break the UI
+    // swallow analytics errors. Never break the UI
   }
 
   try {

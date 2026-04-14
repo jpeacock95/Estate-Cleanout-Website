@@ -22,7 +22,7 @@ export default function ServicesIndex() {
       <main className="flex-1">
         <PageHero
           headline="Everything We Haul"
-          sub="Estate cleanouts, junk removal, and every service in between — Pittsburgh and surrounding areas."
+          sub="Estate cleanouts, junk removal, and every service in between. Pittsburgh and surrounding areas."
           image="/images/work/crew-loading-truck.jpg"
           imageAlt="Steel City Cleanouts crew loading a truck in Pittsburgh"
           eyebrow="All Services"

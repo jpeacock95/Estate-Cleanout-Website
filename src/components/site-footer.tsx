@@ -24,7 +24,7 @@ export function SiteFooter() {
             <div className="mb-6 inline-block rounded-xl bg-white p-0 shadow-[6px_6px_0_rgba(237,102,35,0.5)] overflow-hidden">
               <Image
                 src="/images/logo/steel-city-cleanouts.png"
-                alt="Steel City Cleanouts — Pittsburgh, PA"
+                alt="Steel City Cleanouts, Pittsburgh, PA"
                 width={520}
                 height={520}
                 className="block h-[220px] w-[220px] object-cover max-lg:mx-auto"

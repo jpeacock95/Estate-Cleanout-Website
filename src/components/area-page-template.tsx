@@ -116,7 +116,7 @@ export function AreaPageTemplate({ area }: { area: ServiceArea }) {
           __html: JSON.stringify({
             "@context": "https://schema.org",
             "@type": "LocalBusiness",
-            name: `${siteConfig.brand} — ${area.name}`,
+            name: `${siteConfig.brand}, ${area.name}`,
             image: "https://www.steelcitycleanouts.com/images/og.jpg",
             telephone: `+1${siteConfig.phone.tel}`,
             email: siteConfig.email,

@@ -34,7 +34,7 @@ export default function ContactPage() {
                   Send Us a Message
                 </h2>
                 <p className="mb-8 text-[16px] leading-[1.65] text-[#1d1d1d]/80 font-[family-name:var(--font-body)]">
-                  Fill this out and we&apos;ll reach back out within a few hours on weekdays, same day on weekends. Or call us directly — we pick up.
+                  Fill this out and we&apos;ll reach back out within a few hours on weekdays, same day on weekends. Or call us directly. We pick up.
                 </p>
                 <ContactForm />
               </div>
@@ -55,7 +55,7 @@ export default function ContactPage() {
                     </a>
                   </ContactRow>
                   <ContactRow icon={<Clock className="h-4 w-4" />} label="Hours">
-                    7 days a week, 7am–8pm
+                    7 days a week, 7am to 8pm
                   </ContactRow>
                   <ContactRow icon={<MapPin className="h-4 w-4" />} label="Service Area">
                     Pittsburgh + all surrounding townships
@@ -67,7 +67,7 @@ export default function ContactPage() {
                     Need Us Today?
                   </h3>
                   <p className="m-0 text-[14px] leading-[1.55] text-[#1d1d1d]/80 font-[family-name:var(--font-body)]">
-                    Same-day service is available most days. Call us directly — we&apos;ll give you a real arrival window, not a four-hour block.
+                    Same-day service is available most days. Call us directly. We&apos;ll give you a real arrival window, not a four-hour block.
                   </p>
                 </div>
               </aside>

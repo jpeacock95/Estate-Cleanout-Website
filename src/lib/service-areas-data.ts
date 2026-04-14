@@ -31,7 +31,7 @@ export const serviceAreas: ServiceArea[] = [
     heroHeadline: "Pittsburgh Estate Cleanouts & Junk Removal",
     heroSub: "Serving every neighborhood in the city, 7 days a week.",
     intro:
-      "Steel City Cleanouts works every neighborhood in Pittsburgh — from the narrow row houses of the Strip District to the hillside homes of Mt. Washington to the brick three-stories of Squirrel Hill and Shadyside. We know the tight alleys, the basement staircases, the parking rules, and the steep driveways. That matters on cleanout day.",
+      "Steel City Cleanouts works every neighborhood in Pittsburgh, from the narrow row houses of the Strip District to the hillside homes of Mt. Washington to the brick three-stories of Squirrel Hill and Shadyside. We know the tight alleys, the basement staircases, the parking rules, and the steep driveways. That matters on cleanout day.",
     citableSnippet:
       "Steel City Cleanouts offers same-day estate cleanouts and junk removal in Pittsburgh, PA. Call (585) 200-0871 for a free quote. Family-owned, fully insured, 7 days a week.",
     neighborhoods: [
@@ -54,7 +54,7 @@ export const serviceAreas: ServiceArea[] = [
     faqs: [
       {
         q: "Do you serve all Pittsburgh neighborhoods?",
-        a: "Yes — every neighborhood inside the city limits, plus the surrounding townships. Squirrel Hill, Shadyside, Lawrenceville, South Side, Strip District, Mt. Washington, North Side, and everywhere in between.",
+        a: "Yes. Every neighborhood inside the city limits, plus the surrounding townships. Squirrel Hill, Shadyside, Lawrenceville, South Side, Strip District, Mt. Washington, North Side, and everywhere in between.",
       },
       {
         q: "How do you handle parking and street permits?",
@@ -78,7 +78,7 @@ export const serviceAreas: ServiceArea[] = [
     heroHeadline: "Cranberry Township Cleanouts & Junk Removal",
     heroSub: "Estate cleanouts and same-day junk pickup across Cranberry and Butler County.",
     intro:
-      "Cranberry Township has grown fast — newer developments off Rochester Road, older homes near the original downtown, and big properties along Route 19. We handle estate cleanouts, full junk removal, and everything in between across every zip code in Cranberry and neighboring Adams Township.",
+      "Cranberry Township has grown fast. Newer developments off Rochester Road, older homes near the original downtown, and big properties along Route 19. We handle estate cleanouts, full junk removal, and everything in between across every zip code in Cranberry and neighboring Adams Township.",
     citableSnippet:
       "Steel City Cleanouts offers same-day estate cleanouts and junk removal in Cranberry Township, PA (16066, 16046). Family-owned, fully insured. Call (585) 200-0871.",
     neighborhoods: [
@@ -99,7 +99,7 @@ export const serviceAreas: ServiceArea[] = [
       },
       {
         q: "Do you work with realtors on listing prep?",
-        a: "Yes. We help Cranberry realtors empty homes before listing — whole-house cleanouts, staging-prep junk removal, and final sweeps before photo day.",
+        a: "Yes. We help Cranberry realtors empty homes before listing. Whole-house cleanouts, staging-prep junk removal, and final sweeps before photo day.",
       },
       {
         q: "Can you handle large estate properties?",
@@ -119,7 +119,7 @@ export const serviceAreas: ServiceArea[] = [
     heroHeadline: "Wexford Cleanouts & Junk Removal",
     heroSub: "Pine-Richland area cleanouts handled start to finish.",
     intro:
-      "Wexford and the Pine-Richland area have some of the largest homes in the North Hills — 4,000+ sq ft properties, finished basements, 3-car garages, and long wooded driveways. When those homes need to be cleaned out, it's a real job. We bring the right crew size and the right equipment for Wexford properties.",
+      "Wexford and the Pine-Richland area have some of the largest homes in the North Hills. 4,000+ sq ft properties, finished basements, 3-car garages, and long wooded driveways. When those homes need to be cleaned out, it's a real job. We bring the right crew size and the right equipment for Wexford properties.",
     citableSnippet:
       "Steel City Cleanouts offers estate cleanouts and same-day junk removal in Wexford, PA (15090). Family-owned, fully insured. Call (585) 200-0871.",
     neighborhoods: [
@@ -131,7 +131,7 @@ export const serviceAreas: ServiceArea[] = [
       "Mingo Creek",
     ],
     localDetails:
-      "Wexford homes are larger than the Pittsburgh average — finished basements, walk-in attics, multi-car garages. Estate cleanouts here often involve two days of work and multiple truckloads. We also handle the wooded-property cleanups unique to the Pine-Richland area (old swingsets, sheds, yard debris).",
+      "Wexford homes are larger than the Pittsburgh average. Finished basements, walk-in attics, multi-car garages. Estate cleanouts here often involve two days of work and multiple truckloads. We also handle the wooded-property cleanups unique to the Pine-Richland area (old swingsets, sheds, yard debris).",
     heroImage: "/images/areas/wexford-large-home.jpg",
     faqs: [
       {
@@ -144,7 +144,7 @@ export const serviceAreas: ServiceArea[] = [
       },
       {
         q: "What about homes on long private drives?",
-        a: "No issue — our trucks handle gravel drives and backup access. Tell us about the driveway when you call and we'll bring the right vehicle.",
+        a: "No issue. Our trucks handle gravel drives and backup access. Tell us about the driveway when you call and we'll bring the right vehicle.",
       },
     ],
   },
@@ -172,7 +172,7 @@ export const serviceAreas: ServiceArea[] = [
       "Beverly Road corridor",
     ],
     localDetails:
-      "Mt. Lebanon homes are mostly 1920s-1960s brick with finished basements and narrow back staircases. Older furniture is common in estate jobs — we disassemble when needed and carry it out piece by piece. Tight street parking means we coordinate arrival times carefully.",
+      "Mt. Lebanon homes are mostly 1920s-1960s brick with finished basements and narrow back staircases. Older furniture is common in estate jobs. We disassemble when needed and carry it out piece by piece. Tight street parking means we coordinate arrival times carefully.",
     heroImage: "/images/areas/mtlebanon-brick.jpg",
     faqs: [
       {
@@ -181,7 +181,7 @@ export const serviceAreas: ServiceArea[] = [
       },
       {
         q: "Do you work with Mt. Lebanon estate attorneys?",
-        a: "Yes — we work with probate attorneys and estate executors across the South Hills. We can coordinate with out-of-state family members and send itemized invoices.",
+        a: "Yes. We work with probate attorneys and estate executors across the South Hills. We can coordinate with out-of-state family members and send itemized invoices.",
       },
       {
         q: "What about basement cleanouts?",
@@ -218,7 +218,7 @@ export const serviceAreas: ServiceArea[] = [
     faqs: [
       {
         q: "Do you handle apartment and townhouse move-outs?",
-        a: "Yes — Monroeville townhouse and apartment move-outs are a common job for us. Fast turnaround, full load-outs, broom-swept finish.",
+        a: "Yes. Monroeville townhouse and apartment move-outs are a common job for us. Fast turnaround, full load-outs, broom-swept finish.",
       },
       {
         q: "Can you haul away commercial junk?",
@@ -245,7 +245,7 @@ serviceAreas.push(
     heroHeadline: "Shadyside Cleanouts & Junk Removal",
     heroSub: "East End estate cleanouts and same-day junk pickup.",
     intro:
-      "Shadyside's brick row houses and converted Victorians are some of Pittsburgh's most beautiful homes — and they're also some of the trickiest to cleanout. Narrow side streets, shared driveways, tight staircases, and three-story walk-ups are the norm. We work Shadyside daily and know exactly how to handle the parking, access, and timing.",
+      "Shadyside's brick row houses and converted Victorians are some of Pittsburgh's most beautiful homes. They're also some of the trickiest to cleanout. Narrow side streets, shared driveways, tight staircases, and three-story walk-ups are the norm. We work Shadyside daily and know exactly how to handle the parking, access, and timing.",
     citableSnippet:
       "Steel City Cleanouts offers same-day estate cleanouts and junk removal in Shadyside, Pittsburgh (15232). Brick row house and Victorian experts. Call (585) 200-0871.",
     neighborhoods: [
@@ -257,7 +257,7 @@ serviceAreas.push(
       "Amberson Park",
     ],
     localDetails:
-      "Shadyside homes are largely late-1800s brick row houses and converted Victorians with finished basements and walk-up attics. Estate cleanouts here often involve stairs, stairs, and more stairs — we disassemble furniture when needed and carry everything out piece by piece. Street parking on Walnut, Ellsworth, and Fifth requires careful timing to avoid rush hour.",
+      "Shadyside homes are largely late-1800s brick row houses and converted Victorians with finished basements and walk-up attics. Estate cleanouts here often involve stairs, stairs, and more stairs. We disassemble furniture when needed and carry everything out piece by piece. Street parking on Walnut, Ellsworth, and Fifth requires careful timing to avoid rush hour.",
     heroImage: "/images/areas/shadyside.jpg",
     faqs: [
       {
@@ -270,7 +270,7 @@ serviceAreas.push(
       },
       {
         q: "Do you work with Shadyside landlords and rental property owners?",
-        a: "Yes — Shadyside has a lot of rental conversions and student-housing turnover. We handle same-day tenant move-out cleanouts and unit turnovers for landlords across the East End.",
+        a: "Yes. Shadyside has a lot of rental conversions and student-housing turnover. We handle same-day tenant move-out cleanouts and unit turnovers for landlords across the East End.",
       },
     ],
   },
@@ -286,7 +286,7 @@ serviceAreas.push(
     heroHeadline: "Squirrel Hill Cleanouts & Junk Removal",
     heroSub: "Estate cleanouts for Pittsburgh's largest homes.",
     intro:
-      "Squirrel Hill has some of the biggest and most distinctive single-family homes in Pittsburgh — 1920s colonials, Tudors, and brick foursquares with full basements, attics, and detached garages. Multi-day estate cleanouts are common here. We handle the whole job with respect for the home, the neighbors, and the family.",
+      "Squirrel Hill has some of the biggest and most distinctive single-family homes in Pittsburgh. 1920s colonials, Tudors, and brick foursquares with full basements, attics, and detached garages. Multi-day estate cleanouts are common here. We handle the whole job with respect for the home, the neighbors, and the family.",
     citableSnippet:
       "Steel City Cleanouts offers estate cleanouts and same-day junk removal in Squirrel Hill, Pittsburgh (15217). Large-home specialists. Call (585) 200-0871.",
     neighborhoods: [
@@ -299,7 +299,7 @@ serviceAreas.push(
       "Squirrel Hill South",
     ],
     localDetails:
-      "Squirrel Hill homes are mostly 1910-1950 single-family with finished basements, walk-up attics, and one or two-car detached garages. Estate cleanouts frequently span multiple truckloads across two days. We coordinate with the Squirrel Hill community — quiet hours, driveway access, and discretion for family estates are all normal here.",
+      "Squirrel Hill homes are mostly 1910-1950 single-family with finished basements, walk-up attics, and one or two-car detached garages. Estate cleanouts frequently span multiple truckloads across two days. We coordinate with the Squirrel Hill community. Quiet hours, driveway access, and discretion for family estates are all normal here.",
     heroImage: "/images/areas/squirrel-hill.jpg",
     faqs: [
       {
@@ -349,7 +349,7 @@ serviceAreas.push(
       },
       {
         q: "Do you handle wooded-lot yard cleanups?",
-        a: "Yes. Upper St. Clair properties often include significant yard debris — fallen branches, old playsets, deck furniture, overgrown beds. We handle those as part of estate cleanouts or as standalone yard cleanup jobs.",
+        a: "Yes. Upper St. Clair properties often include significant yard debris like fallen branches, old playsets, deck furniture, overgrown beds. We handle those as part of estate cleanouts or as standalone yard cleanup jobs.",
       },
       {
         q: "Can you work with Upper St. Clair realtors for listing prep?",
@@ -369,7 +369,7 @@ serviceAreas.push(
     heroHeadline: "Sewickley Cleanouts & Junk Removal",
     heroSub: "Historic home cleanouts along the Ohio River.",
     intro:
-      "Sewickley is one of the most historic and beautiful neighborhoods in the Pittsburgh region — 1800s homes, tree-lined streets, and a tight-knit community. Estate cleanouts in Sewickley often involve multiple generations of family belongings, antique furniture, and genuine historical pieces. We handle the job with care, discretion, and patience.",
+      "Sewickley is one of the most historic and beautiful neighborhoods in the Pittsburgh region. 1800s homes, tree-lined streets, and a tight-knit community. Estate cleanouts in Sewickley often involve multiple generations of family belongings, antique furniture, and genuine historical pieces. We handle the job with care, discretion, and patience.",
     citableSnippet:
       "Steel City Cleanouts offers estate cleanouts and junk removal in Sewickley, PA (15143). Historic home specialists. Call (585) 200-0871.",
     neighborhoods: [
@@ -381,7 +381,7 @@ serviceAreas.push(
       "Sewickley Heights",
     ],
     localDetails:
-      "Sewickley's housing stock ranges from 1850s Victorians in the Village to 1920s colonials along Beaver Road and large estate properties in Sewickley Heights. Antique furniture is common in estate jobs — we set aside anything that looks potentially valuable for the family to review before hauling. Tight village streets require careful arrival timing.",
+      "Sewickley's housing stock ranges from 1850s Victorians in the Village to 1920s colonials along Beaver Road and large estate properties in Sewickley Heights. Antique furniture is common in estate jobs. We set aside anything that looks potentially valuable for the family to review before hauling. Tight village streets require careful arrival timing.",
     heroImage: "/images/areas/sewickley.jpg",
     faqs: [
       {
@@ -410,7 +410,7 @@ serviceAreas.push(
     heroHeadline: "Bethel Park Cleanouts & Junk Removal",
     heroSub: "South Hills estate cleanouts and same-day junk pickup.",
     intro:
-      "Bethel Park is classic South Hills — mid-century ranches and split-levels, mature neighborhoods, and a mix of original owners and younger families. Estate cleanouts for long-time Bethel Park homeowners often involve decades of accumulated belongings. We handle the whole house and haul everything in one clean pass.",
+      "Bethel Park is classic South Hills. Mid-century ranches and split-levels, mature neighborhoods, and a mix of original owners and younger families. Estate cleanouts for long-time Bethel Park homeowners often involve decades of accumulated belongings. We handle the whole house and haul everything in one clean pass.",
     citableSnippet:
       "Steel City Cleanouts offers same-day estate cleanouts and junk removal in Bethel Park, PA (15102). Family-owned, fully insured. Call (585) 200-0871.",
     neighborhoods: [
@@ -422,7 +422,7 @@ serviceAreas.push(
       "South Park Road",
     ],
     localDetails:
-      "Bethel Park homes are primarily 1950s-1970s single-family ranches, split-levels, and small colonials with finished basements and attached garages. Long-time residents mean estate cleanouts often include 40-60 years of stored belongings — attics full of boxes, basements full of furniture, and garages stacked with tools and yard equipment.",
+      "Bethel Park homes are primarily 1950s-1970s single-family ranches, split-levels, and small colonials with finished basements and attached garages. Long-time residents mean estate cleanouts often include 40-60 years of stored belongings. Attics full of boxes, basements full of furniture, and garages stacked with tools and yard equipment.",
     heroImage: "/images/areas/mtlebanon-brick.jpg",
     faqs: [
       {
@@ -431,7 +431,7 @@ serviceAreas.push(
       },
       {
         q: "Can you handle basement and attic cleanouts together?",
-        a: "Yes. Most Bethel Park estate jobs include the whole house — main floor, basement, attic, garage, and any outbuildings. We price it as one job.",
+        a: "Yes. Most Bethel Park estate jobs include the whole house. Main floor, basement, attic, garage, and any outbuildings. We price it as one job.",
       },
       {
         q: "Do you work with estate sales or auction houses?",
@@ -451,7 +451,7 @@ serviceAreas.push(
     heroHeadline: "Ross Township Cleanouts & Junk Removal",
     heroSub: "North Hills estate cleanouts and same-day junk pickup.",
     intro:
-      "Ross Township sits just north of the city and covers a wide range of housing stock — mid-century ranches, 1980s colonials, and newer construction. We serve every corner of Ross, from the McKnight Road corridor to the quiet residential streets around Girty's Run. Same-day service is available most days.",
+      "Ross Township sits just north of the city and covers a wide range of housing stock. Mid-century ranches, 1980s colonials, and newer construction. We serve every corner of Ross, from the McKnight Road corridor to the quiet residential streets around Girty's Run. Same-day service is available most days.",
     citableSnippet:
       "Steel City Cleanouts offers same-day estate cleanouts and junk removal in Ross Township, PA (15229, 15237). Family-owned, fully insured. Call (585) 200-0871.",
     neighborhoods: [
@@ -463,12 +463,12 @@ serviceAreas.push(
       "Evergreen Road",
     ],
     localDetails:
-      "Ross Township properties span 1950s ranches to newer construction near the McKnight Road commercial corridor. Estate cleanouts vary widely in scope — from apartment-sized ranches to 3,000+ sq ft family homes with finished basements. We also handle commercial cleanouts for small offices and retail along McKnight Road.",
+      "Ross Township properties span 1950s ranches to newer construction near the McKnight Road commercial corridor. Estate cleanouts vary widely in scope, from apartment-sized ranches to 3,000+ sq ft family homes with finished basements. We also handle commercial cleanouts for small offices and retail along McKnight Road.",
     heroImage: "/images/areas/cranberry-suburban.jpg",
     faqs: [
       {
         q: "Do you serve all of Ross Township?",
-        a: "Yes — from West View to Perrysville to the McKnight Road corridor, and everywhere in between. Ross is about 20 minutes from our base and we run trucks through the area daily.",
+        a: "Yes. From West View to Perrysville to the McKnight Road corridor, and everywhere in between. Ross is about 20 minutes from our base and we run trucks through the area daily.",
       },
       {
         q: "Can you handle commercial cleanouts on McKnight Road?",

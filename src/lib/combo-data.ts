@@ -3,7 +3,7 @@ import { serviceAreas, type ServiceArea } from "./service-areas-data";
 
 // Only the top 5 highest-volume services get combo pages (55 total combos).
 // Skipping appliance/furniture/garage/construction/yard-waste combos for now
-// since those are better served by their generic service pages — search volume
+// since those are better served by their generic service pages. Search volume
 // for "{area} + appliance removal" is low vs "{area} + estate cleanout".
 const COMBO_SERVICE_SLUGS = [
   "estate-cleanouts",
@@ -65,8 +65,8 @@ function buildCombo(service: Service, area: ServiceArea): ComboPage {
   // Unique intro: weave service identity + area specifics together in one paragraph.
   const intro =
     `When ${areaName} homeowners, landlords, and families need ${shortName.toLowerCase()}, ` +
-    `Steel City Cleanouts is the crew they call. We work every corner of ${area.fullName} — ` +
-    `${area.neighborhoods.slice(0, 3).join(", ")}, and every street in between — and we bring ` +
+    `Steel City Cleanouts is the crew they call. We work every corner of ${area.fullName}, ` +
+    `from ${area.neighborhoods.slice(0, 3).join(", ")} and every street in between, and we bring ` +
     `the right equipment and crew size for the kinds of properties common here.`;
 
   const localAngle = buildLocalAngle(service, area);
@@ -102,11 +102,11 @@ function buildLocalAngle(service: Service, area: ServiceArea): string {
     "junk-removal":
       `Junk removal in ${area.name} ranges from single-item pickups to full truckloads.`,
     "hoarder-cleanouts":
-      `Hoarder situations in ${area.name} get our full-discretion treatment — unmarked trucks, ` +
+      `Hoarder situations in ${area.name} get our full-discretion treatment. Unmarked trucks, ` +
       `flexible scheduling, and crews trained to handle heavy jobs respectfully.`,
     "foreclosure-cleanouts":
-      `${area.name} REO properties need fast turnaround for listing photos and buyer walk-throughs — ` +
-      `we work with banks, asset managers, and realtors on same-week trash-outs.`,
+      `${area.name} REO properties need fast turnaround for listing photos and buyer walk-throughs. ` +
+      `We work with banks, asset managers, and realtors on same-week trash-outs.`,
     "furniture-removal":
       `${area.name} furniture removal jobs often involve tight staircases, basement pickups, ` +
       `and disassembly of couches or beds that won't fit through the door.`,
@@ -126,7 +126,7 @@ function buildComboFaqs(service: Service, area: ServiceArea): { q: string; a: st
     q: `How much does ${service.shortName.toLowerCase()} cost in ${area.name}?`,
     a:
       `${service.pricingAnchor} Pricing in ${area.name} lines up with our standard ` +
-      `rates — we don't charge more because of zip code. Free estimates either over the phone ` +
+      `rates. We don't charge more because of zip code. Free estimates either over the phone ` +
       `or on-site.`,
   };
 

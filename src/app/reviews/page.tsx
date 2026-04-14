@@ -8,7 +8,7 @@ import { ReviewsSection } from "@/components/reviews-section";
 export const metadata: Metadata = {
   title: "Reviews | Steel City Cleanouts Pittsburgh PA",
   description:
-    "Customer reviews for Steel City Cleanouts — estate cleanouts and junk removal across Pittsburgh and surrounding areas.",
+    "Customer reviews for Steel City Cleanouts. Estate cleanouts and junk removal across Pittsburgh and surrounding areas.",
   alternates: { canonical: "https://www.steelcitycleanouts.com/reviews" },
 };
 

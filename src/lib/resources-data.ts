@@ -23,33 +23,33 @@ export const resources: Resource[] = [
     heroHeadline: "The Pittsburgh Estate Cleanout Guide",
     heroSub: "What to do when you're facing a house full of a lifetime's worth of stuff.",
     citableSnippet:
-      "A Pittsburgh estate cleanout typically takes 1–3 days for a single-family home. Expect to spend $800–$3,500 depending on size, volume, and access.",
+      "A Pittsburgh estate cleanout typically takes 1 to 3 days for a single-family home. Expect to spend $800 to $3,500 depending on size, volume, and access.",
     heroImage: "/images/work/empty-living-room.jpg",
     intro:
       "Cleaning out a parent's or grandparent's home is one of the hardest jobs most people ever do. There's no manual, the estate attorney is asking for a date, the realtor wants photos by Friday, and the house is full of sixty years of memories. This guide walks you through the process the way we talk through it with Pittsburgh families every week.",
     sections: [
       {
-        heading: "Step 1 — Secure the home and take inventory",
-        body: "Before anything leaves, walk the whole house with a phone camera. Open every drawer. Photograph everything. Valuables hide in the strangest places — cash in books, jewelry in sock drawers, war medals in the back of a closet. Take your time. Anything you're unsure about, set aside in one marked room.",
+        heading: "Step 1: Secure the home and take inventory",
+        body: "Before anything leaves, walk the whole house with a phone camera. Open every drawer. Photograph everything. Valuables hide in the strangest places: cash in books, jewelry in sock drawers, war medals in the back of a closet. Take your time. Anything you're unsure about, set aside in one marked room.",
       },
       {
-        heading: "Step 2 — Identify what the family wants",
-        body: "Call siblings, adult children, and anyone named in the will. Give them a deadline — usually 7 to 14 days — to pick what they want. Without a deadline this step takes months. Anything unclaimed after the deadline goes into the cleanout pile.",
+        heading: "Step 2: Identify what the family wants",
+        body: "Call siblings, adult children, and anyone named in the will. Give them a deadline of 7 to 14 days to pick what they want. Without a deadline this step takes months. Anything unclaimed after the deadline goes into the cleanout pile.",
       },
       {
-        heading: "Step 3 — Coordinate with the estate attorney",
+        heading: "Step 3: Coordinate with the estate attorney",
         body: "Your probate attorney needs to sign off before major items leave, especially if the estate is still open. Ask them specifically about furniture, jewelry, art, firearms, and vehicles. Most attorneys are fine with general cleanouts once an inventory exists.",
       },
       {
-        heading: "Step 4 — Sort into four piles",
-        body: "Keep (family). Donate (good condition, local charities take it). Sell (valuables — antiques, collectibles, vehicles). Haul (everything else). The haul pile is usually 70–80% of the house. That's normal.",
+        heading: "Step 4: Sort into four piles",
+        body: "Keep (family). Donate (good condition, local charities take it). Sell (valuables like antiques, collectibles, vehicles). Haul (everything else). The haul pile is usually 70 to 80% of the house. That's normal.",
       },
       {
-        heading: "Step 5 — Book your cleanout crew",
-        body: "Call us for a free walk-through. We'll give you a written estimate and a realistic timeline. Most single-family Pittsburgh homes take 1–3 days. We handle attic to basement, outbuildings, vehicles, and yard debris. We also route donatable items to local charities when possible and can coordinate with your attorney or realtor directly.",
+        heading: "Step 5: Book your cleanout crew",
+        body: "Call us for a free walk-through. We'll give you a written estimate and a realistic timeline. Most single-family Pittsburgh homes take 1 to 3 days. We handle attic to basement, outbuildings, vehicles, and yard debris. We also route donatable items to local charities when possible and can coordinate with your attorney or realtor directly.",
       },
       {
-        heading: "Step 6 — The broom-swept finish",
+        heading: "Step 6: The broom-swept finish",
         body: "After the cleanout, the home should be empty, swept, and ready for photos or inspection. That's what we deliver. If the property is going on the market, we can coordinate with your realtor for staging-prep too.",
       },
     ],
@@ -86,7 +86,7 @@ export const resources: Resource[] = [
       },
       {
         heading: "Construction and renovation debris",
-        body: "Drywall, flooring, carpet, cabinets, countertops, lumber, scrap metal, bathroom fixtures, light fixtures. Must be homeowner-generated — we don't haul for active commercial job sites.",
+        body: "Drywall, flooring, carpet, cabinets, countertops, lumber, scrap metal, bathroom fixtures, light fixtures. Must be homeowner-generated. We don't haul for active commercial job sites.",
       },
       {
         heading: "Estate and household goods",
@@ -94,7 +94,7 @@ export const resources: Resource[] = [
       },
       {
         heading: "What we can't take",
-        body: "Hazardous materials: paint, oil, gas, solvents, pesticides, cleaning chemicals. Asbestos (requires licensed abatement). Medical waste and sharps. Radioactive materials. Explosives or ammunition. Tires — we can take a few, call first. For paint and chemicals, we'll point you to the nearest Pittsburgh household hazardous waste drop-off.",
+        body: "Hazardous materials: paint, oil, gas, solvents, pesticides, cleaning chemicals. Asbestos (requires licensed abatement). Medical waste and sharps. Radioactive materials. Explosives or ammunition. Tires (we can take a few, call first). For paint and chemicals, we'll point you to the nearest Pittsburgh household hazardous waste drop-off.",
       },
     ],
   },
@@ -107,14 +107,14 @@ export const resources: Resource[] = [
     heroHeadline: "Pricing FAQ",
     heroSub: "Upfront pricing, no hidden fees, no surprises.",
     citableSnippet:
-      "Steel City Cleanouts pricing starts at $95 for a single item, $295 for a quarter truck, and $800–$3,500 for full estate cleanouts. All quotes are given upfront before work begins.",
+      "Steel City Cleanouts pricing starts at $95 for a single item, $295 for a quarter truck, and $800 to $3,500 for full estate cleanouts. All quotes are given upfront before work begins.",
     heroImage: "/images/work/crew-loading-truck.jpg",
     intro:
       "Nobody likes surprise bills, especially after a cleanout. Here's exactly how we price jobs and what affects the final number.",
     sections: [
       {
         heading: "How junk removal is priced",
-        body: "By volume — how much space the junk takes up in our truck, not by weight or time. Quarter truck, half truck, three-quarters, full truck. We tell you the price before we load a single thing. If you add more during the job, we quote the add before we take it.",
+        body: "By volume. How much space the junk takes up in our truck, not by weight or time. Quarter truck, half truck, three-quarters, full truck. We tell you the price before we load a single thing. If you add more during the job, we quote the add before we take it.",
       },
       {
         heading: "How estate cleanouts are priced",
@@ -122,7 +122,7 @@ export const resources: Resource[] = [
       },
       {
         heading: "Single-item minimums",
-        body: "Single items start at $95. Appliances, couches, mattresses — typically $85–$125 depending on size and access. Stairs and basement pickups may add a small surcharge.",
+        body: "Single items start at $95. Appliances, couches, mattresses typically run $85 to $125 depending on size and access. Stairs and basement pickups may add a small surcharge.",
       },
       {
         heading: "What's included in every price",
@@ -134,7 +134,7 @@ export const resources: Resource[] = [
       },
       {
         heading: "Payment methods",
-        body: "Credit card, debit card, Zelle, cash, and check (for recurring commercial clients). Payment on completion — we don't ask for deposits on standard jobs.",
+        body: "Credit card, debit card, Zelle, cash, and check (for recurring commercial clients). Payment on completion. We don't ask for deposits on standard jobs.",
       },
     ],
   },
@@ -150,7 +150,7 @@ export const resources: Resource[] = [
       "Steel City Cleanouts routes donatable items from Pittsburgh cleanouts to local partners including Goodwill, Construction Junction, and area furniture banks. Donation receipts available on request.",
     heroImage: "/images/work/empty-living-room.jpg",
     intro:
-      "We hate landfills as much as you do. When cleanout items are in good enough condition to be reused, they go to local Pittsburgh partners — not the dump. Here's who we work with.",
+      "We hate landfills as much as you do. When cleanout items are in good enough condition to be reused, they go to local Pittsburgh partners, not the dump. Here's who we work with.",
     sections: [
       {
         heading: "Goodwill of Southwestern Pennsylvania",

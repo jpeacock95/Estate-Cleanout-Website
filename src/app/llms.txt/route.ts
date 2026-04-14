@@ -15,8 +15,8 @@ export function GET() {
 **Phone:** ${siteConfig.phone.display}
 **Email:** ${siteConfig.email}
 **Website:** ${SITE_URL}
-**Hours:** 7 days a week, 7am–8pm Eastern
-**Pricing:** Free quotes. Single items from $95. Full estate cleanouts $800–$3,500.
+**Hours:** 7 days a week, 7am to 8pm Eastern
+**Pricing:** Free quotes. Single items from $95. Full estate cleanouts $800 to $3,500.
 
 ## About
 
@@ -60,7 +60,7 @@ ${resources
 
 ## What We Don't Handle
 
-We cannot haul hazardous materials (paint, oil, gas, chemicals), asbestos (requires licensed abatement), medical waste, or explosives. Everything else — furniture, appliances, yard waste, construction debris, estate contents — is fair game.
+We cannot haul hazardous materials (paint, oil, gas, chemicals), asbestos (requires licensed abatement), medical waste, or explosives. Everything else (furniture, appliances, yard waste, construction debris, estate contents) is fair game.
 `;
 
   return new Response(body, {

@@ -16,12 +16,12 @@ export function SiteHeader() {
         <Link
           href="/"
           className="flex-shrink-0"
-          aria-label="Steel City Cleanouts — home"
+          aria-label="Steel City Cleanouts home"
           onClick={() => trackEvent("nav_click", { label: "logo" })}
         >
           <Image
             src="/images/logo/steel-city-cleanouts-wordmark.png"
-            alt="Steel City Cleanouts — Pittsburgh, PA"
+            alt="Steel City Cleanouts, Pittsburgh, PA"
             width={748}
             height={415}
             priority

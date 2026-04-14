@@ -72,7 +72,7 @@ export function ContactForm() {
 
   return (
     <form onSubmit={onSubmit} className="space-y-5">
-      {/* Honeypot — hidden from users, bots fill it */}
+      {/* Honeypot, hidden from users, bots fill it */}
       <div style={{ position: "absolute", left: "-9999px" }} aria-hidden="true">
         <label>
           Website
@@ -115,8 +115,14 @@ export function ContactForm() {
       </Field>
 
       <Field label="Service">
-        <select name="service" onFocus={handleFirstFocus} className="input-base" defaultValue="">
-          <option value="">-- Choose a service --</option>
+        <select
+          name="service"
+          aria-label="Service"
+          onFocus={handleFirstFocus}
+          className="input-base"
+          defaultValue=""
+        >
+          <option value="">Choose a service</option>
           {services.map((s) => (
             <option key={s.slug} value={s.name}>
               {s.name}

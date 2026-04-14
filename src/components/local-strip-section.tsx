@@ -60,7 +60,7 @@ export function LocalStripSection() {
               talking to someone who&apos;s loaded a truck on your block before.
             </p>
 
-            {/* Stats — 3-column grid that always fits */}
+            {/* Stats: 3-column grid that always fits */}
             <div className="grid grid-cols-3 gap-3 max-md:gap-2">
               <div className="text-center max-md:text-center">
                 <div

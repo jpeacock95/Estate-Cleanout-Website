@@ -27,7 +27,7 @@ export const services: Service[] = [
     heroHeadline: "Pittsburgh Estate Cleanouts",
     heroSub: "Whole-house cleanouts handled with respect and speed.",
     intro:
-      "Losing a loved one is hard enough without facing a house full of belongings. Our estate cleanout crews handle everything — from the attic boxes to the basement furnace — so families can focus on what matters. We work with attorneys, realtors, and families across Pittsburgh to turn a full home into an empty, broom-swept property in one to three days.",
+      "Losing a loved one is hard enough without facing a house full of belongings. Our estate cleanout crews handle everything, from the attic boxes to the basement furnace, so families can focus on what matters. We work with attorneys, realtors, and families across Pittsburgh to turn a full home into an empty, broom-swept property in one to three days.",
     keyPoints: [
       "Whole-house cleanouts, attic to basement",
       "We sort what can be donated or sold, haul the rest",
@@ -42,7 +42,7 @@ export const services: Service[] = [
       "Donation drop-offs to local partners where possible",
       "Broom-swept finish so the home is ready for sale or rental",
     ],
-    pricingAnchor: "Free on-site estimates. Most homes $800–$3,500 depending on size and volume.",
+    pricingAnchor: "Free on-site estimates. Most homes $800 to $3,500 depending on size and volume.",
     heroImage: "/images/work/empty-living-room.jpg",
     faqs: [
       {
@@ -73,10 +73,10 @@ export const services: Service[] = [
     heroHeadline: "Same-Day Junk Removal in Pittsburgh",
     heroSub: "Point, we load, we haul. No hidden fees.",
     intro:
-      "If it's heavy, awkward, or broken, we'll take it. Our junk removal crews cover Pittsburgh and every surrounding township seven days a week. You point at what needs to go — we carry it out, load the truck, sweep up behind us, and you get your space back. Same-day service is available most days.",
+      "If it's heavy, awkward, or broken, we'll take it. Our junk removal crews cover Pittsburgh and every surrounding township seven days a week. You point at what needs to go. We carry it out, load the truck, sweep up behind us, and you get your space back. Same-day service is available most days.",
     keyPoints: [
       "Same-day service across Pittsburgh",
-      "We load everything — you don't lift a thing",
+      "We load everything. You don't lift a thing",
       "Upfront pricing before we start",
       "Single items or full truckloads",
       "Fully insured, uniformed crews",
@@ -97,7 +97,7 @@ export const services: Service[] = [
       },
       {
         q: "What can't you take?",
-        a: "We can't haul hazardous materials like paint, oil, gas, or asbestos. Everything else — furniture, appliances, construction debris, yard waste — is fair game.",
+        a: "We can't haul hazardous materials like paint, oil, gas, or asbestos. Everything else (furniture, appliances, construction debris, yard waste) is fair game.",
       },
       {
         q: "Do I need to be home?",
@@ -105,7 +105,7 @@ export const services: Service[] = [
       },
       {
         q: "How is pricing calculated?",
-        a: "By volume — how much space the junk takes up in our truck. We give you a price before we start loading, so there are no surprises.",
+        a: "By volume. How much space the junk takes up in our truck. We give you a price before we start loading, so there are no surprises.",
       },
     ],
   },
@@ -117,7 +117,7 @@ export const services: Service[] = [
     seoDescription:
       "Old appliance hauling in Pittsburgh. We remove refrigerators, washers, dryers, stoves, and dishwashers. Fully insured. Call (585) 200-0871.",
     heroHeadline: "Appliance Removal Across Pittsburgh",
-    heroSub: "Old fridge, dead washer, busted dryer — we'll take it.",
+    heroSub: "Old fridge, dead washer, busted dryer. We'll take it.",
     intro:
       "Appliances are heavy, awkward, and nobody wants to carry a refrigerator down a basement staircase. We do this every day. Two-person crews show up with the right gear, protect your floors and doorways, and get that old appliance out of your house in under thirty minutes most of the time.",
     keyPoints: [
@@ -159,9 +159,9 @@ export const services: Service[] = [
     seoDescription:
       "Pittsburgh furniture removal and haul-away. Old couches, mattresses, desks, tables, bedroom sets. Same-day pickup. Call (585) 200-0871.",
     heroHeadline: "Pittsburgh Furniture Removal",
-    heroSub: "One couch or a whole house — we'll haul it.",
+    heroSub: "One couch or a whole house. We'll haul it.",
     intro:
-      "That old sectional that won't fit down the stairs, the mattress nobody wants, the dining room set your parents left you — we take it all. Our crews carry furniture out without dinging your walls, load it in the truck, and get it out of your life. Donation-worthy pieces go to local Pittsburgh charities when possible.",
+      "That old sectional that won't fit down the stairs, the mattress nobody wants, the dining room set your parents left you. We take it all. Our crews carry furniture out without dinging your walls, load it in the truck, and get it out of your life. Donation-worthy pieces go to local Pittsburgh charities when possible.",
     keyPoints: [
       "Couches, sectionals, sleeper sofas, recliners",
       "Mattresses and box springs, any size",
@@ -199,7 +199,7 @@ export const services: Service[] = [
     shortName: "Garage Cleanouts",
     seoTitle: "Garage Cleanouts Pittsburgh PA | Full Garage Haul-Away | Steel City",
     seoDescription:
-      "Full garage cleanouts in Pittsburgh. We clear the whole garage in one visit — tools, boxes, furniture, yard equipment. Call (585) 200-0871 for a free quote.",
+      "Full garage cleanouts in Pittsburgh. We clear the whole garage in one visit. Tools, boxes, furniture, yard equipment. Call (585) 200-0871 for a free quote.",
     heroHeadline: "Garage Cleanouts in Pittsburgh",
     heroSub: "Park your car in your garage again.",
     intro:
@@ -218,7 +218,7 @@ export const services: Service[] = [
       "Metal shelving, workbenches, cabinets",
       "Scrap lumber, leftover remodeling materials",
     ],
-    pricingAnchor: "Most garages $350–$900 depending on volume.",
+    pricingAnchor: "Most garages $350 to $900 depending on volume.",
     heroImage: "/images/before-after/garage-after.jpg",
     faqs: [
       {
@@ -258,12 +258,12 @@ services.push(
     ],
     whatsIncluded: [
       "Walk-through and private written estimate",
-      "Heavy sorting — keep, donate, haul",
+      "Heavy sorting (keep, donate, haul)",
       "Sharps, biohazard, and animal waste handling",
       "Multi-truck loads over one or more days",
       "Final clean-out to broom-swept condition",
     ],
-    pricingAnchor: "Hoarder cleanouts vary widely — most fall between $2,000 and $8,000. Free private walk-through.",
+    pricingAnchor: "Hoarder cleanouts vary widely. Most fall between $2,000 and $8,000. Free private walk-through.",
     heroImage: "/images/work/crew-loading-truck.jpg",
     faqs: [
       {
@@ -299,7 +299,7 @@ services.push(
       "Whole-property trash-outs in 1-2 days",
       "Work with banks, asset managers, REO agents",
       "Photo-ready finish for listing day",
-      "Yard debris, leftover belongings, appliances — all handled",
+      "Yard debris, leftover belongings, appliances all handled",
       "Invoicing compatible with asset management platforms",
     ],
     whatsIncluded: [
@@ -309,7 +309,7 @@ services.push(
       "Broom-swept interior, ready for inspection photos",
       "Detailed itemized invoice with before/after photos",
     ],
-    pricingAnchor: "Most foreclosure jobs $700–$2,800 depending on property size and volume. Volume pricing for asset managers.",
+    pricingAnchor: "Most foreclosure jobs $700 to $2,800 depending on property size and volume. Volume pricing for asset managers.",
     heroImage: "/images/work/crew-loaded-truck-curbside.jpg",
     faqs: [
       {
@@ -340,7 +340,7 @@ services.push(
     heroHeadline: "Pittsburgh Eviction Cleanouts",
     heroSub: "Get the unit rent-ready. Fast.",
     intro:
-      "After an eviction, time is money. Every day the unit sits full of the previous tenant's belongings is a day of lost rent. We show up same-day or next-day, trash out the entire unit, and leave it broom-swept and ready for turnover. Single-family homes, duplexes, apartments — we handle all of it for Pittsburgh landlords and property managers.",
+      "After an eviction, time is money. Every day the unit sits full of the previous tenant's belongings is a day of lost rent. We show up same-day or next-day, trash out the entire unit, and leave it broom-swept and ready for turnover. Single-family homes, duplexes, apartments. We handle all of it for Pittsburgh landlords and property managers.",
     keyPoints: [
       "Same-day or next-day service",
       "Whole-unit trash-outs in a single visit",
@@ -355,7 +355,7 @@ services.push(
       "Swept and vacuumed finish, ready for painter or cleaner",
       "Itemized invoice for record-keeping",
     ],
-    pricingAnchor: "Apartment units from $350. Single-family trash-outs $650–$2,000. Volume discounts for property managers.",
+    pricingAnchor: "Apartment units from $350. Single-family trash-outs $650 to $2,000. Volume discounts for property managers.",
     heroImage: "/images/work/crew-loading-truck.jpg",
     faqs: [
       {
@@ -387,9 +387,9 @@ services.push(
     seoDescription:
       "Construction and renovation debris removal in Pittsburgh. Drywall, lumber, flooring, cabinets, fixtures. Homeowner-generated only. Call (585) 200-0871.",
     heroHeadline: "Pittsburgh Construction Debris Removal",
-    heroSub: "Renovation leftover, remodel junk, demo debris — we'll haul it.",
+    heroSub: "Renovation leftover, remodel junk, demo debris. We'll haul it.",
     intro:
-      "Remodeling or demoing a room leaves behind piles of drywall, lumber, flooring, cabinets, and fixtures. We handle the haul-away so you can keep working. Single rooms, whole-house renovations, and post-contractor cleanups — we take homeowner-generated construction debris across Pittsburgh and surrounding areas.",
+      "Remodeling or demoing a room leaves behind piles of drywall, lumber, flooring, cabinets, and fixtures. We handle the haul-away so you can keep working. Single rooms, whole-house renovations, and post-contractor cleanups. We take homeowner-generated construction debris across Pittsburgh and surrounding areas.",
     keyPoints: [
       "Drywall, lumber, flooring, cabinets, fixtures",
       "Single-room or whole-house renovation debris",
@@ -404,12 +404,12 @@ services.push(
       "Kitchen cabinets and bathroom fixtures",
       "Scrap metal, old pipes, light fixtures",
     ],
-    pricingAnchor: "Single-room debris from $250. Full-gut renovation jobs $800–$2,500.",
+    pricingAnchor: "Single-room debris from $250. Full-gut renovation jobs $800 to $2,500.",
     heroImage: "/images/work/crew-loaded-truck-curbside.jpg",
     faqs: [
       {
         q: "Can you haul debris from a contractor's job?",
-        a: "Only if it's homeowner-generated — meaning the property owner is hiring us directly, not the contractor. If your contractor is supposed to haul their own debris, that's on them. We handle the leftover mess after they're gone.",
+        a: "Only if it's homeowner-generated, meaning the property owner is hiring us directly, not the contractor. If your contractor is supposed to haul their own debris, that's on them. We handle the leftover mess after they're gone.",
       },
       {
         q: "What about hazardous materials like asbestos or lead paint?",
@@ -429,7 +429,7 @@ services.push(
     seoDescription:
       "Yard waste hauling in Pittsburgh. Brush, branches, old playsets, fencing, deck debris. Same-day service. Call (585) 200-0871.",
     heroHeadline: "Pittsburgh Yard Waste Removal",
-    heroSub: "Brush, branches, old playsets, deck debris — we'll haul it.",
+    heroSub: "Brush, branches, old playsets, deck debris. We'll haul it.",
     intro:
       "Pittsburgh yards generate a lot of debris: storm damage, fallen branches, overgrown beds, old playsets, busted fencing, and deck tear-downs. We haul it all away in one visit. No bagging, no waiting for municipal pickup, no scheduling around the township's brush collection week.",
     keyPoints: [
@@ -446,7 +446,7 @@ services.push(
       "Old deck boards, railings, stairs",
       "Outdoor furniture, grills, patio sets",
     ],
-    pricingAnchor: "Single brush pile from $150. Full yard cleanouts $400–$1,200.",
+    pricingAnchor: "Single brush pile from $150. Full yard cleanouts $400 to $1,200.",
     heroImage: "/images/work/crew-loading-truck.jpg",
     faqs: [
       {
@@ -459,7 +459,7 @@ services.push(
       },
       {
         q: "What about tree stumps or large tree removal?",
-        a: "We don't cut down trees or grind stumps — that's arborist work. But once a tree is on the ground, we can haul the pieces away as yard waste.",
+        a: "We don't cut down trees or grind stumps. That's arborist work. But once a tree is on the ground, we can haul the pieces away as yard waste.",
       },
     ],
   },
