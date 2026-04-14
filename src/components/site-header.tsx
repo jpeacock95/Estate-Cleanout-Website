@@ -2,8 +2,10 @@
 
 import { useState } from "react";
 import Image from "next/image";
+import Link from "next/link";
 import { Menu, X, Phone } from "lucide-react";
 import { siteConfig } from "@/lib/site-config";
+import { trackEvent } from "@/lib/analytics";
 
 export function SiteHeader() {
   const [open, setOpen] = useState(false);
@@ -11,10 +13,11 @@ export function SiteHeader() {
   return (
     <header className="fixed inset-x-0 top-0 z-[1020] bg-white shadow-[0_2px_4px_rgba(0,0,0,0.1)]">
       <nav className="mx-auto flex h-[120px] max-w-[1280px] items-center justify-between gap-6 px-8 max-lg:h-[88px] max-lg:px-5">
-        <a
-          href="#top"
+        <Link
+          href="/"
           className="flex-shrink-0"
           aria-label="Steel City Cleanouts — home"
+          onClick={() => trackEvent("nav_click", { label: "logo" })}
         >
           <Image
             src="/images/logo/steel-city-cleanouts-wordmark.png"
@@ -24,23 +27,25 @@ export function SiteHeader() {
             priority
             className="h-[104px] w-auto max-lg:h-[72px]"
           />
-        </a>
+        </Link>
 
         <div className="flex items-center justify-end gap-10 max-lg:hidden">
           <ul className="flex list-none gap-8 p-0 m-0">
             {siteConfig.nav.map((item) => (
               <li key={item.href}>
-                <a
+                <Link
                   href={item.href}
+                  onClick={() => trackEvent("nav_click", { label: item.label })}
                   className="font-[family-name:var(--font-heading)] text-[20px] text-[#1d1d1d] transition-colors hover:text-[#ed6623]"
                 >
                   {item.label}
-                </a>
+                </Link>
               </li>
             ))}
           </ul>
           <a
             href={`tel:${siteConfig.phone.tel}`}
+            onClick={() => trackEvent("call_click", { location: "header" })}
             className="inline-flex min-h-[42px] items-center justify-center gap-2 whitespace-nowrap rounded-full bg-[#ed6623] px-6 py-3 font-[family-name:var(--font-heading)] text-[20px] text-white transition-all duration-300 hover:-translate-y-[2px] hover:bg-[#ff6b00]"
           >
             <Phone className="h-4 w-4" strokeWidth={3} />
@@ -66,18 +71,22 @@ export function SiteHeader() {
         <ul className="flex flex-col items-center gap-6 p-6 list-none">
           {siteConfig.nav.map((item) => (
             <li key={item.href}>
-              <a
+              <Link
                 href={item.href}
-                onClick={() => setOpen(false)}
+                onClick={() => {
+                  setOpen(false);
+                  trackEvent("nav_click", { label: `mobile-${item.label}` });
+                }}
                 className="font-[family-name:var(--font-heading)] text-[22px] text-[#1d1d1d] hover:text-[#ed6623]"
               >
                 {item.label}
-              </a>
+              </Link>
             </li>
           ))}
           <li className="w-full max-w-[300px]">
             <a
               href={`tel:${siteConfig.phone.tel}`}
+              onClick={() => trackEvent("call_click", { location: "header-mobile" })}
               className="flex w-full items-center justify-center gap-2 rounded-full bg-[#ed6623] px-6 py-3 font-[family-name:var(--font-heading)] text-[20px] text-white"
             >
               <Phone className="h-4 w-4" strokeWidth={3} />

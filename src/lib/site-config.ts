@@ -8,10 +8,10 @@ export const siteConfig = {
   },
   email: "hello@steelcitycleanouts.com",
   nav: [
-    { label: "SERVICES", href: "#services" },
-    { label: "SERVICE AREA", href: "#service-areas" },
-    { label: "WHY US", href: "#why-us" },
-    { label: "REVIEWS", href: "#reviews" },
-    { label: "CONTACT", href: "#contact" },
+    { label: "SERVICES", href: "/services" },
+    { label: "SERVICE AREA", href: "/service-areas" },
+    { label: "ABOUT", href: "/about" },
+    { label: "REVIEWS", href: "/reviews" },
+    { label: "CONTACT", href: "/contact" },
   ],
 } as const;

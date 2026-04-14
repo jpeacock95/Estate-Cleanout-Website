@@ -183,6 +183,28 @@
   }
 }
 
+.input-base {
+  display: block;
+  width: 100%;
+  padding: 12px 16px;
+  font-size: 15px;
+  line-height: 1.5;
+  color: #1d1d1d;
+  background-color: #fafafa;
+  border: 2px solid rgba(29, 29, 29, 0.12);
+  border-radius: 10px;
+  outline: none;
+  transition: border-color 0.2s ease, background-color 0.2s ease;
+  font-family: var(--font-body), system-ui, sans-serif;
+}
+.input-base::placeholder {
+  color: rgba(29, 29, 29, 0.4);
+}
+.input-base:focus {
+  border-color: #ed6623;
+  background-color: #fff;
+}
+
 @keyframes bounce-down {
   0%, 20%, 50%, 80%, 100% { transform: translate(-50%, 0); }
   40% { transform: translate(-50%, -10px); }
