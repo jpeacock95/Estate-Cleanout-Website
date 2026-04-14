@@ -22,7 +22,7 @@ export function SiteHeader() {
             width={748}
             height={415}
             priority
-            className="h-[92px] w-auto max-lg:h-[64px]"
+            className="h-[104px] w-auto max-lg:h-[72px]"
           />
         </a>
 

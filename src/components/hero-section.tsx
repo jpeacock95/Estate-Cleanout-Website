@@ -21,7 +21,7 @@ export function HeroSection() {
   return (
     <section
       id="top"
-      className="relative -mt-[88px] lg:-mt-[120px] min-h-[620px] lg:h-[680px] overflow-hidden bg-[#1d1d1d]"
+      className="relative -mt-[88px] lg:-mt-[120px] min-h-[100svh] lg:h-[912px] overflow-hidden bg-[#1d1d1d]"
     >
       {/* Slideshow background */}
       <div className="absolute inset-0">
@@ -57,7 +57,7 @@ export function HeroSection() {
       </div>
 
       {/* Content */}
-      <div className="relative z-10 mx-auto flex min-h-[620px] lg:min-h-[680px] max-w-[900px] flex-col items-center justify-center gap-6 px-5 pt-[120px] pb-10 text-center max-md:gap-5 max-md:pt-[110px] max-md:pb-8 lg:pt-[150px] lg:pb-14">
+      <div className="relative z-10 mx-auto flex min-h-[100svh] lg:min-h-[912px] max-w-[900px] flex-col items-center justify-center gap-7 px-5 pt-[130px] pb-12 text-center max-md:gap-5 max-md:pt-[120px] max-md:pb-12 lg:pt-[170px] lg:pb-20">
         <div className="inline-flex items-center gap-2 rounded-full border-2 border-white/20 bg-black/40 px-4 py-2 backdrop-blur-sm">
           <span className="h-2 w-2 animate-pulse rounded-full bg-[#ed6623]" />
           <span className="font-[family-name:var(--font-heading)] text-[12px] uppercase tracking-wider text-white max-md:text-[11px]">
