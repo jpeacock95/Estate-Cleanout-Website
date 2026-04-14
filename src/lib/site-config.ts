@@ -3,10 +3,10 @@ export const siteConfig = {
   tagline: "Same-Day Junk Removal & Estate Cleanouts",
   location: "Pittsburgh & Surrounding Areas",
   phone: {
-    display: "(412) 555-0199",
-    tel: "4125550199",
+    display: "(585) 200-0871",
+    tel: "5852000871",
   },
-  email: "hello@steelcitycleanouts.com",
+  email: "peacockj131@gmail.com",
   nav: [
     { label: "SERVICES", href: "#services" },
     { label: "SERVICE AREA", href: "#service-areas" },

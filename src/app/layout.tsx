@@ -23,7 +23,7 @@ const poppins = Poppins({
 export const metadata: Metadata = {
   title: "Steel City Cleanouts | Estate Cleanouts & Junk Removal | Pittsburgh PA",
   description:
-    "Same-day estate cleanouts and junk removal across Pittsburgh and surrounding areas. Family-owned, fully insured, upfront pricing. Call (412) 555-0199 for fast, reliable service.",
+    "Same-day estate cleanouts and junk removal across Pittsburgh and surrounding areas. Family-owned, fully insured, upfront pricing. Call (585) 200-0871 for fast, reliable service.",
   openGraph: {
     title: "Steel City Cleanouts | Pittsburgh Estate Cleanouts & Junk Removal",
     description:
