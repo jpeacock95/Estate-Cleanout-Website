@@ -2,6 +2,7 @@ import { SiteHeader } from "@/components/site-header";
 import { SiteFooter } from "@/components/site-footer";
 import { PageHero } from "@/components/page-hero";
 import { PageCta } from "@/components/page-cta";
+import { Breadcrumbs } from "@/components/breadcrumbs";
 import type { Resource } from "@/lib/resources-data";
 
 export function ResourcePageTemplate({ resource }: { resource: Resource }) {
@@ -17,6 +18,8 @@ export function ResourcePageTemplate({ resource }: { resource: Resource }) {
           eyebrow="Resources"
           trackingLocation={`resource-${resource.slug}`}
         />
+
+        <Breadcrumbs items={[{ label: "Resources" }, { label: resource.title }]} />
 
         <section className="bg-white py-16 lg:py-24">
           <div className="mx-auto max-w-[780px] px-5">

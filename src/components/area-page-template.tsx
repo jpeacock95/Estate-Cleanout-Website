@@ -5,12 +5,15 @@ import { SiteFooter } from "@/components/site-footer";
 import { PageHero } from "@/components/page-hero";
 import { PageFaq } from "@/components/page-faq";
 import { PageCta } from "@/components/page-cta";
+import { Breadcrumbs } from "@/components/breadcrumbs";
 import type { ServiceArea } from "@/lib/service-areas-data";
 import { services } from "@/lib/services-data";
 import { siteConfig } from "@/lib/site-config";
+import { comboServiceSlugs } from "@/lib/combo-data";
 
 export function AreaPageTemplate({ area }: { area: ServiceArea }) {
   const pageUrl = `https://www.steelcitycleanouts.com/service-areas/${area.slug}`;
+  const comboSlugs = comboServiceSlugs();
   return (
     <>
       <SiteHeader />
@@ -22,6 +25,13 @@ export function AreaPageTemplate({ area }: { area: ServiceArea }) {
           imageAlt={`Steel City Cleanouts crew in ${area.fullName}`}
           eyebrow={`${area.fullName} · ${area.county}`}
           trackingLocation={`area-${area.slug}`}
+        />
+
+        <Breadcrumbs
+          items={[
+            { label: "Service Areas", href: "/service-areas" },
+            { label: area.name },
+          ]}
         />
 
         <section className="bg-white py-16 lg:py-24">
@@ -46,20 +56,26 @@ export function AreaPageTemplate({ area }: { area: ServiceArea }) {
               Services in {area.name}
             </h2>
             <div className="grid grid-cols-2 gap-5 max-md:grid-cols-1 lg:grid-cols-3">
-              {services.map((s) => (
-                <Link
-                  key={s.slug}
-                  href={`/services/${s.slug}`}
-                  className="rounded-xl border-2 border-[#1d1d1d]/10 bg-white p-6 transition-all hover:-translate-y-[2px] hover:border-[#ed6623] hover:shadow-[6px_6px_0_rgba(237,102,35,0.2)]"
-                >
-                  <h3 className="mb-2 uppercase text-[#1d1d1d] font-[family-name:var(--font-heading)] text-[20px]">
-                    {s.name}
-                  </h3>
-                  <p className="m-0 text-[14px] text-[#1d1d1d]/70 font-[family-name:var(--font-body)]">
-                    {s.heroSub}
-                  </p>
-                </Link>
-              ))}
+              {services.map((s) => {
+                const hasCombo = comboSlugs.includes(s.slug);
+                const href = hasCombo
+                  ? `/services/${s.slug}/in/${area.slug}`
+                  : `/services/${s.slug}`;
+                return (
+                  <Link
+                    key={s.slug}
+                    href={href}
+                    className="rounded-xl border-2 border-[#1d1d1d]/10 bg-white p-6 transition-all hover:-translate-y-[2px] hover:border-[#ed6623] hover:shadow-[6px_6px_0_rgba(237,102,35,0.2)]"
+                  >
+                    <h3 className="mb-2 uppercase text-[#1d1d1d] font-[family-name:var(--font-heading)] text-[20px]">
+                      {s.name}
+                    </h3>
+                    <p className="m-0 text-[14px] text-[#1d1d1d]/70 font-[family-name:var(--font-body)]">
+                      {hasCombo ? `${s.name} in ${area.name}` : s.heroSub}
+                    </p>
+                  </Link>
+                );
+              })}
             </div>
           </div>
         </section>

@@ -5,12 +5,15 @@ import { SiteFooter } from "@/components/site-footer";
 import { PageHero } from "@/components/page-hero";
 import { PageFaq } from "@/components/page-faq";
 import { PageCta } from "@/components/page-cta";
+import { Breadcrumbs } from "@/components/breadcrumbs";
 import type { Service } from "@/lib/services-data";
 import { siteConfig } from "@/lib/site-config";
 import { serviceAreas } from "@/lib/service-areas-data";
+import { comboServiceSlugs } from "@/lib/combo-data";
 
 export function ServicePageTemplate({ service }: { service: Service }) {
   const pageUrl = `https://www.steelcitycleanouts.com/services/${service.slug}`;
+  const hasComboPages = comboServiceSlugs().includes(service.slug);
   return (
     <>
       <SiteHeader />
@@ -22,6 +25,13 @@ export function ServicePageTemplate({ service }: { service: Service }) {
           imageAlt={`Steel City Cleanouts ${service.name.toLowerCase()} in Pittsburgh`}
           eyebrow={`${service.name} · Pittsburgh, PA`}
           trackingLocation={`service-${service.slug}`}
+        />
+
+        <Breadcrumbs
+          items={[
+            { label: "Services", href: "/services" },
+            { label: service.name },
+          ]}
         />
 
         <section className="bg-white py-16 lg:py-24">
@@ -75,7 +85,11 @@ export function ServicePageTemplate({ service }: { service: Service }) {
               {serviceAreas.map((a) => (
                 <Link
                   key={a.slug}
-                  href={`/service-areas/${a.slug}`}
+                  href={
+                    hasComboPages
+                      ? `/services/${service.slug}/in/${a.slug}`
+                      : `/service-areas/${a.slug}`
+                  }
                   className="rounded-xl border-2 border-[#1d1d1d]/10 bg-[#fafafa] p-5 text-center transition-all hover:border-[#ed6623] hover:bg-white"
                 >
                   <p className="m-0 text-[16px] font-semibold text-[#1d1d1d] font-[family-name:var(--font-body)]">

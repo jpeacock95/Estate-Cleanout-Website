@@ -2,6 +2,7 @@ import type { MetadataRoute } from "next";
 import { services } from "@/lib/services-data";
 import { serviceAreas } from "@/lib/service-areas-data";
 import { resources } from "@/lib/resources-data";
+import { allComboPages } from "@/lib/combo-data";
 
 const SITE_URL = "https://www.steelcitycleanouts.com";
 
@@ -38,5 +39,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.6,
   }));
 
-  return [...staticPages, ...servicePages, ...areaPages, ...resourcePages];
+  const comboPages: MetadataRoute.Sitemap = allComboPages().map((c) => ({
+    url: `${SITE_URL}/services/${c.service.slug}/in/${c.area.slug}`,
+    lastModified: now,
+    changeFrequency: "weekly",
+    priority: 0.8,
+  }));
+
+  return [...staticPages, ...servicePages, ...areaPages, ...resourcePages, ...comboPages];
 }
