@@ -10,7 +10,7 @@ export function SiteHeader() {
 
   return (
     <header className="fixed inset-x-0 top-0 z-[1020] bg-white shadow-[0_2px_4px_rgba(0,0,0,0.1)]">
-      <nav className="mx-auto flex h-[88px] max-w-[1440px] items-center justify-between gap-6 px-5 max-lg:h-[72px]">
+      <nav className="mx-auto flex h-[120px] max-w-[1280px] items-center justify-between gap-6 px-8 max-lg:h-[88px] max-lg:px-5">
         <a
           href="#top"
           className="flex-shrink-0"
@@ -22,7 +22,7 @@ export function SiteHeader() {
             width={748}
             height={415}
             priority
-            className="h-[60px] w-auto max-lg:h-[48px]"
+            className="h-[92px] w-auto max-lg:h-[64px]"
           />
         </a>
 
@@ -59,7 +59,7 @@ export function SiteHeader() {
       </nav>
 
       <div
-        className={`lg:hidden fixed left-0 right-0 top-[72px] bg-white shadow-lg transition-all duration-300 ${
+        className={`lg:hidden fixed left-0 right-0 top-[88px] bg-white shadow-lg transition-all duration-300 ${
           open ? "translate-y-0 opacity-100 visible" : "-translate-y-[150%] opacity-0 invisible"
         }`}
       >
