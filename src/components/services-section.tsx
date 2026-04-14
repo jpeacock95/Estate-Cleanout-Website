@@ -1,4 +1,7 @@
+"use client";
+
 import Image from "next/image";
+import Link from "next/link";
 import {
   Home,
   Trash2,
@@ -11,35 +14,36 @@ import {
   ArrowRight,
   Clock,
 } from "lucide-react";
+import { trackEvent } from "@/lib/analytics";
 
 const emergencyCards = [
   {
+    slug: "estate-cleanouts",
     image: "/images/before-after/livingroom-after.jpg",
     imageAlt: "Empty living room with polished hardwood floors after a full estate cleanout by Steel City Cleanouts",
     title: "Estate Cleanouts",
     description:
       "Full-home cleanouts for probate, downsizing, and estate sales. Respectful, thorough, and fast.",
-    href: "#services",
   },
   {
+    slug: "junk-removal",
     image: "/images/work/crew-armchair-steps.jpg",
     imageAlt: "Two Steel City Cleanouts crew members in orange safety vests carrying a leather armchair down the front steps of a Pittsburgh row house",
     title: "Same-Day Junk Removal",
     description:
       "We show up when we say we will and haul everything out. No sorting, no stress, no hidden fees.",
-    href: "#services",
   },
 ];
 
-const services = [
-  { icon: Sofa, title: "Furniture" },
-  { icon: Refrigerator, title: "Appliances" },
-  { icon: Home, title: "Estate Cleanouts" },
-  { icon: Warehouse, title: "Garage Cleanouts" },
-  { icon: Package2, title: "Hoarder Cleanup" },
-  { icon: Hammer, title: "Construction Debris" },
-  { icon: Leaf, title: "Yard Waste" },
-  { icon: Trash2, title: "Bulk Junk Removal" },
+const iconServices = [
+  { icon: Sofa, title: "Furniture", slug: "furniture-removal" },
+  { icon: Refrigerator, title: "Appliances", slug: "appliance-removal" },
+  { icon: Home, title: "Estate Cleanouts", slug: "estate-cleanouts" },
+  { icon: Warehouse, title: "Garage Cleanouts", slug: "garage-cleanouts" },
+  { icon: Package2, title: "Hoarder Cleanup", slug: "hoarder-cleanouts" },
+  { icon: Hammer, title: "Construction Debris", slug: "construction-debris" },
+  { icon: Leaf, title: "Yard Waste", slug: "yard-waste-removal" },
+  { icon: Trash2, title: "Bulk Junk Removal", slug: "junk-removal" },
 ];
 
 export function ServicesSection() {
@@ -65,10 +69,11 @@ export function ServicesSection() {
         </div>
 
         <div className="mx-auto mb-[120px] grid max-w-[1200px] grid-cols-2 gap-5 max-md:mb-[80px] max-md:grid-cols-1 max-md:gap-[30px]">
-          {emergencyCards.map(({ image, imageAlt, title, description, href }) => (
-            <a
-              key={title}
-              href={href}
+          {emergencyCards.map(({ slug, image, imageAlt, title, description }) => (
+            <Link
+              key={slug}
+              href={`/services/${slug}`}
+              onClick={() => trackEvent("service_card_click", { service_slug: slug, location: "home-full-service" })}
               className="group relative block overflow-hidden rounded-[20px] border-2 border-[#1d1d1d] bg-white p-10 text-center text-[#1d1d1d] no-underline shadow-[10px_10px_0_#000] transition-all duration-300 hover:-translate-y-[5px] hover:shadow-[15px_15px_0_#000] max-md:p-[30px_20px]"
             >
               <div className="relative mb-[30px] h-[240px] overflow-hidden rounded-[10px] max-md:mb-5 max-md:h-[180px]">
@@ -106,7 +111,7 @@ export function ServicesSection() {
                   strokeWidth={2.5}
                 />
               </div>
-            </a>
+            </Link>
           ))}
         </div>
 
@@ -128,12 +133,14 @@ export function ServicesSection() {
         </div>
 
         <div className="mx-auto mb-16 grid max-w-[1200px] grid-cols-4 gap-x-[30px] gap-y-10 max-lg:grid-cols-3 max-md:grid-cols-2 max-md:gap-y-7 max-md:gap-x-3 max-md:mb-12">
-          {services.map(({ icon: Icon, title }) => (
-            <div
-              key={title}
+          {iconServices.map(({ icon: Icon, title, slug }) => (
+            <Link
+              key={slug}
+              href={`/services/${slug}`}
+              onClick={() => trackEvent("service_card_click", { service_slug: slug, location: "home-icon-grid" })}
               className="group block rounded-[15px] p-[30px_20px] text-center text-[#1d1d1d] no-underline transition-transform duration-300 hover:-translate-y-[3px] max-md:p-[16px_8px]"
             >
-              <div className="mx-auto mb-4 flex h-[68px] w-[68px] items-center justify-center rounded-full bg-[#ed6623]/10 max-md:h-[60px] max-md:w-[60px]">
+              <div className="mx-auto mb-4 flex h-[68px] w-[68px] items-center justify-center rounded-full bg-[#ed6623]/10 transition-colors group-hover:bg-[#ed6623]/20 max-md:h-[60px] max-md:w-[60px]">
                 <Icon className="h-9 w-9 text-[#ed6623] max-md:h-7 max-md:w-7" strokeWidth={1.75} />
               </div>
               <h3
@@ -152,14 +159,18 @@ export function ServicesSection() {
                 </span>
                 <ArrowRight className="h-3 w-3 text-[#ed6623]" strokeWidth={2.5} />
               </div>
-            </div>
+            </Link>
           ))}
         </div>
 
         <div className="text-center">
-          <a href="#contact" className="btn btn-primary">
+          <Link
+            href="/contact"
+            onClick={() => trackEvent("quote_click", { location: "home-services-bottom" })}
+            className="btn btn-primary"
+          >
             <span>BOOK YOUR CLEANOUT</span>
-          </a>
+          </Link>
         </div>
       </div>
     </section>

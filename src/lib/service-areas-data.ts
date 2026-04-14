@@ -232,6 +232,256 @@ export const serviceAreas: ServiceArea[] = [
   },
 ];
 
+serviceAreas.push(
+  {
+    slug: "shadyside",
+    name: "Shadyside",
+    fullName: "Shadyside, Pittsburgh, PA",
+    county: "Allegheny County",
+    zipCodes: ["15232"],
+    seoTitle: "Estate Cleanouts & Junk Removal Shadyside Pittsburgh PA | Steel City",
+    seoDescription:
+      "Same-day estate cleanouts and junk removal in Shadyside, Pittsburgh (15232). Brick row house experts. Call (585) 200-0871 for a free quote.",
+    heroHeadline: "Shadyside Cleanouts & Junk Removal",
+    heroSub: "East End estate cleanouts and same-day junk pickup.",
+    intro:
+      "Shadyside's brick row houses and converted Victorians are some of Pittsburgh's most beautiful homes — and they're also some of the trickiest to cleanout. Narrow side streets, shared driveways, tight staircases, and three-story walk-ups are the norm. We work Shadyside daily and know exactly how to handle the parking, access, and timing.",
+    citableSnippet:
+      "Steel City Cleanouts offers same-day estate cleanouts and junk removal in Shadyside, Pittsburgh (15232). Brick row house and Victorian experts. Call (585) 200-0871.",
+    neighborhoods: [
+      "Walnut Street corridor",
+      "Ellsworth Avenue",
+      "Fifth Avenue",
+      "Aiken Avenue",
+      "Negley Avenue",
+      "Amberson Park",
+    ],
+    localDetails:
+      "Shadyside homes are largely late-1800s brick row houses and converted Victorians with finished basements and walk-up attics. Estate cleanouts here often involve stairs, stairs, and more stairs — we disassemble furniture when needed and carry everything out piece by piece. Street parking on Walnut, Ellsworth, and Fifth requires careful timing to avoid rush hour.",
+    heroImage: "/images/areas/shadyside.jpg",
+    faqs: [
+      {
+        q: "Can you handle Shadyside's tight staircases?",
+        a: "Yes. Most Shadyside row houses have narrow back staircases. Our crews disassemble couches, sectionals, beds, and dressers when needed. If it came in, we can get it out.",
+      },
+      {
+        q: "How do you handle parking in Shadyside?",
+        a: "We coordinate arrival around rush hours and use driveway or alley access when possible. For larger jobs requiring street parking, we can work with the Pittsburgh Parking Authority for temporary permits.",
+      },
+      {
+        q: "Do you work with Shadyside landlords and rental property owners?",
+        a: "Yes — Shadyside has a lot of rental conversions and student-housing turnover. We handle same-day tenant move-out cleanouts and unit turnovers for landlords across the East End.",
+      },
+    ],
+  },
+  {
+    slug: "squirrel-hill",
+    name: "Squirrel Hill",
+    fullName: "Squirrel Hill, Pittsburgh, PA",
+    county: "Allegheny County",
+    zipCodes: ["15217"],
+    seoTitle: "Estate Cleanouts & Junk Removal Squirrel Hill Pittsburgh PA | Steel City",
+    seoDescription:
+      "Family-owned estate cleanouts and junk removal in Squirrel Hill (15217). Large-home specialists. Call (585) 200-0871 for a free quote.",
+    heroHeadline: "Squirrel Hill Cleanouts & Junk Removal",
+    heroSub: "Estate cleanouts for Pittsburgh's largest homes.",
+    intro:
+      "Squirrel Hill has some of the biggest and most distinctive single-family homes in Pittsburgh — 1920s colonials, Tudors, and brick foursquares with full basements, attics, and detached garages. Multi-day estate cleanouts are common here. We handle the whole job with respect for the home, the neighbors, and the family.",
+    citableSnippet:
+      "Steel City Cleanouts offers estate cleanouts and same-day junk removal in Squirrel Hill, Pittsburgh (15217). Large-home specialists. Call (585) 200-0871.",
+    neighborhoods: [
+      "Forbes Avenue",
+      "Murray Avenue",
+      "Beacon Street",
+      "Wightman Street",
+      "Beeler Street",
+      "Squirrel Hill North",
+      "Squirrel Hill South",
+    ],
+    localDetails:
+      "Squirrel Hill homes are mostly 1910-1950 single-family with finished basements, walk-up attics, and one or two-car detached garages. Estate cleanouts frequently span multiple truckloads across two days. We coordinate with the Squirrel Hill community — quiet hours, driveway access, and discretion for family estates are all normal here.",
+    heroImage: "/images/areas/squirrel-hill.jpg",
+    faqs: [
+      {
+        q: "Do you handle large Squirrel Hill estate cleanouts?",
+        a: "Yes. Most Squirrel Hill estate jobs are 2-day multi-truckload cleanouts. We scale crew size and vehicle count to match the job and keep the timeline tight.",
+      },
+      {
+        q: "Can you coordinate with Squirrel Hill estate attorneys and executors?",
+        a: "Yes. We work with probate attorneys across Pittsburgh and send itemized invoices plus before/after photo documentation for estate records.",
+      },
+      {
+        q: "Do you respect quiet hours in residential Squirrel Hill?",
+        a: "Yes. We avoid early morning and late evening work in residential Squirrel Hill unless specifically requested. Standard crews start around 8am.",
+      },
+    ],
+  },
+  {
+    slug: "upper-st-clair",
+    name: "Upper St. Clair",
+    fullName: "Upper St. Clair, PA",
+    county: "Allegheny County",
+    zipCodes: ["15241"],
+    seoTitle: "Estate Cleanouts & Junk Removal Upper St. Clair PA | Steel City Cleanouts",
+    seoDescription:
+      "Same-day estate cleanouts and junk removal in Upper St. Clair (15241). Large home specialists. Call (585) 200-0871 for a free quote.",
+    heroHeadline: "Upper St. Clair Cleanouts & Junk Removal",
+    heroSub: "South Hills estate cleanouts for large properties.",
+    intro:
+      "Upper St. Clair is one of the largest-home suburbs in the South Hills, with 3,500+ sq ft colonials, walk-out basements, 3-car garages, and wooded lots. Estate cleanouts here are full multi-day jobs with multiple truckloads. We bring the right crew size and the right trucks for properties of this scale.",
+    citableSnippet:
+      "Steel City Cleanouts offers estate cleanouts and junk removal in Upper St. Clair, PA (15241). Large-home specialists serving the South Hills. Call (585) 200-0871.",
+    neighborhoods: [
+      "Boyce Road corridor",
+      "Fort Couch Road",
+      "McLaughlin Run",
+      "Westminster Drive",
+      "Johnston Road",
+      "Morton Drive",
+    ],
+    localDetails:
+      "Upper St. Clair homes are primarily 1970s-2000s colonial and contemporary single-family with finished basements, formal dining rooms, and 3-car garages. Most estate cleanouts here span 2-3 days with multiple truckloads. Wooded lots often need yard debris cleanup in addition to interior work.",
+    heroImage: "/images/areas/wexford-large-home.jpg",
+    faqs: [
+      {
+        q: "How long does an Upper St. Clair estate cleanout take?",
+        a: "Most are 2-3 days with multiple truckloads. We scale crew size to match the square footage and total volume. Larger estates can run longer.",
+      },
+      {
+        q: "Do you handle wooded-lot yard cleanups?",
+        a: "Yes. Upper St. Clair properties often include significant yard debris — fallen branches, old playsets, deck furniture, overgrown beds. We handle those as part of estate cleanouts or as standalone yard cleanup jobs.",
+      },
+      {
+        q: "Can you work with Upper St. Clair realtors for listing prep?",
+        a: "Yes. We coordinate with South Hills realtors on whole-house cleanouts and staging-prep junk removal. Broom-swept, photo-ready finish on every job.",
+      },
+    ],
+  },
+  {
+    slug: "sewickley",
+    name: "Sewickley",
+    fullName: "Sewickley, PA",
+    county: "Allegheny County",
+    zipCodes: ["15143"],
+    seoTitle: "Estate Cleanouts & Junk Removal Sewickley PA | Historic Home Specialists",
+    seoDescription:
+      "Estate cleanouts and junk removal in Sewickley (15143). Historic home specialists along the Ohio River. Call (585) 200-0871 for a free quote.",
+    heroHeadline: "Sewickley Cleanouts & Junk Removal",
+    heroSub: "Historic home cleanouts along the Ohio River.",
+    intro:
+      "Sewickley is one of the most historic and beautiful neighborhoods in the Pittsburgh region — 1800s homes, tree-lined streets, and a tight-knit community. Estate cleanouts in Sewickley often involve multiple generations of family belongings, antique furniture, and genuine historical pieces. We handle the job with care, discretion, and patience.",
+    citableSnippet:
+      "Steel City Cleanouts offers estate cleanouts and junk removal in Sewickley, PA (15143). Historic home specialists. Call (585) 200-0871.",
+    neighborhoods: [
+      "Sewickley Village",
+      "Beaver Road",
+      "Broad Street",
+      "Walnut Street",
+      "Beaver Street",
+      "Sewickley Heights",
+    ],
+    localDetails:
+      "Sewickley's housing stock ranges from 1850s Victorians in the Village to 1920s colonials along Beaver Road and large estate properties in Sewickley Heights. Antique furniture is common in estate jobs — we set aside anything that looks potentially valuable for the family to review before hauling. Tight village streets require careful arrival timing.",
+    heroImage: "/images/areas/sewickley.jpg",
+    faqs: [
+      {
+        q: "Do you handle antique furniture carefully?",
+        a: "Yes. We set aside anything that looks valuable or historically significant for the family or executor to review before it's hauled. If something should go to an auction house or appraiser, we'll help coordinate.",
+      },
+      {
+        q: "Can you work in Sewickley Village's tight streets?",
+        a: "Yes. We coordinate arrival times and use village street parking or alley access as the job requires. Our trucks handle the tight village layout daily.",
+      },
+      {
+        q: "How fast can you get to Sewickley?",
+        a: "Same-day most days. Sewickley is about 30 minutes from our base and we run trucks through the Ohio River suburbs regularly.",
+      },
+    ],
+  },
+  {
+    slug: "bethel-park",
+    name: "Bethel Park",
+    fullName: "Bethel Park, PA",
+    county: "Allegheny County",
+    zipCodes: ["15102"],
+    seoTitle: "Estate Cleanouts & Junk Removal Bethel Park PA | Same-Day Service",
+    seoDescription:
+      "Same-day estate cleanouts and junk removal in Bethel Park, PA (15102). South Hills family-owned service. Call (585) 200-0871.",
+    heroHeadline: "Bethel Park Cleanouts & Junk Removal",
+    heroSub: "South Hills estate cleanouts and same-day junk pickup.",
+    intro:
+      "Bethel Park is classic South Hills — mid-century ranches and split-levels, mature neighborhoods, and a mix of original owners and younger families. Estate cleanouts for long-time Bethel Park homeowners often involve decades of accumulated belongings. We handle the whole house and haul everything in one clean pass.",
+    citableSnippet:
+      "Steel City Cleanouts offers same-day estate cleanouts and junk removal in Bethel Park, PA (15102). Family-owned, fully insured. Call (585) 200-0871.",
+    neighborhoods: [
+      "Park Avenue",
+      "Clifton Road",
+      "Fort Couch Road",
+      "Library Road corridor",
+      "Logan Road",
+      "South Park Road",
+    ],
+    localDetails:
+      "Bethel Park homes are primarily 1950s-1970s single-family ranches, split-levels, and small colonials with finished basements and attached garages. Long-time residents mean estate cleanouts often include 40-60 years of stored belongings — attics full of boxes, basements full of furniture, and garages stacked with tools and yard equipment.",
+    heroImage: "/images/areas/mtlebanon-brick.jpg",
+    faqs: [
+      {
+        q: "How long does a Bethel Park estate cleanout take?",
+        a: "Most single-family homes are 1-2 day jobs depending on volume. Homes with decades of accumulated stuff run longer. We'll give you a realistic estimate at the walk-through.",
+      },
+      {
+        q: "Can you handle basement and attic cleanouts together?",
+        a: "Yes. Most Bethel Park estate jobs include the whole house — main floor, basement, attic, garage, and any outbuildings. We price it as one job.",
+      },
+      {
+        q: "Do you work with estate sales or auction houses?",
+        a: "We coordinate with estate sale organizers and auction houses when the family wants to sell pieces before the cleanout. Anything you want to keep or sell gets set aside first.",
+      },
+    ],
+  },
+  {
+    slug: "ross-township",
+    name: "Ross Township",
+    fullName: "Ross Township, PA",
+    county: "Allegheny County",
+    zipCodes: ["15229", "15237"],
+    seoTitle: "Estate Cleanouts & Junk Removal Ross Township PA | Steel City",
+    seoDescription:
+      "Same-day estate cleanouts and junk removal in Ross Township, PA (15229, 15237). North Hills family-owned service. Call (585) 200-0871.",
+    heroHeadline: "Ross Township Cleanouts & Junk Removal",
+    heroSub: "North Hills estate cleanouts and same-day junk pickup.",
+    intro:
+      "Ross Township sits just north of the city and covers a wide range of housing stock — mid-century ranches, 1980s colonials, and newer construction. We serve every corner of Ross, from the McKnight Road corridor to the quiet residential streets around Girty's Run. Same-day service is available most days.",
+    citableSnippet:
+      "Steel City Cleanouts offers same-day estate cleanouts and junk removal in Ross Township, PA (15229, 15237). Family-owned, fully insured. Call (585) 200-0871.",
+    neighborhoods: [
+      "McKnight Road corridor",
+      "West View",
+      "Perrysville",
+      "North Park area",
+      "Babcock Boulevard",
+      "Evergreen Road",
+    ],
+    localDetails:
+      "Ross Township properties span 1950s ranches to newer construction near the McKnight Road commercial corridor. Estate cleanouts vary widely in scope — from apartment-sized ranches to 3,000+ sq ft family homes with finished basements. We also handle commercial cleanouts for small offices and retail along McKnight Road.",
+    heroImage: "/images/areas/cranberry-suburban.jpg",
+    faqs: [
+      {
+        q: "Do you serve all of Ross Township?",
+        a: "Yes — from West View to Perrysville to the McKnight Road corridor, and everywhere in between. Ross is about 20 minutes from our base and we run trucks through the area daily.",
+      },
+      {
+        q: "Can you handle commercial cleanouts on McKnight Road?",
+        a: "Yes. We handle small office cleanouts, retail fixture removal, and end-of-lease trash-outs for businesses along the McKnight Road and Babcock Boulevard commercial corridors.",
+      },
+      {
+        q: "How fast can you get to Ross Township?",
+        a: "Usually same day. Ross is close to our base and we schedule North Hills jobs together to maximize efficiency.",
+      },
+    ],
+  },
+);
+
 export function getAreaBySlug(slug: string): ServiceArea | undefined {
   return serviceAreas.find((a) => a.slug === slug);
 }

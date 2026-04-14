@@ -378,6 +378,93 @@ services.push(
   },
 );
 
+services.push(
+  {
+    slug: "construction-debris",
+    name: "Construction Debris Removal",
+    shortName: "Construction Debris",
+    seoTitle: "Construction Debris Removal Pittsburgh PA | Renovation Haul-Away",
+    seoDescription:
+      "Construction and renovation debris removal in Pittsburgh. Drywall, lumber, flooring, cabinets, fixtures. Homeowner-generated only. Call (585) 200-0871.",
+    heroHeadline: "Pittsburgh Construction Debris Removal",
+    heroSub: "Renovation leftover, remodel junk, demo debris — we'll haul it.",
+    intro:
+      "Remodeling or demoing a room leaves behind piles of drywall, lumber, flooring, cabinets, and fixtures. We handle the haul-away so you can keep working. Single rooms, whole-house renovations, and post-contractor cleanups — we take homeowner-generated construction debris across Pittsburgh and surrounding areas.",
+    keyPoints: [
+      "Drywall, lumber, flooring, cabinets, fixtures",
+      "Single-room or whole-house renovation debris",
+      "Scrap metal and plumbing fixtures included",
+      "Post-contractor cleanup if they left a mess",
+      "Same-day or scheduled pickup",
+    ],
+    whatsIncluded: [
+      "Old drywall and plaster",
+      "Lumber, trim, doors, windows",
+      "Carpet, tile, hardwood, vinyl flooring",
+      "Kitchen cabinets and bathroom fixtures",
+      "Scrap metal, old pipes, light fixtures",
+    ],
+    pricingAnchor: "Single-room debris from $250. Full-gut renovation jobs $800–$2,500.",
+    heroImage: "/images/work/crew-loaded-truck-curbside.jpg",
+    faqs: [
+      {
+        q: "Can you haul debris from a contractor's job?",
+        a: "Only if it's homeowner-generated — meaning the property owner is hiring us directly, not the contractor. If your contractor is supposed to haul their own debris, that's on them. We handle the leftover mess after they're gone.",
+      },
+      {
+        q: "What about hazardous materials like asbestos or lead paint?",
+        a: "We can't legally haul asbestos or confirmed lead-painted materials. Those require licensed abatement contractors. If you're not sure, tell us what you have and we'll help figure it out.",
+      },
+      {
+        q: "Can you haul full dumpster loads?",
+        a: "Yes. Instead of renting a dumpster, we can schedule multiple truckloads across a day or weekend. Often cheaper than a dumpster rental for 2-3 days of debris.",
+      },
+    ],
+  },
+  {
+    slug: "yard-waste-removal",
+    name: "Yard Waste Removal",
+    shortName: "Yard Waste",
+    seoTitle: "Yard Waste Removal Pittsburgh PA | Brush, Branches, Debris Haul-Away",
+    seoDescription:
+      "Yard waste hauling in Pittsburgh. Brush, branches, old playsets, fencing, deck debris. Same-day service. Call (585) 200-0871.",
+    heroHeadline: "Pittsburgh Yard Waste Removal",
+    heroSub: "Brush, branches, old playsets, deck debris — we'll haul it.",
+    intro:
+      "Pittsburgh yards generate a lot of debris: storm damage, fallen branches, overgrown beds, old playsets, busted fencing, and deck tear-downs. We haul it all away in one visit. No bagging, no waiting for municipal pickup, no scheduling around the township's brush collection week.",
+    keyPoints: [
+      "Brush, branches, storm damage",
+      "Old playsets and swingsets",
+      "Fencing, deck debris, lattice",
+      "Outdoor furniture and grills",
+      "Same-day service available",
+    ],
+    whatsIncluded: [
+      "Tree limbs and brush (under contractor-sized)",
+      "Playsets, swingsets, trampolines (disassembled)",
+      "Fencing panels, posts, and hardware",
+      "Old deck boards, railings, stairs",
+      "Outdoor furniture, grills, patio sets",
+    ],
+    pricingAnchor: "Single brush pile from $150. Full yard cleanouts $400–$1,200.",
+    heroImage: "/images/work/crew-loading-truck.jpg",
+    faqs: [
+      {
+        q: "Do I need to bag the yard waste first?",
+        a: "No. Just point at the pile and we'll load it directly into the truck. Saves you the backache and the trash bags.",
+      },
+      {
+        q: "Can you haul away old playsets?",
+        a: "Yes. We disassemble old swingsets and playsets on-site and haul everything away. Common request from families whose kids have outgrown them.",
+      },
+      {
+        q: "What about tree stumps or large tree removal?",
+        a: "We don't cut down trees or grind stumps — that's arborist work. But once a tree is on the ground, we can haul the pieces away as yard waste.",
+      },
+    ],
+  },
+);
+
 export function getServiceBySlug(slug: string): Service | undefined {
   return services.find((s) => s.slug === slug);
 }
