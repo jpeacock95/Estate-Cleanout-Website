@@ -2,37 +2,51 @@ import Image from "next/image";
 import { Phone } from "lucide-react";
 import { siteConfig } from "@/lib/site-config";
 
+const slides = [
+  {
+    src: "/images/pittsburgh/pittsburgh-skyline-hero.jpg",
+    alt: "Pittsburgh skyline at dusk from the Duquesne Incline showing downtown and the Fort Pitt Bridge",
+  },
+  {
+    src: "/images/pittsburgh/pittsburgh-street-hillside.jpg",
+    alt: "Pittsburgh hillside neighborhood with row houses stacked up the slope and a residential street below",
+  },
+  {
+    src: "/images/pittsburgh/pittsburgh-bridges-aerial.jpg",
+    alt: "Aerial view of Pittsburgh's Point State Park, Fort Pitt Bridge, and the three rivers",
+  },
+];
+
 export function HeroSection() {
   return (
     <section
       id="top"
-      className="relative overflow-hidden max-md:h-auto max-md:min-h-0 max-md:mt-0 max-md:pb-10"
-      style={{
-        height: 912,
-        marginTop: -102,
-        background:
-          "linear-gradient(135deg, rgb(26,26,26), rgb(45,45,45), rgb(26,26,26))",
-      }}
+      className="relative -mt-[80px] lg:-mt-[102px] min-h-[100svh] lg:h-[912px] overflow-hidden bg-[#1d1d1d]"
     >
-      {/* Pittsburgh skyline background photo */}
+      {/* Slideshow background */}
       <div className="absolute inset-0">
-        <Image
-          src="/images/pittsburgh/pittsburgh-skyline-hero.jpg"
-          alt="Pittsburgh skyline at dusk showing the Duquesne Incline, Fort Pitt Bridge, and downtown from Mount Washington"
-          fill
-          priority
-          sizes="100vw"
-          className="object-cover object-center"
-        />
-        {/* Dark gradient overlay so the text stays legible */}
+        {slides.map((s, i) => (
+          <div key={s.src} className="hero-slide absolute inset-0">
+            <Image
+              src={s.src}
+              alt={s.alt}
+              fill
+              priority={i === 0}
+              sizes="100vw"
+              className="object-cover object-center"
+            />
+          </div>
+        ))}
+
+        {/* Dark gradient for legibility */}
         <div
           className="absolute inset-0"
           style={{
             background:
-              "linear-gradient(180deg, rgba(29,29,29,0.55) 0%, rgba(29,29,29,0.75) 60%, rgba(29,29,29,0.92) 100%)",
+              "linear-gradient(180deg, rgba(29,29,29,0.55) 0%, rgba(29,29,29,0.78) 60%, rgba(29,29,29,0.95) 100%)",
           }}
         />
-        {/* Orange spot light — keeps brand color present */}
+        {/* Brand orange spotlight */}
         <div
           className="absolute inset-0"
           style={{
@@ -43,38 +57,36 @@ export function HeroSection() {
       </div>
 
       {/* Content */}
-      <div className="relative z-10 mx-auto flex min-h-screen max-w-[900px] flex-col items-center justify-center gap-[30px] px-5 pt-[180px] pb-20 text-center max-md:min-h-0 max-md:max-w-full max-md:justify-start max-md:gap-5 max-md:px-5 max-md:pt-[100px] max-md:pb-0">
-        <div className="mb-2 inline-flex items-center gap-2 rounded-full border-2 border-white/20 bg-black/40 px-4 py-2 backdrop-blur-sm">
+      <div className="relative z-10 mx-auto flex min-h-[100svh] lg:min-h-[912px] max-w-[900px] flex-col items-center justify-center gap-7 px-5 pt-[120px] pb-12 text-center max-md:gap-5 max-md:pt-[110px] max-md:pb-12 lg:pt-[160px] lg:pb-20">
+        <div className="inline-flex items-center gap-2 rounded-full border-2 border-white/20 bg-black/40 px-4 py-2 backdrop-blur-sm">
           <span className="h-2 w-2 animate-pulse rounded-full bg-[#ed6623]" />
-          <span className="font-[family-name:var(--font-heading)] text-[13px] uppercase tracking-wider text-white">
+          <span className="font-[family-name:var(--font-heading)] text-[12px] uppercase tracking-wider text-white max-md:text-[11px]">
             Family-Owned · Pittsburgh, PA
           </span>
         </div>
 
-        <div className="relative text-center">
-          <h1
-            className="m-0 uppercase text-white font-[family-name:var(--font-heading)]"
-            style={{
-              fontSize: "clamp(32px, 5.5vw, 64px)",
-              lineHeight: "1.02",
-              fontWeight: 400,
-              textShadow: "0 4px 30px rgba(0,0,0,0.6)",
-            }}
-          >
-            {siteConfig.tagline}
-            <br />
-            <span className="text-[#ed6623]">{siteConfig.location}</span>
-          </h1>
-        </div>
+        <h1
+          className="m-0 uppercase text-white font-[family-name:var(--font-heading)]"
+          style={{
+            fontSize: "clamp(30px, 5.5vw, 64px)",
+            lineHeight: "1.02",
+            fontWeight: 400,
+            textShadow: "0 4px 30px rgba(0,0,0,0.75)",
+          }}
+        >
+          {siteConfig.tagline}
+          <br />
+          <span className="text-[#ed6623]">{siteConfig.location}</span>
+        </h1>
 
         <p
           className="max-w-[620px] text-white font-[family-name:var(--font-body)] max-md:max-w-full max-md:px-2"
           style={{
-            fontSize: "clamp(15px, 1.6vw, 18px)",
+            fontSize: "clamp(14px, 1.6vw, 18px)",
             lineHeight: "1.55",
             fontWeight: 500,
             margin: 0,
-            textShadow: "0 2px 12px rgba(0,0,0,0.7)",
+            textShadow: "0 2px 12px rgba(0,0,0,0.8)",
           }}
         >
           <a
@@ -88,7 +100,7 @@ export function HeroSection() {
           Homes, Garages, Attics, Offices | Call Now for Fast, Reliable Pickup.
         </p>
 
-        <div className="flex flex-wrap items-center justify-center gap-[25px] max-md:w-full max-md:max-w-[280px] max-md:flex-col max-md:gap-3 max-md:mt-[10px]">
+        <div className="flex flex-wrap items-center justify-center gap-5 max-md:w-full max-md:max-w-[300px] max-md:flex-col max-md:gap-3">
           <a href={`tel:${siteConfig.phone.tel}`} className="btn btn-primary max-md:w-full">
             <Phone className="h-[18px] w-[18px]" strokeWidth={3} />
             <span>CALL NOW FOR PICKUP</span>
@@ -100,11 +112,17 @@ export function HeroSection() {
       </div>
 
       <div
-        className="absolute left-1/2 bottom-10 -translate-x-1/2 max-md:hidden animate-bounce-down"
+        className="absolute left-1/2 bottom-8 -translate-x-1/2 max-md:hidden animate-bounce-down"
         aria-hidden="true"
       >
         <svg width="15" height="38" viewBox="0 0 15 38" fill="none">
-          <path d="M7.5 2v32M2 28l5.5 6L13 28" stroke="#fff" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+          <path
+            d="M7.5 2v32M2 28l5.5 6L13 28"
+            stroke="#fff"
+            strokeWidth="2"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+          />
         </svg>
       </div>
     </section>
