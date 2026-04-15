@@ -61,7 +61,7 @@ export default function PricingIndex() {
               Most junk removal companies in Pittsburgh hide their prices behind a quote form.
               We don&apos;t. Pick the page below that matches your job and you&apos;ll see a real
               dollar range, what&apos;s included, and what costs extra. If you want a firm
-              number in under 5 minutes, call ({siteConfig.phone.display}) or use the form at
+              number in under 5 minutes, call {siteConfig.phone.display} or use the form at
               the bottom of any page.
             </p>
           </div>
