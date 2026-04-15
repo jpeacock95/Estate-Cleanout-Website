@@ -24,7 +24,7 @@ export const resources: Resource[] = [
     heroSub: "What to do when you're facing a house full of a lifetime's worth of stuff.",
     citableSnippet:
       "A Pittsburgh estate cleanout typically takes 1 to 3 days for a single-family home. Expect to spend $800 to $3,500 depending on size, volume, and access.",
-    heroImage: "/images/work/empty-living-room.jpg",
+    heroImage: "/images/resources/estate-cleanout-guide.jpg",
     intro:
       "Cleaning out a parent's or grandparent's home is one of the hardest jobs most people ever do. There's no manual, the estate attorney is asking for a date, the realtor wants photos by Friday, and the house is full of sixty years of memories. This guide walks you through the process the way we talk through it with Pittsburgh families every week.",
     sections: [
@@ -64,7 +64,7 @@ export const resources: Resource[] = [
     heroSub: "If it's legal and we can carry it, we'll haul it.",
     citableSnippet:
       "Steel City Cleanouts takes furniture, appliances, mattresses, electronics, yard waste, and construction debris. We cannot take hazardous materials, asbestos, paint, oil, or medical waste.",
-    heroImage: "/images/work/crew-loaded-truck-curbside.jpg",
+    heroImage: "/images/resources/what-we-take.jpg",
     intro:
       "We get this question every day. Short answer: we take almost everything. Long answer: here's the full list, plus the short list of what we can't legally haul.",
     sections: [
@@ -108,7 +108,7 @@ export const resources: Resource[] = [
     heroSub: "Upfront pricing, no hidden fees, no surprises.",
     citableSnippet:
       "Steel City Cleanouts pricing starts at $95 for a single item, $295 for a quarter truck, and $800 to $3,500 for full estate cleanouts. All quotes are given upfront before work begins.",
-    heroImage: "/images/work/crew-loading-truck.jpg",
+    heroImage: "/images/resources/pricing-faq.jpg",
     intro:
       "Nobody likes surprise bills, especially after a cleanout. Here's exactly how we price jobs and what affects the final number.",
     sections: [
@@ -148,7 +148,7 @@ export const resources: Resource[] = [
     heroSub: "Good-condition items get a second life with local Pittsburgh charities.",
     citableSnippet:
       "Steel City Cleanouts routes donatable items from Pittsburgh cleanouts to local partners including Goodwill, Construction Junction, and area furniture banks. Donation receipts available on request.",
-    heroImage: "/images/work/empty-living-room.jpg",
+    heroImage: "/images/resources/donation-partners.jpg",
     intro:
       "We hate landfills as much as you do. When cleanout items are in good enough condition to be reused, they go to local Pittsburgh partners, not the dump. Here's who we work with.",
     sections: [

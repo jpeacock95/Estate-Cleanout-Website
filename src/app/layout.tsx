@@ -14,7 +14,7 @@ const organizationSchema = {
   name: siteConfig.brand,
   legalName: "Steel City Cleanouts LLC",
   url: siteConfig.url,
-  logo: `${siteConfig.url}/images/logo.png`,
+  logo: `${siteConfig.url}/images/logo/steel-city-cleanouts.png`,
   email: siteConfig.email,
   telephone: `+1${siteConfig.phone.tel}`,
   foundingDate: `${siteConfig.foundingYear}-01-01`,

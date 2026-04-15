@@ -20,7 +20,7 @@ export default function ReviewsPage() {
         <PageHero
           headline="What Pittsburgh Says"
           sub="Real reviews from families and businesses across the Steel City region."
-          image="/images/work/workers-carrying-boxes.jpg"
+          image="/images/hubs/reviews.jpg"
           imageAlt="Steel City Cleanouts crew at work"
           eyebrow="Reviews"
           trackingLocation="reviews"

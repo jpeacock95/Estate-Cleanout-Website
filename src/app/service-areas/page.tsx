@@ -23,7 +23,7 @@ export default function AreasIndex() {
         <PageHero
           headline="Where We Work"
           sub="Pittsburgh and every surrounding township, 7 days a week."
-          image="/images/pittsburgh/pittsburgh-street-hillside.jpg"
+          image="/images/hubs/service-areas.jpg"
           imageAlt="Pittsburgh hillside neighborhood"
           eyebrow="Service Areas"
           trackingLocation="areas-index"

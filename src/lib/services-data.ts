@@ -68,7 +68,7 @@ export const services: Service[] = [
     pricingAnchor: "Free on-site estimates. Most homes $800 to $3,500 depending on size and volume.",
     priceLow: 800,
     priceHigh: 3500,
-    heroImage: "/images/work/empty-living-room.jpg",
+    heroImage: "/images/services/estate-cleanouts.jpg",
     faqs: [
       {
         q: "How long does an estate cleanout take?",
@@ -139,7 +139,7 @@ export const services: Service[] = [
     pricingAnchor: "Starts around $95 for a single item. Truckloads from $295. Free quotes over the phone.",
     priceLow: 95,
     priceHigh: 650,
-    heroImage: "/images/work/crew-loading-truck.jpg",
+    heroImage: "/images/services/junk-removal.jpg",
     faqs: [
       {
         q: "How fast can you get here?",
@@ -210,7 +210,7 @@ export const services: Service[] = [
     pricingAnchor: "Single appliances from $95. Multi-appliance discounts available.",
     priceLow: 95,
     priceHigh: 250,
-    heroImage: "/images/work/crew-loaded-truck-curbside.jpg",
+    heroImage: "/images/services/appliance-removal.jpg",
     faqs: [
       {
         q: "Do you take refrigerators and freezers?",
@@ -277,7 +277,7 @@ export const services: Service[] = [
     pricingAnchor: "Couches from $95. Mattresses from $85. Full rooms from $250.",
     priceLow: 85,
     priceHigh: 450,
-    heroImage: "/images/work/crew-loading-couch.jpg",
+    heroImage: "/images/services/furniture-removal.jpg",
     faqs: [
       {
         q: "Can you get a couch out through a tight staircase?",
@@ -344,7 +344,7 @@ export const services: Service[] = [
     pricingAnchor: "Most garages $350 to $900 depending on volume.",
     priceLow: 350,
     priceHigh: 900,
-    heroImage: "/images/before-after/garage-after.jpg",
+    heroImage: "/images/services/garage-cleanouts.jpg",
     faqs: [
       {
         q: "How long does a garage cleanout take?",
@@ -414,7 +414,7 @@ services.push(
     pricingAnchor: "Hoarder cleanouts vary widely. Most fall between $2,000 and $8,000. Free private walk-through.",
     priceLow: 2000,
     priceHigh: 8000,
-    heroImage: "/images/work/crew-loading-truck.jpg",
+    heroImage: "/images/services/hoarder-cleanouts.jpg",
     faqs: [
       {
         q: "Will the neighbors see?",
@@ -477,7 +477,7 @@ services.push(
     pricingAnchor: "Most foreclosure jobs $700 to $2,800 depending on property size and volume. Volume pricing for asset managers.",
     priceLow: 700,
     priceHigh: 2800,
-    heroImage: "/images/work/crew-loaded-truck-curbside.jpg",
+    heroImage: "/images/services/foreclosure-cleanouts.jpg",
     faqs: [
       {
         q: "Do you work with asset management companies?",
@@ -540,7 +540,7 @@ services.push(
     pricingAnchor: "Apartment units from $350. Single-family trash-outs $650 to $2,000. Volume discounts for property managers.",
     priceLow: 350,
     priceHigh: 2000,
-    heroImage: "/images/work/crew-loading-truck.jpg",
+    heroImage: "/images/services/eviction-cleanouts.jpg",
     faqs: [
       {
         q: "How fast can you turn a unit?",
@@ -606,7 +606,7 @@ services.push(
     pricingAnchor: "Single-room debris from $250. Full-gut renovation jobs $800 to $2,500.",
     priceLow: 250,
     priceHigh: 2500,
-    heroImage: "/images/work/crew-loaded-truck-curbside.jpg",
+    heroImage: "/images/services/construction-debris.jpg",
     faqs: [
       {
         q: "Can you haul debris from a contractor's job?",
@@ -665,7 +665,7 @@ services.push(
     pricingAnchor: "Single brush pile from $150. Full yard cleanouts $400 to $1,200.",
     priceLow: 150,
     priceHigh: 1200,
-    heroImage: "/images/work/crew-loading-truck.jpg",
+    heroImage: "/images/services/yard-waste-removal.jpg",
     faqs: [
       {
         q: "Do I need to bag the yard waste first?",
@@ -727,7 +727,7 @@ services.push(
     pricingAnchor: "Most units $250 to $900 depending on size and volume. Free quotes over the phone.",
     priceLow: 250,
     priceHigh: 900,
-    heroImage: "/images/work/crew-loading-truck.jpg",
+    heroImage: "/images/services/storage-unit-cleanouts.jpg",
     faqs: [
       {
         q: "How much does it cost to empty a 10x10 storage unit?",
@@ -798,7 +798,7 @@ services.push(
     pricingAnchor: "Small offices from $500. Retail and restaurant from $900. Full-floor jobs $2,000 to $8,000+.",
     priceLow: 500,
     priceHigh: 8000,
-    heroImage: "/images/work/crew-loaded-truck-curbside.jpg",
+    heroImage: "/images/services/commercial-cleanouts.jpg",
     faqs: [
       {
         q: "Do you work after hours?",
@@ -869,7 +869,7 @@ services.push(
     pricingAnchor: "Same pricing as standard estate cleanouts. Most homes $800 to $3,500. Free private walk-through.",
     priceLow: 800,
     priceHigh: 3500,
-    heroImage: "/images/work/empty-living-room.jpg",
+    heroImage: "/images/services/bereavement-cleanouts.jpg",
     faqs: [
       {
         q: "When should I call? Is it too soon?",

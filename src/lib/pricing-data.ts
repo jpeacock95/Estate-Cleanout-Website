@@ -103,7 +103,7 @@ export const pricingPages: PricingPage[] = [
       title: "Real Pittsburgh job, March 2026",
       body: "Ross Township homeowner. One sectional couch, 6 boxes, 1 queen mattress, 2 lamps, and a broken dresser. About half a truck. Stairs from the basement added $75. Final price: $485, paid on the spot with a card.",
     },
-    heroImage: "/images/work/crew-loading-truck.jpg",
+    heroImage: "/images/pricing/by-load-size.jpg",
     faqs: [
       {
         q: "What's the minimum charge for junk removal in Pittsburgh?",
@@ -162,7 +162,7 @@ export const pricingPages: PricingPage[] = [
       "If you have more than one item, a quarter-truck job usually makes more financial sense.",
       "Basement or upper-floor pickups are still $99, but add $50 if there are more than 8 stairs.",
     ],
-    heroImage: "/images/work/crew-loading-couch.jpg",
+    heroImage: "/images/pricing/minimum-charge.jpg",
     faqs: [
       {
         q: "Is the $99 minimum really all-in?",
@@ -235,7 +235,7 @@ export const pricingPages: PricingPage[] = [
       title: "Real quarter-truck job, February 2026",
       body: "Mt Lebanon homeowner. Old armchair, 4 moving boxes of kitchen stuff, a rolled rug, and 2 bags of yard debris from a garage corner. 35 minutes total. Final price: $225.",
     },
-    heroImage: "/images/work/crew-armchair-steps.jpg",
+    heroImage: "/images/pricing/quarter-truck.jpg",
     faqs: [
       {
         q: "How much stuff is actually a quarter truck?",
@@ -304,7 +304,7 @@ export const pricingPages: PricingPage[] = [
       title: "Real half-truck job, March 2026",
       body: "Cranberry Township rental turnover. Outgoing tenant left a couch, bed frame, mattress, 8 bags of trash, a broken TV, and an armchair. Half-truck job. 55 minutes. Final price: $350.",
     },
-    heroImage: "/images/work/crew-loaded-truck-curbside.jpg",
+    heroImage: "/images/pricing/half-truck.jpg",
     faqs: [
       {
         q: "Is a half truck enough for a full garage cleanout?",
@@ -377,7 +377,7 @@ export const pricingPages: PricingPage[] = [
       title: "Real full-truck job, March 2026",
       body: "Bethel Park basement cleanout. 30 years of accumulated boxes, an old couch set, a treadmill, a broken water heater, 12 bags of clothes, shelving, and a disassembled pool table. 2 hours, 3 guys. Final price: $675.",
     },
-    heroImage: "/images/work/crew-loaded-truck-curbside.jpg",
+    heroImage: "/images/pricing/full-truck.jpg",
     faqs: [
       {
         q: "How much fits in a full truck?",
@@ -460,7 +460,7 @@ export const pricingPages: PricingPage[] = [
       title: "Real estate cleanout, March 2026",
       body: "Upper St Clair family. Parents' home of 42 years, 2,800 sq ft with finished basement, 2-car garage, and a shed. 3 days of work with a 3-person crew, 4 truckloads total. Final price: $2,750. Family received donation receipt, before/after photos, and a valuables box.",
     },
-    heroImage: "/images/work/empty-living-room.jpg",
+    heroImage: "/images/pricing/estate-cleanout.jpg",
     faqs: [
       {
         q: "How do you price an estate cleanout if I have no idea how much is inside?",
@@ -556,7 +556,7 @@ export const pricingPages: PricingPage[] = [
       "We work with the Allegheny County Hoarding Task Force and can coordinate with social workers, family, or attorneys.",
       "Unmarked trucks available on request for privacy.",
     ],
-    heroImage: "/images/work/workers-carrying-boxes.jpg",
+    heroImage: "/images/pricing/hoarder-cleanout.jpg",
     faqs: [
       {
         q: "How do you decide what hoarding level a home is?",
@@ -636,7 +636,7 @@ export const pricingPages: PricingPage[] = [
       "Paint cans and household chemicals need to go to Allegheny County household hazardous waste. We'll set them aside and tell you how to drop them off (or coordinate pickup for a small surcharge).",
       "Tires have a separate disposal fee ($5 to $15 each) because PA regulates tire disposal.",
     ],
-    heroImage: "/images/work/crew-loading-truck.jpg",
+    heroImage: "/images/pricing/garage-cleanout.jpg",
     faqs: [
       {
         q: "Can you haul away paint cans and household chemicals from my garage?",
@@ -711,7 +711,7 @@ export const pricingPages: PricingPage[] = [
       title: "Real basement cleanout, February 2026",
       body: "Plum Borough homeowner. Full unfinished basement with 25 years of boxes, old couches, a broken washer, a dehumidifier, and shelving units. Narrow stairs. 3-person crew, 90 minutes. Final price: $585.",
     },
-    heroImage: "/images/work/workers-carrying-boxes.jpg",
+    heroImage: "/images/pricing/basement-cleanout.jpg",
     faqs: [
       {
         q: "Do you charge extra for basement stairs?",
@@ -785,7 +785,7 @@ export const pricingPages: PricingPage[] = [
       "Next-day service is standard pricing with no surcharge. Most 'same-day' urgency is actually next-day.",
       "If we can't fit you in same-day, you pay nothing. We won't charge the surcharge unless we actually deliver same-day.",
     ],
-    heroImage: "/images/work/crew-loaded-truck-curbside.jpg",
+    heroImage: "/images/pricing/same-day.jpg",
     faqs: [
       {
         q: "How late can I call for same-day service?",
@@ -893,7 +893,7 @@ export const pricingPages: PricingPage[] = [
       "If two or more surcharges apply to the same job (stairs + piano, for example), both apply.",
       "All surcharges are disclosed on the walk-through quote. No surprises on job day.",
     ],
-    heroImage: "/images/work/crew-armchair-steps.jpg",
+    heroImage: "/images/pricing/surcharges.jpg",
     faqs: [
       {
         q: "Are surcharges really all-in like the base prices?",
@@ -968,7 +968,7 @@ export const pricingPages: PricingPage[] = [
       title: "Same job, both options, priced out",
       body: "Bethel Park homeowner needed to clear a packed 2-car garage. Junk removal: $575 all-in, 90 minutes on a Thursday, done. Dumpster rental: $425 for a 10-yard bin for 5 days, plus about 18 hours of homeowner labor over a weekend, plus a $40 overage fee for going 0.4 tons heavy. Total dumpster cost including lost weekend: $465 out-of-pocket plus 18 hours.",
     },
-    heroImage: "/images/work/crew-loaded-truck-curbside.jpg",
+    heroImage: "/images/pricing/vs-dumpster-rental.jpg",
     faqs: [
       {
         q: "Is a dumpster rental actually cheaper than junk removal in Pittsburgh?",
@@ -1043,7 +1043,7 @@ export const pricingPages: PricingPage[] = [
       title: "Real DIY math, March 2026",
       body: "Squirrel Hill homeowner had a pickup and wanted to save money. Borrowed a friend's truck for $0. Loaded it with boxes, an old couch, a mattress, and a broken grill. 2 hours of loading. 40 minutes to McKees Rocks, $60 dump fee, 40 minutes back. Total: $60 cash plus 3.5 hours plus a friend's Saturday morning.",
     },
-    heroImage: "/images/work/crew-loading-truck.jpg",
+    heroImage: "/images/pricing/vs-diy.jpg",
     faqs: [
       {
         q: "Which Pittsburgh transfer stations accept mixed household waste?",
@@ -1110,7 +1110,7 @@ export const pricingPages: PricingPage[] = [
       "Pittsburgh disposal fees are lower than coastal markets like LA or Boston, which is why our pricing comes in below the national mid-range.",
       "The national average of $241 per job (Angi) is right in the middle of our half-truck range.",
     ],
-    heroImage: "/images/work/empty-living-room.jpg",
+    heroImage: "/images/pricing/pittsburgh-vs-national.jpg",
     faqs: [
       {
         q: "Why is Pittsburgh junk removal cheaper than the national average?",
@@ -1171,7 +1171,7 @@ export const pricingPages: PricingPage[] = [
       "CRT TVs over 32 inches have a small disposal surcharge ($10 to $25) due to PA e-waste rules.",
       "Pianos include strap, dolly, and careful handling. We don't tune, don't move, just remove.",
     ],
-    heroImage: "/images/work/crew-loading-couch.jpg",
+    heroImage: "/images/pricing/by-item.jpg",
     faqs: [
       {
         q: "Can you remove a hot tub for the $99 minimum?",

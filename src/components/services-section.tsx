@@ -19,16 +19,16 @@ import { trackEvent } from "@/lib/analytics";
 const emergencyCards = [
   {
     slug: "estate-cleanouts",
-    image: "/images/before-after/livingroom-after.jpg",
-    imageAlt: "Empty living room with polished hardwood floors after a full estate cleanout by Steel City Cleanouts",
+    image: "/images/services/estate-cleanouts.jpg",
+    imageAlt: "Empty living room with hardwood floors after a full estate cleanout by Steel City Cleanouts",
     title: "Estate Cleanouts",
     description:
       "Full-home cleanouts for probate, downsizing, and estate sales. Respectful, thorough, and fast.",
   },
   {
     slug: "junk-removal",
-    image: "/images/work/crew-armchair-steps.jpg",
-    imageAlt: "Two Steel City Cleanouts crew members in orange safety vests carrying a leather armchair down the front steps of a Pittsburgh row house",
+    image: "/images/services/junk-removal.jpg",
+    imageAlt: "Curbside pile of old furniture waiting for junk removal pickup in Pittsburgh",
     title: "Same-Day Junk Removal",
     description:
       "We show up when we say we will and haul everything out. No sorting, no stress, no hidden fees.",

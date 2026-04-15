@@ -20,7 +20,7 @@ export const metadata: Metadata = {
       "Transparent pricing for junk removal, estate cleanouts, and every service. Real Pittsburgh dollar figures, no quote-form gatekeeping.",
     url: `${siteConfig.url}/pricing`,
     type: "website",
-    images: [{ url: `${siteConfig.url}/images/work/crew-loading-truck.jpg` }],
+    images: [{ url: `${siteConfig.url}/images/hubs/pricing.jpg` }],
   },
 };
 
@@ -35,7 +35,7 @@ export default function PricingIndex() {
         <PageHero
           headline="Pittsburgh Junk Removal Pricing"
           sub="Every price we charge, published up front. No quote form required."
-          image="/images/work/crew-loading-truck.jpg"
+          image="/images/hubs/pricing.jpg"
           imageAlt="Steel City Cleanouts pricing in Pittsburgh"
           eyebrow="Pricing"
           trackingLocation="pricing-index"
