@@ -1,0 +1,579 @@
+keyword,volume,competition,competition_level,cpc,intent,opportunity,local_pa,source
+co moving companies,201000,0.5,MEDIUM,32.65,navigational,100500.0,False,junk_ideas
+meal delivery services,201000,1.0,HIGH,24.26,navigational,0.0,False,junk_ideas
+food delivery services,165000,0.76,HIGH,14.89,navigational,39600.0,False,junk_ideas
+meal kit delivery services,165000,0.05,LOW,26.38,navigational,156750.0,False,junk_ideas
+removal of junk,135000,0.43,MEDIUM,14.95,navigational,76950.0,False,junk_suggestions
+junk removal,135000,0.45,MEDIUM,15.42,navigational,74250.0,False,junk_suggestions
+removal junk,135000,0.45,MEDIUM,15.42,navigational,74250.0,False,junk_suggestions
+junk junk removal,135000,0.43,MEDIUM,14.95,navigational,76950.0,False,junk_suggestions
+ups shipping services,135000,0.02,LOW,3.45,navigational,132300.0,False,junk_ideas
+grocery delivery services,135000,0.1,LOW,12.46,navigational,121500.0,False,junk_ideas
+mold removal services,110000,0.05,LOW,22.43,navigational,104500.0,False,estate_ideas
+near me junk removal,110000,0.47,MEDIUM,14.22,navigational,58300.0,False,junk_suggestions
+junk removal near me,110000,0.36,MEDIUM,14.45,navigational,70400.0,False,junk_suggestions
+fedex shipping services,74000,0.01,LOW,2.72,navigational,73260.0,False,junk_ideas
+shipping services,74000,0.1,LOW,11.23,navigational,66600.0,False,junk_ideas
+junk removal services,60500,0.11,LOW,12.02,navigational,53845.0,False,estate_ideas
+gutter cleaning service,60500,0.06,LOW,10.16,navigational,56870.0,False,estate_ideas
+republic trash services,60500,0.21,LOW,0.82,navigational,47795.0,False,estate_ideas
+junk removal service,60500,0.11,LOW,12.02,navigational,53845.0,False,junk_suggestions
+junk service removal,60500,0.1,LOW,12.71,navigational,54450.0,False,junk_suggestions
+trucking companies,60500,0.17,LOW,8.74,navigational,50215.0,False,junk_ideas
+online grocery delivery services,60500,0.02,LOW,10.75,navigational,59290.0,False,junk_ideas
+waste management jobs,40500,0.05,LOW,0.55,informational,38475.0,False,estate_ideas
+online food delivery services,40500,0.38,MEDIUM,14.62,navigational,25110.0,False,junk_ideas
+transportation services,40500,0.31,LOW,6.25,navigational,27945.0,False,junk_ideas
+car shipping companies,40500,0.5,MEDIUM,16.49,navigational,20250.0,False,junk_ideas
+residential waste management services,33100,0.0,LOW,1.82,navigational,33100.0,False,estate_ideas
+furniture donation pick up,33100,0.61,MEDIUM,4.81,navigational,12909.0,False,junk_ideas
+packing & shipping services,33100,0.47,MEDIUM,1.76,navigational,17543.0,False,junk_ideas
+packing shipping services,33100,0.08,LOW,8.26,navigational,30452.0,False,junk_ideas
+long distance moving companies,33100,0.34,MEDIUM,76.39,commercial,21846.0,False,junk_ideas
+decluttering services,27100,0.1,LOW,5.87,navigational,24390.0,False,estate_ideas
+removal junk companies,27100,0.09,LOW,13.25,navigational,24661.0,False,junk_suggestions
+junk removal company,27100,0.09,LOW,13.25,navigational,24661.0,False,junk_suggestions
+junk removal companies,27100,0.07,LOW,13.71,navigational,25203.0,False,junk_suggestions
+online grocery services,27100,0.02,LOW,12.96,navigational,26558.0,False,junk_ideas
+junk yards,27100,0.31,LOW,2.81,navigational,18699.0,False,junk_ideas
+u haul prices,27100,0.26,LOW,6.31,informational,20054.0,False,junk_ideas
+prepared meal delivery services,27100,1.0,HIGH,17.49,navigational,0.0,False,junk_ideas
+moving services,27100,0.39,MEDIUM,23.91,navigational,16531.0,False,junk_ideas
+trash can cleaning service,22200,0.27,LOW,3.32,commercial,16206.0,False,estate_ideas
+junk removal company near me,22200,0.17,LOW,11.49,navigational,18426.0,False,junk_suggestions
+full service junk removal company,22200,0.0,LOW,0.77,navigational,22200.0,False,junk_suggestions
+junk removal companies near me,22200,0.23,LOW,11.37,navigational,17094.0,False,junk_suggestions
+junk removal services near me,22200,0.23,LOW,11.37,navigational,17094.0,False,junk_suggestions
+junk removal service near me,22200,0.23,LOW,11.37,navigational,17094.0,False,junk_suggestions
+trucking services,22200,0.13,LOW,2.66,navigational,19314.0,False,junk_ideas
+food and grocery delivery services,22200,0.0,LOW,19.75,navigational,22200.0,False,junk_ideas
+post construction cleaning services,18100,0.2,LOW,9.53,navigational,14480.0,False,estate_ideas
+interstate waste services,18100,0.11,LOW,0.4,navigational,16109.0,False,estate_ideas
+cleaning services nyc,18100,0.57,MEDIUM,8.45,navigational,7783.0,False,estate_ideas
+delivery services,18100,0.28,LOW,7.86,navigational,13032.0,False,junk_ideas
+moving and storage services,18100,0.03,LOW,23.84,navigational,17557.0,False,junk_ideas
+distribution services,18100,0.04,LOW,2.43,navigational,17376.0,False,junk_ideas
+trash pickup services,14800,0.29,LOW,8.06,navigational,10508.0,False,estate_ideas
+shredding services,14800,0.36,MEDIUM,7.7,navigational,9472.0,False,estate_ideas
+construction cleaning services,14800,0.35,MEDIUM,9.61,navigational,9620.0,False,estate_ideas
+chimney sweeping services,14800,0.03,LOW,11.37,navigational,14356.0,False,estate_ideas
+loadup junk removal,14800,0.22,LOW,6.38,navigational,11544.0,False,junk_suggestions
+freight house,14800,0.02,LOW,0.44,navigational,14504.0,False,junk_ideas
+event cleaning services,12100,0.22,LOW,11.53,navigational,9438.0,False,estate_ideas
+donate furniture with free pick up,12100,0.47,MEDIUM,4.24,commercial,6413.0,False,estate_ideas
+junk cars removal,12100,0.69,HIGH,17.61,navigational,3751.0,False,junk_suggestions
+1800 got-junk removal,12100,0.03,LOW,15.19,informational,11737.0,False,junk_suggestions
+junk car removal,12100,0.69,HIGH,17.61,navigational,3751.0,False,junk_suggestions
+car removal junk,12100,0.77,HIGH,18.18,navigational,2783.0,False,junk_suggestions
+junk removal cars,12100,0.69,HIGH,17.61,navigational,3751.0,False,junk_suggestions
+1 800 junk removal,12100,0.03,LOW,15.19,navigational,11737.0,False,junk_suggestions
+1800 got junk removal,12100,0.03,LOW,15.19,navigational,11737.0,False,junk_suggestions
+removal of junk cars,12100,0.69,HIGH,17.61,navigational,3751.0,False,junk_suggestions
+car junk removal,12100,0.69,HIGH,17.61,navigational,3751.0,False,junk_suggestions
+junk removal car,12100,0.77,HIGH,18.18,navigational,2783.0,False,junk_suggestions
+crane services,12100,0.16,LOW,9.18,navigational,10164.0,False,junk_ideas
+shipping calculator,12100,0.42,MEDIUM,3.51,navigational,7018.0,False,junk_ideas
+shipping companies,12100,0.41,MEDIUM,12.12,navigational,7139.0,False,junk_ideas
+garbage disposal replacement cost,9900,0.35,MEDIUM,12.21,commercial,6435.0,False,estate_ideas
+cleaning services for churches,9900,0.08,LOW,17.93,navigational,9108.0,False,estate_ideas
+republic services landfill,9900,0.04,LOW,2.12,navigational,9504.0,False,estate_ideas
+out of state moving companies,9900,0.73,HIGH,64.65,navigational,2673.0,False,junk_ideas
+international moving companies,9900,0.34,MEDIUM,27.19,navigational,6534.0,False,junk_ideas
+junk yard parts,9900,0.49,MEDIUM,1.09,navigational,5049.0,False,junk_ideas
+packing services,9900,0.21,LOW,16.03,navigational,7821.0,False,junk_ideas
+trash removal,9900,0.19,LOW,11.27,commercial,8019.0,False,junk_ideas
+local moving services,9900,0.13,LOW,18.58,navigational,8613.0,False,junk_ideas
+logistics services,9900,0.04,LOW,6.81,navigational,9504.0,False,junk_ideas
+best moving companies,9900,0.55,MEDIUM,31.54,navigational,4455.0,False,junk_ideas
+bat removal services,8100,0.07,LOW,10.9,navigational,7533.0,False,estate_ideas
+trash removal services,8100,0.51,MEDIUM,11.12,navigational,3969.0,False,estate_ideas
+septic tank cleaning services,8100,0.05,LOW,20.98,navigational,7695.0,False,estate_ideas
+trash can cleaning,8100,0.18,LOW,3.91,commercial,6642.0,False,estate_ideas
+waste removal services,8100,0.51,MEDIUM,11.12,navigational,3969.0,False,estate_ideas
+granger waste services,8100,0.19,LOW,0.17,navigational,6561.0,False,estate_ideas
+junk pickup,8100,0.79,HIGH,17.74,navigational,1701.0,False,junk_ideas
+hometown hauling,8100,0.02,LOW,5.73,navigational,7938.0,False,junk_ideas
+debris removal,8100,0.21,LOW,8.28,navigational,6399.0,False,junk_ideas
+medical courier companies,8100,0.05,LOW,3.8,navigational,7695.0,False,junk_ideas
+hauling services,8100,0.37,MEDIUM,10.65,navigational,5103.0,False,junk_ideas
+interstate moving companies,8100,0.61,MEDIUM,84.57,navigational,3159.0,False,junk_ideas
+food delivery companies,8100,1.0,HIGH,12.11,navigational,0.0,False,junk_ideas
+dumpster rental cost,6600,0.48,MEDIUM,4.76,commercial,3432.0,False,estate_ideas
+septic companies,6600,0.38,MEDIUM,19.26,navigational,4092.0,False,estate_ideas
+capital waste services,6600,0.19,LOW,0.64,navigational,5346.0,False,estate_ideas
+junk removal cost,6600,0.51,MEDIUM,6.79,commercial,3234.0,False,estate_ideas
+trash bin cleaning,6600,0.22,LOW,3.35,commercial,5148.0,False,estate_ideas
+drain cleaning company,6600,0.34,MEDIUM,48.42,navigational,4356.0,False,estate_ideas
+rates for junk removal,6600,0.51,MEDIUM,6.79,informational,3234.0,False,junk_suggestions
+junk removal pricing,6600,0.48,MEDIUM,7.08,navigational,3432.0,False,junk_suggestions
+cost for junk removal,6600,0.48,MEDIUM,7.08,commercial,3432.0,False,junk_suggestions
+cost of junk removal,6600,0.48,MEDIUM,7.08,navigational,3432.0,False,junk_suggestions
+junk removal price,6600,0.48,MEDIUM,7.08,commercial,3432.0,False,junk_suggestions
+junk car removal without title,6600,0.74,HIGH,12.48,informational,1716.0,False,junk_suggestions
+pricing for junk removal,6600,0.48,MEDIUM,7.08,navigational,3432.0,False,junk_suggestions
+junk removal costs,6600,0.48,MEDIUM,7.08,commercial,3432.0,False,junk_suggestions
+cost junk removal,6600,0.48,MEDIUM,7.08,navigational,3432.0,False,junk_suggestions
+price for junk removal,6600,0.48,MEDIUM,7.08,commercial,3432.0,False,junk_suggestions
+no title junk car removal,6600,0.78,HIGH,11.52,navigational,1452.0,False,junk_suggestions
+prices for junk removal,6600,0.48,MEDIUM,7.08,navigational,3432.0,False,junk_suggestions
+pricing junk removal,6600,0.51,MEDIUM,6.79,navigational,3234.0,False,junk_suggestions
+junk car removal no title,6600,0.74,HIGH,12.48,navigational,1716.0,False,junk_suggestions
+price junk removal,6600,0.48,MEDIUM,7.08,navigational,3432.0,False,junk_suggestions
+junk removal prices,6600,0.48,MEDIUM,7.08,commercial,3432.0,False,junk_suggestions
+price of junk removal,6600,0.48,MEDIUM,7.08,commercial,3432.0,False,junk_suggestions
+pet waste removal,6600,0.17,LOW,10.81,transactional,5478.0,False,junk_ideas
+mold removal company,6600,0.32,LOW,40.06,navigational,4488.0,False,junk_ideas
+collision services,6600,0.32,LOW,1.62,navigational,4488.0,False,junk_ideas
+trucking companies shutting down,6600,0.0,LOW,0.0,navigational,6600.0,False,junk_ideas
+local junk yards,6600,0.39,MEDIUM,4.61,navigational,4026.0,False,junk_ideas
+express services,6600,0.06,LOW,1.86,navigational,6204.0,False,junk_ideas
+phoenix az bulk trash pick up,6600,0.28,LOW,4.56,transactional,4752.0,False,junk_ideas
+grace hauling,6600,0.01,LOW,4.89,commercial,6534.0,False,junk_ideas
+free grocery delivery,6600,0.63,MEDIUM,11.99,navigational,2442.0,False,junk_ideas
+best long distance moving companies,6600,0.77,HIGH,44.57,commercial,1518.0,False,junk_ideas
+garbage pick up schedule milwaukee,6600,0.0,LOW,2.59,commercial,6600.0,False,junk_ideas
+document shredding services,5400,0.03,LOW,9.39,commercial,5238.0,False,estate_ideas
+solid waste management services,5400,0.03,LOW,0.82,commercial,5238.0,False,estate_ideas
+atlanta cleaning services,5400,0.78,HIGH,9.96,navigational,1188.0,False,estate_ideas
+garbage truck jobs,5400,0.13,LOW,1.89,informational,4698.0,False,estate_ideas
+garbage can cleaning,5400,0.18,LOW,3.64,commercial,4428.0,False,estate_ideas
+home depot compost,5400,1.0,HIGH,0.26,commercial,0.0,False,estate_ideas
+cleaning services austin,5400,0.58,MEDIUM,12.32,navigational,2268.0,False,estate_ideas
+street cleaning nyc,5400,0.07,LOW,0.0,navigational,5022.0,False,estate_ideas
+san diego cleaning service,5400,0.77,HIGH,8.48,navigational,1242.0,False,estate_ideas
+cleaning services los angeles,5400,0.63,MEDIUM,8.75,navigational,1998.0,False,estate_ideas
+solid waste disposal services,5400,0.01,LOW,1.03,navigational,5346.0,False,estate_ideas
+companies that dispose of hazardous waste,5400,0.08,LOW,17.87,commercial,4968.0,False,estate_ideas
+republic waste services,5400,0.17,LOW,0.47,navigational,4482.0,False,estate_ideas
+cleaning services houston,5400,0.73,HIGH,10.95,navigational,1458.0,False,estate_ideas
+residential junk removal,5400,0.01,LOW,13.55,navigational,5346.0,False,junk_suggestions
+bulky item pickup los angeles,5400,0.25,LOW,3.67,transactional,4050.0,False,junk_ideas
+truckload services,5400,0.05,LOW,2.5,navigational,5130.0,False,junk_ideas
+flatbed trucking companies,5400,0.33,LOW,10.69,navigational,3618.0,False,junk_ideas
+moving companies tucson,5400,0.28,LOW,21.13,navigational,3888.0,False,junk_ideas
+cheap dumpster rental,5400,0.64,MEDIUM,6.56,navigational,1944.0,False,junk_ideas
+pick up junk cars,5400,0.75,HIGH,18.92,navigational,1350.0,False,junk_ideas
+delivery services side hustle,5400,0.05,LOW,0.0,navigational,5130.0,False,junk_ideas
+moving companies queens,5400,0.49,MEDIUM,37.9,navigational,2754.0,False,junk_ideas
+shipping cost,5400,0.4,MEDIUM,3.28,commercial,3240.0,False,junk_ideas
+delivery companies,5400,0.27,LOW,4.5,navigational,3942.0,False,junk_ideas
+texas disposal systems landfill,5400,0.05,LOW,3.72,commercial,5130.0,False,junk_ideas
+medical courier services,5400,0.08,LOW,3.63,navigational,4968.0,False,junk_ideas
+dumpster rental pricing,5400,0.46,MEDIUM,4.88,commercial,2916.0,False,junk_ideas
+county hauling,5400,0.03,LOW,7.43,navigational,5238.0,False,junk_ideas
+dd services,5400,0.08,LOW,7.05,navigational,4968.0,False,junk_ideas
+on-demand food delivery services,5400,0.01,LOW,0.0,navigational,5346.0,False,junk_ideas
+grocery services,5400,0.15,LOW,15.44,navigational,4590.0,False,junk_ideas
+on demand food delivery services,5400,0.01,LOW,9.54,navigational,5346.0,False,junk_ideas
+furniture removal service,5400,0.33,LOW,12.57,navigational,3618.0,False,junk_ideas
+local cleaning services,4400,0.7,HIGH,8.76,navigational,1320.0,False,estate_ideas
+cleaning services dallas,4400,0.65,MEDIUM,9.67,navigational,1540.0,False,estate_ideas
+dry clean city,4400,0.05,LOW,1.0,navigational,4180.0,False,estate_ideas
+cleaning services philadelphia,4400,0.66,MEDIUM,9.53,navigational,1496.0,False,estate_ideas
+garbage disposal cost,4400,0.7,HIGH,3.29,commercial,1320.0,False,estate_ideas
+hoarding cleanup,4400,0.09,LOW,22.32,commercial,4004.0,False,estate_ideas
+mattress recycling services,4400,0.08,LOW,6.07,navigational,4048.0,False,estate_ideas
+garbage companies,4400,0.33,LOW,5.16,navigational,2948.0,False,estate_ideas
+jdog junk removal and hauling,4400,0.29,LOW,7.18,navigational,3124.0,False,junk_suggestions
+jd junk removal,4400,0.29,LOW,7.18,navigational,3124.0,False,junk_suggestions
+j dog junk removal and hauling,4400,0.29,LOW,7.18,navigational,3124.0,False,junk_suggestions
+junk cars removal near me,4400,0.43,MEDIUM,14.39,navigational,2508.0,False,junk_suggestions
+junk removal residential,4400,0.02,LOW,11.41,navigational,4312.0,False,junk_suggestions
+jdog junk removal & hauling,4400,0.29,LOW,7.18,navigational,3124.0,False,junk_suggestions
+full service junk removal,4400,0.06,LOW,4.85,navigational,4136.0,False,junk_suggestions
+full-service junk removal,4400,0.06,LOW,4.85,navigational,4136.0,False,junk_suggestions
+j dog junk removal,4400,0.4,MEDIUM,7.05,navigational,2640.0,False,junk_suggestions
+j dog junk removal & hauling,4400,0.4,MEDIUM,7.05,navigational,2640.0,False,junk_suggestions
+car junk removal near me,4400,0.43,MEDIUM,14.39,navigational,2508.0,False,junk_suggestions
+jdog junk removal,4400,0.29,LOW,7.18,navigational,3124.0,False,junk_suggestions
+national moving companies,4400,0.65,MEDIUM,55.67,navigational,1540.0,False,junk_ideas
+shipping container cost,4400,1.0,HIGH,2.21,commercial,0.0,False,junk_ideas
+packing services for moving,4400,0.23,LOW,24.85,commercial,3388.0,False,junk_ideas
+arc raiders recycling cheat sheet,4400,0.0,LOW,4.17,commercial,4400.0,False,junk_ideas
+meal prep delivery services,4400,0.49,MEDIUM,23.33,navigational,2244.0,False,junk_ideas
+pick your part junkyard,4400,0.19,LOW,2.22,navigational,3564.0,False,junk_ideas
+ltl shipping companies,4400,0.1,LOW,22.71,navigational,3960.0,False,junk_ideas
+junk yards in orlando fl,4400,0.5,MEDIUM,4.42,navigational,2200.0,False,junk_ideas
+safe ship moving services,4400,0.65,MEDIUM,18.67,navigational,1540.0,False,junk_ideas
+international shipping services,4400,0.06,LOW,9.54,navigational,4136.0,False,junk_ideas
+food distribution companies,4400,0.2,LOW,4.81,navigational,3520.0,False,junk_ideas
+freight forwarding companies,4400,0.17,LOW,15.18,navigational,3652.0,False,junk_ideas
+truck washing services,4400,0.04,LOW,1.62,navigational,4224.0,False,junk_ideas
+relocation companies,4400,0.23,LOW,21.84,navigational,3388.0,False,junk_ideas
+junk pick up,4400,0.77,HIGH,18.42,navigational,1012.0,False,junk_ideas
+republic services bulk pickup,4400,0.01,LOW,6.57,commercial,4356.0,False,junk_ideas
+semi truck junk yards,4400,0.34,MEDIUM,2.7,navigational,2904.0,False,junk_ideas
+estate cleanout services,3600,0.21,LOW,9.92,navigational,2844.0,False,estate_suggestions
+estate cleanout service,3600,0.21,LOW,9.92,navigational,2844.0,False,estate_suggestions
+estate cleanout,3600,0.14,LOW,13.24,commercial,3096.0,False,estate_suggestions
+house cleaning denver,3600,0.78,HIGH,11.44,commercial,792.0,False,estate_ideas
+moving out cleaning services,3600,0.35,MEDIUM,14.8,navigational,2340.0,False,estate_ideas
+home depot dumpster bag,3600,0.88,HIGH,0.81,commercial,432.0,False,estate_ideas
+free junk removal,3600,0.56,MEDIUM,6.41,navigational,1584.0,False,estate_ideas
+hazardous waste disposal services,3600,0.05,LOW,8.79,navigational,3420.0,False,estate_ideas
+dry cleaning depot,3600,0.06,LOW,3.14,navigational,3384.0,False,estate_ideas
+dirty dozen clean 15,3600,0.1,LOW,0.73,transactional,3240.0,False,estate_ideas
+metal recycling services,3600,0.02,LOW,1.91,navigational,3528.0,False,estate_ideas
+gutter cleaning company,3600,0.15,LOW,19.12,navigational,3060.0,False,estate_ideas
+trash collector jobs,3600,0.06,LOW,1.17,navigational,3384.0,False,estate_ideas
+garbage man jobs,3600,0.06,LOW,0.96,informational,3384.0,False,estate_ideas
+estate cleanouts,3600,0.14,LOW,13.24,navigational,3096.0,False,estate_ideas
+cleaning services denver,3600,0.61,MEDIUM,13.69,navigational,1404.0,False,estate_ideas
+recycle bins for home,3600,1.0,HIGH,1.13,transactional,0.0,False,estate_ideas
+home composter,3600,1.0,HIGH,1.68,transactional,0.0,False,estate_ideas
+hoarding cleaning services,3600,0.46,MEDIUM,19.64,navigational,1944.0,False,estate_ideas
+sf street cleaning map,3600,0.0,LOW,0.0,commercial,3600.0,False,estate_ideas
+cleaning services brooklyn,3600,0.71,HIGH,9.8,navigational,1044.0,False,estate_ideas
+garage clean out,3600,0.24,LOW,6.78,commercial,2736.0,False,estate_ideas
+garage clean out service,3600,0.28,LOW,8.49,commercial,2592.0,False,estate_ideas
+republic services dumpster rental,3600,0.22,LOW,2.98,navigational,2808.0,False,estate_ideas
+american disposal services,3600,0.12,LOW,1.34,navigational,3168.0,False,estate_ideas
+yard cleanup services,3600,0.05,LOW,7.24,navigational,3420.0,False,estate_ideas
+street cleaning,3600,0.09,LOW,6.95,navigational,3276.0,False,estate_ideas
+carpet removal companies,3600,0.04,LOW,6.85,commercial,3456.0,False,estate_ideas
+iron mountain shredding services,3600,0.33,LOW,7.71,navigational,2412.0,False,estate_ideas
+gutter cleaning companies,3600,0.15,LOW,19.12,navigational,3060.0,False,estate_ideas
+street cleaning sf map,3600,0.0,LOW,0.0,commercial,3600.0,False,estate_ideas
+carpet cleaning san antonio,3600,0.6,MEDIUM,14.8,commercial,1440.0,False,estate_ideas
+cleaning services orlando,3600,0.35,MEDIUM,10.88,navigational,2340.0,False,estate_ideas
+san antonio junk removal,3600,0.85,HIGH,15.73,navigational,540.0,False,junk_suggestions
+junk removal free,3600,0.61,MEDIUM,6.72,navigational,1404.0,False,junk_suggestions
+junk removal tulsa,3600,0.08,LOW,8.84,navigational,3312.0,False,junk_suggestions
+junk free removal,3600,0.61,MEDIUM,6.72,navigational,1404.0,False,junk_suggestions
+junk removal commercial,3600,0.06,LOW,21.99,navigational,3384.0,False,junk_suggestions
+free removal of junk,3600,0.56,MEDIUM,6.41,navigational,1584.0,False,junk_suggestions
+tulsa junk removal,3600,0.08,LOW,8.84,navigational,3312.0,False,junk_suggestions
+junk removal san antonio tx,3600,0.81,HIGH,15.96,navigational,684.0,False,junk_suggestions
+junk removal tulsa ok,3600,0.19,LOW,6.99,navigational,2916.0,False,junk_suggestions
+commerical junk removal,3600,0.06,LOW,13.54,navigational,3384.0,False,junk_suggestions
+junk removal in san antonio texas,3600,0.85,HIGH,15.73,navigational,540.0,False,junk_suggestions
+commercial junk removal,3600,0.06,LOW,13.54,navigational,3384.0,False,junk_suggestions
+junk car removal near me,3600,0.6,MEDIUM,15.04,navigational,1440.0,False,junk_suggestions
+free junk removal near me,3600,0.56,MEDIUM,6.26,navigational,1584.0,False,junk_suggestions
+junk removal for free near me,3600,0.56,MEDIUM,6.26,navigational,1584.0,False,junk_suggestions
+junk removal san antonio texas,3600,0.85,HIGH,15.73,navigational,540.0,False,junk_suggestions
+junk removal san antonio,3600,0.85,HIGH,15.73,navigational,540.0,False,junk_suggestions
+junk removal free near me,3600,0.56,MEDIUM,6.26,navigational,1584.0,False,junk_suggestions
+junk removal in san antonio,3600,0.81,HIGH,15.96,navigational,684.0,False,junk_suggestions
+removal of junk for free,3600,0.56,MEDIUM,6.41,navigational,1584.0,False,junk_suggestions
+junk removal for free,3600,0.56,MEDIUM,6.41,navigational,1584.0,False,junk_suggestions
+kroger pick up order,3600,0.48,MEDIUM,2.07,informational,1872.0,False,junk_ideas
+debris removal service,3600,0.27,LOW,11.17,navigational,2628.0,False,junk_ideas
+haul away junk,3600,0.65,MEDIUM,16.56,navigational,1260.0,False,junk_ideas
+freight house paducah,3600,0.0,LOW,0.0,commercial,3600.0,False,junk_ideas
+warehouse cleaning services,3600,0.21,LOW,32.47,navigational,2844.0,False,junk_ideas
+iron point services,3600,0.01,LOW,0.0,navigational,3564.0,False,junk_ideas
+philadelphia junk yards,3600,0.46,MEDIUM,1.45,navigational,1944.0,False,junk_ideas
+laundry pick up and delivery service,3600,0.48,MEDIUM,9.14,navigational,1872.0,False,junk_ideas
+residential moving services,3600,0.08,LOW,13.38,navigational,3312.0,False,junk_ideas
+los angeles trash pickup,3600,0.36,MEDIUM,8.01,commercial,2304.0,False,junk_ideas
+texas port recycling,3600,0.05,LOW,1.35,navigational,3420.0,False,junk_ideas
+sap friendly trucking companies,3600,0.55,MEDIUM,8.75,commercial,1620.0,False,junk_ideas
+bulk pick up san antonio,3600,0.32,LOW,5.58,commercial,2448.0,False,junk_ideas
+junk yard search,3600,0.12,LOW,1.5,navigational,3168.0,False,junk_ideas
+republic services bulk pick up schedule,3600,0.0,LOW,3.43,navigational,3600.0,False,junk_ideas
+uw transportation services,3600,0.01,LOW,5.02,navigational,3564.0,False,junk_ideas
+garbage removal,3600,0.29,LOW,14.65,commercial,2556.0,False,junk_ideas
+moving companies baltimore,3600,0.78,HIGH,20.17,navigational,792.0,False,junk_ideas
+construction debris removal,3600,0.2,LOW,10.68,commercial,2880.0,False,junk_ideas
+chipotle free delivery,3600,0.05,LOW,4.51,commercial,3420.0,False,junk_ideas
+philly junk yards,3600,0.46,MEDIUM,1.45,navigational,1944.0,False,junk_ideas
+international shipping companies,3600,0.47,MEDIUM,12.91,navigational,1908.0,False,junk_ideas
+laundry pick up and delivery,3600,0.46,MEDIUM,8.6,transactional,1944.0,False,junk_ideas
+coastal moving services,3600,0.83,HIGH,22.59,navigational,612.0,False,junk_ideas
+dumpster rentals near me prices,3600,0.54,MEDIUM,5.1,navigational,1656.0,False,junk_ideas
+motorcycle shipping companies,3600,0.33,LOW,12.25,commercial,2412.0,False,junk_ideas
+state to state moving companies,3600,0.68,HIGH,62.92,navigational,1152.0,False,junk_ideas
+custom companies tracking,3600,0.02,LOW,9.58,navigational,3528.0,False,junk_ideas
+cox services,3600,0.41,MEDIUM,8.41,navigational,2124.0,False,junk_ideas
+junk yard philadelphia,3600,0.46,MEDIUM,1.45,navigational,1944.0,False,junk_ideas
+republic services trash pickup,2900,0.02,LOW,0.86,commercial,2842.0,False,estate_ideas
+asbestos removal services,2900,0.03,LOW,10.23,navigational,2813.0,False,estate_ideas
+trash removal companies,2900,0.36,MEDIUM,11.31,navigational,1856.0,False,estate_ideas
+free garbage dump near me,2900,0.22,LOW,2.81,transactional,2262.0,False,estate_ideas
+biodegradable drain cleaning products,2900,0.28,LOW,0.53,transactional,2088.0,False,estate_ideas
+sewer cleanout cap,2900,0.93,HIGH,1.29,transactional,203.0,False,estate_ideas
+residential garbage collection services,2900,0.01,LOW,2.68,navigational,2871.0,False,estate_ideas
+pallet recycling companies,2900,0.04,LOW,3.61,commercial,2784.0,False,estate_ideas
+scrap metal recycling companies,2900,0.01,LOW,3.25,navigational,2871.0,False,estate_ideas
+austin cleaning service,2900,0.34,MEDIUM,7.93,navigational,1914.0,False,estate_ideas
+free compost bin nyc,2900,0.03,LOW,5.91,transactional,2813.0,False,estate_ideas
+cleaning services san antonio,2900,0.82,HIGH,9.91,navigational,522.0,False,estate_ideas
+jacksonville cleaning services,2900,0.77,HIGH,9.2,navigational,667.0,False,estate_ideas
+cleaning services san francisco,2900,0.67,HIGH,9.96,navigational,957.0,False,estate_ideas
+free junk pick up,2900,0.62,MEDIUM,8.6,navigational,1102.0,False,estate_ideas
+carpet removal services,2900,0.11,LOW,10.49,navigational,2581.0,False,estate_ideas
+septic tank companies,2900,0.37,MEDIUM,25.49,navigational,1827.0,False,estate_ideas
+trash clean up community service,2900,0.01,LOW,0.0,navigational,2871.0,False,estate_ideas
+hazardous waste services,2900,0.11,LOW,17.84,navigational,2581.0,False,estate_ideas
+oil spill clean up,2900,0.91,HIGH,1.8,transactional,261.0,False,estate_ideas
+junk trash removal,2900,0.49,MEDIUM,11.61,navigational,1479.0,False,junk_suggestions
+junk and garbage removal,2900,0.49,MEDIUM,11.61,navigational,1479.0,False,junk_suggestions
+trash and junk removal,2900,0.49,MEDIUM,11.61,navigational,1479.0,False,junk_suggestions
+junk and waste removal,2900,0.49,MEDIUM,11.61,navigational,1479.0,False,junk_suggestions
+junk removal in austin,2900,0.67,HIGH,17.29,navigational,957.0,False,junk_suggestions
+waste junk removal,2900,0.4,MEDIUM,10.62,navigational,1740.0,False,junk_suggestions
+san diego junk removal,2900,0.83,HIGH,13.55,navigational,493.0,False,junk_suggestions
+chicago junk removal,2900,0.71,HIGH,17.32,navigational,841.0,False,junk_suggestions
+professional junk removal service,2900,0.02,LOW,11.73,navigational,2842.0,False,junk_suggestions
+junk removal san diego ca,2900,0.83,HIGH,13.55,navigational,493.0,False,junk_suggestions
+junk removal austin,2900,0.67,HIGH,17.29,navigational,957.0,False,junk_suggestions
+junk removal chicago illinois,2900,0.71,HIGH,17.32,navigational,841.0,False,junk_suggestions
+junk removal in chicago,2900,0.7,HIGH,16.56,navigational,870.0,False,junk_suggestions
+junk removal san diego,2900,0.83,HIGH,12.68,navigational,493.0,False,junk_suggestions
+junk removal chicago,2900,0.71,HIGH,17.32,navigational,841.0,False,junk_suggestions
+cheapest junk removal near me,2900,0.78,HIGH,9.85,navigational,638.0,False,junk_suggestions
+junk removal austin tx,2900,0.69,HIGH,20.06,navigational,899.0,False,junk_suggestions
+cheap junk removal near me,2900,0.78,HIGH,9.85,navigational,638.0,False,junk_suggestions
+austin tx junk removal,2900,0.67,HIGH,17.29,navigational,957.0,False,junk_suggestions
+junk removal in austin texas,2900,0.69,HIGH,20.06,navigational,899.0,False,junk_suggestions
+junk removal same-day,2900,0.31,LOW,24.22,navigational,2001.0,False,junk_suggestions
+garbage junk removal,2900,0.4,MEDIUM,10.62,navigational,1740.0,False,junk_suggestions
+junk waste removal,2900,0.49,MEDIUM,11.61,navigational,1479.0,False,junk_suggestions
+same day junk removal,2900,0.31,LOW,24.22,navigational,2001.0,False,junk_suggestions
+junk removal chicago il,2900,0.7,HIGH,16.56,navigational,870.0,False,junk_suggestions
+professional junk removal services,2900,0.01,LOW,6.87,navigational,2871.0,False,junk_suggestions
+garbage and junk removal,2900,0.4,MEDIUM,10.62,navigational,1740.0,False,junk_suggestions
+trash junk removal,2900,0.49,MEDIUM,11.61,navigational,1479.0,False,junk_suggestions
+junk removal same day,2900,0.31,LOW,24.22,navigational,2001.0,False,junk_suggestions
+junk removal in san diego,2900,0.83,HIGH,13.55,navigational,493.0,False,junk_suggestions
+austin texas junk removal,2900,0.69,HIGH,20.06,navigational,899.0,False,junk_suggestions
+1800 junk removal,2900,0.7,HIGH,13.71,navigational,870.0,False,junk_suggestions
+junk and trash removal,2900,0.4,MEDIUM,10.62,navigational,1740.0,False,junk_suggestions
+austin junk removal,2900,0.67,HIGH,17.29,navigational,957.0,False,junk_suggestions
+same-day junk removal,2900,0.31,LOW,24.22,navigational,2001.0,False,junk_suggestions
+junk removal austin texas,2900,0.69,HIGH,20.06,commercial,899.0,False,junk_suggestions
+junk removal in austin tx,2900,0.67,HIGH,17.29,navigational,957.0,False,junk_suggestions
+moving services scottsdale,2900,0.31,LOW,23.01,navigational,2001.0,False,junk_ideas
+storage companies,2900,0.42,MEDIUM,18.27,navigational,1682.0,False,junk_ideas
+carpet removal contractors,2900,0.03,LOW,30.02,navigational,2813.0,False,junk_ideas
+moving companies indianapolis,2900,0.78,HIGH,18.42,commercial,638.0,False,junk_ideas
+reputable moving companies,2900,0.24,LOW,30.15,navigational,2204.0,False,junk_ideas
+pick up laundry service,2900,0.54,MEDIUM,8.82,commercial,1334.0,False,junk_ideas
+clean carts disposable,2400,0.0,LOW,0.0,transactional,2400.0,False,estate_ideas
+yard clean up services,2400,0.63,MEDIUM,6.97,navigational,888.0,False,estate_ideas
+appliance recycling services,2400,0.06,LOW,0.86,navigational,2256.0,False,estate_ideas
+home trash can,2400,1.0,HIGH,1.05,transactional,0.0,False,estate_ideas
+carpet cleaning san diego,2400,0.77,HIGH,12.12,commercial,552.0,False,estate_ideas
+compost bin for home,2400,1.0,HIGH,1.19,transactional,0.0,False,estate_ideas
+cleaning services raleigh,2400,0.79,HIGH,9.45,navigational,504.0,False,estate_ideas
+carpet cleaning austin,2400,0.7,HIGH,12.18,commercial,720.0,False,estate_ideas
+republic services garbage,2400,0.09,LOW,1.97,navigational,2184.0,False,estate_ideas
+lead paint removal companies,2400,0.01,LOW,13.73,commercial,2376.0,False,estate_ideas
+trash can cleaning truck,2400,0.26,LOW,1.26,commercial,1776.0,False,estate_ideas
+hoarding cleanup services,2400,0.13,LOW,23.14,navigational,2088.0,False,estate_ideas
+demolition services,2400,0.2,LOW,13.03,navigational,1920.0,False,estate_ideas
+garbage disposal repair services,2400,0.04,LOW,23.31,navigational,2304.0,False,estate_ideas
+allied waste services,2400,0.21,LOW,2.22,navigational,1896.0,False,estate_ideas
+republic services lewisville landfill,2400,0.04,LOW,1.14,navigational,2304.0,False,estate_ideas
+graffiti removal services,2400,0.1,LOW,12.37,navigational,2160.0,False,estate_ideas
+popcorn ceiling removal services,2400,0.18,LOW,11.52,commercial,1968.0,False,estate_ideas
+trash compactor for home,2400,1.0,HIGH,0.79,transactional,0.0,False,estate_ideas
+beach clean up,2400,0.02,LOW,14.03,informational,2352.0,False,estate_ideas
+yard waste removal services,2400,0.2,LOW,9.59,navigational,1920.0,False,estate_ideas
+cleaning services indianapolis,2400,0.78,HIGH,10.64,navigational,528.0,False,estate_ideas
+street cleaning in nyc today,2400,0.0,LOW,0.0,navigational,2400.0,False,estate_ideas
+nyc street cleaning today,2400,0.0,LOW,0.0,navigational,2400.0,False,estate_ideas
+republic services trash schedule,2400,0.0,LOW,0.07,navigational,2400.0,False,estate_ideas
+trash services colorado springs,2400,0.76,HIGH,7.87,commercial,576.0,False,estate_ideas
+tire recycling services,2400,0.05,LOW,2.22,navigational,2280.0,False,estate_ideas
+street cleaning today nyc,2400,0.0,LOW,0.0,navigational,2400.0,False,estate_ideas
+cleaning services mobile al,2400,0.25,LOW,6.65,navigational,1800.0,False,estate_ideas
+cleaning services tampa,2400,0.64,MEDIUM,9.3,navigational,864.0,False,estate_ideas
+street cleaning nyc today,2400,0.0,LOW,0.0,navigational,2400.0,False,estate_ideas
+trash bin cleaning equipment,2400,0.28,LOW,1.57,transactional,1728.0,False,estate_ideas
+junk removal and hauling services,2400,0.08,LOW,12.76,navigational,2208.0,False,estate_ideas
+green's commercial cleaning,2400,0.17,LOW,4.99,navigational,1992.0,False,estate_ideas
+junk removal cheapest,2400,0.65,MEDIUM,10.77,commercial,840.0,False,junk_suggestions
+king junk removal,2400,0.31,LOW,10.79,navigational,1656.0,False,junk_suggestions
+dallas tx junk removal,2400,0.35,MEDIUM,13.52,navigational,1560.0,False,junk_suggestions
+metal junk removal,2400,0.23,LOW,6.04,navigational,1848.0,False,junk_suggestions
+houston tx junk removal,2400,0.77,HIGH,15.06,navigational,552.0,False,junk_suggestions
+junk removal yelp,2400,0.56,MEDIUM,8.04,navigational,1056.0,False,junk_suggestions
+yelp junk removal,2400,0.01,LOW,5.5,navigational,2376.0,False,junk_suggestions
+junk truck removal,2400,0.93,HIGH,7.76,navigational,168.0,False,junk_suggestions
+portland oregon junk removal,2400,0.5,MEDIUM,9.76,commercial,1200.0,False,junk_suggestions
+junk removal atlanta ga,2400,0.79,HIGH,16.13,navigational,504.0,False,junk_suggestions
+junk removal las vegas nevada,2400,0.6,MEDIUM,14.84,navigational,960.0,False,junk_suggestions
+inexpensive junk removal,2400,0.65,MEDIUM,10.77,transactional,840.0,False,junk_suggestions
+junk removal portland oregon,2400,0.5,MEDIUM,9.76,navigational,1200.0,False,junk_suggestions
+hauling junk removal services,2400,0.08,LOW,12.76,navigational,2208.0,False,junk_suggestions
+junk removal houston texas,2400,0.79,HIGH,16.24,commercial,504.0,False,junk_suggestions
+junk removal and hauling service,2400,0.08,LOW,12.76,navigational,2208.0,False,junk_suggestions
+sac junk removal,2400,0.38,MEDIUM,17.69,navigational,1488.0,False,junk_suggestions
+junk king removal,2400,0.29,LOW,13.01,navigational,1704.0,False,junk_suggestions
+hunks junk removal,2400,0.68,HIGH,11.02,navigational,768.0,False,junk_suggestions
+junk removal business plan,2400,0.03,LOW,2.44,commercial,2328.0,False,junk_suggestions
+junk removal businesses,2400,0.33,LOW,4.74,navigational,1608.0,False,junk_suggestions
+junk removal in portland or,2400,0.5,MEDIUM,9.76,navigational,1200.0,False,junk_suggestions
+houston junk removal,2400,0.79,HIGH,16.24,navigational,504.0,False,junk_suggestions
+junk removal in houston texas,2400,0.77,HIGH,15.06,navigational,552.0,False,junk_suggestions
+junk removal dallas texas,2400,0.35,MEDIUM,13.52,commercial,1560.0,False,junk_suggestions
+junk removal houston,2400,0.77,HIGH,15.06,navigational,552.0,False,junk_suggestions
+business junk removal,2400,0.33,LOW,4.74,navigational,1608.0,False,junk_suggestions
+stand up junk removal,2400,0.38,MEDIUM,14.68,navigational,1488.0,False,junk_suggestions
+junk removal sacramento,2400,0.38,MEDIUM,17.69,navigational,1488.0,False,junk_suggestions
+junk hauling removal services,2400,0.08,LOW,12.76,navigational,2208.0,False,junk_suggestions
+junk removal atlanta georgia,2400,0.8,HIGH,15.12,navigational,480.0,False,junk_suggestions
+dallas junk removal,2400,0.35,MEDIUM,13.52,navigational,1560.0,False,junk_suggestions
+stand up guys junk removal,2400,0.38,MEDIUM,14.68,commercial,1488.0,False,junk_suggestions
+junk removal houston tx,2400,0.77,HIGH,15.06,navigational,552.0,False,junk_suggestions
+portland or junk removal,2400,0.52,MEDIUM,10.22,navigational,1152.0,False,junk_suggestions
+cheap junk removal,2400,0.65,MEDIUM,10.77,navigational,840.0,False,junk_suggestions
+junk removal in atlanta,2400,0.79,HIGH,16.13,navigational,504.0,False,junk_suggestions
+haul junk removal service,2400,0.08,LOW,12.76,navigational,2208.0,False,junk_suggestions
+junk removal in dallas tx,2400,0.24,LOW,13.57,navigational,1824.0,False,junk_suggestions
+junk removal portland or,2400,0.5,MEDIUM,9.76,navigational,1200.0,False,junk_suggestions
+cheapest junk removal,2400,0.77,HIGH,12.13,commercial,552.0,False,junk_suggestions
+junk removal cheap,2400,0.77,HIGH,12.13,navigational,552.0,False,junk_suggestions
+junk removal business,2400,0.33,LOW,4.74,navigational,1608.0,False,junk_suggestions
+junk removal las vegas nv,2400,0.56,MEDIUM,21.63,navigational,1056.0,False,junk_suggestions
+junk removal & hauling services,2400,0.05,LOW,19.73,navigational,2280.0,False,junk_suggestions
+hunk junk removal,2400,0.72,HIGH,12.17,navigational,672.0,False,junk_suggestions
+junk removal dallas tx,2400,0.24,LOW,13.57,commercial,1824.0,False,junk_suggestions
+junk removal denver,2400,0.66,MEDIUM,23.48,navigational,816.0,False,junk_suggestions
+junk removal portland,2400,0.5,MEDIUM,9.76,navigational,1200.0,False,junk_suggestions
+portland junk removal,2400,0.52,MEDIUM,10.22,navigational,1152.0,False,junk_suggestions
+junk metal removal,2400,0.23,LOW,6.04,commercial,1848.0,False,junk_suggestions
+junk removal in atlanta ga,2400,0.79,HIGH,16.13,navigational,504.0,False,junk_suggestions
+atlanta junk removal,2400,0.79,HIGH,16.13,navigational,504.0,False,junk_suggestions
+scrap metal junk removal,2400,0.3,LOW,7.7,navigational,1680.0,False,junk_suggestions
+junk removal in houston tx,2400,0.77,HIGH,15.06,navigational,552.0,False,junk_suggestions
+junk removal atlanta,2400,0.8,HIGH,15.12,navigational,480.0,False,junk_suggestions
+junk removal las vegas,2400,0.6,MEDIUM,14.84,navigational,960.0,False,junk_suggestions
+city of atlanta junk removal,2400,0.8,HIGH,15.12,navigational,480.0,False,junk_suggestions
+junk removal dallas,2400,0.24,LOW,13.57,navigational,1824.0,False,junk_suggestions
+junk removal in portland,2400,0.5,MEDIUM,9.76,navigational,1200.0,False,junk_suggestions
+junk removal in houston,2400,0.79,HIGH,16.24,navigational,504.0,False,junk_suggestions
+junk king junk removal,2400,0.31,LOW,10.79,navigational,1656.0,False,junk_suggestions
+low cost junk removal,2400,0.65,MEDIUM,10.77,navigational,840.0,False,junk_suggestions
+junk removal denver co,2400,0.66,MEDIUM,23.48,navigational,816.0,False,junk_suggestions
+junk removal for cheap,2400,0.77,HIGH,12.13,navigational,552.0,False,junk_suggestions
+junk removal sacramento ca,2400,0.38,MEDIUM,17.69,navigational,1488.0,False,junk_suggestions
+junk removal & hauling service,2400,0.08,LOW,12.76,navigational,2208.0,False,junk_suggestions
+sacramento junk removal,2400,0.38,MEDIUM,17.69,navigational,1488.0,False,junk_suggestions
+junk removal trucks,2400,0.93,HIGH,7.76,navigational,168.0,False,junk_suggestions
+junk removal denver colorado,2400,0.66,MEDIUM,23.48,commercial,816.0,False,junk_suggestions
+junk removal in sacramento,2400,0.38,MEDIUM,17.69,navigational,1488.0,False,junk_suggestions
+junk removal hauling services,2400,0.05,LOW,19.73,navigational,2280.0,False,junk_suggestions
+yard cleaning services,1900,0.73,HIGH,7.28,navigational,513.0,False,estate_ideas
+valley cleaning,1900,0.04,LOW,11.24,navigational,1824.0,False,estate_ideas
+sewage disposal services,1900,0.15,LOW,12.79,navigational,1615.0,False,estate_ideas
+street cleaning san francisco,1900,0.1,LOW,1.57,commercial,1710.0,False,estate_ideas
+sewer cleaning company,1900,0.29,LOW,32.93,navigational,1349.0,False,estate_ideas
+recycle from home,1900,0.08,LOW,2.21,navigational,1748.0,False,estate_ideas
+republic services dumpster,1900,0.42,MEDIUM,4.5,commercial,1102.0,False,estate_ideas
+jersey city street cleaning,1900,0.08,LOW,0.06,commercial,1748.0,False,estate_ideas
+republic services recycling,1900,0.15,LOW,1.42,navigational,1615.0,False,estate_ideas
+dumpster cost,1900,0.47,MEDIUM,5.64,commercial,1007.0,False,estate_ideas
+waste management at home,1900,0.26,LOW,7.09,commercial,1406.0,False,estate_ideas
+cleaning company spokane,1900,0.72,HIGH,8.65,commercial,532.0,False,estate_ideas
+republic services southern nevada recycling center,1900,0.04,LOW,0.9,navigational,1824.0,False,estate_ideas
+napa recycling and waste services,1900,0.05,LOW,7.28,navigational,1805.0,False,estate_ideas
+milwaukee cleaning services,1900,0.57,MEDIUM,9.68,navigational,817.0,False,estate_ideas
+cleanout cap,1900,1.0,HIGH,0.63,transactional,0.0,False,estate_ideas
+grave cleaning services,1900,0.12,LOW,3.64,navigational,1672.0,False,estate_ideas
+cleaning services sacramento,1900,0.89,HIGH,10.02,commercial,209.0,False,estate_ideas
+junk removal jobs,1900,0.22,LOW,7.63,navigational,1482.0,False,estate_ideas
+suburban waste services,1900,0.01,LOW,3.06,navigational,1881.0,False,estate_ideas
+cleaning services pittsburgh,1900,0.88,HIGH,8.53,navigational,228.0,True,estate_ideas
+clean up crew,1900,0.28,LOW,1.3,commercial,1368.0,False,estate_ideas
+republic services otay landfill and compost facility,1900,0.04,LOW,1.92,navigational,1824.0,False,estate_ideas
+contra costa waste services,1900,0.06,LOW,3.57,navigational,1786.0,False,estate_ideas
+cleaning services columbus ohio,1900,0.67,HIGH,8.81,navigational,627.0,False,estate_ideas
+how much does it cost for junk removal,1900,0.62,MEDIUM,7.74,commercial,722.0,False,junk_suggestions
+haul away junk removal,1900,0.26,LOW,12.96,navigational,1406.0,False,junk_suggestions
+charlotte junk removal,1900,0.49,MEDIUM,17.87,navigational,969.0,False,junk_suggestions
+junk removal charlotte,1900,0.49,MEDIUM,17.87,navigational,969.0,False,junk_suggestions
+raleigh nc junk removal,1900,0.42,MEDIUM,20.26,navigational,1102.0,False,junk_suggestions
+junk removal seattle wa,1900,0.82,HIGH,16.18,navigational,342.0,False,junk_suggestions
+junk removal colorado springs,1900,0.64,MEDIUM,16.53,navigational,684.0,False,junk_suggestions
+junk removal colorado springs co,1900,0.64,MEDIUM,16.53,navigational,684.0,False,junk_suggestions
+junk removal in nyc,1900,0.74,HIGH,29.51,navigational,494.0,False,junk_suggestions
+home depot compost bin,1600,1.0,HIGH,0.15,transactional,0.0,False,estate_ideas
+compost bin home depot,1600,1.0,HIGH,0.15,transactional,0.0,False,estate_ideas
+cleaning services richmond va,1600,0.9,HIGH,11.23,commercial,160.0,False,estate_ideas
+move in/move out cleaning services,1600,0.32,LOW,9.55,navigational,1088.0,False,estate_ideas
+cleaning services albuquerque,1600,0.79,HIGH,12.43,navigational,336.0,False,estate_ideas
+home depot recycling bin,1600,1.0,HIGH,0.53,transactional,0.0,False,estate_ideas
+cleaning services louisville ky,1600,0.84,HIGH,5.52,navigational,256.0,False,estate_ideas
+storage unit cleanout services,1600,0.07,LOW,8.45,commercial,1488.0,False,estate_ideas
+louisville cleaning services,1600,0.67,HIGH,8.17,navigational,528.0,False,estate_ideas
+trash can cleaning trucks for sale,1600,0.36,MEDIUM,1.61,transactional,1024.0,False,estate_ideas
+terminal cleaning,1600,0.84,HIGH,1.31,navigational,256.0,False,estate_ideas
+driveway cleaning service,1600,0.38,MEDIUM,10.07,navigational,992.0,False,estate_ideas
+shredding services cost,1600,0.4,MEDIUM,5.59,commercial,960.0,False,estate_ideas
+republic services garbage strike,1600,0.0,LOW,0.0,commercial,1600.0,False,estate_ideas
+omaha cleaning company,1600,0.83,HIGH,8.11,navigational,272.0,False,estate_ideas
+sarasota cleaning services,1600,0.59,MEDIUM,10.33,navigational,656.0,False,estate_ideas
+spring clean up,1600,0.17,LOW,4.09,commercial,1328.0,False,estate_ideas
+omaha home cleaning,1600,0.83,HIGH,8.11,navigational,272.0,False,estate_ideas
+republic services recycling center,1600,0.06,LOW,1.31,navigational,1504.0,False,estate_ideas
+boise cleaning services,1600,0.73,HIGH,10.0,navigational,432.0,False,estate_ideas
+trash hauling services,1600,0.51,MEDIUM,10.12,navigational,784.0,False,estate_ideas
+cleaning services in omaha,1600,0.83,HIGH,8.11,navigational,272.0,False,estate_ideas
+cleaning services jersey city,1600,0.94,HIGH,12.7,commercial,96.0,False,estate_ideas
+square trash can,1600,1.0,HIGH,2.69,transactional,0.0,False,estate_ideas
+medical waste disposal services,1600,0.04,LOW,24.44,navigational,1536.0,False,estate_ideas
+trash cleaning services,1600,0.46,MEDIUM,4.17,navigational,864.0,False,estate_ideas
+republic services greenwood farms landfill,1600,0.06,LOW,1.39,navigational,1504.0,False,estate_ideas
+republic services recycling schedule,1600,0.0,LOW,0.0,navigational,1600.0,False,estate_ideas
+trash can cleaning trailer,1600,0.24,LOW,1.37,transactional,1216.0,False,estate_ideas
+cleaning services buffalo ny,1600,0.77,HIGH,5.99,navigational,368.0,False,estate_ideas
+biohazard waste disposal companies,1600,0.15,LOW,24.47,transactional,1360.0,False,estate_ideas
+squirrel removal services,1600,0.19,LOW,17.75,navigational,1296.0,False,estate_ideas
+carpet cleaning dallas,1600,0.78,HIGH,12.34,commercial,352.0,False,estate_ideas
+free compost,1600,0.04,LOW,5.52,commercial,1536.0,False,estate_ideas
+trash valet jobs,1600,0.09,LOW,0.78,navigational,1456.0,False,estate_ideas
+cleaning services madison wi,1600,0.66,MEDIUM,6.0,navigational,544.0,False,estate_ideas
+clean and green laundromat,1600,0.07,LOW,1.18,commercial,1488.0,False,estate_ideas
+estate cleanout services near me,1300,0.34,MEDIUM,10.54,navigational,858.0,False,estate_suggestions
+estate cleanout near me,1000,0.16,LOW,8.7,navigational,840.0,False,estate_suggestions
+estate cleanout service near me,1000,0.27,LOW,8.67,navigational,730.0,False,estate_suggestions
+estate cleanout companies,390,0.07,LOW,7.12,navigational,362.7,False,estate_suggestions
+estate cleanout company,390,0.07,LOW,7.12,navigational,362.7,False,estate_suggestions
+professional estate cleanout services,210,0.09,LOW,14.86,navigational,191.1,False,estate_suggestions
+estate cleanout services cost,170,0.35,MEDIUM,4.83,commercial,110.5,False,estate_suggestions
+estate sale cleanout,170,0.26,LOW,2.0,commercial,125.8,False,estate_suggestions
+estate cleanout cost,110,0.16,LOW,7.03,commercial,92.4,False,estate_suggestions
+real estate cleanout,110,0.22,LOW,5.21,commercial,85.8,False,estate_suggestions
+estate cleanout costs,110,0.16,LOW,7.03,commercial,92.4,False,estate_suggestions
+hourly rate for estate cleanout,70,0.06,LOW,0.0,informational,65.8,False,estate_suggestions
+estate cleanout cleveland,50,0.0,,0.0,commercial,50.0,False,estate_suggestions
+estate cleanout checklist,50,0.0,LOW,0.0,commercial,50.0,False,estate_suggestions
+how much does an estate cleanout cost,50,0.15,LOW,1.78,commercial,42.5,False,estate_suggestions
+hourly rate for estate cleanout near me,40,0.22,LOW,24.77,informational,31.2,False,estate_suggestions
+estate cleanout cost per square foot,40,0.14,LOW,0.0,commercial,34.4,False,estate_suggestions
+estate cleanout companies near me,40,0.24,LOW,37.04,navigational,30.4,False,estate_suggestions
+estate cleanout services nj,30,0.44,MEDIUM,4.57,navigational,16.8,False,estate_suggestions
+free estate cleanout services near me,30,0.3,LOW,8.03,navigational,21.0,False,estate_suggestions
+estate cleanout prices,20,0.19,LOW,28.36,commercial,16.2,False,estate_suggestions
+real estate cleanout services,20,0.27,LOW,0.0,navigational,14.6,False,estate_suggestions
+estate cleanout business,20,0.18,LOW,0.0,commercial,16.4,False,estate_suggestions
+estate cleanout jobs,20,0.03,LOW,0.0,navigational,19.4,False,estate_suggestions
+estate cleanout services richmond va,10,0.0,,0.0,commercial,10.0,False,estate_suggestions
+estate cleanout ct,10,0.34,MEDIUM,0.0,commercial,6.6,False,estate_suggestions
+estate cleanout vancouver,10,0.0,,0.0,commercial,10.0,False,estate_suggestions
+goodwill estate cleanout,10,0.43,MEDIUM,4.0,navigational,5.7,False,estate_suggestions
+handling an estate cleanout,10,0.0,,0.0,commercial,10.0,False,estate_suggestions
+estate cleanout services philadelphia,10,0.71,HIGH,0.0,commercial,2.9,False,estate_suggestions
+estate cleanout nyc,10,0.1,LOW,0.0,navigational,9.0,False,estate_suggestions
+free estate cleanout,10,0.14,LOW,0.0,navigational,8.6,False,estate_suggestions
+estate cleanout long island,10,0.0,LOW,0.0,navigational,10.0,False,estate_suggestions
+estate cleanout houston tx,10,0.0,LOW,0.0,commercial,10.0,False,estate_suggestions
+what is an estate cleanout,10,0.14,LOW,1.88,informational,8.6,False,estate_suggestions
+estate cleanout services nh,10,0.0,,0.0,navigational,10.0,False,estate_suggestions
+estate cleanout services ct,10,0.86,HIGH,0.0,navigational,1.4,False,estate_suggestions
+estate cleanout fairfax va,10,0.0,LOW,0.0,commercial,10.0,False,estate_suggestions
+estate cleanout richmond va,10,0.11,LOW,0.0,commercial,8.9,False,estate_suggestions
+estate cleanout nj,10,0.61,MEDIUM,2.78,commercial,3.9,False,estate_suggestions
+how to start an estate cleanout business,10,0.0,LOW,0.0,commercial,10.0,False,estate_suggestions
+average cost of estate cleanout,10,0.0,LOW,0.0,commercial,10.0,False,estate_suggestions
+s&s estate cleanout service sales,10,0.0,LOW,0.0,commercial,10.0,False,estate_suggestions
+estate cleanout services pa,10,0.0,,0.0,navigational,10.0,False,estate_suggestions
+estate cleanout los angeles,10,0.0,LOW,0.0,commercial,10.0,False,estate_suggestions
+estate cleanout specialists,10,0.08,LOW,0.0,navigational,9.2,False,estate_suggestions
+estate cleanout queens,10,0.0,,0.0,commercial,10.0,False,estate_suggestions
+free estate cleanout services,10,0.52,MEDIUM,9.08,navigational,4.8,False,estate_suggestions
+how much does estate cleanout cost,10,0.13,LOW,0.0,commercial,8.7,False,estate_suggestions
+remarkable estate cleanout,10,0.06,LOW,0.0,commercial,9.4,False,estate_suggestions

@@ -29,6 +29,7 @@ export const siteConfig = {
   sameAs: [] as string[],
   nav: [
     { label: "SERVICES", href: "/services" },
+    { label: "PRICING", href: "/pricing" },
     { label: "SERVICE AREA", href: "/service-areas" },
     { label: "ABOUT", href: "/about" },
     { label: "REVIEWS", href: "/reviews" },
