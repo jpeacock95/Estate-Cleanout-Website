@@ -105,7 +105,7 @@ export function WhyChooseSection() {
               </h3>
               <p
                 className="mx-auto max-w-[260px] text-[#1d1d1d] font-[family-name:var(--font-body)]"
-                style={{ fontSize: 16, lineHeight: "22px", fontWeight: 500, margin: 0 }}
+                style={{ fontSize: 16, lineHeight: "22px", fontWeight: 500, marginTop: 0, marginBottom: 0 }}
               >
                 {description}
               </p>
