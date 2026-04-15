@@ -4,21 +4,21 @@ import { MapPin } from "lucide-react";
 export function LocalStripSection() {
   return (
     <section className="relative w-full overflow-hidden">
-      {/* Full-width Pittsburgh night photo */}
+      {/* Full-width Pittsburgh daytime photo */}
       <div className="relative min-h-[500px] w-full max-md:min-h-0">
         <Image
-          src="/images/pittsburgh/pittsburgh-downtown-drone.jpg"
-          alt="Pittsburgh downtown skyline at night with the Roberto Clemente Bridge reflected in the Allegheny River"
+          src="/images/pittsburgh/pittsburgh-bridge-daytime.jpg"
+          alt="Pittsburgh cityscape with a vibrant yellow suspension bridge and downtown skyline on a bright sunny day"
           fill
           sizes="100vw"
           className="object-cover object-center"
         />
-        {/* Dark overlay */}
+        {/* Softer overlay so the daytime photo reads through */}
         <div
           className="absolute inset-0"
           style={{
             background:
-              "linear-gradient(90deg, rgba(29,29,29,0.92) 0%, rgba(29,29,29,0.6) 50%, rgba(29,29,29,0.92) 100%)",
+              "linear-gradient(90deg, rgba(29,29,29,0.75) 0%, rgba(29,29,29,0.35) 50%, rgba(29,29,29,0.75) 100%)",
           }}
         />
 

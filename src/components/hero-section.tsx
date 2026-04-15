@@ -4,16 +4,16 @@ import { siteConfig } from "@/lib/site-config";
 
 const slides = [
   {
-    src: "/images/hero/hero-1.jpg",
-    alt: "Two movers loading a couch into a truck on a residential Pittsburgh street",
+    src: "/images/work/crew-armchair-steps.jpg",
+    alt: "Two Steel City Cleanouts crew members in orange safety vests carrying a leather armchair down the front steps of a Pittsburgh red-brick row house",
   },
   {
-    src: "/images/hero/hero-2.jpg",
-    alt: "Junk removal crew carrying furniture out of a suburban Pittsburgh home",
+    src: "/images/work/crew-loading-truck.jpg",
+    alt: "Two Steel City Cleanouts crew members in orange safety vests loading an old sofa into the bed of their black pickup truck on a Pittsburgh residential street",
   },
   {
-    src: "/images/hero/hero-3.jpg",
-    alt: "Pickup truck loaded with furniture parked curbside in front of a Pittsburgh house",
+    src: "/images/work/crew-loaded-truck-curbside.jpg",
+    alt: "Steel City Cleanouts crew member in orange safety vest securing a fully loaded junk removal truck at the curb in front of a Pittsburgh row house",
   },
 ];
 

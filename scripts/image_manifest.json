@@ -719,6 +719,16 @@
       "page_url": "https://www.pexels.com/photo/box-with-clothes-for-donation-11200117/",
       "width": 4592,
       "height": 3064
+    },
+    "homepage/local-strip": {
+      "slug": "local-strip",
+      "path": "public/images/pittsburgh/pittsburgh-bridge-daytime.jpg",
+      "id": "pexels-31620243",
+      "source": "pexels",
+      "photographer": "Jay Brand",
+      "page_url": "https://www.pexels.com/photo/vibrant-yellow-bridge-in-pittsburgh-cityscape-31620243/",
+      "width": 7360,
+      "height": 4912
     }
   },
   "used_ids": [
@@ -752,6 +762,7 @@
     "pexels-31020643",
     "pexels-31057561",
     "pexels-31561085",
+    "pexels-31620243",
     "pexels-32066407",
     "pexels-327712",
     "pexels-3381727",
