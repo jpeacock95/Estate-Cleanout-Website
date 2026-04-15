@@ -36,9 +36,29 @@ export function ServicePageTemplate({ service }: { service: Service }) {
 
         <section className="bg-white py-16 lg:py-24">
           <div className="mx-auto max-w-[820px] px-5">
+            <div
+              className="mb-8 rounded-xl border-2 border-[#ed6623] bg-[#fff7f2] p-5"
+              data-speakable="true"
+            >
+              <p className="m-0 text-[16px] font-semibold leading-[1.55] text-[#1d1d1d] font-[family-name:var(--font-body)]">
+                {service.citableSnippet}
+              </p>
+            </div>
+
             <p className="text-[17px] leading-[1.75] text-[#1d1d1d] font-[family-name:var(--font-body)] lg:text-[18px]">
               {service.intro}
             </p>
+
+            {service.typicalJob ? (
+              <div className="mt-8">
+                <h2 className="mb-3 uppercase text-[#1d1d1d] font-[family-name:var(--font-heading)] text-[24px] lg:text-[30px]">
+                  What a Typical Job Looks Like
+                </h2>
+                <p className="text-[16px] leading-[1.75] text-[#1d1d1d]/85 font-[family-name:var(--font-body)] lg:text-[17px]">
+                  {service.typicalJob}
+                </p>
+              </div>
+            ) : null}
 
             <div className="mt-12 grid grid-cols-2 gap-5 max-md:grid-cols-1">
               {service.keyPoints.map((p) => (
@@ -48,6 +68,33 @@ export function ServicePageTemplate({ service }: { service: Service }) {
                 </div>
               ))}
             </div>
+
+            {service.quickFacts && service.quickFacts.length ? (
+              <div className="mt-12">
+                <h2 className="mb-6 uppercase text-[#1d1d1d] font-[family-name:var(--font-heading)] text-[24px] lg:text-[30px]">
+                  Quick Facts
+                </h2>
+                <dl className="grid grid-cols-1 gap-3 md:grid-cols-2">
+                  {service.quickFacts.map((f) => (
+                    <div key={f.label} className="flex justify-between gap-4 rounded-lg border border-[#1d1d1d]/10 bg-[#fafafa] px-5 py-4">
+                      <dt className="text-[14px] text-[#1d1d1d]/65 font-[family-name:var(--font-body)]">{f.label}</dt>
+                      <dd className="m-0 text-right text-[14px] font-semibold text-[#1d1d1d] font-[family-name:var(--font-body)]">{f.value}</dd>
+                    </div>
+                  ))}
+                </dl>
+              </div>
+            ) : null}
+
+            {service.whyUs ? (
+              <div className="mt-12 rounded-xl border-2 border-[#1d1d1d]/10 bg-[#fafafa] p-6 lg:p-8">
+                <h2 className="mb-3 uppercase text-[#1d1d1d] font-[family-name:var(--font-heading)] text-[22px] lg:text-[26px]">
+                  Why Families Choose Us
+                </h2>
+                <p className="m-0 text-[16px] leading-[1.75] text-[#1d1d1d]/85 font-[family-name:var(--font-body)]">
+                  {service.whyUs}
+                </p>
+              </div>
+            ) : null}
           </div>
         </section>
 
@@ -114,30 +161,35 @@ export function ServicePageTemplate({ service }: { service: Service }) {
           __html: JSON.stringify({
             "@context": "https://schema.org",
             "@type": "Service",
+            "@id": `${pageUrl}#service`,
             name: service.name,
             serviceType: service.name,
             provider: {
               "@type": "LocalBusiness",
+              "@id": `${siteConfig.url}#business`,
               name: siteConfig.brand,
               telephone: `+1${siteConfig.phone.tel}`,
               email: siteConfig.email,
+              url: siteConfig.url,
+              priceRange: siteConfig.priceRange,
               address: {
                 "@type": "PostalAddress",
-                addressLocality: "Pittsburgh",
-                addressRegion: "PA",
-                addressCountry: "US",
+                streetAddress: `${siteConfig.address.locality}, ${siteConfig.address.region}`,
+                addressLocality: siteConfig.address.locality,
+                addressRegion: siteConfig.address.region,
+                postalCode: siteConfig.address.postalCode,
+                addressCountry: siteConfig.address.country,
               },
             },
             areaServed: serviceAreas.map((a) => ({ "@type": "City", name: a.fullName })),
             description: service.seoDescription,
             url: pageUrl,
             offers: {
-              "@type": "Offer",
-              priceSpecification: {
-                "@type": "PriceSpecification",
-                priceCurrency: "USD",
-                description: service.pricingAnchor,
-              },
+              "@type": "AggregateOffer",
+              priceCurrency: "USD",
+              ...(service.priceLow ? { lowPrice: service.priceLow } : {}),
+              ...(service.priceHigh ? { highPrice: service.priceHigh } : {}),
+              description: service.pricingAnchor,
             },
           }),
         }}

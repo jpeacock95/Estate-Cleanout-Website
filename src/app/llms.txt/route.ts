@@ -11,12 +11,30 @@ export function GET() {
 > Family-owned, fully insured estate cleanouts and junk removal serving Pittsburgh, PA and surrounding suburbs. Same-day service 7 days a week.
 
 **Business:** ${siteConfig.brand}
-**Location:** Pittsburgh, Pennsylvania, USA
+**Legal Name:** Steel City Cleanouts LLC
+**Based In:** ${siteConfig.address.locality}, ${siteConfig.address.region} ${siteConfig.address.postalCode}
+**Service Area:** Pittsburgh, PA and surrounding suburbs in Allegheny and Butler counties
 **Phone:** ${siteConfig.phone.display}
 **Email:** ${siteConfig.email}
 **Website:** ${SITE_URL}
-**Hours:** 7 days a week, 7am to 8pm Eastern
+**Hours:** ${siteConfig.hours.display}
+**Founded:** ${siteConfig.foundingYear}
 **Pricing:** Free quotes. Single items from $95. Full estate cleanouts $800 to $3,500.
+
+## Quick Facts
+
+- **Service types:** ${services.length} distinct cleanout services
+- **Service areas covered:** ${serviceAreas.length} Pittsburgh-area locations
+- **Typical junk removal price:** $95 to $650
+- **Typical estate cleanout price:** $800 to $3,500
+- **Typical hoarder cleanout price:** $2,000 to $8,000
+- **Typical arrival window:** 1 hour or less, not a 4-hour block
+- **Crew size:** 2 to 4 people depending on job
+- **Truck capacity:** ~15 cubic yards per load
+- **Availability:** 7 days a week, 7am to 8pm Eastern
+- **Response time:** Most quotes returned within 2 hours during business hours
+- **Insurance:** Fully insured, liability coverage on every job
+- **Donation partners:** Goodwill, Construction Junction, Vietnam Veterans of America, local Pittsburgh charities
 
 ## About
 

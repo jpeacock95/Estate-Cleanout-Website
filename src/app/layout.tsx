@@ -2,9 +2,43 @@ import type { Metadata } from "next";
 import { Bebas_Neue, Poppins } from "next/font/google";
 import Script from "next/script";
 import "./globals.css";
+import { siteConfig } from "@/lib/site-config";
 
 const GA_ID = "G-VYQMQB4QM7";
 const CLARITY_ID = "wbdxvnhepc";
+
+const organizationSchema = {
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "@id": `${siteConfig.url}#organization`,
+  name: siteConfig.brand,
+  legalName: "Steel City Cleanouts LLC",
+  url: siteConfig.url,
+  logo: `${siteConfig.url}/images/logo.png`,
+  email: siteConfig.email,
+  telephone: `+1${siteConfig.phone.tel}`,
+  foundingDate: `${siteConfig.foundingYear}-01-01`,
+  description:
+    "Family-owned, fully insured estate cleanouts and junk removal serving Pittsburgh, PA and surrounding suburbs. Same-day service 7 days a week.",
+  address: {
+    "@type": "PostalAddress",
+    addressLocality: siteConfig.address.locality,
+    addressRegion: siteConfig.address.region,
+    postalCode: siteConfig.address.postalCode,
+    addressCountry: siteConfig.address.country,
+  },
+  contactPoint: [
+    {
+      "@type": "ContactPoint",
+      telephone: `+1${siteConfig.phone.tel}`,
+      email: siteConfig.email,
+      contactType: "customer service",
+      areaServed: "US",
+      availableLanguage: "English",
+    },
+  ],
+  ...(siteConfig.sameAs.length ? { sameAs: siteConfig.sameAs } : {}),
+};
 
 const bebas = Bebas_Neue({
   variable: "--font-heading",
@@ -46,6 +80,10 @@ export default function RootLayout({
       className={`${bebas.variable} ${poppins.variable} h-full antialiased`}
     >
       <body className="min-h-full flex flex-col">
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationSchema) }}
+        />
         {children}
         <Script
           src={`https://www.googletagmanager.com/gtag/js?id=${GA_ID}`}

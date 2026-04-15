@@ -36,7 +36,10 @@ export function AreaPageTemplate({ area }: { area: ServiceArea }) {
 
         <section className="bg-white py-16 lg:py-24">
           <div className="mx-auto max-w-[820px] px-5">
-            <div className="mb-6 rounded-xl border-2 border-[#ed6623] bg-[#fff7f2] p-5">
+            <div
+              className="mb-6 rounded-xl border-2 border-[#ed6623] bg-[#fff7f2] p-5"
+              data-speakable="true"
+            >
               <p className="m-0 text-[16px] font-semibold leading-[1.55] text-[#1d1d1d] font-[family-name:var(--font-body)]">
                 {area.citableSnippet}
               </p>
@@ -47,6 +50,33 @@ export function AreaPageTemplate({ area }: { area: ServiceArea }) {
             <p className="mt-6 text-[17px] leading-[1.75] text-[#1d1d1d]/85 font-[family-name:var(--font-body)] lg:text-[18px]">
               {area.localDetails}
             </p>
+
+            {area.whyHere ? (
+              <div className="mt-10 rounded-xl border-2 border-[#1d1d1d]/10 bg-[#fafafa] p-6 lg:p-8">
+                <h2 className="mb-3 uppercase text-[#1d1d1d] font-[family-name:var(--font-heading)] text-[22px] lg:text-[26px]">
+                  Why {area.name} Cleanouts Are Different
+                </h2>
+                <p className="m-0 text-[16px] leading-[1.75] text-[#1d1d1d]/85 font-[family-name:var(--font-body)]">
+                  {area.whyHere}
+                </p>
+              </div>
+            ) : null}
+
+            {area.quickFacts && area.quickFacts.length ? (
+              <div className="mt-10">
+                <h2 className="mb-5 uppercase text-[#1d1d1d] font-[family-name:var(--font-heading)] text-[22px] lg:text-[26px]">
+                  {area.name} Quick Facts
+                </h2>
+                <dl className="grid grid-cols-1 gap-3 md:grid-cols-2">
+                  {area.quickFacts.map((f) => (
+                    <div key={f.label} className="flex justify-between gap-4 rounded-lg border border-[#1d1d1d]/10 bg-[#fafafa] px-5 py-4">
+                      <dt className="text-[14px] text-[#1d1d1d]/65 font-[family-name:var(--font-body)]">{f.label}</dt>
+                      <dd className="m-0 text-right text-[14px] font-semibold text-[#1d1d1d] font-[family-name:var(--font-body)]">{f.value}</dd>
+                    </div>
+                  ))}
+                </dl>
+              </div>
+            ) : null}
           </div>
         </section>
 
@@ -116,11 +146,14 @@ export function AreaPageTemplate({ area }: { area: ServiceArea }) {
           __html: JSON.stringify({
             "@context": "https://schema.org",
             "@type": "LocalBusiness",
+            "@id": `${pageUrl}#business`,
             name: `${siteConfig.brand}, ${area.name}`,
-            image: "https://www.steelcitycleanouts.com/images/og.jpg",
+            image: `${siteConfig.url}/images/og.jpg`,
+            logo: `${siteConfig.url}/images/logo.png`,
             telephone: `+1${siteConfig.phone.tel}`,
             email: siteConfig.email,
             url: pageUrl,
+            priceRange: siteConfig.priceRange,
             address: {
               "@type": "PostalAddress",
               addressLocality: area.name,
@@ -130,7 +163,22 @@ export function AreaPageTemplate({ area }: { area: ServiceArea }) {
             },
             areaServed: { "@type": "City", name: area.fullName },
             description: area.seoDescription,
-            priceRange: "$$",
+            openingHoursSpecification: [
+              {
+                "@type": "OpeningHoursSpecification",
+                dayOfWeek: [
+                  "Monday",
+                  "Tuesday",
+                  "Wednesday",
+                  "Thursday",
+                  "Friday",
+                  "Saturday",
+                  "Sunday",
+                ],
+                opens: siteConfig.hours.opens,
+                closes: siteConfig.hours.closes,
+              },
+            ],
           }),
         }}
       />

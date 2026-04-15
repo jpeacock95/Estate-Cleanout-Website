@@ -155,17 +155,51 @@ export function ComboPageTemplate({ data }: { data: ComboPage }) {
           __html: JSON.stringify({
             "@context": "https://schema.org",
             "@type": "Service",
+            "@id": `${pageUrl}#service`,
             name: `${service.name} in ${area.fullName}`,
             serviceType: service.name,
             provider: {
               "@type": "LocalBusiness",
+              "@id": `${siteConfig.url}#business`,
               name: siteConfig.brand,
               telephone: `+1${siteConfig.phone.tel}`,
               email: siteConfig.email,
+              url: siteConfig.url,
+              priceRange: siteConfig.priceRange,
+              address: {
+                "@type": "PostalAddress",
+                addressLocality: siteConfig.address.locality,
+                addressRegion: siteConfig.address.region,
+                postalCode: siteConfig.address.postalCode,
+                addressCountry: siteConfig.address.country,
+              },
+              openingHoursSpecification: [
+                {
+                  "@type": "OpeningHoursSpecification",
+                  dayOfWeek: [
+                    "Monday",
+                    "Tuesday",
+                    "Wednesday",
+                    "Thursday",
+                    "Friday",
+                    "Saturday",
+                    "Sunday",
+                  ],
+                  opens: siteConfig.hours.opens,
+                  closes: siteConfig.hours.closes,
+                },
+              ],
             },
             areaServed: { "@type": "City", name: area.fullName },
             description: combo.seoDescription,
             url: pageUrl,
+            offers: {
+              "@type": "AggregateOffer",
+              priceCurrency: "USD",
+              ...(service.priceLow ? { lowPrice: service.priceLow } : {}),
+              ...(service.priceHigh ? { highPrice: service.priceHigh } : {}),
+              description: service.pricingAnchor,
+            },
           }),
         }}
       />
