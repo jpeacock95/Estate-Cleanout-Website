@@ -30,6 +30,7 @@ export type EventName =
   | "footer_link_click"
   | "service_card_click"
   | "area_card_click"
+  | "pricing_card_click"
   | "email_click"
   | "social_click"
   | "cta_click";

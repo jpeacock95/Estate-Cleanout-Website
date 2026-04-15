@@ -1,11 +1,11 @@
 import type { Metadata } from "next";
-import Link from "next/link";
 import { ArrowRight } from "lucide-react";
 import { SiteHeader } from "@/components/site-header";
 import { SiteFooter } from "@/components/site-footer";
 import { PageHero } from "@/components/page-hero";
 import { PageCta } from "@/components/page-cta";
 import { Breadcrumbs } from "@/components/breadcrumbs";
+import { TrackedLink } from "@/components/tracked-link";
 import { pricingCategories } from "@/lib/pricing-data";
 import { siteConfig } from "@/lib/site-config";
 
@@ -20,7 +20,7 @@ export const metadata: Metadata = {
       "Transparent pricing for junk removal, estate cleanouts, and every service. Real Pittsburgh dollar figures, no quote-form gatekeeping.",
     url: `${siteConfig.url}/pricing`,
     type: "website",
-    images: [{ url: `${siteConfig.url}/images/work/crew-loading-truck.jpg` }],
+    images: [{ url: `${siteConfig.url}/images/hubs/pricing.jpg` }],
   },
 };
 
@@ -35,7 +35,7 @@ export default function PricingIndex() {
         <PageHero
           headline="Pittsburgh Junk Removal Pricing"
           sub="Every price we charge, published up front. No quote form required."
-          image="/images/work/crew-loading-truck.jpg"
+          image="/images/hubs/pricing.jpg"
           imageAlt="Steel City Cleanouts pricing in Pittsburgh"
           eyebrow="Pricing"
           trackingLocation="pricing-index"
@@ -82,9 +82,11 @@ export default function PricingIndex() {
               </h2>
               <div className="grid grid-cols-2 gap-5 max-md:grid-cols-1 lg:grid-cols-3">
                 {cat.pages.map((p) => (
-                  <Link
+                  <TrackedLink
                     key={p.slug}
                     href={`/pricing/${p.slug}`}
+                    event="pricing_card_click"
+                    eventParams={{ pricing_slug: p.slug, category: cat.key, location: "pricing-index" }}
                     className="group flex flex-col justify-between gap-3 rounded-xl border-2 border-[#1d1d1d]/10 bg-white p-6 transition-all hover:-translate-y-[2px] hover:border-[#ed6623] hover:shadow-[6px_6px_0_rgba(237,102,35,0.2)]"
                   >
                     <div>
@@ -101,7 +103,7 @@ export default function PricingIndex() {
                     <p className="mt-4 inline-flex items-center gap-1 text-[13px] font-semibold uppercase text-[#ed6623] font-[family-name:var(--font-heading)]">
                       See Pricing <ArrowRight className="h-3 w-3" />
                     </p>
-                  </Link>
+                  </TrackedLink>
                 ))}
               </div>
             </div>

@@ -63,7 +63,7 @@ export const serviceAreas: ServiceArea[] = [
       { label: "Parking permit coordination", value: "Available via Pittsburgh Parking Authority" },
       { label: "Freight elevator jobs", value: "Booked in advance" },
     ],
-    heroImage: "/images/pittsburgh/pittsburgh-street-hillside.jpg",
+    heroImage: "/images/areas/pittsburgh.jpg",
     faqs: [
       {
         q: "Do you serve all Pittsburgh neighborhoods?",
@@ -122,7 +122,7 @@ export const serviceAreas: ServiceArea[] = [
       { label: "Largest home cleared", value: "5,400 sq ft with 3-car garage" },
       { label: "County", value: "Butler County" },
     ],
-    heroImage: "/images/areas/cranberry-suburban.jpg",
+    heroImage: "/images/areas/cranberry-township.jpg",
     faqs: [
       {
         q: "How fast can you get to Cranberry Township?",
@@ -181,7 +181,7 @@ export const serviceAreas: ServiceArea[] = [
       { label: "Typical truck count", value: "3 to 5 loads" },
       { label: "School district", value: "Pine-Richland" },
     ],
-    heroImage: "/images/areas/wexford-large-home.jpg",
+    heroImage: "/images/areas/wexford.jpg",
     faqs: [
       {
         q: "Do you handle larger Wexford homes?",
@@ -240,7 +240,7 @@ export const serviceAreas: ServiceArea[] = [
       { label: "Common challenge", value: "Narrow back staircases (we disassemble)" },
       { label: "School district", value: "Mt. Lebanon SD" },
     ],
-    heroImage: "/images/areas/mtlebanon-brick.jpg",
+    heroImage: "/images/areas/mt-lebanon.jpg",
     faqs: [
       {
         q: "Can you handle Mt. Lebanon's narrow side streets?",
@@ -299,7 +299,7 @@ export const serviceAreas: ServiceArea[] = [
       { label: "Housing mix", value: "Single-family, townhouse, apartment" },
       { label: "Availability", value: "Same day most weekdays" },
     ],
-    heroImage: "/images/work/crew-loading-truck.jpg",
+    heroImage: "/images/areas/monroeville.jpg",
     faqs: [
       {
         q: "Do you handle apartment and townhouse move-outs?",
@@ -476,7 +476,7 @@ serviceAreas.push(
       { label: "Typical truck count", value: "4 to 6 loads" },
       { label: "Yard debris", value: "Quoted together with interior work" },
     ],
-    heroImage: "/images/areas/wexford-large-home.jpg",
+    heroImage: "/images/areas/upper-st-clair.jpg",
     faqs: [
       {
         q: "How long does an Upper St. Clair estate cleanout take?",
@@ -594,7 +594,7 @@ serviceAreas.push(
       { label: "Typical cleanout length", value: "1 to 2 days" },
       { label: "Common challenge", value: "40+ years of attic storage" },
     ],
-    heroImage: "/images/areas/mtlebanon-brick.jpg",
+    heroImage: "/images/areas/bethel-park.jpg",
     faqs: [
       {
         q: "How long does a Bethel Park estate cleanout take?",
@@ -653,7 +653,7 @@ serviceAreas.push(
       { label: "Residential range", value: "1,200 to 3,500 sq ft typical" },
       { label: "After-hours jobs", value: "Available for commercial clients" },
     ],
-    heroImage: "/images/areas/cranberry-suburban.jpg",
+    heroImage: "/images/areas/ross-township.jpg",
     faqs: [
       {
         q: "Do you serve all of Ross Township?",
@@ -714,7 +714,7 @@ serviceAreas.push(
       { label: "Typical truck count", value: "4 to 8 loads" },
       { label: "Common features", value: "Guest houses, outbuildings, gated drives" },
     ],
-    heroImage: "/images/areas/wexford-large-home.jpg",
+    heroImage: "/images/areas/fox-chapel.jpg",
     faqs: [
       {
         q: "How long does a Fox Chapel estate cleanout take?",
@@ -772,7 +772,7 @@ serviceAreas.push(
       { label: "Same-day availability", value: "Most weekdays" },
       { label: "Main corridors", value: "Mount Royal Blvd, Butler Plank Road" },
     ],
-    heroImage: "/images/areas/cranberry-suburban.jpg",
+    heroImage: "/images/areas/shaler-township.jpg",
     faqs: [
       {
         q: "Do you serve all of Shaler Township?",
@@ -826,7 +826,7 @@ serviceAreas.push(
       { label: "Common jobs", value: "Estate, rental turnover, foreclosure" },
       { label: "Same-day availability", value: "Most weekdays" },
     ],
-    heroImage: "/images/work/crew-loading-truck.jpg",
+    heroImage: "/images/areas/penn-hills.jpg",
     faqs: [
       {
         q: "How fast can you get to Penn Hills?",
@@ -880,7 +880,7 @@ serviceAreas.push(
       { label: "Yard work", value: "Often bundled with interior jobs" },
       { label: "Same-day availability", value: "Most weekdays" },
     ],
-    heroImage: "/images/areas/cranberry-suburban.jpg",
+    heroImage: "/images/areas/plum-borough.jpg",
     faqs: [
       {
         q: "Do you bundle yard work with interior cleanouts?",
@@ -934,7 +934,7 @@ serviceAreas.push(
       { label: "Airport corridor", value: "Regular commercial jobs along University Blvd" },
       { label: "Same-day availability", value: "Most weekdays" },
     ],
-    heroImage: "/images/work/crew-loading-truck.jpg",
+    heroImage: "/images/areas/moon-township.jpg",
     faqs: [
       {
         q: "Do you handle the airport corridor commercial work?",
@@ -988,7 +988,7 @@ serviceAreas.push(
       { label: "Residential mix", value: "Single-family, townhouse" },
       { label: "Same-day availability", value: "Most weekdays" },
     ],
-    heroImage: "/images/work/crew-loaded-truck-curbside.jpg",
+    heroImage: "/images/areas/robinson-township.jpg",
     faqs: [
       {
         q: "Do you handle commercial work near The Mall at Robinson?",
@@ -1042,7 +1042,7 @@ serviceAreas.push(
       { label: "Housing era", value: "Mostly 1970-1990" },
       { label: "Typical cleanout length", value: "1 to 2 days" },
     ],
-    heroImage: "/images/areas/cranberry-suburban.jpg",
+    heroImage: "/images/areas/hampton-township.jpg",
     faqs: [
       {
         q: "Do you handle Hampton yard cleanups?",
@@ -1096,7 +1096,7 @@ serviceAreas.push(
       { label: "Same-day availability", value: "Most weekdays" },
       { label: "Close to base", value: "Fast response times" },
     ],
-    heroImage: "/images/areas/cranberry-suburban.jpg",
+    heroImage: "/images/areas/mccandless.jpg",
     faqs: [
       {
         q: "How fast can you get to McCandless?",

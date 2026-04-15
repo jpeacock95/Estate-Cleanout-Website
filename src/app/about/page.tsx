@@ -19,7 +19,7 @@ export default function AboutPage() {
         <PageHero
           headline="Family-Owned. Pittsburgh Born."
           sub="Steel City Cleanouts is a family-run junk removal and estate cleanout business serving Pittsburgh and every surrounding township."
-          image="/images/work/crew-armchair-steps.jpg"
+          image="/images/hubs/about.jpg"
           imageAlt="Steel City Cleanouts crew on the job in Pittsburgh"
           eyebrow="About Us"
           trackingLocation="about"

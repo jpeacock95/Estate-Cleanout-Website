@@ -20,7 +20,7 @@ export default function ContactPage() {
         <PageHero
           headline="Get a Free Quote"
           sub="Tell us what needs to be hauled. We'll call or email you back fast."
-          image="/images/work/crew-loaded-truck-curbside.jpg"
+          image="/images/hubs/contact.jpg"
           imageAlt="Steel City Cleanouts truck loaded and ready"
           eyebrow="Contact"
           trackingLocation="contact"
