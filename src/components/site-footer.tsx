@@ -103,27 +103,6 @@ export function SiteFooter() {
               <p className="m-0 text-[14px] opacity-70 font-[family-name:var(--font-body)]">
                 © {new Date().getFullYear()} Steel City Cleanouts. All rights reserved. Licensed & Insured.
               </p>
-              <p className="mt-1 text-[12px] opacity-50 font-[family-name:var(--font-body)]">
-                Photography via{" "}
-                <a
-                  href="https://unsplash.com"
-                  className="underline hover:opacity-80"
-                  rel="noopener noreferrer"
-                  target="_blank"
-                >
-                  Unsplash
-                </a>{" "}
-                and{" "}
-                <a
-                  href="https://www.pexels.com"
-                  className="underline hover:opacity-80"
-                  rel="noopener noreferrer"
-                  target="_blank"
-                >
-                  Pexels
-                </a>
-                . Used under their respective free-use licenses.
-              </p>
             </div>
           </div>
         </div>
