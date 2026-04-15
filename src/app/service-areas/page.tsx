@@ -1,11 +1,11 @@
 import type { Metadata } from "next";
-import Link from "next/link";
 import Image from "next/image";
 import { MapPin } from "lucide-react";
 import { SiteHeader } from "@/components/site-header";
 import { SiteFooter } from "@/components/site-footer";
 import { PageHero } from "@/components/page-hero";
 import { PageCta } from "@/components/page-cta";
+import { TrackedLink } from "@/components/tracked-link";
 import { serviceAreas } from "@/lib/service-areas-data";
 
 export const metadata: Metadata = {
@@ -32,9 +32,11 @@ export default function AreasIndex() {
           <div className="mx-auto max-w-[1200px] px-5">
             <div className="grid grid-cols-2 gap-6 max-md:grid-cols-1 lg:grid-cols-3">
               {serviceAreas.map((a) => (
-                <Link
+                <TrackedLink
                   key={a.slug}
                   href={`/service-areas/${a.slug}`}
+                  event="area_card_click"
+                  eventParams={{ area_slug: a.slug, location: "areas-index" }}
                   className="group overflow-hidden rounded-xl border-2 border-[#1d1d1d]/10 bg-white transition-all hover:-translate-y-[2px] hover:border-[#ed6623] hover:shadow-[6px_6px_0_rgba(237,102,35,0.2)]"
                 >
                   <div className="relative h-[220px] w-full overflow-hidden">
@@ -60,7 +62,7 @@ export default function AreasIndex() {
                       {a.heroSub}
                     </p>
                   </div>
-                </Link>
+                </TrackedLink>
               ))}
             </div>
           </div>
