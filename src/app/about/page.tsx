@@ -11,9 +11,78 @@ export const metadata: Metadata = {
   alternates: { canonical: "https://www.steelcitycleanouts.com/about" },
 };
 
+const aboutSchema = {
+  "@context": "https://schema.org",
+  "@type": "AboutPage",
+  "@id": "https://www.steelcitycleanouts.com/about#aboutpage",
+  url: "https://www.steelcitycleanouts.com/about",
+  name: "About Steel City Cleanouts",
+  description:
+    "Family-owned, fully insured estate cleanouts and junk removal company serving Pittsburgh and every surrounding township.",
+  mainEntity: {
+    "@type": "LocalBusiness",
+    "@id": "https://www.steelcitycleanouts.com/#organization",
+    name: "Steel City Cleanouts",
+    url: "https://www.steelcitycleanouts.com",
+    description:
+      "Family-owned junk removal and estate cleanout company based in the Pittsburgh region. Fully insured, 7 days a week, upfront pricing.",
+    foundingLocation: {
+      "@type": "Place",
+      address: {
+        "@type": "PostalAddress",
+        addressLocality: "Cranberry Township",
+        addressRegion: "PA",
+        addressCountry: "US",
+      },
+    },
+    areaServed: [
+      "Pittsburgh, PA",
+      "Cranberry Township, PA",
+      "Wexford, PA",
+      "Mt. Lebanon, PA",
+      "Monroeville, PA",
+      "Shaler Township, PA",
+      "Squirrel Hill, PA",
+      "Butler County, PA",
+      "Allegheny County, PA",
+    ],
+    knowsAbout: [
+      "Estate Cleanouts",
+      "Junk Removal",
+      "Hoarding Cleanup",
+      "Property Cleanouts",
+      "Appliance Removal",
+      "Furniture Removal",
+      "Garage Cleanouts",
+      "Basement Cleanouts",
+      "Post-Move Cleanouts",
+    ],
+    // UPDATE: Add named owner + headshot + Person schema once Jordan confirms business ownership details
+    // See ACTION_ITEMS.md for details
+    makesOffer: {
+      "@type": "Offer",
+      itemOffered: {
+        "@type": "Service",
+        name: "Estate Cleanouts and Junk Removal",
+      },
+      priceCurrency: "USD",
+      priceSpecification: {
+        "@type": "PriceSpecification",
+        priceCurrency: "USD",
+        minPrice: "200",
+        maxPrice: "3500",
+      },
+    },
+  },
+};
+
 export default function AboutPage() {
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(aboutSchema) }}
+      />
       <SiteHeader />
       <main className="flex-1">
         <PageHero

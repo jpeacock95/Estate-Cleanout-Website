@@ -21,9 +21,49 @@ const reviews = [
   },
 ];
 
+const reviewSchema = {
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "@id": "https://www.steelcitycleanouts.com/#reviews",
+  name: "Steel City Cleanouts",
+  url: "https://www.steelcitycleanouts.com",
+  aggregateRating: {
+    "@type": "AggregateRating",
+    ratingValue: "5.0",
+    reviewCount: reviews.length.toString(),
+    bestRating: "5",
+    worstRating: "1",
+  },
+  review: reviews.map((r) => ({
+    "@type": "Review",
+    author: {
+      "@type": "Person",
+      name: r.name,
+    },
+    reviewRating: {
+      "@type": "Rating",
+      ratingValue: r.rating.toString(),
+      bestRating: "5",
+    },
+    reviewBody: r.text,
+    itemReviewed: {
+      "@type": "LocalBusiness",
+      name: "Steel City Cleanouts",
+    },
+    locationCreated: {
+      "@type": "Place",
+      name: r.location,
+    },
+  })),
+};
+
 export function ReviewsSection() {
   return (
     <section id="reviews" className="bg-[#f8f9fa] py-20 max-md:py-10">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(reviewSchema) }}
+      />
       <div className="container-wide">
         <h2
           className="mb-10 text-center uppercase text-[#1d1d1d] font-[family-name:var(--font-heading)]"
