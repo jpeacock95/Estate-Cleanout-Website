@@ -1,3 +1,4 @@
+import type { Metadata } from "next";
 import { SiteHeader } from "@/components/site-header";
 import { HeroSection } from "@/components/hero-section";
 import { ServicesSection } from "@/components/services-section";
@@ -9,6 +10,15 @@ import { ServiceAreasSection } from "@/components/service-areas-section";
 import { CTASection } from "@/components/cta-section";
 import { SiteFooter } from "@/components/site-footer";
 import { siteConfig } from "@/lib/site-config";
+
+export const metadata: Metadata = {
+  alternates: {
+    canonical: siteConfig.url,
+  },
+  openGraph: {
+    url: siteConfig.url,
+  },
+};
 
 export default function Home() {
   return (

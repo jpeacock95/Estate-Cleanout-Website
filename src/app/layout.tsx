@@ -55,6 +55,7 @@ const poppins = Poppins({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL(siteConfig.url),
   title: "Steel City Cleanouts | Estate Cleanouts & Junk Removal | Pittsburgh PA",
   description:
     "Same-day estate cleanouts and junk removal across Pittsburgh and surrounding areas. Family-owned, fully insured, upfront pricing. Call (585) 200-0871 for fast, reliable service.",
