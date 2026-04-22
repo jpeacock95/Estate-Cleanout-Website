@@ -19,7 +19,7 @@ const organizationSchema = {
   telephone: `+1${siteConfig.phone.tel}`,
   foundingDate: `${siteConfig.foundingYear}-01-01`,
   description:
-    "Family-owned, fully insured estate cleanouts and junk removal serving Pittsburgh, PA and surrounding suburbs. Same-day service 7 days a week.",
+    "Family-owned, fully insured estate cleanouts and junk removal based in Cranberry Township, PA, serving Pittsburgh and Allegheny County. Same-day service 7 days a week.",
   address: {
     "@type": "PostalAddress",
     addressLocality: siteConfig.address.locality,
@@ -27,6 +27,23 @@ const organizationSchema = {
     postalCode: siteConfig.address.postalCode,
     addressCountry: siteConfig.address.country,
   },
+  areaServed: [
+    {
+      "@type": "City",
+      name: "Pittsburgh",
+      "@id": "https://www.wikidata.org/wiki/Q1342",
+    },
+    {
+      "@type": "AdministrativeArea",
+      name: "Allegheny County, Pennsylvania",
+      "@id": "https://www.wikidata.org/wiki/Q484049",
+    },
+    {
+      "@type": "AdministrativeArea",
+      name: "Butler County, Pennsylvania",
+      "@id": "https://www.wikidata.org/wiki/Q488437",
+    },
+  ],
   contactPoint: [
     {
       "@type": "ContactPoint",
@@ -56,14 +73,23 @@ const poppins = Poppins({
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteConfig.url),
-  title: "Steel City Cleanouts | Estate Cleanouts & Junk Removal | Pittsburgh PA",
+  title: "Steel City Cleanouts | Pittsburgh PA Estate Cleanouts & Junk Removal",
   description:
-    "Same-day estate cleanouts and junk removal across Pittsburgh and surrounding areas. Family-owned, fully insured, upfront pricing. Call (585) 200-0871 for fast, reliable service.",
+    "Same-day estate cleanouts and junk removal in Pittsburgh, PA and Allegheny County. Cranberry-based, family-owned since 2026. Fully insured, upfront pricing. Call (585) 200-0871.",
+  keywords: [
+    "estate cleanout Pittsburgh",
+    "junk removal Pittsburgh PA",
+    "hoarding cleanup Pittsburgh",
+    "property cleanout Allegheny County",
+    "estate cleanout Cranberry Township",
+    "house cleanout Pittsburgh PA",
+  ],
   openGraph: {
-    title: "Steel City Cleanouts | Pittsburgh Estate Cleanouts & Junk Removal",
+    title: "Steel City Cleanouts | Pittsburgh PA Estate Cleanouts & Junk Removal",
     description:
-      "Fast, reliable estate cleanouts and junk removal in Pittsburgh PA. Family-owned, fully insured.",
+      "Same-day estate cleanouts and junk removal in Pittsburgh, PA. Cranberry-based, family-owned since 2026. Fully insured.",
     type: "website",
+    locale: "en_US",
   },
   other: {
     "format-detection": "telephone=yes",

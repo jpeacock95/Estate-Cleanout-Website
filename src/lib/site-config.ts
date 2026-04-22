@@ -1,7 +1,8 @@
 export const siteConfig = {
   brand: "Steel City Cleanouts",
   tagline: "Same-Day Junk Removal & Estate Cleanouts",
-  location: "Pittsburgh & Surrounding Areas",
+  location: "Pittsburgh, PA & Surrounding Areas",
+  fullLocation: "Pittsburgh, PA (Allegheny County & Butler County)",
   url: "https://www.steelcitycleanouts.com",
   phone: {
     display: "(585) 200-0871",

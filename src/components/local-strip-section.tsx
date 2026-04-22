@@ -54,7 +54,7 @@ export function LocalStripSection() {
                 margin: "0 0 32px",
               }}
             >
-              We live in Pittsburgh. We know the city, the neighborhoods, the
+              We live in Pittsburgh. We know Allegheny County, the
               three-story walk-ups in Bloomfield, the tight alleys in the South
               Side, the back roads out to Cranberry. When you call us, you&apos;re
               talking to someone who&apos;s loaded a truck on your block before.
