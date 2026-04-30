@@ -12,10 +12,13 @@ type ClarityFn = (
   value?: string,
 ) => void;
 
+type UmamiFn = (eventName: string, data?: Record<string, unknown>) => void;
+
 declare global {
   interface Window {
     gtag?: GtagFn;
     clarity?: ClarityFn;
+    umami?: { track: UmamiFn };
     dataLayer?: unknown[];
   }
 }
@@ -52,6 +55,14 @@ export function trackEvent(
   try {
     if (typeof window.clarity === "function") {
       window.clarity("event", name);
+    }
+  } catch {
+    // swallow
+  }
+
+  try {
+    if (window.umami && typeof window.umami.track === "function") {
+      window.umami.track(name, params);
     }
   } catch {
     // swallow

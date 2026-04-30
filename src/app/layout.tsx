@@ -1,11 +1,8 @@
 import type { Metadata } from "next";
 import { Bebas_Neue, Poppins } from "next/font/google";
-import Script from "next/script";
 import "./globals.css";
 import { siteConfig } from "@/lib/site-config";
-
-const GA_ID = "G-VYQMQB4QM7";
-const CLARITY_ID = "wbdxvnhepc";
+import AnalyticsScripts from "@/components/AnalyticsScripts";
 
 const organizationSchema = {
   "@context": "https://schema.org",
@@ -106,33 +103,17 @@ export default function RootLayout({
       lang="en"
       className={`${bebas.variable} ${poppins.variable} h-full antialiased`}
     >
+      <head>
+        <link rel="preconnect" href="https://cloud.umami.is" />
+        <link rel="dns-prefetch" href="https://cloud.umami.is" />
+      </head>
       <body className="min-h-full flex flex-col">
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationSchema) }}
         />
         {children}
-        <Script
-          src={`https://www.googletagmanager.com/gtag/js?id=${GA_ID}`}
-          strategy="afterInteractive"
-        />
-        <Script id="ga4-init" strategy="afterInteractive">
-          {`
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
-            gtag('config', '${GA_ID}');
-          `}
-        </Script>
-        <Script id="ms-clarity" strategy="afterInteractive">
-          {`
-            (function(c,l,a,r,i,t,y){
-              c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
-              t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
-              y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
-            })(window, document, "clarity", "script", "${CLARITY_ID}");
-          `}
-        </Script>
+        <AnalyticsScripts />
       </body>
     </html>
   );
