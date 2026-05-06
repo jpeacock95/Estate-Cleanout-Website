@@ -39,6 +39,11 @@ const reviewSchema = {
     author: {
       "@type": "Person",
       name: r.name,
+      address: {
+        "@type": "PostalAddress",
+        addressLocality: r.location,
+        addressRegion: "PA",
+      },
     },
     reviewRating: {
       "@type": "Rating",
@@ -46,14 +51,6 @@ const reviewSchema = {
       bestRating: "5",
     },
     reviewBody: r.text,
-    itemReviewed: {
-      "@type": "LocalBusiness",
-      name: "Steel City Cleanouts",
-    },
-    locationCreated: {
-      "@type": "Place",
-      name: r.location,
-    },
   })),
 };
 
