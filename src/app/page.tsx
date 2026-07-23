@@ -5,7 +5,7 @@ import { ServicesSection } from "@/components/services-section";
 import { BeforeAfterSection } from "@/components/before-after-section";
 import { LocalStripSection } from "@/components/local-strip-section";
 import { WhyChooseSection } from "@/components/why-choose-section";
-import { ReviewsSection } from "@/components/reviews-section";
+import { StandardsSection } from "@/components/standards-section";
 import { ServiceAreasSection } from "@/components/service-areas-section";
 import { CTASection } from "@/components/cta-section";
 import { SiteFooter } from "@/components/site-footer";
@@ -30,7 +30,7 @@ export default function Home() {
         <BeforeAfterSection />
         <LocalStripSection />
         <WhyChooseSection />
-        <ReviewsSection />
+        <StandardsSection />
         <ServiceAreasSection />
         <CTASection />
       </main>

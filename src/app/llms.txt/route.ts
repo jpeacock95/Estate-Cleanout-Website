@@ -72,7 +72,6 @@ ${resources
 
 - [Contact page](${SITE_URL}/contact)
 - [About page](${SITE_URL}/about)
-- [Reviews](${SITE_URL}/reviews)
 - Phone: ${siteConfig.phone.display}
 - Email: ${siteConfig.email}
 

@@ -43,7 +43,7 @@ Read this file on **every** SEO, content, or website update on this project. GEO
 - [ ] **Service schema** on every service page
 - [ ] **FAQPage schema** on every page with FAQs
 - [ ] **BreadcrumbList schema**
-- [ ] **AggregateRating + Review schema** — CURRENTLY MISSING despite 3 named testimonials on site. Wire this up immediately on homepage and `/reviews`.
+- [ ] **AggregateRating + Review schema** — DO NOT ADD until real reviews exist. The 3 named testimonials were fabricated and were removed 2026-07-23 (FTC fake review rule). Only wire Review schema to verifiable reviews from real completed jobs (GBP reviews once a fulfillment partner operates under the brand).
 - [ ] **Person schema on `/about`** — CURRENTLY MISSING. Named owner + headshot + credentials required.
 - [ ] **`sameAs` array on Organization schema** — currently empty. Required: Facebook, Instagram, LinkedIn, YouTube. Even placeholder profiles help entity resolution.
 - [ ] **ContactPoint schema** on contact page
@@ -70,9 +70,9 @@ Read this file on **every** SEO, content, or website update on this project. GEO
 
 These are the actions blocking the leap from 58 → 75:
 
-1. **CRITICAL — Google Business Profile + 5 real reviews.** The #1 highest-leverage action. GBP category: "Junk Removal Service." Request reviews from Linda M., Mark T., Rachel P. (already quoted on site). Without GBP, AI engines default to competitors for local queries.
+1. **CRITICAL — Google Business Profile + 5 real reviews.** The #1 highest-leverage action. GBP category: "Junk Removal Service." Requires a real fulfillment partner operating under the brand (rank-and-rent Model 1, see `research/rank-and-rent/PLAN.md`); partner does video verification. First reviews come from real customers of partner-fulfilled jobs. Without GBP, AI engines default to competitors for local queries.
 
-2. **Wire up AggregateRating + Review schema** using existing testimonials. Homepage + `/reviews`. Star ratings surface in AI answers.
+2. **AggregateRating + Review schema only after real reviews exist.** The fabricated testimonials and their schema were removed 2026-07-23. `/reviews` now 308-redirects to `/about`. Rebuild the page only with real, verifiable reviews.
 
 3. **Named owner + headshot + Person schema on `/about`.**
    - Owner's full name (public)
@@ -147,8 +147,8 @@ An SEO task is not done until:
 | Metric | Baseline | 90-day Target |
 |---|---|---|
 | GEO Score | 58 | 75+ |
-| Google reviews | 0 | 15+ |
-| AggregateRating schema | Missing | Live (homepage + /reviews) |
+| Google reviews | 0 | 15+ (real, via fulfillment partner jobs) |
+| AggregateRating schema | Removed (was fake, 2026-07-23) | Live only with real reviews |
 | Person schema on /about | Missing | Live with name + headshot |
 | Organization sameAs count | 0 | 4+ (FB, IG, LI, YouTube) |
 | BBB accreditation | No | Yes |

@@ -10,7 +10,6 @@ import { resources } from "@/lib/resources-data";
 
 const companyLinks = [
   { label: "About Us", href: "/about" },
-  { label: "Reviews", href: "/reviews" },
   { label: "Contact Us", href: "/contact" },
   { label: "Free Estimate", href: "/contact" },
 ];
