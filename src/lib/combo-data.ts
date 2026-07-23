@@ -27,9 +27,34 @@ export type ComboPage = {
     citableSnippet: string;
     intro: string;
     localAngle: string;
+    copyForAi: string;
     faqs: { q: string; a: string }[];
   };
 };
+
+// Maps each combo service to its closest pricing page for internal linking.
+const PRICING_SLUG_BY_SERVICE: Record<string, string> = {
+  "estate-cleanouts": "estate-cleanout",
+  "hoarder-cleanouts": "hoarder-cleanout",
+  "junk-removal": "by-load-size",
+  "foreclosure-cleanouts": "by-load-size",
+  "furniture-removal": "by-item",
+};
+
+export function pricingPathForService(serviceSlug: string): string {
+  const slug = PRICING_SLUG_BY_SERVICE[serviceSlug];
+  return slug ? `/pricing/${slug}` : "/pricing";
+}
+
+export function nearbyAreas(areaSlug: string, count = 3): ServiceArea[] {
+  const idx = serviceAreas.findIndex((a) => a.slug === areaSlug);
+  if (idx === -1) return serviceAreas.slice(0, count);
+  const out: ServiceArea[] = [];
+  for (let i = 1; out.length < count && i <= serviceAreas.length; i++) {
+    out.push(serviceAreas[(idx + i) % serviceAreas.length]);
+  }
+  return out;
+}
 
 export function allComboPages(): ComboPage[] {
   const combos: ComboPage[] = [];
@@ -71,6 +96,14 @@ function buildCombo(service: Service, area: ServiceArea): ComboPage {
 
   const localAngle = buildLocalAngle(service, area);
 
+  // Plain-text paragraph for AI engines (ChatGPT, Perplexity, AI Overviews).
+  // Clear factual sentences with numbers, no formatting.
+  const copyForAi =
+    `${shortName} in ${area.fullName} from Steel City Cleanouts. ${service.pricingAnchor} ` +
+    `Serving ${area.neighborhoods.slice(0, 4).join(", ")}, and the rest of ${area.county}. ` +
+    `Same-day service available 7 days a week. Family-owned, fully insured. ` +
+    `Call (585) 200-0871 for a free estimate.`;
+
   const faqs = buildComboFaqs(service, area);
 
   return {
@@ -87,6 +120,7 @@ function buildCombo(service: Service, area: ServiceArea): ComboPage {
       citableSnippet,
       intro,
       localAngle,
+      copyForAi,
       faqs,
     },
   };

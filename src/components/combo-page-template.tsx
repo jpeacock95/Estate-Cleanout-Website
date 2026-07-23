@@ -6,12 +6,14 @@ import { PageHero } from "@/components/page-hero";
 import { PageFaq } from "@/components/page-faq";
 import { PageCta } from "@/components/page-cta";
 import { Breadcrumbs } from "@/components/breadcrumbs";
-import type { ComboPage } from "@/lib/combo-data";
+import { nearbyAreas, pricingPathForService, type ComboPage } from "@/lib/combo-data";
 import { siteConfig } from "@/lib/site-config";
 
 export function ComboPageTemplate({ data }: { data: ComboPage }) {
   const { service, area, combo } = data;
   const pageUrl = `https://www.steelcitycleanouts.com/services/${service.slug}/in/${area.slug}`;
+  const nearby = nearbyAreas(area.slug, 3);
+  const pricingPath = pricingPathForService(service.slug);
 
   return (
     <>
@@ -37,7 +39,10 @@ export function ComboPageTemplate({ data }: { data: ComboPage }) {
         <section className="bg-white py-14 lg:py-20">
           <div className="mx-auto max-w-[820px] px-5">
             <div className="mb-6 rounded-xl border-2 border-[#ed6623] bg-[#fff7f2] p-5">
-              <p className="m-0 text-[16px] font-semibold leading-[1.55] text-[#1d1d1d] font-[family-name:var(--font-body)]">
+              <p
+                data-speakable="true"
+                className="m-0 text-[16px] font-semibold leading-[1.55] text-[#1d1d1d] font-[family-name:var(--font-body)]"
+              >
                 {combo.citableSnippet}
               </p>
             </div>
@@ -47,6 +52,25 @@ export function ComboPageTemplate({ data }: { data: ComboPage }) {
             <p className="mt-6 text-[17px] leading-[1.75] text-[#1d1d1d]/85 font-[family-name:var(--font-body)] lg:text-[18px]">
               {combo.localAngle}
             </p>
+            {service.quickFacts?.length ? (
+              <div className="mt-10 rounded-xl border-2 border-[#1d1d1d]/10 bg-[#fafafa] p-6">
+                <h2 className="m-0 mb-4 uppercase text-[#1d1d1d] font-[family-name:var(--font-heading)] text-[20px]">
+                  Quick Facts
+                </h2>
+                <dl className="m-0 grid grid-cols-2 gap-x-6 gap-y-3 max-md:grid-cols-1">
+                  {service.quickFacts.map((f) => (
+                    <div key={f.label} className="flex items-baseline justify-between gap-3 border-b border-[#1d1d1d]/10 pb-2">
+                      <dt className="text-[14px] text-[#1d1d1d]/60 font-[family-name:var(--font-body)]">
+                        {f.label}
+                      </dt>
+                      <dd className="m-0 text-[14px] font-semibold text-[#1d1d1d] font-[family-name:var(--font-body)]">
+                        {f.value}
+                      </dd>
+                    </div>
+                  ))}
+                </dl>
+              </div>
+            ) : null}
           </div>
         </section>
 
@@ -103,7 +127,7 @@ export function ComboPageTemplate({ data }: { data: ComboPage }) {
             <h2 className="mb-8 text-center uppercase text-[#1d1d1d] font-[family-name:var(--font-heading)] text-[28px] lg:text-[36px]">
               Related Pages
             </h2>
-            <div className="grid grid-cols-2 gap-5 max-md:grid-cols-1">
+            <div className="grid grid-cols-3 gap-5 max-md:grid-cols-1">
               <Link
                 href={`/services/${service.slug}`}
                 className="group rounded-xl border-2 border-[#1d1d1d]/10 bg-white p-6 transition-all hover:-translate-y-[2px] hover:border-[#ed6623]"
@@ -138,7 +162,51 @@ export function ComboPageTemplate({ data }: { data: ComboPage }) {
                   Read more <ArrowRight className="h-3 w-3" />
                 </p>
               </Link>
+              <Link
+                href={pricingPath}
+                className="group rounded-xl border-2 border-[#1d1d1d]/10 bg-white p-6 transition-all hover:-translate-y-[2px] hover:border-[#ed6623]"
+              >
+                <p className="mb-1 text-[12px] font-semibold uppercase text-[#1d1d1d]/60 font-[family-name:var(--font-heading)]">
+                  Real prices, no quote games
+                </p>
+                <h3 className="m-0 mb-2 uppercase text-[#1d1d1d] font-[family-name:var(--font-heading)] text-[22px]">
+                  {service.shortName} Pricing
+                </h3>
+                <p className="m-0 text-[14px] text-[#1d1d1d]/75 font-[family-name:var(--font-body)]">
+                  {service.pricingAnchor}
+                </p>
+                <p className="mt-3 inline-flex items-center gap-1 text-[13px] font-semibold uppercase text-[#ed6623] font-[family-name:var(--font-heading)]">
+                  See pricing <ArrowRight className="h-3 w-3" />
+                </p>
+              </Link>
             </div>
+            <div className="mt-8 text-center">
+              <p className="mb-3 text-[13px] font-semibold uppercase text-[#1d1d1d]/60 font-[family-name:var(--font-heading)]">
+                {service.shortName} nearby
+              </p>
+              <div className="flex flex-wrap justify-center gap-2.5">
+                {nearby.map((n) => (
+                  <Link
+                    key={n.slug}
+                    href={`/services/${service.slug}/in/${n.slug}`}
+                    className="rounded-full border-2 border-[#1d1d1d]/10 bg-white px-4 py-1.5 text-[14px] text-[#1d1d1d] transition-colors hover:border-[#ed6623] font-[family-name:var(--font-body)]"
+                  >
+                    {n.name}
+                  </Link>
+                ))}
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section className="bg-white py-10">
+          <div className="mx-auto max-w-[820px] px-5">
+            <p
+              data-speakable="true"
+              className="m-0 text-[14px] leading-[1.7] text-[#1d1d1d]/60 font-[family-name:var(--font-body)]"
+            >
+              {combo.copyForAi}
+            </p>
           </div>
         </section>
 
