@@ -67,11 +67,11 @@ export function LocalStripSection() {
                   className="font-[family-name:var(--font-heading)] text-[#ed6623]"
                   style={{ fontSize: "clamp(28px, 4vw, 48px)", lineHeight: 1 }}
                 >
-                  500+
+                  7 days
                 </div>
                 <div className="mt-2 text-[11px] uppercase tracking-wider text-white/80 font-[family-name:var(--font-body)] max-md:text-[10px] max-md:leading-tight">
-                  Cleanouts
-                  <br className="max-md:hidden" /> completed
+                  A week,
+                  <br className="max-md:hidden" /> every week
                 </div>
               </div>
               <div className="text-center">
@@ -79,11 +79,11 @@ export function LocalStripSection() {
                   className="font-[family-name:var(--font-heading)] text-[#ed6623]"
                   style={{ fontSize: "clamp(28px, 4vw, 48px)", lineHeight: 1 }}
                 >
-                  5★
+                  Free
                 </div>
                 <div className="mt-2 text-[11px] uppercase tracking-wider text-white/80 font-[family-name:var(--font-body)] max-md:text-[10px] max-md:leading-tight">
-                  Google
-                  <br className="max-md:hidden" /> rating
+                  Written
+                  <br className="max-md:hidden" /> estimates
                 </div>
               </div>
               <div className="text-center">
@@ -91,11 +91,11 @@ export function LocalStripSection() {
                   className="font-[family-name:var(--font-heading)] text-[#ed6623]"
                   style={{ fontSize: "clamp(28px, 4vw, 48px)", lineHeight: 1 }}
                 >
-                  24 hr
+                  Same day
                 </div>
                 <div className="mt-2 text-[11px] uppercase tracking-wider text-white/80 font-[family-name:var(--font-body)] max-md:text-[10px] max-md:leading-tight">
-                  Average
-                  <br className="max-md:hidden" /> turnaround
+                  Service
+                  <br className="max-md:hidden" /> available
                 </div>
               </div>
             </div>

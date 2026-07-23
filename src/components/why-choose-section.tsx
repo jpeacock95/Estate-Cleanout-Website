@@ -120,7 +120,7 @@ export function WhyChooseSection() {
                 className="font-[family-name:var(--font-heading)] font-bold uppercase text-white"
                 style={{ fontSize: "clamp(18px, 2vw, 24px)", letterSpacing: "2px" }}
               >
-                Trusted By Families & Realtors
+                Built For Families & Realtors
               </span>
             </div>
             <h2
@@ -140,8 +140,8 @@ export function WhyChooseSection() {
             style={{ fontSize: 16, lineHeight: 1.7, fontWeight: 500, textAlign: "justify" }}
           >
             When a loved one passes, the last thing a family needs is another headache.
-            Steel City Cleanouts steps in to take the weight off your shoulders. We&apos;ve
-            cleaned out hundreds of homes across Allegheny, Butler, Beaver, Washington, and
+            Steel City Cleanouts steps in to take the weight off your shoulders. Our crews
+            handle cleanouts across Allegheny, Butler, Beaver, Washington, and
             Westmoreland counties, donating what we can, recycling everything possible, and
             hauling the rest with respect. Whether it&apos;s a single room, a garage, or a
             full estate, we handle it with care.

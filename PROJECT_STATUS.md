@@ -6,6 +6,12 @@
 
 ## Where we left off
 
+### 2026-07-23 (later): fake reviews removed + rank-and-rent pivot planned
+
+1. **Fabricated testimonials removed sitewide** (commit 705f8fc). Jordan confirmed the 3 named testimonials were fake. Deleted /reviews page + reviews-section component + fake 5.0 AggregateRating/Review schema. /reviews 308-redirects to /about. Homepage block replaced with StandardsSection (real process commitments). Nav/footer/sitemap/llms.txt cleaned. GEO_RULES.md updated: Review schema only after real reviews exist.
+2. **Rank-and-rent plan** at `research/rank-and-rent/PLAN.md`. Jordan leaning Model 1 (exclusive rent, one partner answers as Steel City Cleanouts; currently forwarding to friend at Junk Away). Decisions open: Model 1 vs 2 formal pick, CallRail vs Twilio DIY, pricing-language reframe to market ranges.
+3. **Open follow-ups:** local 412/724 tracking number to replace (585) 200-0871 in site-config; pricing pages reframe from "we charge" to market-range framing; partner agreement; PA fictitious name registration (~$70); GBP only after partner exists (partner does video verification, Jordan owns profile).
+
 ### 2026-07-23: /seo-kickoff run (playbook alignment)
 
 1. **Combo template upgraded to full Boring Marketer 10-part anatomy** (commit 2a9190f, deployed):
