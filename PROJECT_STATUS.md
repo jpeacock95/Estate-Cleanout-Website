@@ -1,10 +1,23 @@
 # Steel City Cleanouts Project Status
 
 **Live URL:** https://www.steelcitycleanouts.com
-**Last updated:** 2026-04-15
-**Current phase:** Phase 5 in progress — Programmatic SEO Pattern B (Pricing hub) shipped, Patterns A/C/D/E pending
+**Last updated:** 2026-07-23
+**Current phase:** Phase 5 in progress — Pattern B shipped, combo template upgraded to full 10-part anatomy, Patterns A/C/D/E pending
 
 ## Where we left off
+
+### 2026-07-23: /seo-kickoff run (playbook alignment)
+
+1. **Combo template upgraded to full Boring Marketer 10-part anatomy** (commit 2a9190f, deployed):
+   - Quick Facts stat block on all 95 combo pages (from service quickFacts)
+   - Related links now 3+: service page + area page + pricing page card + 3 nearby-area combo links (new internal mesh)
+   - Plain-text Copy for AI block at bottom of every combo page, data-speakable
+2. **Data sheet exported** to seo-playbook repo: `properties/steel-city-cleanouts-data-sheet.csv` (147 rows: 114 live, 33 planned A/C/D/E pages). Regenerate: `npx -y tsx scripts/export-data-sheet.ts`
+3. **Playbook repo updated + pushed**: property file rewritten (was stale "not started"), rollout tracker embedded
+4. **Post-deploy done**: 95 combo URLs submitted to Indexing API, Playwright QA passed at 1440px + 375px
+5. **Next batches** (per rollout tracker in playbook repo): Pattern A batch 1 (6 item pages, needs Jordan's real per-item pricing), Pattern C (8 compare pages, needs competitor public pricing), Pattern D (8 situations, buildable now), Pattern E (5 PA resources, buildable now)
+
+### Previous session
 
 Phase 5 kicked off 2026-04-15. Ran the Boring Marketer 4-step programmatic SEO workflow (DataForSEO + real SERPs + gap analysis), then shipped Pattern B (Pricing hub) the same session.
 
