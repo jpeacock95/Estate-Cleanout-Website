@@ -4,12 +4,16 @@ import { ChevronRight, Home } from "lucide-react";
 export type Crumb = { label: string; href?: string };
 
 export function Breadcrumbs({ items }: { items: Crumb[] }) {
+  // Schema rule: every breadcrumb item needs an "item" URL except the last one.
+  // Unlinked middle crumbs (no href) stay visible on the page but are left out
+  // of the structured data so Google does not flag "Missing field item".
+  const schemaItems = items.filter((c, i) => c.href || i === items.length - 1);
   const jsonLd = {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
     itemListElement: [
       { "@type": "ListItem", position: 1, name: "Home", item: "https://www.steelcitycleanouts.com/" },
-      ...items.map((c, i) => ({
+      ...schemaItems.map((c, i) => ({
         "@type": "ListItem",
         position: i + 2,
         name: c.label,
