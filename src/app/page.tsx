@@ -118,6 +118,7 @@ export default function Home() {
                 "Appliance Removal",
                 "Furniture Removal",
                 "Garage Cleanouts",
+                "Basement Cleanouts",
                 "Hoarder Cleanouts",
                 "Foreclosure Cleanouts",
                 "Eviction Cleanouts",

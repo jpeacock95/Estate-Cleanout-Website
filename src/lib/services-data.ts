@@ -368,6 +368,80 @@ export const services: Service[] = [
       },
     ],
   },
+  {
+    slug: "basement-cleanouts",
+    name: "Basement Cleanouts",
+    shortName: "Basement Cleanouts",
+    seoTitle: "Basement Cleanouts Pittsburgh PA | Stairs Included | Steel City Cleanouts",
+    seoDescription:
+      "Full and partial basement cleanouts in Pittsburgh. 3-person crews, stairs already in the price, old appliances included. $350 to $850. Call (585) 200-0871.",
+    heroHeadline: "Basement Cleanouts in Pittsburgh",
+    heroSub: "Everything comes up the stairs. You don't lift a thing.",
+    citableSnippet:
+      "Steel City Cleanouts clears Pittsburgh basements with 3-person crews. A partial basement runs $350 to $550, a full basement $550 to $850, and the stairs are already built into the price. Old washers, dryers, and water heaters are included. Same-day scheduling. Call (585) 200-0871.",
+    intro:
+      "Pittsburgh basements are where 30 years of a household ends up. Boxes from the last three moves, the couch that got replaced in 2011, a dead dehumidifier, the old washer that was too heavy to carry back up, and shelving units full of things nobody has looked at since the kids left. Then the basement floods once, or the house goes up for sale, or a parent moves to assisted living, and all of it has to come up the stairs at once. That's the job we do. We send a 3-person crew, we carry every item up, and we leave you a swept concrete floor. Most basements are done in 2 to 5 hours.",
+    typicalJob:
+      "A typical Pittsburgh basement cleanout starts with a 10-minute walk-through, in person or over video. We look at the stairs, the ceiling height, the landing, and how much is down there. You get one written price before anyone lifts anything. On job day we set up floor runners from the basement door to the truck, then work in a fixed order: big and heavy first (appliances, couches, workbenches, shelving), then boxes and totes, then loose items. One person stages at the bottom of the stairs, one carries, one loads and sorts at the truck. Anything you want to keep gets set aside on the first floor. Working appliances and usable furniture get routed to donation partners when they'll take them. Metal goes to scrap recycling. We finish by sweeping the floor and hauling the last bag.",
+    whyUs:
+      "Basements are the job most junk removal crews quote high and finish slow, because the stairs turn every item into two trips. We plan for that instead of surcharging for it. Three people instead of two, a fixed carry order, and a price range that already includes the stairs. We also know the local quirks: stone foundations with low overhead beams in Bloomfield and Lawrenceville, steep enclosed stairs in South Hills brick homes, walk-out and Bilco-door basements in the North Hills that let us skip the stairs entirely. Tell us which one you have and we'll size the crew right.",
+    keyPoints: [
+      "Full and partial basement cleanouts",
+      "3-person crews so the carry-up moves fast",
+      "Stairs already included in the price",
+      "Old washers, dryers, freezers, and water heaters included",
+      "Post-flood and water-damaged contents handled",
+      "Swept floor when we leave",
+    ],
+    whatsIncluded: [
+      "Boxes, totes, and decades of stored belongings",
+      "Couches, mattresses, tables, and old bedroom sets",
+      "Washers, dryers, chest freezers, dehumidifiers",
+      "Electric water heaters and disconnected gas water heaters",
+      "Metal shelving, workbenches, and built-in cabinets",
+      "Scrap lumber, paneling, and leftover remodeling material",
+      "Donation sorting and metal recycling",
+      "Floor sweep and final bag-out",
+    ],
+    quickFacts: [
+      { label: "Partial basement", value: "$350 to $550" },
+      { label: "Full basement", value: "$550 to $850" },
+      { label: "Typical time on site", value: "2 to 5 hours" },
+      { label: "Crew size", value: "3 people on most basement jobs" },
+      { label: "Stairs surcharge", value: "None, already in the price" },
+      { label: "Mold-safe disposal", value: "$100 to $200 when needed" },
+    ],
+    pricingAnchor: "Partial basement $350 to $550. Full basement $550 to $850. Stairs included.",
+    priceLow: 350,
+    priceHigh: 850,
+    heroImage: "/images/pricing/basement-cleanout.jpg",
+    faqs: [
+      {
+        q: "How much does a basement cleanout cost in Pittsburgh?",
+        a: "A partial basement (one area or a half truck of stuff) runs $350 to $550. A full unfinished basement runs $475 to $650. A full finished basement with furniture and built-ins runs $650 to $850. Those ranges already include the stairs, labor, truck, and disposal. Full breakdown is on our basement cleanout pricing page.",
+      },
+      {
+        q: "Do you charge extra for stairs?",
+        a: "No. Every basement has stairs, so we built them into the price instead of adding a surcharge on job day. Narrow or steep stairwells might push a job toward the top of the range, and we tell you that at the walk-through, not after.",
+      },
+      {
+        q: "My basement flooded. Can you still clear it?",
+        a: "Yes. Pittsburgh basements flood, and post-flood cleanouts are a regular job for us. Wet boxes, ruined carpet, swollen furniture, and waterlogged drywall all come out. If there's visible mold, we wear respirators and use sealed bags, and mold-safe disposal adds $100 to $200. If the mold is widespread, we'll tell you to bring in a remediation company first and come back after.",
+      },
+      {
+        q: "Can you take the old washer, dryer, or water heater?",
+        a: "Yes, and they're included in the basement price. Washers, dryers, chest freezers, dehumidifiers, and electric water heaters we disconnect and carry ourselves. A gas water heater needs to be shut off and disconnected by a plumber before we arrive. Metal appliances go to a scrap recycler, not the landfill.",
+      },
+      {
+        q: "What can't you take out of a basement?",
+        a: "Paint, solvents, motor oil, pesticides, propane tanks, and other hazardous chemicals. Pennsylvania rules keep those off our trucks. Allegheny County runs Household Chemical Collection events several times a year, and we'll tell you the next date when you call. Everything else in a typical basement is fair game.",
+      },
+      {
+        q: "How long does a full basement cleanout take?",
+        a: "Most full basements take 2 to 5 hours with a 3-person crew. A packed finished basement with built-ins can run a full day. A walk-out or Bilco-door basement is usually faster because we can load straight out the back instead of up the stairs.",
+      },
+    ],
+  },
 ];
 
 services.push(
