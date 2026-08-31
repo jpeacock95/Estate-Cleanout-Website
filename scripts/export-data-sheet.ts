@@ -6,7 +6,9 @@ import { allComboPages } from "../src/lib/combo-data";
 import { pricingPages } from "../src/lib/pricing-data";
 import { resources } from "../src/lib/resources-data";
 
-const OUT = "C:/Users/Jorda/Projects/seo-playbook/properties/steel-city-cleanouts-data-sheet.csv";
+const OUT =
+  process.env.DATA_SHEET_OUT ??
+  "C:/Users/Jorda/Projects/seo-playbook/properties/steel-city-cleanouts-data-sheet.csv";
 
 const HEADER = [
   "slug","variable_1","variable_2","page_title","meta_title","meta_description",
@@ -99,6 +101,9 @@ const planned: Array<[string, string, string, string]> = [
     .map((s) => [`/situations/${s}`, "situation", s, "D"] as [string,string,string,string]),
   ...["pa-probate-timeline","pennsylvania-estate-executor-checklist","allegheny-county-hoarding-task-force","pittsburgh-donation-pickup-guide","pittsburgh-transfer-stations"]
     .map((t) => [`/resources/${t}`, "PA resource", t, "E"] as [string,string,string,string]),
+  // Regional area pages surfaced by the weekly loop (2026-08-31): "junk removal north hills" had no matching page.
+  ...["north-hills"]
+    .map((a) => [`/service-areas/${a}`, "area", a, "area-regional"] as [string,string,string,string]),
 ];
 
 for (const [slug, v1, v2, pattern] of planned) {

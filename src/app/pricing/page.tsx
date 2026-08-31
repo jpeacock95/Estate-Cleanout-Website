@@ -4,6 +4,7 @@ import { SiteHeader } from "@/components/site-header";
 import { SiteFooter } from "@/components/site-footer";
 import { PageHero } from "@/components/page-hero";
 import { PageCta } from "@/components/page-cta";
+import { PageFaq } from "@/components/page-faq";
 import { Breadcrumbs } from "@/components/breadcrumbs";
 import { TrackedLink } from "@/components/tracked-link";
 import { pricingCategories } from "@/lib/pricing-data";
@@ -23,6 +24,25 @@ export const metadata: Metadata = {
     images: [{ url: `${siteConfig.url}/images/hubs/pricing.jpg` }],
   },
 };
+
+const pricingFaqs = [
+  {
+    q: "How much does junk removal cost in Pittsburgh?",
+    a: "Single items start at $99. A quarter truck runs $175 to $275, a half truck $275 to $425, and a full truck $475 to $750. Whole-home estate cleanouts run $850 to $3,500. Those are our published Pittsburgh prices, and the quote you get is the price you pay.",
+  },
+  {
+    q: "Why do most Pittsburgh junk removal companies make you call for a price?",
+    a: "Because a quote form lets them price each job on the spot. We publish load-size prices instead so you can budget before you call. If your job falls between two sizes, we round in your favor and tell you which page it matches.",
+  },
+  {
+    q: "What costs extra on top of the load price?",
+    a: "A short list, and all of it is on our surcharges page: mattresses and box springs, refrigerators and freezers, tires, paint, and heavy construction debris by weight. There is no fuel fee, no stairs fee, and no zip code markup anywhere in Allegheny or Butler County.",
+  },
+  {
+    q: "Is it cheaper to rent a dumpster than to hire junk removal in Pittsburgh?",
+    a: "Usually not for a one-time cleanout. A 10-yard dumpster in Pittsburgh typically runs $350 to $550 for 3 to 7 days plus permit costs on city streets, and you do all the loading. Our full truck is $475 to $750 with a 2 or 3-person crew doing the carrying, and it's gone the same day. See the dumpster comparison page for the side-by-side.",
+  },
+];
 
 export default function PricingIndex() {
   const categories = pricingCategories();
@@ -110,6 +130,8 @@ export default function PricingIndex() {
           </section>
         ))}
 
+        <PageFaq faqs={pricingFaqs} heading="Pittsburgh Junk Removal Pricing FAQs" />
+
         <PageCta location="pricing-index-bottom" />
       </main>
       <SiteFooter />
@@ -131,6 +153,20 @@ export default function PricingIndex() {
               "@id": `${siteConfig.url}#business`,
               name: siteConfig.brand,
             },
+          }),
+        }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            mainEntity: pricingFaqs.map((f) => ({
+              "@type": "Question",
+              name: f.q,
+              acceptedAnswer: { "@type": "Answer", text: f.a },
+            })),
           }),
         }}
       />

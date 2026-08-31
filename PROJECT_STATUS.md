@@ -1,10 +1,20 @@
 # Steel City Cleanouts Project Status
 
 **Live URL:** https://www.steelcitycleanouts.com
-**Last updated:** 2026-07-23
-**Current phase:** Phase 5 in progress — Pattern B shipped, combo template upgraded to full 10-part anatomy, Patterns A/C/D/E pending
+**Last updated:** 2026-08-31
+**Current phase:** Phase 5 in progress. Weekly SEO loop started 2026-08-31. Pattern B shipped, combo template at full 10-part anatomy, Patterns A/C/D/E pending
 
 ## Where we left off
+
+### 2026-08-31: first weekly SEO loop run (/steelcity-weekly-loop)
+
+Snapshot: `research/weekly-loop/2026-08-31.md`. AI visibility: `research/weekly-loop/ai-visibility.md`. Running log: `research/weekly-loop/log.md`.
+
+1. **Data:** 17 clicks / 3,347 impressions last 7 days (prior week 12 / 2,868). /pricing hub went 0 to 101 impressions and 3 clicks in one week. /services/* impressions up 56% week over week. Homepage impressions are mostly out-of-market noise (national "estate cleanout services", Philly-suburb towns); ignore.
+2. **Shipped:** new regional area page `/service-areas/south-hills` (plus 5 auto-generated combo pages) for the "couch / furniture / junk removal south hills" cluster (about 75 impressions in 28 days, position 6 to 15, zero clicks, all landing on the Bethel Park page). Junk-removal FAQs with published prices added to Bethel Park, Wexford, Monroeville, Penn Hills area pages. /pricing hub got a 4-question FAQ plus FAQPage schema. Site is now 164 static pages (20 areas, 100 combos).
+3. **Monthly deep check (August):** Perplexity cites steelcitycleanouts.com in all 3 customer-style queries (estate cleanout Pittsburgh, hoarding cleanup near Cranberry, junk removal prices Pittsburgh). Published pricing is the reason each time. GEO_RULES.md target "cited by at least 1 engine" is met. Live Pittsburgh Google SERP: homepage is #4 organic for "estate cleanout pittsburgh"; not top 9 for "junk removal south hills pittsburgh" or "hoarding cleanup pittsburgh" (biohazard firms own that one).
+4. **Repo hygiene:** the working tree had a failed `git stash pop` (autostash from a Windows-era pull) that reintroduced conflict markers, the deleted fake /reviews page, and the fabricated "500+ cleanouts / 5 star" strip. Conflicted files were reset to HEAD. About 20 other files still show as modified only because of CRLF line endings from that stash; they are NOT committed. The autostash is still in `git stash list` and can be dropped. `scripts/export-data-sheet.ts` now honors `DATA_SHEET_OUT` so it runs on the Mac.
+5. **Still open (unchanged):** local 412/724 tracking number to replace (585) 200-0871; GBP once a fulfillment partner exists; named owner + Person schema on /about; sameAs profiles; Pattern A/C/D/E batches (next: Pattern D or E, both buildable without new data). New planned row: `/service-areas/north-hills`. Note: `.claude/commands/*.md` still reference the Windows path `C:/Users/hocke/tools/google_api.py`; on the Mac use `python3 /Users/jordan/tools/google_api.py`.
 
 ### 2026-07-23 (later): fake reviews removed + rank-and-rent pivot planned
 

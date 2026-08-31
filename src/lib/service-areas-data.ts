@@ -203,6 +203,10 @@ export const serviceAreas: ServiceArea[] = [
         q: "Can you handle a walk-out basement cleanout?",
         a: "Yes. Walk-out basements actually make our job faster because we can load directly through the lower-level doors instead of carrying everything up the stairs. Usually cuts 1 to 2 hours off the job.",
       },
+      {
+        q: "Do you do junk removal in Wexford, not just estate cleanouts?",
+        a: "Yes. Most of our Wexford calls are regular junk removal: a couch, a treadmill, a garage full of stuff, or a basement after a finishing project. Single items start at $99 and a full truck runs $475 to $750. Same-day pickup is available most days if you call before noon, and Wexford is about 15 minutes from our Cranberry Township base.",
+      },
     ],
   },
   {
@@ -316,6 +320,10 @@ export const serviceAreas: ServiceArea[] = [
       {
         q: "Do you work with Penn Hills and Plum Borough too?",
         a: "Yes. Our Monroeville coverage naturally includes Penn Hills, Plum Borough, Turtle Creek, and Forest Hills. Same day rates, same response time.",
+      },
+      {
+        q: "How much is junk removal in Monroeville?",
+        a: "Same published rates as the rest of Pittsburgh. Single items from $99. Quarter truck $175 to $275. Half truck $275 to $425. Full truck $475 to $750. We quote over the phone for single items and on site for anything bigger, and the quote is the final price. No fuel fees, no zip code markup.",
       },
     ],
   },
@@ -501,6 +509,71 @@ serviceAreas.push(
     ],
   },
   {
+    slug: "south-hills",
+    name: "South Hills",
+    fullName: "South Hills, Pittsburgh PA",
+    county: "Allegheny County",
+    zipCodes: ["15102", "15228", "15216", "15234", "15236", "15227", "15241", "15243", "15129", "15025", "15017"],
+    seoTitle: "Junk Removal & Estate Cleanouts South Hills Pittsburgh | Steel City",
+    seoDescription:
+      "Same-day junk removal, couch removal, and estate cleanouts across Pittsburgh's South Hills: Bethel Park, Mt. Lebanon, Upper St. Clair, Dormont, Whitehall. Call (585) 200-0871.",
+    heroHeadline: "South Hills Junk Removal & Cleanouts",
+    heroSub: "Couch pickups, garage clearouts, and whole-house estate cleanouts from Dormont to Peters Township.",
+    intro:
+      "The South Hills is the biggest cluster of suburbs in Allegheny County, and it's where a lot of our junk removal and furniture pickup calls come from. Bethel Park, Mt. Lebanon, Upper St. Clair, Dormont, Castle Shannon, Whitehall, Brentwood, Baldwin, Pleasant Hills, South Park, Jefferson Hills, and Bridgeville all sit within one truck route for us. Whether it's one couch that won't fit down a Dormont staircase or a whole ranch house in Bethel Park, we quote it up front and haul it in one pass.",
+    whyHere:
+      "The South Hills mixes two very different kinds of housing. The streetcar suburbs along the T line (Dormont, Mt. Lebanon, Castle Shannon, Beechview edge) have narrow brick homes, tight staircases, and street parking. The newer communities (Upper St. Clair, Peters Township, Pleasant Hills) have big colonials, walk-out basements, and 3-car garages. We size the crew and the truck to the property. Small truck and 2 people for a Dormont couch pickup. Bigger crew and multiple loads for an Upper St. Clair estate.",
+    citableSnippet:
+      "Steel City Cleanouts offers same-day junk removal, couch and furniture removal, and estate cleanouts across the South Hills of Pittsburgh, including Bethel Park, Mt. Lebanon, Upper St. Clair, Dormont, and Whitehall. Single items from $99, full truck $475 to $750. Family-owned, fully insured. Call (585) 200-0871.",
+    neighborhoods: [
+      "Bethel Park",
+      "Mt. Lebanon",
+      "Upper St. Clair",
+      "Dormont",
+      "Castle Shannon",
+      "Whitehall",
+      "Brentwood",
+      "Baldwin",
+      "Pleasant Hills",
+      "South Park",
+      "Jefferson Hills",
+      "Bridgeville",
+      "Peters Township",
+    ],
+    localDetails:
+      "South Hills homes range from 1920s brick along Route 19 and Route 88 to 1990s and 2000s colonials off Route 19 South and Route 51. Hillside lots are the norm, which means split-levels, walk-out basements, and driveways with a grade. Furniture removal here often involves a sectional or a sleeper sofa that went in through a window or before a staircase was enclosed. We bring tools to disassemble in place. Garage cleanouts are common in Bethel Park and Whitehall, where attached garages tend to hold 30 to 40 years of tools, holiday decorations, and yard equipment.",
+    quickFacts: [
+      { label: "Communities covered", value: "13 South Hills municipalities" },
+      { label: "Zip codes served", value: "11, including 15102, 15228, 15241, 15236" },
+      { label: "Typical arrival time", value: "25 to 40 minutes" },
+      { label: "Single couch or item pickup", value: "From $99" },
+      { label: "Whole-house estate cleanout", value: "$800 to $3,500, 1 to 3 days" },
+    ],
+    heroImage: "/images/areas/south-hills.jpg",
+    faqs: [
+      {
+        q: "Do you do couch and furniture removal in the South Hills?",
+        a: "Yes, and it's one of our most requested South Hills jobs. Single items start at $99, and that price includes carrying it out, loading it, and disposal or donation. If a sectional or sleeper sofa won't fit down a Mt. Lebanon or Dormont staircase, we disassemble it in place. Same-day pickup is available most days if you call before noon.",
+      },
+      {
+        q: "How much does junk removal cost in the South Hills?",
+        a: "The same as everywhere else we work. Single items from $99. Quarter truck $175 to $275. Half truck $275 to $425. Full truck $475 to $750. We don't charge more in Upper St. Clair than in Brentwood. The price we quote at the walk-through or over the phone is the price you pay.",
+      },
+      {
+        q: "Which South Hills communities do you cover?",
+        a: "Bethel Park, Mt. Lebanon, Upper St. Clair, Dormont, Castle Shannon, Whitehall, Brentwood, Baldwin, Pleasant Hills, South Park, Jefferson Hills, Bridgeville, and Peters Township. If you're near Route 19, Route 51, Route 88, or the T line, you're in our South Hills route.",
+      },
+      {
+        q: "Can you get a truck onto tight Dormont or Brentwood streets?",
+        a: "Yes. The streetcar suburbs have narrow streets and permit parking on some blocks, so we plan the arrival time, use rear alley access when there is one, and bring a smaller truck for single-item pickups. Tell us the street when you call and we'll sort out parking before job day.",
+      },
+      {
+        q: "Do you handle whole-house estate cleanouts in the South Hills?",
+        a: "Yes. Most South Hills estate cleanouts run 1 to 3 days and $800 to $3,500 depending on the size of the home and how much is inside. We work with executors, probate attorneys, and realtors across the South Hills, and we send photo updates to family members who live out of state.",
+      },
+    ],
+  },
+  {
     slug: "sewickley",
     name: "Sewickley",
     fullName: "Sewickley, PA",
@@ -615,6 +688,10 @@ serviceAreas.push(
       {
         q: "Can you do a Bethel Park cleanout if the family lives out of state?",
         a: "Yes. We send daily photo updates and an itemized invoice at the end. Families in California, Florida, and beyond have managed Bethel Park parent estates remotely through our process.",
+      },
+      {
+        q: "Do you offer same-day junk removal in Bethel Park?",
+        a: "Yes. Junk removal in Bethel Park runs 7 days a week, and most calls before noon get a same-day pickup. Single items start at $99. Quarter truck $175 to $275, half truck $275 to $425, full truck $475 to $750. Couches, mattresses, and old appliances are typical single-item pickups here, and we serve the rest of the South Hills at the same rates.",
       },
     ],
   },
@@ -843,6 +920,10 @@ serviceAreas.push(
       {
         q: "What about basement cleanouts with heavy volume?",
         a: "Common in Penn Hills. Most basements have decades of stored furniture, boxes, and holiday decorations. We budget the full day for a heavy basement and haul up everything in one clean pass.",
+      },
+      {
+        q: "Do you do same-day junk removal in Penn Hills?",
+        a: "Yes. Penn Hills junk removal is a daily route for us, and calls before noon usually get picked up the same day. Single items start at $99, a quarter truck runs $175 to $275, and a full truck runs $475 to $750. Landlords and property managers get the same rates with volume scheduling for turnovers.",
       },
     ],
   },
