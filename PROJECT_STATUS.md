@@ -1,10 +1,20 @@
 # Steel City Cleanouts Project Status
 
 **Live URL:** https://www.steelcitycleanouts.com
-**Last updated:** 2026-08-31
-**Current phase:** Phase 5 in progress. Weekly SEO loop started 2026-08-31. Pattern B shipped, combo template at full 10-part anatomy, Patterns A/C/D/E pending
+**Last updated:** 2026-09-07
+**Current phase:** Phase 5 in progress. Weekly SEO loop running (2 runs done: 2026-08-31, 2026-09-07). Pattern B shipped, combo template at full 10-part anatomy, Patterns A/C/D/E pending
 
 ## Where we left off
+
+### 2026-09-07: weekly SEO loop run 2 (/steelcity-weekly-loop)
+
+Snapshot: `research/weekly-loop/2026-09-07.md`.
+
+1. **Data:** 21 clicks / 5,989 impressions last 7 days (prior week 17 / 3,745). 28 days: 59 clicks / 16,860 impressions across 97 pages. Monroeville went 0 to 3 clicks after last week's junk-removal FAQ, which proves the FAQ tactic. Homepage impressions grew about 1,600 week over week but clicks fell 6 to 4, all broad national "clean out services" noise. Ignore it.
+2. **Last week's pages checked:** `/service-areas/south-hills` and `/services/basement-cleanouts` are both indexed (crawled 2026-09-06) but pulling zero impressions. Google still serves Bethel Park for the whole South Hills cluster (97 impressions, positions 7 to 16, zero clicks). Root cause was no internal links pointing at the new page.
+3. **Shipped:** new `/service-areas/north-hills` umbrella page plus 5 combos (site now 171 pages). `nearbyAreas()` rewritten to use a real geographic neighbor map instead of list-order adjacency, and every area page now renders a "Nearby Areas We Serve" block with keyword anchors, so South Hills gets in-content links from Bethel Park, Mt. Lebanon, Upper St. Clair, and Pittsburgh. Meta titles on Bethel Park, Monroeville, Wexford, and Cranberry Township now lead with "Junk Removal {Area} PA". 13 URLs submitted to the Indexing API.
+4. **Monthly deep check (September):** Perplexity cites us in 3 of 3 customer queries again, and cited the week-old South Hills page as source 1 with our price table, while Google still shows that page zero impressions. AI engines are picking up new pages far ahead of Google. Google Pittsburgh SERPs: "estate cleanout pittsburgh" slipped from #4 to #6 organic; not in the top 9 for "junk removal pittsburgh" or "hoarding cleanup pittsburgh"; not in the top 20 for "junk removal north hills pittsburgh" (new baseline).
+5. **Still open (unchanged):** GBP + real reviews, local 412/724 tracking number, named owner + Person schema on /about, sameAs profiles, Pattern A/C/D/E batches. Next content candidate: deepen `/services/appliance-removal` (biggest riser at 353 impressions, but position 41 and zero clicks).
 
 ### 2026-08-31: first weekly SEO loop run (/steelcity-weekly-loop)
 
