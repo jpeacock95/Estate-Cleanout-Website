@@ -46,12 +46,46 @@ export function pricingPathForService(serviceSlug: string): string {
   return slug ? `/pricing/${slug}` : "/pricing";
 }
 
+// Real geographic neighbors, not list-order neighbors. Google reads these links
+// as "these places belong together," so a Bethel Park visitor (and crawler)
+// lands on Mt. Lebanon and the South Hills hub instead of Fox Chapel.
+const NEARBY_BY_SLUG: Record<string, string[]> = {
+  pittsburgh: ["squirrel-hill", "shadyside", "south-hills"],
+  "cranberry-township": ["wexford", "north-hills", "mccandless"],
+  wexford: ["north-hills", "cranberry-township", "mccandless"],
+  "mt-lebanon": ["south-hills", "upper-st-clair", "bethel-park"],
+  monroeville: ["penn-hills", "plum-borough", "pittsburgh"],
+  shadyside: ["squirrel-hill", "pittsburgh", "penn-hills"],
+  "squirrel-hill": ["shadyside", "pittsburgh", "mt-lebanon"],
+  "upper-st-clair": ["south-hills", "bethel-park", "mt-lebanon"],
+  "south-hills": ["bethel-park", "mt-lebanon", "upper-st-clair"],
+  "north-hills": ["wexford", "mccandless", "shaler-township"],
+  sewickley: ["moon-township", "robinson-township", "north-hills"],
+  "bethel-park": ["south-hills", "mt-lebanon", "upper-st-clair"],
+  "ross-township": ["north-hills", "shaler-township", "mccandless"],
+  "fox-chapel": ["shaler-township", "north-hills", "hampton-township"],
+  "shaler-township": ["north-hills", "ross-township", "hampton-township"],
+  "penn-hills": ["monroeville", "plum-borough", "pittsburgh"],
+  "plum-borough": ["monroeville", "penn-hills", "pittsburgh"],
+  "moon-township": ["robinson-township", "sewickley", "pittsburgh"],
+  "robinson-township": ["moon-township", "sewickley", "pittsburgh"],
+  "hampton-township": ["north-hills", "mccandless", "shaler-township"],
+  mccandless: ["north-hills", "hampton-township", "wexford"],
+};
+
 export function nearbyAreas(areaSlug: string, count = 3): ServiceArea[] {
+  const out: ServiceArea[] = [];
+  for (const slug of NEARBY_BY_SLUG[areaSlug] ?? []) {
+    const area = serviceAreas.find((a) => a.slug === slug);
+    if (area && area.slug !== areaSlug) out.push(area);
+    if (out.length === count) return out;
+  }
+  // Fallback for any area added without a neighbor list yet.
   const idx = serviceAreas.findIndex((a) => a.slug === areaSlug);
   if (idx === -1) return serviceAreas.slice(0, count);
-  const out: ServiceArea[] = [];
   for (let i = 1; out.length < count && i <= serviceAreas.length; i++) {
-    out.push(serviceAreas[(idx + i) % serviceAreas.length]);
+    const candidate = serviceAreas[(idx + i) % serviceAreas.length];
+    if (!out.some((a) => a.slug === candidate.slug)) out.push(candidate);
   }
   return out;
 }

@@ -93,7 +93,7 @@ export const serviceAreas: ServiceArea[] = [
     fullName: "Cranberry Township, PA",
     county: "Butler County",
     zipCodes: ["16066", "16046"],
-    seoTitle: "Estate Cleanouts & Junk Removal Cranberry Township PA | Steel City",
+    seoTitle: "Junk Removal Cranberry Township PA | Same-Day Pickup & Cleanouts",
     seoDescription:
       "Fast, same-day estate cleanouts and junk removal in Cranberry Township, PA. Serving 16066, 16046. Call (585) 200-0871 for a free quote.",
     heroHeadline: "Cranberry Township Cleanouts & Junk Removal",
@@ -152,7 +152,7 @@ export const serviceAreas: ServiceArea[] = [
     fullName: "Wexford, PA",
     county: "Allegheny County",
     zipCodes: ["15090"],
-    seoTitle: "Estate Cleanouts & Junk Removal Wexford PA | Steel City Cleanouts",
+    seoTitle: "Junk Removal Wexford PA | Same-Day Pickup & Estate Cleanouts",
     seoDescription:
       "Same-day estate cleanouts and junk removal in Wexford, PA (15090). Family-owned, fully insured. Call (585) 200-0871 for a free quote.",
     heroHeadline: "Wexford Cleanouts & Junk Removal",
@@ -274,7 +274,7 @@ export const serviceAreas: ServiceArea[] = [
     fullName: "Monroeville, PA",
     county: "Allegheny County",
     zipCodes: ["15146"],
-    seoTitle: "Estate Cleanouts & Junk Removal Monroeville PA | Steel City Cleanouts",
+    seoTitle: "Junk Removal Monroeville PA | Same-Day Pickup & Estate Cleanouts",
     seoDescription:
       "Same-day estate cleanouts and junk removal in Monroeville, PA (15146). Family-owned, fully insured. Call (585) 200-0871 for a free quote.",
     heroHeadline: "Monroeville Cleanouts & Junk Removal",
@@ -574,6 +574,70 @@ serviceAreas.push(
     ],
   },
   {
+    slug: "north-hills",
+    name: "North Hills",
+    fullName: "North Hills, Pittsburgh PA",
+    county: "Allegheny County",
+    zipCodes: ["15237", "15101", "15116", "15090", "15044", "15229", "15015", "15086"],
+    seoTitle: "Junk Removal & Estate Cleanouts North Hills Pittsburgh | Steel City",
+    seoDescription:
+      "Same-day junk removal, yard waste hauling, and estate cleanouts across Pittsburgh's North Hills: McCandless, Ross, Shaler, Hampton, Wexford, Allison Park. Call (585) 200-0871.",
+    heroHeadline: "North Hills Junk Removal & Cleanouts",
+    heroSub: "Garage clearouts, yard waste hauling, and whole-house estate cleanouts from Ross to Wexford.",
+    intro:
+      "The North Hills is one truck route for us. McCandless, Ross Township, Shaler, Hampton, West View, Franklin Park, Marshall, Pine, Allison Park, Gibsonia, Bradford Woods, and Wexford all sit within 20 to 35 minutes of our Cranberry base. That's why we can run a full truckload of yard waste and garage junk out of a North Hills property in one trip instead of stringing it over two visits. One price, one crew, one pass.",
+    whyHere:
+      "North Hills lots are big and the houses came up in waves. The 1950s and 60s ranches and splits along McKnight Road and Babcock Boulevard have crawl-space basements, attached one-car garages, and 40 years of stuff behind the door. The newer Pine, Marshall, and Franklin Park builds have three-car garages, walk-out basements, and half-acre yards that generate real brush piles. Both need a truck sized for volume, not a pickup and a trailer.",
+    citableSnippet:
+      "Steel City Cleanouts offers same-day junk removal, yard waste and brush hauling, garage cleanouts, and estate cleanouts across the North Hills of Pittsburgh, including McCandless, Ross Township, Shaler, Hampton, Allison Park, and Wexford. Single items from $99, full truck $475 to $750. Family-owned, fully insured. Call (585) 200-0871.",
+    neighborhoods: [
+      "McCandless",
+      "Ross Township",
+      "Shaler Township",
+      "Hampton Township",
+      "West View",
+      "Franklin Park",
+      "Marshall Township",
+      "Pine Township",
+      "Allison Park",
+      "Gibsonia",
+      "Bradford Woods",
+      "Wexford",
+    ],
+    localDetails:
+      "North Hills properties sit on bigger lots than the rest of Allegheny County, so the jobs skew toward volume: garage cleanouts, brush and yard waste, deck tear-out debris, and basement clearing. Driveways here are long and often steep off Babcock Boulevard, Perry Highway, and Route 8, so we back the truck to the garage instead of carrying loads to the street. Township yard waste programs cap what you can set out and won't take stumps, root balls, or construction lumber. We take all of it in the same load.",
+    quickFacts: [
+      { label: "Communities covered", value: "12 North Hills municipalities" },
+      { label: "Zip codes served", value: "8, including 15237, 15101, 15116, 15090" },
+      { label: "Typical arrival time", value: "20 to 35 minutes from Cranberry" },
+      { label: "Full truckload, mixed load", value: "$475 to $750" },
+      { label: "Whole-house estate cleanout", value: "$800 to $3,500, 1 to 3 days" },
+    ],
+    heroImage: "/images/areas/north-hills.jpg",
+    faqs: [
+      {
+        q: "Do you take yard waste and garage junk in the same North Hills trip?",
+        a: "Yes, and it's one of our most common North Hills jobs. Brush, branches, bagged leaves, old mulch, broken lawn equipment, paint-free lumber, and the contents of the garage all go in one mixed load. A full truck runs $475 to $750 depending on weight and volume. One crew, one trip, one price. Township yard waste pickup won't take stumps, root balls, or construction lumber. We will.",
+      },
+      {
+        q: "How much does junk removal cost in the North Hills?",
+        a: "The same as everywhere else we work. Single items from $99. Quarter truck $175 to $275. Half truck $275 to $425. Full truck $475 to $750. We don't charge more in Franklin Park than in West View. The number we quote on the phone or at the walk-through is the number you pay.",
+      },
+      {
+        q: "Which North Hills communities do you cover?",
+        a: "McCandless, Ross Township, Shaler Township, Hampton Township, West View, Franklin Park, Marshall Township, Pine Township, Allison Park, Gibsonia, Bradford Woods, and Wexford. If you're off McKnight Road, Perry Highway, Babcock Boulevard, or Route 8, you're in our North Hills route.",
+      },
+      {
+        q: "Can you handle a full three-car garage cleanout?",
+        a: "Yes. A packed three-car garage usually runs one to two truckloads and takes 2 to 4 hours with a 2 or 3-person crew. We sort as we go, pull out anything worth donating, and sweep the slab when we're done. Tools, paint cans, tires, and old appliances all have disposal routes we already use.",
+      },
+      {
+        q: "How fast can you get to a North Hills address?",
+        a: "We're based in Cranberry Township, so most North Hills addresses are 20 to 35 minutes away. Same-day service is available most days if you call before noon, and we run 7 days a week including weekends.",
+      },
+    ],
+  },
+  {
     slug: "sewickley",
     name: "Sewickley",
     fullName: "Sewickley, PA",
@@ -638,7 +702,7 @@ serviceAreas.push(
     fullName: "Bethel Park, PA",
     county: "Allegheny County",
     zipCodes: ["15102"],
-    seoTitle: "Estate Cleanouts & Junk Removal Bethel Park PA | Same-Day Service",
+    seoTitle: "Junk Removal Bethel Park PA | Same-Day Pickup & Estate Cleanouts",
     seoDescription:
       "Same-day estate cleanouts and junk removal in Bethel Park, PA (15102). South Hills family-owned service. Call (585) 200-0871.",
     heroHeadline: "Bethel Park Cleanouts & Junk Removal",

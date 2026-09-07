@@ -9,11 +9,12 @@ import { Breadcrumbs } from "@/components/breadcrumbs";
 import type { ServiceArea } from "@/lib/service-areas-data";
 import { services } from "@/lib/services-data";
 import { siteConfig } from "@/lib/site-config";
-import { comboServiceSlugs } from "@/lib/combo-data";
+import { comboServiceSlugs, nearbyAreas } from "@/lib/combo-data";
 
 export function AreaPageTemplate({ area }: { area: ServiceArea }) {
   const pageUrl = `https://www.steelcitycleanouts.com/service-areas/${area.slug}`;
   const comboSlugs = comboServiceSlugs();
+  const nearby = nearbyAreas(area.slug, 3);
   return (
     <>
       <SiteHeader />
@@ -133,6 +134,32 @@ export function AreaPageTemplate({ area }: { area: ServiceArea }) {
             ) : null}
           </div>
         </section>
+
+        {nearby.length ? (
+          <section className="bg-[#fafafa] py-16 lg:py-20">
+            <div className="mx-auto max-w-[1200px] px-5">
+              <h2 className="mb-8 text-center uppercase text-[#1d1d1d] font-[family-name:var(--font-heading)] text-[28px] lg:text-[36px]">
+                Nearby Areas We Serve
+              </h2>
+              <div className="grid grid-cols-3 gap-5 max-md:grid-cols-1">
+                {nearby.map((n) => (
+                  <Link
+                    key={n.slug}
+                    href={`/service-areas/${n.slug}`}
+                    className="rounded-xl border-2 border-[#1d1d1d]/10 bg-white p-6 transition-all hover:-translate-y-[2px] hover:border-[#ed6623] hover:shadow-[6px_6px_0_rgba(237,102,35,0.2)]"
+                  >
+                    <h3 className="mb-2 uppercase text-[#1d1d1d] font-[family-name:var(--font-heading)] text-[20px]">
+                      Junk Removal &amp; Cleanouts in {n.name}
+                    </h3>
+                    <p className="m-0 text-[14px] text-[#1d1d1d]/70 font-[family-name:var(--font-body)]">
+                      {n.county}. Same-day service, single items from $99.
+                    </p>
+                  </Link>
+                ))}
+              </div>
+            </div>
+          </section>
+        ) : null}
 
         <PageFaq faqs={area.faqs} heading={`${area.name} Cleanout FAQs`} />
 
