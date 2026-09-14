@@ -171,7 +171,7 @@ export const services: Service[] = [
     slug: "appliance-removal",
     name: "Appliance Removal",
     shortName: "Appliance Removal",
-    seoTitle: "Appliance Removal Pittsburgh PA | Fridge, Washer, Dryer Haul-Away",
+    seoTitle: "Old Appliance Removal Pittsburgh PA | Fridge, Washer, Dryer Haul-Away",
     seoDescription:
       "Old appliance hauling in Pittsburgh. We remove refrigerators, washers, dryers, stoves, and dishwashers. Fully insured. Call (585) 200-0871.",
     heroHeadline: "Appliance Removal Across Pittsburgh",
@@ -231,6 +231,22 @@ export const services: Service[] = [
       {
         q: "Where does the old appliance go?",
         a: "Scrap metal and working parts get pulled for recycling. Refrigerants are recovered under EPA rules. Everything we can't recycle goes to licensed disposal. We can send a receipt if you need it for records.",
+      },
+      {
+        q: "How do I get rid of an old refrigerator in Pittsburgh?",
+        a: "You can't put it at the curb. Pittsburgh trash collection won't take a refrigerator or freezer because of the refrigerant, and most transfer stations charge a separate freon-recovery fee on top of the dump fee. We haul it instead, from $95 for a single unit, recover the refrigerant under EPA rules, and send the shell to a scrap recycler. Basement fridges come up the stairs at no extra charge.",
+      },
+      {
+        q: "Will you haul away an old washer and dryer?",
+        a: "Yes. Washers, dryers, and stacked combos are our most common two-item job, usually $140 to $185 for the pair. We disconnect the supply hoses and the dryer plug ourselves. A gas dryer needs the gas line shut off and capped by a plumber before we arrive. Most laundry-room pickups take under 30 minutes.",
+      },
+      {
+        q: "Do you remove old water heaters?",
+        a: "Yes. Electric water heaters we disconnect and carry out ourselves, from $110. Gas water heaters need to be shut off and disconnected by a licensed plumber first, then we haul the tank. Both go to scrap metal recycling. Basement water heaters are standard work for us, stairs included.",
+      },
+      {
+        q: "Can you come the same day for appliance removal?",
+        a: "Usually yes. Single-appliance pickups are the easiest job to fit into a route, and we run 7 days a week across Allegheny and Butler counties. Call (585) 200-0871 in the morning and there is a good chance we can be there that afternoon. You get the exact price on the phone before we roll.",
       },
     ],
   },

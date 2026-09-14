@@ -1,16 +1,20 @@
 import { services, type Service } from "./services-data";
 import { serviceAreas, type ServiceArea } from "./service-areas-data";
 
-// Only the top 5 highest-volume services get combo pages (55 total combos).
-// Skipping appliance/furniture/garage/construction/yard-waste combos for now
-// since those are better served by their generic service pages. Search volume
-// for "{area} + appliance removal" is low vs "{area} + estate cleanout".
+// Only the highest-volume services get combo pages (6 services x 21 areas).
+// Skipping appliance/garage/construction/yard-waste combos for now since those
+// are better served by their generic service pages. Search volume for
+// "{area} + appliance removal" is low vs "{area} + estate cleanout".
+// basement-cleanouts added 2026-09-13: "basement cleanout near me" and
+// "basement clean out near me" appeared at 48 combined impressions but position
+// 81, which is Google saying it has no local page to serve for the query.
 const COMBO_SERVICE_SLUGS = [
   "estate-cleanouts",
   "junk-removal",
   "hoarder-cleanouts",
   "foreclosure-cleanouts",
   "furniture-removal",
+  "basement-cleanouts",
 ] as const;
 
 export type ComboPage = {
@@ -39,6 +43,7 @@ const PRICING_SLUG_BY_SERVICE: Record<string, string> = {
   "junk-removal": "by-load-size",
   "foreclosure-cleanouts": "by-load-size",
   "furniture-removal": "by-item",
+  "basement-cleanouts": "basement-cleanout",
 };
 
 export function pricingPathForService(serviceSlug: string): string {
@@ -178,6 +183,11 @@ function buildLocalAngle(service: Service, area: ServiceArea): string {
     "furniture-removal":
       `${area.name} furniture removal jobs often involve tight staircases, basement pickups, ` +
       `and disassembly of couches or beds that won't fit through the door.`,
+    "basement-cleanouts":
+      `Basement cleanouts in ${area.name} come down to the stairs. We send 3-person crews and ` +
+      `build the carry-up into the price instead of adding a surcharge on job day, so a ` +
+      `${area.name} basement full of boxes, old appliances, and 30 years of storage comes out ` +
+      `in one visit and leaves a swept floor.`,
   };
 
   const framing = serviceSpecific[service.slug] ?? `Our ${area.name} work covers every property type.`;
@@ -185,10 +195,23 @@ function buildLocalAngle(service: Service, area: ServiceArea): string {
   return `${framing} ${area.localDetails}`;
 }
 
+// Singular, natural-language form of each service for "best {service} in {area}"
+// phrasing. "best basement cleanouts company" reads wrong; "best basement
+// cleanout company" matches how people actually search.
+const SINGULAR_BY_SERVICE: Record<string, string> = {
+  "estate-cleanouts": "estate cleanout",
+  "junk-removal": "junk removal",
+  "hoarder-cleanouts": "hoarder cleanout",
+  "foreclosure-cleanouts": "foreclosure cleanout",
+  "furniture-removal": "furniture removal",
+  "basement-cleanouts": "basement cleanout",
+};
+
 function buildComboFaqs(service: Service, area: ServiceArea): { q: string; a: string }[] {
-  // Pick 2 service FAQs + 1 area FAQ + 1 combo-specific FAQ.
+  // Pick 2 service FAQs + 1 area FAQ + 3 combo-specific FAQs.
   const serviceFaqs = service.faqs.slice(0, 2);
   const areaFaqs = area.faqs.slice(0, 1);
+  const singular = SINGULAR_BY_SERVICE[service.slug] ?? service.shortName.toLowerCase();
 
   const comboSpecific = {
     q: `How much does ${service.shortName.toLowerCase()} cost in ${area.name}?`,
@@ -198,7 +221,32 @@ function buildComboFaqs(service: Service, area: ServiceArea): { q: string; a: st
       `or on-site.`,
   };
 
-  return [...serviceFaqs, ...areaFaqs, comboSpecific];
+  // Targets the "best {service} {area}" query pattern. Answered with checkable
+  // criteria rather than self-praise, which is what AI engines quote and what
+  // the FTC expects when no verified reviews exist yet.
+  const bestQuestion = {
+    q: `What makes the best ${singular} company in ${area.name}?`,
+    a:
+      `Four things you can check before you book anyone in ${area.name}. One, current liability ` +
+      `insurance you can ask to see. Two, a written all-in price before the truck loads, not an ` +
+      `hourly rate that grows on job day. Three, licensed disposal with donation and metal ` +
+      `recycling instead of everything going to a landfill. Four, the same person on the phone ` +
+      `from the first call to the final invoice. Steel City Cleanouts is family-owned, fully ` +
+      `insured, quotes one written price that includes labor, truck, and dump fees, and runs ` +
+      `same-day jobs 7 days a week across ${area.fullName}.`,
+  };
+
+  // Targets "{service} near me" searches, which Google resolves geographically.
+  const nearMe = {
+    q: `Do you do ${singular} near me in ${area.name}?`,
+    a:
+      `Yes. We cover ${area.neighborhoods.slice(0, 4).join(", ")}, and the rest of ` +
+      `${area.county}. Most ${area.name} jobs get scheduled same day or next day, and we work ` +
+      `7 days a week. Call (585) 200-0871 and tell us the street, we'll tell you the arrival ` +
+      `window before you hang up.`,
+  };
+
+  return [...serviceFaqs, ...areaFaqs, comboSpecific, bestQuestion, nearMe];
 }
 
 export function comboServiceSlugs(): readonly string[] {

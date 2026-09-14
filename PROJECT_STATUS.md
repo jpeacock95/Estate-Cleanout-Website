@@ -1,10 +1,24 @@
 # Steel City Cleanouts Project Status
 
 **Live URL:** https://www.steelcitycleanouts.com
-**Last updated:** 2026-09-07
-**Current phase:** Phase 5 in progress. Weekly SEO loop running (2 runs done: 2026-08-31, 2026-09-07). Pattern B shipped, combo template at full 10-part anatomy, Patterns A/C/D/E pending
+**Last updated:** 2026-09-13
+**Current phase:** Phase 5 in progress. Weekly SEO loop running (3 runs done: 2026-08-31, 2026-09-07, 2026-09-13). Pattern B shipped, combo template at full 10-part anatomy, Patterns A/C/D/E pending
 
 ## Where we left off
+
+### 2026-09-13: weekly SEO loop run 3 (/steelcity-weekly-loop)
+
+Snapshot: `research/weekly-loop/2026-09-13.md`.
+
+1. **Data:** 15 clicks / 4,615 impressions last 7 days (prior week 20 / 5,734). The entire impression drop is the homepage (3,634 to 2,585 at position 45), which is broad national "cleanout service" noise. Every page below the homepage was flat or up.
+2. **Last week's fix is confirmed working.** All six pages that had zero impressions on 2026-09-07 are now ranking: junk-removal/in/south-hills (30 imp, position 17), furniture-removal/in/south-hills (29 imp, position 7.1, 1 click), /service-areas/south-hills (19 imp), junk-removal/in/north-hills (15 imp, position 16, 1 click), hoarder-cleanouts/in/south-hills (9 imp), /service-areas/north-hills (5 imp). /services/basement-cleanouts went 0 to 92 impressions with 1 click. Area hub pages gave impressions back to the combos (Bethel Park 69 to 50, Wexford 275 to 211), which is the trade we wanted.
+3. **Shipped:**
+   - `basement-cleanouts` added to COMBO_SERVICE_SLUGS: 21 new `/services/basement-cleanouts/in/{area}` pages with a stairs-and-crew local angle and a link to `/pricing/basement-cleanout`. Site now 192 pages (14 services, 21 areas, 126 combos). Trigger: "basement clean out near me" (26 imp) and "basement cleanout near me" (22 imp) appeared new at position 81, which is Google having no local basement page to serve.
+   - Two FAQs added to all 126 combo pages: "What makes the best {service} company in {area}?" answered with four checkable criteria (current liability insurance, one written all-in price, licensed disposal with donation and metal recycling, one point of contact), and "Do you do {service} near me in {area}?" answered with named neighborhoods. Targets the "best {service} {area}" pattern that showed up this week at positions 8.0 to 11.2, and feeds FAQPage schema. No review or rating claims, per the 2026-07-23 rule.
+   - `/services/appliance-removal` (the open item from run 2): retitled to lead with "Old Appliance Removal Pittsburgh PA" to match the 48-impression query sitting at position 45, and four query-matched FAQs added (old refrigerator disposal in Pittsburgh, washer and dryer pair at $140 to $185, water heater removal, same-day availability). Page grew from about 800 to 1,111 rendered words.
+4. **Monthly deep check:** skipped, not the first run of the month. Last done 2026-09-07.
+5. **Flag for Jordan:** GEO_RULES.md requires service pages to hold 2,900+ words. Measured on the built HTML, every service page renders 1,000 to 1,205 words, including the ones that rank. The rule looks stale from an earlier page structure. Either restate it against current reality or plan a real depth pass, but the current pages are not a regression.
+6. **Still open (unchanged):** GBP + real reviews, local 412/724 tracking number, named owner + Person schema on /about, sameAs profiles, Pattern A/C/D/E batches.
 
 ### 2026-09-07: weekly SEO loop run 2 (/steelcity-weekly-loop)
 
