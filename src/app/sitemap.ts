@@ -2,6 +2,7 @@ import type { MetadataRoute } from "next";
 import { services } from "@/lib/services-data";
 import { serviceAreas } from "@/lib/service-areas-data";
 import { resources } from "@/lib/resources-data";
+import { pricingPages } from "@/lib/pricing-data";
 import { allComboPages } from "@/lib/combo-data";
 
 const SITE_URL = "https://www.steelcitycleanouts.com";
@@ -15,6 +16,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${SITE_URL}/service-areas`, lastModified: now, changeFrequency: "weekly", priority: 0.9 },
     { url: `${SITE_URL}/about`, lastModified: now, changeFrequency: "monthly", priority: 0.6 },
     { url: `${SITE_URL}/contact`, lastModified: now, changeFrequency: "monthly", priority: 0.8 },
+    { url: `${SITE_URL}/pricing`, lastModified: now, changeFrequency: "weekly", priority: 0.9 },
   ];
 
   const servicePages: MetadataRoute.Sitemap = services.map((s) => ({
@@ -38,6 +40,16 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.6,
   }));
 
+  // The /pricing hub and its 15 detail pages were missing from the sitemap
+  // entirely until 2026-09-13, despite /pricing being the second-best click
+  // page on the site and /pricing/estate-cleanout ranking at position 4.
+  const pricingDetailPages: MetadataRoute.Sitemap = pricingPages.map((pp) => ({
+    url: `${SITE_URL}/pricing/${pp.slug}`,
+    lastModified: now,
+    changeFrequency: "weekly",
+    priority: 0.8,
+  }));
+
   const comboPages: MetadataRoute.Sitemap = allComboPages().map((c) => ({
     url: `${SITE_URL}/services/${c.service.slug}/in/${c.area.slug}`,
     lastModified: now,
@@ -45,5 +57,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.8,
   }));
 
-  return [...staticPages, ...servicePages, ...areaPages, ...resourcePages, ...comboPages];
+  return [
+    ...staticPages,
+    ...servicePages,
+    ...areaPages,
+    ...pricingDetailPages,
+    ...resourcePages,
+    ...comboPages,
+  ];
 }
