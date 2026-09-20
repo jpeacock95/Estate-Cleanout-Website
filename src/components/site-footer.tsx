@@ -93,6 +93,11 @@ export function SiteFooter() {
                 column="Resources"
               />
             ))}
+            <FooterLink
+              href="/how-to-get-rid-of"
+              label="Disposal Guides"
+              column="Resources"
+            />
           </FooterColumn>
         </div>
 

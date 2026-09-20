@@ -4,6 +4,7 @@ import { serviceAreas } from "@/lib/service-areas-data";
 import { resources } from "@/lib/resources-data";
 import { pricingPages } from "@/lib/pricing-data";
 import { allComboPages } from "@/lib/combo-data";
+import { itemGuides } from "@/lib/item-guides-data";
 
 const SITE_URL = "https://www.steelcitycleanouts.com";
 
@@ -17,6 +18,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${SITE_URL}/about`, lastModified: now, changeFrequency: "monthly", priority: 0.6 },
     { url: `${SITE_URL}/contact`, lastModified: now, changeFrequency: "monthly", priority: 0.8 },
     { url: `${SITE_URL}/pricing`, lastModified: now, changeFrequency: "weekly", priority: 0.9 },
+    { url: `${SITE_URL}/how-to-get-rid-of`, lastModified: now, changeFrequency: "weekly", priority: 0.9 },
   ];
 
   const servicePages: MetadataRoute.Sitemap = services.map((s) => ({
@@ -50,6 +52,13 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.8,
   }));
 
+  const itemGuidePages: MetadataRoute.Sitemap = itemGuides.map((g) => ({
+    url: `${SITE_URL}/how-to-get-rid-of/${g.slug}`,
+    lastModified: now,
+    changeFrequency: "monthly",
+    priority: 0.8,
+  }));
+
   const comboPages: MetadataRoute.Sitemap = allComboPages().map((c) => ({
     url: `${SITE_URL}/services/${c.service.slug}/in/${c.area.slug}`,
     lastModified: now,
@@ -63,6 +72,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     ...areaPages,
     ...pricingDetailPages,
     ...resourcePages,
+    ...itemGuidePages,
     ...comboPages,
   ];
 }

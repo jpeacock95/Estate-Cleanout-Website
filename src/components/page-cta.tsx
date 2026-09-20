@@ -10,7 +10,7 @@ export function PageCta({ location, heading = "Ready to Clear It Out?" }: { loca
           {heading}
         </h2>
         <p className="mb-8 text-[16px] opacity-90 font-[family-name:var(--font-body)] lg:text-[18px]">
-          Same-day service across Pittsburgh. Upfront pricing. No hidden fees. Call or text for a free quote.
+          Same-day service across Pittsburgh, 7 days a week. Free quote before any work starts. Call or text and we will give you an arrival window.
         </p>
         <div className="flex flex-wrap items-center justify-center gap-5 max-md:flex-col">
           <TrackedLink

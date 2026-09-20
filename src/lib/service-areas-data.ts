@@ -87,7 +87,7 @@ export const serviceAreas: ServiceArea[] = [
       },
       {
         q: "What does junk removal cost in Pittsburgh city neighborhoods?",
-        a: "Single items start at $99. A quarter truck is $175 to $275, a half truck $275 to $425, and a full truck $475 to $750. City jobs in Lawrenceville, Bloomfield, and the South Side often mean street parking and a longer carry to the truck, and none of that changes the number. We price the load size you fill, not the walk.",
+        a: "It depends on how much there is and how hard it is to reach, which is why we quote instead of posting a rate. City jobs in Lawrenceville, Bloomfield, and the South Side usually mean street parking and a longer carry, and a third-floor walk-up is a different job from a garage. Tell us the neighborhood, the floor, and roughly what is going, and you get a firm number before anyone lifts anything.",
       },
     ],
   },
@@ -150,7 +150,7 @@ export const serviceAreas: ServiceArea[] = [
       },
       {
         q: "How much does junk removal cost in Cranberry Township?",
-        a: "Single items start at $99. Quarter truck $175 to $275. Half truck $275 to $425. Full truck $475 to $750. Cranberry sits in Butler County and we charge the same there as we do inside Allegheny County, with no travel fee for 16066 or 16046. The number we give you on the phone is the number on the invoice.",
+        a: "Volume and access set the number, so we quote each job rather than publish a rate. Cranberry is Butler County and we work it the same as Allegheny County, with no travel fee tacked on for being over the line. Call with what you have and where it sits and you will get a price on that call.",
       },
     ],
   },
@@ -217,7 +217,7 @@ export const serviceAreas: ServiceArea[] = [
       },
       {
         q: "How much does junk removal cost in Wexford?",
-        a: "Single items start at $99. Quarter truck $175 to $275. Half truck $275 to $425. Full truck $475 to $750. Wexford sits about 15 minutes from our Cranberry Township base, so 15090 gets no travel fee and often gets a same-day slot. The walk-through number is the invoice number.",
+        a: "It comes down to how much is going and how far it has to be carried. Wexford is about 15 minutes from our Cranberry Township base, so you are not paying for drive time, and same-day slots are common. Describe the load and you get a firm quote before the truck is booked.",
       },
     ],
   },
@@ -280,7 +280,7 @@ export const serviceAreas: ServiceArea[] = [
       },
       {
         q: "How much does junk removal cost in Mt. Lebanon?",
-        a: "Single items from $99, quarter truck $175 to $275, half truck $275 to $425, full truck $475 to $750. Mt. Lebanon's 1920s brick homes have narrow back staircases, so we disassemble beds and sectionals in place at no extra charge. The disassembly and the stair carry are already inside the load price.",
+        a: "The number depends on volume and access, and in Mt. Lebanon access is usually the story. Those 1920s brick homes have narrow back staircases, so beds and sectionals often get disassembled in place, and that is part of the job rather than a line item bolted on afterward. We quote once we know the floor and the staircase.",
       },
     ],
   },
@@ -339,7 +339,7 @@ export const serviceAreas: ServiceArea[] = [
       },
       {
         q: "How much is junk removal in Monroeville?",
-        a: "Same published rates as the rest of Pittsburgh. Single items from $99. Quarter truck $175 to $275. Half truck $275 to $425. Full truck $475 to $750. We quote over the phone for single items and on site for anything bigger, and the quote is the final price. No fuel fees, no zip code markup.",
+        a: "It depends on how much is going out and how the crew reaches it. Monroeville runs from single-item pickups to full commercial clearouts, and those are different jobs, so we price each one after a quick walk-through or a phone description. You get the number before work starts.",
       },
     ],
   },
@@ -405,7 +405,7 @@ serviceAreas.push(
       },
       {
         q: "How much does junk removal cost in Shadyside?",
-        a: "Single items start at $99, a quarter truck runs $175 to $275, a half truck $275 to $425, and a full truck $475 to $750. Most Shadyside buildings are three-story walk-ups with no elevator, and we do not add a stairs fee for that. A third-floor Aiken Avenue apartment costs the same as a ground-floor pickup.",
+        a: "Volume and access drive it. Most Shadyside buildings are three-story walk-ups with no elevator, so the carry matters more here than almost anywhere else in the city, and we build that into the quote instead of surprising you with a stairs charge. Tell us the floor when you call.",
       },
     ],
   },
@@ -469,7 +469,7 @@ serviceAreas.push(
       },
       {
         q: "How much does junk removal cost in Squirrel Hill?",
-        a: "Single items from $99. Quarter truck $175 to $275. Half truck $275 to $425. Full truck $475 to $750. Jobs off Murray and Forbes usually need a curb window instead of a driveway, so we bring the smaller crew truck when the street is tight. The published price is the same either way.",
+        a: "It depends on the load and how close the truck can get. Jobs off Murray and Forbes usually work off a curb window rather than a driveway, and a tight street sometimes means a smaller truck and an extra trip. We look at that before quoting so the number holds.",
       },
     ],
   },
@@ -532,7 +532,7 @@ serviceAreas.push(
       },
       {
         q: "How much does junk removal cost in Upper St. Clair?",
-        a: "Single items start at $99. A quarter truck is $175 to $275, a half truck $275 to $425, and a full truck $475 to $750. 15241 is one of the higher-value zip codes in the South Hills and we do not price off the address. Same rates as every other town we serve.",
+        a: "Volume and access, same as everywhere. We do not price off the address, so a 15241 job is quoted on what is actually going out rather than on the zip code. Walk us through the rooms and you get a firm number.",
       },
     ],
   },
@@ -585,7 +585,7 @@ serviceAreas.push(
       },
       {
         q: "How much does junk removal cost in the South Hills?",
-        a: "The same as everywhere else we work. Single items from $99. Quarter truck $175 to $275. Half truck $275 to $425. Full truck $475 to $750. We don't charge more in Upper St. Clair than in Brentwood. The price we quote at the walk-through or over the phone is the price you pay.",
+        a: "It depends on how much there is and how hard it is to get to. We do not quote differently for Upper St. Clair than for Brentwood, and the number we give at the walk-through or over the phone is what holds. Call with the rooms and the floor and we will price it.",
       },
       {
         q: "Which South Hills communities do you cover?",
@@ -649,7 +649,7 @@ serviceAreas.push(
       },
       {
         q: "How much does junk removal cost in the North Hills?",
-        a: "The same as everywhere else we work. Single items from $99. Quarter truck $175 to $275. Half truck $275 to $425. Full truck $475 to $750. We don't charge more in Franklin Park than in West View. The number we quote on the phone or at the walk-through is the number you pay.",
+        a: "Volume and access set it. Franklin Park and West View get quoted the same way, on what is actually going out rather than the address. Describe the load and you get the number before anyone starts.",
       },
       {
         q: "Which North Hills communities do you cover?",
@@ -724,7 +724,7 @@ serviceAreas.push(
       },
       {
         q: "How much does junk removal cost in Sewickley?",
-        a: "Single items from $99, quarter truck $175 to $275, half truck $275 to $425, full truck $475 to $750. Sewickley Heights carriage houses and third-floor back stairs add carry time, not cost. We price the truck space you fill, and 15143 gets no travel surcharge.",
+        a: "It depends on the load and the carry. Sewickley Heights carriage houses and third-floor back stairs add time on site, which we account for in the quote rather than adding after the fact. Tell us where it is sitting and we will price it properly.",
       },
     ],
   },
@@ -791,7 +791,7 @@ serviceAreas.push(
       },
       {
         q: "How much does junk removal cost in Bethel Park?",
-        a: "Single items start at $99. Quarter truck $175 to $275. Half truck $275 to $425. Full truck $475 to $750. Bethel Park attic loads usually come down a steep pull-down ladder, and we rig a chain out to the garage instead of charging a difficulty fee. The quote you get at the 15102 walk-through is the final price.",
+        a: "It depends on volume and how the crew gets to it. Bethel Park attic loads usually come down a steep pull-down ladder, so we rig a chain out to the garage, and that is part of the job rather than a difficulty fee. The quote you get at the walk-through is what you pay.",
       },
     ],
   },
@@ -854,7 +854,7 @@ serviceAreas.push(
       },
       {
         q: "How much does junk removal cost in Ross Township?",
-        a: "Single items from $99. A quarter truck runs $175 to $275, a half truck $275 to $425, and a full truck $475 to $750. We run the McKnight Road corridor daily, so West View, Perrysville, and Ingomar pickups usually fit the same day with no rush charge. 15229 and 15237 pay what everyone else pays.",
+        a: "Volume and access. We run the McKnight Road corridor daily, so West View, Perrysville, and Ingomar pickups usually fit the same day without a rush charge. Call with what you have and you get a number on that call.",
       },
     ],
   },
@@ -919,7 +919,7 @@ serviceAreas.push(
       },
       {
         q: "How much does junk removal cost in Fox Chapel?",
-        a: "Single items start at $99, quarter truck $175 to $275, half truck $275 to $425, and full truck $475 to $750. Fox Chapel properties are large and often have long private drives and outbuildings, which we cover in the walk-through instead of billing separately. 15238 gets the same published rates as the rest of Allegheny County.",
+        a: "It depends on how much is going and how far it has to travel to the truck. Fox Chapel properties are large and often have long private drives and outbuildings, so we cover that in the walk-through instead of billing it separately afterward. Book a look and you get a firm price.",
       },
     ],
   },
@@ -977,7 +977,7 @@ serviceAreas.push(
       },
       {
         q: "How much does junk removal cost in Shaler Township?",
-        a: "Single items from $99. Quarter truck $175 to $275. Half truck $275 to $425. Full truck $475 to $750. Glenshaw, Etna, and Millvale homes often sit on hillside lots where the truck parks up the street, and that carry is already in the price. No difference between 15116, 15209, and 15223.",
+        a: "Volume and access drive it. Glenshaw, Etna, and Millvale homes often sit on hillside lots where the truck parks up the street, and that carry is priced into the quote rather than added later. Tell us the street situation when you call.",
       },
     ],
   },
@@ -1039,7 +1039,7 @@ serviceAreas.push(
       },
       {
         q: "How much does junk removal cost in Penn Hills?",
-        a: "Single items start at $99. A quarter truck is $175 to $275, a half truck $275 to $425, and a full truck $475 to $750. Penn Hills split-levels from the 1950s through the 1980s usually fill a half truck once the basement and garage go together. 15235 pays the standard rate with no zip code markup.",
+        a: "It depends on how much is going out. Penn Hills split-levels from the 1950s through the 1980s usually go basement and garage together, which is one job rather than two, and we quote it that way. You get the number before work starts.",
       },
     ],
   },
@@ -1097,7 +1097,7 @@ serviceAreas.push(
       },
       {
         q: "How much does junk removal cost in Plum Borough?",
-        a: "Single items from $99, quarter truck $175 to $275, half truck $275 to $425, full truck $475 to $750. Plum is the eastern edge of our Allegheny County route, and Holiday Park, Renton, and New Texas get the same pricing as anywhere closer in. There is no mileage fee for 15239.",
+        a: "Volume and access. Plum is the eastern edge of our Allegheny County route and Holiday Park, Renton, and New Texas get quoted the same as anywhere closer in, with no mileage tacked on. Describe the load and we will price it.",
       },
     ],
   },
@@ -1155,7 +1155,7 @@ serviceAreas.push(
       },
       {
         q: "How much does junk removal cost in Moon Township?",
-        a: "Single items start at $99. Quarter truck $175 to $275. Half truck $275 to $425. Full truck $475 to $750. Moon jobs near the airport corridor and Coraopolis are often landlord turnovers, and multi-unit work gets quoted as one job instead of per apartment. 15108 pays the standard rate.",
+        a: "It depends on the load and the property. Moon jobs near the airport corridor and Coraopolis are often landlord turnovers, and multi-unit work gets quoted as one job rather than per apartment, which usually works in your favor. Call with the unit count.",
       },
     ],
   },
@@ -1213,7 +1213,7 @@ serviceAreas.push(
       },
       {
         q: "How much does junk removal cost in Robinson Township?",
-        a: "Single items from $99. A quarter truck runs $175 to $275, a half truck $275 to $425, and a full truck $475 to $750. Residential pickups in Kirwan Heights and Park Manor and commercial clearouts near the Mall at Robinson run on the same published rates. 15136 and 15205 get no travel surcharge.",
+        a: "Volume and access, whether it is residential or commercial. Pickups in Kirwan Heights and Park Manor and clearouts near the Mall at Robinson are quoted the same way, on what is actually going out. You get the number before anyone starts.",
       },
     ],
   },
@@ -1271,7 +1271,7 @@ serviceAreas.push(
       },
       {
         q: "How much does junk removal cost in Hampton Township?",
-        a: "Single items start at $99, quarter truck $175 to $275, half truck $275 to $425, full truck $475 to $750. Hampton homes built between 1970 and 1990 usually have walk-out basements, which makes a full clearout faster but does not change the load price. Allison Park and Gibsonia addresses in 15101 pay the same as the rest of the county.",
+        a: "It depends on how much there is and how the crew reaches it. Hampton homes built between 1970 and 1990 usually have walk-out basements, which makes a full clearout faster, and that shows up in your quote. Allison Park and Gibsonia addresses are priced the same as the rest of the county.",
       },
     ],
   },
@@ -1329,7 +1329,7 @@ serviceAreas.push(
       },
       {
         q: "How much does junk removal cost in McCandless?",
-        a: "Single items from $99. Quarter truck $175 to $275. Half truck $275 to $425. Full truck $475 to $750. McCandless jobs around Ingomar, Peebles Road, and the Northway Mall area sit on the North Hills route we cover daily, so same-day slots are common. 15237 and 15090 pay the published rate with no markup.",
+        a: "Volume and access. McCandless jobs around Ingomar, Peebles Road, and the Northway Mall area sit on the North Hills route we cover daily, so same-day slots are common. Call with what is going and you get a quote on that call.",
       },
     ],
   },
