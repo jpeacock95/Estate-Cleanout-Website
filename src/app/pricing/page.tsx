@@ -31,6 +31,14 @@ const pricingFaqs = [
     a: "Single items start at $99. A quarter truck runs $175 to $275, a half truck $275 to $425, and a full truck $475 to $750. Whole-home estate cleanouts run $850 to $3,500. Those are our published Pittsburgh prices, and the quote you get is the price you pay.",
   },
   {
+    q: "How much does it cost to have junk removed in Pittsburgh?",
+    a: "It costs $99 for a single item, $175 to $275 for a quarter truck, $275 to $425 for a half truck, and $475 to $750 for a full truck. A typical Pittsburgh garage or basement clearout lands on the half truck at $275 to $425. A whole-home estate cleanout runs $850 to $3,500. Labor, the truck, and the dump fee are all inside those numbers, so there is nothing added on job day.",
+  },
+  {
+    q: "What is the average junk removal cost in Pittsburgh?",
+    a: "Most Pittsburgh jobs we run come in between $275 and $425, which is a half truck. That covers a full garage, a finished-basement clearout, or the furniture from a two-bedroom apartment. Smaller single-item pickups are $99 and a packed full truck tops out at $750. We publish these rates instead of quoting each job differently.",
+  },
+  {
     q: "Why do most Pittsburgh junk removal companies make you call for a price?",
     a: "Because a quote form lets them price each job on the spot. We publish load-size prices instead so you can budget before you call. If your job falls between two sizes, we round in your favor and tell you which page it matches.",
   },
