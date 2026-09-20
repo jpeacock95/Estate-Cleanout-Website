@@ -16,6 +16,22 @@ Read this file on **every** SEO, content, or website update on this project. GEO
 
 ---
 
+## Pricing Model (set 2026-09-20, overrides anything older in this file)
+
+**This site is lead generation.** It routes inquiries to junk removal operators who set their own prices. The site does not fulfill jobs, so a published rate card is a promise it cannot keep, and a customer quoted one number here and charged another by the operator is a bait-and-switch problem that lands on the brand.
+
+Rules:
+
+1. **No published rate cards, no per-item prices, no "the quote is the price you pay" promises.** Pricing is quoted per job after the item or room is seen or described.
+2. **Name the drivers instead of the number.** Volume, access and stairs, floor, item type, disposal requirements, single item versus whole room. This still answers the searcher's question and still earns the ranking.
+3. **Keep the cost-intent keywords.** "How much does junk removal cost in {area}" is what ranks and it stays as a question. Only the dollar figures in the answer go.
+4. **Third-party dollar figures are fine and encouraged**, because they are verifiable and are not our promise: a Duquesne Light rebate amount, a transfer station charging a fee, a retailer bundling haul-away. Cite the source.
+5. **GEO citability does not depend on prices.** Citable specifics come from verified facts instead: City of Pittsburgh bulk limits, EPA refrigerant handling, item weights, crew sizes, timelines, what charities actually refuse. Those are stronger citation targets than a price and carry zero business risk.
+
+**Still carrying published prices and awaiting a decision from Jordan:** the 12 `/pricing` pages and the hub, the 126 combo page `pricingAnchor` strings, service page quick facts, and remaining figures in `service-areas-data.ts`. The `/pricing` section pulls about 9% of site impressions and 18% of clicks, so it is not a straight delete.
+
+---
+
 ## Target Queries (AI Engine Citation Goals)
 
 - "estate cleanout Pittsburgh"
@@ -31,7 +47,7 @@ Read this file on **every** SEO, content, or website update on this project. GEO
 
 ### Content structure
 - [ ] **Answer-first with empathy** — "We clean out estate homes respectfully within 1-3 days, $800-$3,500 typical." Specifics + compassion matter for distress queries.
-- [ ] **Specific numbers** — 1-3 days, $800-$3,500, 2-3 crew, 1-4 truckloads, 7 days/week. This is the citable-factoid format AI engines prefer.
+- [ ] **Specific numbers, but not our prices**. 1-3 days, 2-3 crew, 1-4 truckloads, 7 days/week, item weights, City bulk limits, utility rebate amounts. This is the citable-factoid format AI engines prefer. Since 2026-09-20 the citable specifics come from verifiable third-party facts and job mechanics, NOT from a published rate card. See the Pricing Model rule below.
 - [ ] **Trust signals in every paragraph** — insurance carrier name, years experience, PA DEP waste hauler registration, what to expect, privacy commitments
 - [ ] **Quick Facts blocks** — extractable stat blocks (already on estate cleanouts page — pattern for every service page)
 - [ ] **Self-contained FAQ Q&As** (2-4 sentences each)
@@ -173,9 +189,9 @@ An SEO task is not done until:
 Distress buyers (death, hoarding, foreclosure) are the primary audience. Every decision prioritizes **trust signals over conversion tactics**. Never:
 - Use urgency/scarcity manipulation ("3 spots left!")
 - Show stock-photo smiling families on sensitive service pages
-- Hide pricing or play coy
+- Invent a price, or promise a number this site cannot honor. See the Pricing Model rule
 - Use "premium" language that implies gouging
 Always:
-- Real people, real prices, real timelines
+- Real people, real timelines, real process
 - Empathy for the context (loss, stress, overwhelm)
 - Fast response + transparent process = trust

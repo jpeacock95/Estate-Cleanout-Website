@@ -6,6 +6,25 @@
 
 ## Where we left off
 
+### 2026-09-20 (later): pricing model change + Pattern A shipped as disposal guides
+
+**Jordan clarified the business model:** this site is lead generation. It routes inquiries to junk removal operators who set their own prices. A published rate card is therefore a promise the site cannot keep. `GEO_RULES.md` now carries a Pricing Model section that overrides its older "never hide pricing" line, which was written for a fulfillment business.
+
+**What changed on the pricing side:**
+
+- All 21 area page "how much does junk removal cost in {area}" FAQs: question text kept because that is the ranking signal, dollar ladders swapped for what actually drives the number (volume, access, stairs, floor, item type). This reverses the figures added earlier the same day.
+- `llms.txt`: rate card line replaced with quote framing, per-service price strings dropped from the AI feed, and a Verified Pittsburgh Disposal Facts block added in their place.
+- `PageCta` (every page on the site): "Upfront pricing. No hidden fees." replaced with a free-quote promise.
+
+**Pattern A shipped, reframed.** The rollout tracker had Pattern A blocked on Jordan's real per-item pricing. Removing prices unblocked it. Instead of thin item-removal pages, these are full disposal guides that also capture the local commercial term.
+
+- New: `/how-to-get-rid-of` hub plus `/how-to-get-rid-of/{couch, mattress, refrigerator, washer-and-dryer, piano, hot-tub}`. Site now 199 pages.
+- **Why these six:** DataForSEO 2026-09-20 shows the informational terms are 5 to 20x the local commercial ones. "how to dispose of a couch" 210/mo statewide vs "couch removal pittsburgh" 30/mo. "how to get rid of an old mattress" 170 vs 10. "how to dispose of an old refrigerator" 140. Local terms carry the high CPC ($18 to $19 on couch and mattress removal), so the guide ranks on the informational head and converts on the commercial tail.
+- **GEO:** every Pittsburgh fact verified via Perplexity against City of Pittsburgh, PA DEP, and Duquesne Light sources rather than asserted. City takes two bulk items per week and excludes construction debris, hazardous waste, and electronics at the curb. Pennsylvania has NO statewide mattress recycling law, so the mattress guide says so rather than implying one. Refrigerant requires certified recovery. Duquesne Light pays $50 with free pickup on a working fridge or freezer. Each page: direct-answer capsule, Quick Facts, options breakdown with the honest catch on each, Article + FAQPage + BreadcrumbList schema, Copy for AI block, outbound source citations, 1,400 to 1,650 words.
+- Wired into the sitemap, the footer, and llms.txt. All 7 URLs submitted to the Indexing API and verified live.
+
+**Open decision for Jordan:** the 12 `/pricing` pages and hub still publish full rate cards, as do the 126 combo `pricingAnchor` strings and the service page quick facts. That section pulls about 9% of site impressions and 18% of clicks and ranks position 6.8 to 10 on cost queries, so it is not a straight delete. Options are in the closing report.
+
 ### 2026-09-20: weekly SEO loop run 4 (/steelcity-weekly-loop)
 
 Snapshot: `research/weekly-loop/2026-09-20.md`.
