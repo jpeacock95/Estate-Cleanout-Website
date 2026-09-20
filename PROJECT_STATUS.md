@@ -1,10 +1,26 @@
 # Steel City Cleanouts Project Status
 
 **Live URL:** https://www.steelcitycleanouts.com
-**Last updated:** 2026-09-13
-**Current phase:** Phase 5 in progress. Weekly SEO loop running (3 runs done: 2026-08-31, 2026-09-07, 2026-09-13). Pattern B shipped, combo template at full 10-part anatomy, Patterns A/C/D/E pending
+**Last updated:** 2026-09-20
+**Current phase:** Phase 5 in progress. Weekly SEO loop running (4 runs done: 2026-08-31, 2026-09-07, 2026-09-13, 2026-09-20). Pattern B shipped, combo template at full 10-part anatomy, Patterns A/C/D/E pending
 
 ## Where we left off
+
+### 2026-09-20: weekly SEO loop run 4 (/steelcity-weekly-loop)
+
+Snapshot: `research/weekly-loop/2026-09-20.md`.
+
+1. **Data:** 17 clicks / 2,696 impressions last 7 days (prior week 15 / 4,538). Clicks up 13%, impressions down 41%. The whole drop is two places: the homepage shed 1,233 impressions at position 42-45 (generic national "home cleanouts" noise) and `/services/appliance-removal` shed 247 when "old appliance removal" dropped out after last week's retitle. Every money page flat or up.
+2. **The apparent position crashes are averaging artifacts.** "estate cleanout pittsburgh" reads 8.2 to 36.0, but query+page data shows the homepage still holds 6.2 and the 36.0 is the mean across 20 of our pages surfacing at positions 46-98. Same for "best couch removal south hills" (winner 6.0), "pittsburgh basement cleanout" (winner 10.5). Strays at 70+ move the average, not the winner. Check the query+page dimension before reacting to a position drop on this site.
+3. **The pattern that drove this run:** area pages carrying a "how much does junk removal cost in {area}" FAQ rank 15-19 for their own "{area} junk removal" query. The 18 area pages without one ranked 37-63. Monroeville went 35.9 to 19.3 and 0 to 3 clicks after getting that FAQ on run 3.
+4. **Shipped:**
+   - Junk removal price FAQ on all 18 area pages that lacked one, each written against that area's real detail (housing era, zip codes, named neighborhoods, the local carry challenge) rather than boilerplate. Full load-size ladder in every answer: single item $99, quarter truck $175-$275, half truck $275-$425, full truck $475-$750. Feeds FAQPage schema automatically.
+   - `/pricing`: two exact-match FAQs for "How much does it cost to have junk removed in Pittsburgh?" (17 impressions stuck at position 16.4) and "What is the average junk removal cost in Pittsburgh?" The page already answered the "how much does junk removal cost in Pittsburgh" phrasing but not these.
+   - `npm run check` clean, 192 pages, schema verified in built output, Playwright QA at 1440px and 375px, 19 URLs submitted to the Indexing API, live on production verified.
+5. **One real cannibalization, left alone this week.** `/service-areas/bethel-park` ranks 4.9 for "south hills junk removal" and 3.4 for "couch removal south hills", ahead of the intended `/services/junk-removal/in/south-hills` (11) and `/services/furniture-removal/in/south-hills` (9.2). Bethel Park only manages 14.7 for its own "bethel park junk removal". Google reads that page as a South Hills page. It got the price FAQ like every other area; if its own queries do not move by run 5, rebalance the South Hills mentions in its intro and hero sub.
+6. **Appliance removal on watch.** Run 3's retitle to "Old Appliance Removal Pittsburgh PA" coincided with "old appliance removal" (48 imp at position 45) going to zero and "washer dryer removal" appearing new at 15 imp, position 28.4. That is Google re-evaluating 7 days after a title change. Reverting weekly is churn. Decide on run 5.
+7. **Monthly deep check:** skipped, not the first run of the month. Last done 2026-09-07.
+8. **Still open from run 3:** the GEO_RULES.md 2,900-word service page rule versus the 1,000-1,205 words every service page actually renders. Needs Jordan's call.
 
 ### 2026-09-13: weekly SEO loop run 3 (/steelcity-weekly-loop)
 
