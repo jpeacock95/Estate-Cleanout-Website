@@ -152,7 +152,7 @@ export function AreaPageTemplate({ area }: { area: ServiceArea }) {
                       Junk Removal &amp; Cleanouts in {n.name}
                     </h3>
                     <p className="m-0 text-[14px] text-[#1d1d1d]/70 font-[family-name:var(--font-body)]">
-                      {n.county}. Same-day service, single items from $99.
+                      {n.county}. Same-day service, free quotes.
                     </p>
                   </Link>
                 ))}

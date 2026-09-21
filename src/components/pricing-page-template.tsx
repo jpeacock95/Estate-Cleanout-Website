@@ -72,7 +72,7 @@ export function PricingPageTemplate({ page }: { page: PricingPage }) {
                       Item
                     </th>
                     <th className="p-4 text-[13px] uppercase tracking-wider font-[family-name:var(--font-heading)]">
-                      Price
+                      {page.tableColumnLabel ?? "What It Covers"}
                     </th>
                   </tr>
                 </thead>
@@ -93,7 +93,7 @@ export function PricingPageTemplate({ page }: { page: PricingPage }) {
                         ) : null}
                       </td>
                       <td className="border-t border-[#1d1d1d]/10 p-4 align-top">
-                        <p className="m-0 whitespace-nowrap text-[16px] font-bold text-[#ed6623] font-[family-name:var(--font-body)]">
+                        <p className="m-0 text-[16px] font-bold text-[#ed6623] font-[family-name:var(--font-body)]">
                           {row.price}
                         </p>
                       </td>
@@ -258,29 +258,16 @@ export function PricingPageTemplate({ page }: { page: PricingPage }) {
             },
             description: page.seoDescription,
             url: pageUrl,
-            ...(page.priceLow || page.priceHigh
-              ? {
-                  offers: {
-                    "@type": "AggregateOffer",
-                    priceCurrency: "USD",
-                    ...(page.priceLow ? { lowPrice: page.priceLow } : {}),
-                    ...(page.priceHigh ? { highPrice: page.priceHigh } : {}),
-                    offerCount: page.rows.filter((r) => r.priceLow).length || page.rows.length,
-                    description: page.pricingAnchor,
-                    priceSpecification: page.rows
-                      .filter((r) => r.priceLow)
-                      .map((r) => ({
-                        "@type": "PriceSpecification",
-                        priceCurrency: "USD",
-                        price: r.priceLow,
-                        ...(r.priceHigh && r.priceHigh !== r.priceLow
-                          ? { maxPrice: r.priceHigh }
-                          : {}),
-                        description: `${r.label}: ${r.price}`,
-                      })),
-                  },
-                }
-              : {}),
+            offers: {
+              "@type": "Offer",
+              availability: "https://schema.org/InStock",
+              priceSpecification: {
+                "@type": "PriceSpecification",
+                priceCurrency: "USD",
+                description:
+                  "Quoted per job after the item or room is seen or described. Free estimate.",
+              },
+            },
           }),
         }}
       />

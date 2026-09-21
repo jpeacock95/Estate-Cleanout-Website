@@ -11,14 +11,14 @@ import { pricingCategories } from "@/lib/pricing-data";
 import { siteConfig } from "@/lib/site-config";
 
 export const metadata: Metadata = {
-  title: "Junk Removal Pricing Pittsburgh | Real Prices, No Hidden Fees | Steel City Cleanouts",
+  title: "Junk Removal Cost in Pittsburgh | What Drives the Price | Steel City Cleanouts",
   description:
-    "Real Pittsburgh junk removal and estate cleanout pricing. Single item $99. Quarter truck $175-$275. Half truck $275-$425. Full truck $475-$750. No hidden fees.",
+    "What junk removal and estate cleanouts cost in Pittsburgh and why. Load size, access, stairs, and item type are what move your number. Free quote, no quote-form gatekeeping.",
   alternates: { canonical: `${siteConfig.url}/pricing` },
   openGraph: {
-    title: "Junk Removal Pricing Pittsburgh | Steel City Cleanouts",
+    title: "Junk Removal Cost in Pittsburgh | Steel City Cleanouts",
     description:
-      "Transparent pricing for junk removal, estate cleanouts, and every service. Real Pittsburgh dollar figures, no quote-form gatekeeping.",
+      "What junk removal and estate cleanouts actually cost in Pittsburgh, what moves the number, and how to get a real quote in one call.",
     url: `${siteConfig.url}/pricing`,
     type: "website",
     images: [{ url: `${siteConfig.url}/images/hubs/pricing.jpg` }],
@@ -28,15 +28,15 @@ export const metadata: Metadata = {
 const pricingFaqs = [
   {
     q: "How much does junk removal cost in Pittsburgh?",
-    a: "Single items start at $99. A quarter truck runs $175 to $275, a half truck $275 to $425, and a full truck $475 to $750. Whole-home estate cleanouts run $850 to $3,500. Those are our published Pittsburgh prices, and the quote you get is the price you pay.",
+    a: "It depends on how much truck space your load fills and how hard it is to reach. A quarter truck is about 3.5 cubic yards, a half truck about 7, and a full truck about 15. On top of volume, the number moves with access, stairs, item type, and disposal requirements. We give you a firm quote on the call or at the walk-through, before anything is loaded.",
   },
   {
     q: "How much does it cost to have junk removed in Pittsburgh?",
-    a: "It costs $99 for a single item, $175 to $275 for a quarter truck, $275 to $425 for a half truck, and $475 to $750 for a full truck. A typical Pittsburgh garage or basement clearout lands on the half truck at $275 to $425. A whole-home estate cleanout runs $850 to $3,500. Labor, the truck, and the dump fee are all inside those numbers, so there is nothing added on job day.",
+    a: "The cost is set by four things: how much there is, how hard it is to get to the truck, what the items are, and where they have to go afterward. A typical Pittsburgh garage or basement clearout is a half truck, around 7 cubic yards, and runs 45 to 75 minutes with a 2 or 3-person crew. Labor, the truck, and the dump fee are all inside the quoted number, so nothing is added on job day.",
   },
   {
     q: "What is the average junk removal cost in Pittsburgh?",
-    a: "Most Pittsburgh jobs we run come in between $275 and $425, which is a half truck. That covers a full garage, a finished-basement clearout, or the furniture from a two-bedroom apartment. Smaller single-item pickups are $99 and a packed full truck tops out at $750. We publish these rates instead of quoting each job differently.",
+    a: "National marketplaces put the average junk removal job around $241, but that averages across markets that look nothing like Pittsburgh, so treat it as a reference point and not a quote. The most common job size here is a half truck, which covers a full garage, a finished-basement clearout, or the furniture from a two-bedroom apartment. The only number that applies to your job is the one quoted against your actual load.",
   },
   {
     q: "Why do most Pittsburgh junk removal companies make you call for a price?",
@@ -48,7 +48,7 @@ const pricingFaqs = [
   },
   {
     q: "Is it cheaper to rent a dumpster than to hire junk removal in Pittsburgh?",
-    a: "Usually not for a one-time cleanout. A 10-yard dumpster in Pittsburgh typically runs $350 to $550 for 3 to 7 days plus permit costs on city streets, and you do all the loading. Our full truck is $475 to $750 with a 2 or 3-person crew doing the carrying, and it's gone the same day. See the dumpster comparison page for the side-by-side.",
+    a: "Usually not for a one-time cleanout. A 10-yard dumpster in Pittsburgh typically runs $350 to $550 for 3 to 7 days on the open market, plus a City permit if it sits on the street, and you do all the loading, commonly 15 to 25 hours of it. A full-service crew does the carrying and it is gone the same day. See the dumpster comparison page for the side-by-side.",
   },
 ];
 
@@ -62,7 +62,7 @@ export default function PricingIndex() {
       <main className="flex-1">
         <PageHero
           headline="Pittsburgh Junk Removal Pricing"
-          sub="Every price we charge, published up front. No quote form required."
+          sub="How the pricing works, what moves it, and how to get a real number fast."
           image="/images/hubs/pricing.jpg"
           imageAlt="Steel City Cleanouts pricing in Pittsburgh"
           eyebrow="Pricing"
@@ -78,19 +78,21 @@ export default function PricingIndex() {
               data-speakable="true"
             >
               <p className="m-0 text-[16px] font-semibold leading-[1.55] text-[#1d1d1d] font-[family-name:var(--font-body)]">
-                Steel City Cleanouts publishes real Pittsburgh pricing for every service.
-                Single items start at $99. Quarter truck runs $175 to $275. Half truck $275 to
-                $425. Full truck $475 to $750. Whole-home estate cleanouts run $850 to $3,500.
-                Every surcharge is listed. The quote we give you is the price you pay.
+                Junk removal in Pittsburgh is priced by how much truck space your load fills,
+                then adjusted for access, stairs, item type, and where the material has to go.
+                A quarter truck is about 3.5 cubic yards, a half truck about 7, and a full truck
+                about 15. Everything that gets quoted separately is listed on the extras page.
+                You get one number before any work starts, and nothing is added on job day.
               </p>
             </div>
 
             <p className="text-[17px] leading-[1.75] text-[#1d1d1d] font-[family-name:var(--font-body)] lg:text-[18px]">
-              Most junk removal companies in Pittsburgh hide their prices behind a quote form.
-              We don&apos;t. Pick the page below that matches your job and you&apos;ll see a real
-              dollar range, what&apos;s included, and what costs extra. If you want a firm
-              number in under 5 minutes, call {siteConfig.phone.display} or use the form at
-              the bottom of any page.
+              Most junk removal companies in Pittsburgh make you fill out a form before they
+              tell you anything. We would rather explain how the pricing works. Pick the page
+              below that matches your job and you&apos;ll see what that job actually involves,
+              what is included, and what gets quoted separately. If you want a firm number in
+              under 5 minutes, call {siteConfig.phone.display} or use the form at the bottom of
+              any page.
             </p>
           </div>
         </section>

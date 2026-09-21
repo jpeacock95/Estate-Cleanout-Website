@@ -187,8 +187,6 @@ export function ServicePageTemplate({ service }: { service: Service }) {
             offers: {
               "@type": "AggregateOffer",
               priceCurrency: "USD",
-              ...(service.priceLow ? { lowPrice: service.priceLow } : {}),
-              ...(service.priceHigh ? { highPrice: service.priceHigh } : {}),
               description: service.pricingAnchor,
             },
           }),

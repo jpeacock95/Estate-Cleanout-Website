@@ -82,7 +82,7 @@ export default function Home() {
               },
             ],
             description:
-              "Same-day estate cleanouts and junk removal in Pittsburgh, PA and Allegheny County. Cranberry-based, family-owned since 2026. Fully insured, upfront pricing. Single items from $95. Full estate cleanouts $800 to $3,500.",
+              "Same-day estate cleanouts and junk removal in Pittsburgh, PA and Allegheny County. Cranberry-based, family-owned since 2026. Fully insured, upfront pricing. Free quotes, given per job after we see the room or the item.",
             containedInPlace: {
               "@type": "AdministrativeArea",
               name: "Butler County, Pennsylvania",

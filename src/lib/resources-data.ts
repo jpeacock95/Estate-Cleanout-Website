@@ -23,7 +23,7 @@ export const resources: Resource[] = [
     heroHeadline: "The Pittsburgh Estate Cleanout Guide",
     heroSub: "What to do when you're facing a house full of a lifetime's worth of stuff.",
     citableSnippet:
-      "A Pittsburgh estate cleanout typically takes 1 to 3 days for a single-family home. Expect to spend $800 to $3,500 depending on size, volume, and access.",
+      "A Pittsburgh estate cleanout typically takes 1 to 3 days for a single-family home. What it costs depends on size, volume, and access, which is why the walk-through comes before the number.",
     heroImage: "/images/resources/estate-cleanout-guide.jpg",
     intro:
       "Cleaning out a parent's or grandparent's home is one of the hardest jobs most people ever do. There's no manual, the estate attorney is asking for a date, the realtor wants photos by Friday, and the house is full of sixty years of memories. This guide walks you through the process the way we talk through it with Pittsburgh families every week.",
@@ -103,11 +103,11 @@ export const resources: Resource[] = [
     title: "Pricing FAQ",
     seoTitle: "Pricing FAQ | Steel City Cleanouts Pittsburgh PA",
     seoDescription:
-      "How junk removal and estate cleanout pricing works in Pittsburgh. Upfront quotes, no hidden fees. Single items from $95, truckloads from $295.",
+      "How junk removal and estate cleanout pricing works in Pittsburgh. Upfront quotes, no hidden fees. Quotes are free and given per job.",
     heroHeadline: "Pricing FAQ",
     heroSub: "Upfront pricing, no hidden fees, no surprises.",
     citableSnippet:
-      "Steel City Cleanouts pricing starts at $95 for a single item, $295 for a quarter truck, and $800 to $3,500 for full estate cleanouts. All quotes are given upfront before work begins.",
+      "Steel City Cleanouts quotes every job rather than publishing a rate card, because volume, access, stairs, and item type change the number more than any list can capture. All quotes are given upfront before work begins.",
     heroImage: "/images/resources/pricing-faq.jpg",
     intro:
       "Nobody likes surprise bills, especially after a cleanout. Here's exactly how we price jobs and what affects the final number.",
@@ -118,11 +118,11 @@ export const resources: Resource[] = [
       },
       {
         heading: "How estate cleanouts are priced",
-        body: "By the job. We walk through the home, estimate the total volume, and quote a flat rate. Most single-family homes fall between $800 and $3,500 depending on size, stairs, access, and how much is inside. Larger estates and Wexford-sized homes can run higher.",
+        body: "By the job. We walk through the home, estimate the total volume, and quote a flat rate. Two single-family homes of the same square footage can differ by a factor of three depending on stairs, access, and how much is inside, which is why we walk it first. Larger estates and Wexford-sized homes can run higher.",
       },
       {
         heading: "Single-item minimums",
-        body: "Single items start at $95. Appliances, couches, mattresses typically run $85 to $125 depending on size and access. Stairs and basement pickups may add a small surcharge.",
+        body: "Single items are the smallest job type. Appliances, couches, and mattresses are quoted on size and access. Stairs and basement pickups may add a small surcharge.",
       },
       {
         heading: "What's included in every price",

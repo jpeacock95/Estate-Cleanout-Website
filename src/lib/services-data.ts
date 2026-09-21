@@ -18,8 +18,6 @@ export type Service = {
   whatsIncluded: string[];
   quickFacts?: QuickFact[];
   pricingAnchor: string;
-  priceLow?: number;
-  priceHigh?: number;
   heroImage: string;
   faqs: ServiceFaq[];
 };
@@ -35,7 +33,7 @@ export const services: Service[] = [
     heroHeadline: "Pittsburgh Estate Cleanouts",
     heroSub: "Whole-house cleanouts handled with respect and speed.",
     citableSnippet:
-      "Steel City Cleanouts provides full-service estate cleanouts in Pittsburgh, PA and surrounding suburbs. Most homes are cleared in 1 to 3 days for $800 to $3,500. Family-owned, fully insured. Call (585) 200-0871 for a free walk-through.",
+      "Steel City Cleanouts provides full-service estate cleanouts in Pittsburgh, PA and surrounding suburbs. Most homes are cleared in 1 to 3 days with a 2 to 4-person crew. Family-owned, fully insured, free on-site walk-through before any number is quoted. Call (585) 200-0871.",
     intro:
       "Losing a loved one is hard enough without facing a house full of belongings. Our estate cleanout crews handle everything, from the attic boxes to the basement furnace, so families can focus on what matters. We work with attorneys, realtors, and families across Pittsburgh to turn a full home into an empty, broom-swept property in 1 to 3 days. Same-day walk-throughs are available most weeks.",
     typicalJob:
@@ -60,14 +58,12 @@ export const services: Service[] = [
     ],
     quickFacts: [
       { label: "Typical job size", value: "1 to 3 days" },
-      { label: "Typical price range", value: "$800 to $3,500" },
+      { label: "Typical timeline", value: "1 to 3 days" },
       { label: "Crew size", value: "2 or 3 people" },
       { label: "Trucks per job", value: "1 to 4 truckloads" },
       { label: "Availability", value: "7 days a week" },
     ],
-    pricingAnchor: "Free on-site estimates. Most homes $800 to $3,500 depending on size and volume.",
-    priceLow: 800,
-    priceHigh: 3500,
+    pricingAnchor: "Free on-site estimate. Priced on home size, volume, access, and how much sorting the family wants first.",
     heroImage: "/images/services/estate-cleanouts.jpg",
     faqs: [
       {
@@ -106,7 +102,7 @@ export const services: Service[] = [
     heroHeadline: "Same-Day Junk Removal in Pittsburgh",
     heroSub: "Point, we load, we haul. No hidden fees.",
     citableSnippet:
-      "Steel City Cleanouts provides same-day junk removal in Pittsburgh, PA. Single items start at $95. Full truckloads from $295. Family-owned, fully insured, 7 days a week. Call (585) 200-0871.",
+      "Steel City Cleanouts provides same-day junk removal in Pittsburgh, PA. Jobs run from a single item to a full 15 cubic yard truckload, quoted on volume and access. Family-owned, fully insured, 7 days a week. Call (585) 200-0871.",
     intro:
       "If it's heavy, awkward, or broken, we'll take it. Our junk removal crews cover Pittsburgh and every surrounding township 7 days a week. You point at what needs to go. We carry it out, load the truck, sweep up behind us, and you get your space back. Same-day service is available most days, and most appointments are booked within 24 hours of your first call.",
     typicalJob:
@@ -131,14 +127,12 @@ export const services: Service[] = [
     ],
     quickFacts: [
       { label: "Typical job time", value: "30 min to 2 hours" },
-      { label: "Starting price", value: "$95 per single item" },
-      { label: "Full truckload", value: "from $295" },
+      { label: "Smallest job", value: "Single item pickup" },
+      { label: "Full truckload", value: "About 15 cubic yards" },
       { label: "Arrival window", value: "1 hour or less, not 4" },
       { label: "Availability", value: "Same day, 7 days a week" },
     ],
-    pricingAnchor: "Starts around $95 for a single item. Truckloads from $295. Free quotes over the phone.",
-    priceLow: 95,
-    priceHigh: 650,
+    pricingAnchor: "Free quotes over the phone. Priced on how much truck space you fill and how far it has to be carried.",
     heroImage: "/images/services/junk-removal.jpg",
     faqs: [
       {
@@ -163,7 +157,7 @@ export const services: Service[] = [
       },
       {
         q: "Can you haul a single item?",
-        a: "Yes. Single couch, single mattress, single recliner, single appliance. Starts around $95 and we'll tell you the exact price before we load it. Minimum pickup isn't a truckload.",
+        a: "Yes. Single couch, single mattress, single recliner, single appliance. We'll tell you the exact price before we load it. Minimum pickup isn't a truckload.",
       },
     ],
   },
@@ -177,7 +171,7 @@ export const services: Service[] = [
     heroHeadline: "Appliance Removal Across Pittsburgh",
     heroSub: "Old fridge, dead washer, busted dryer. We'll take it.",
     citableSnippet:
-      "Steel City Cleanouts hauls old appliances (refrigerators, washers, dryers, stoves, dishwashers) across Pittsburgh, PA. Single appliances from $95. Same-day service. Fully insured. Call (585) 200-0871.",
+      "Steel City Cleanouts hauls old appliances (refrigerators, washers, dryers, stoves, dishwashers) across Pittsburgh, PA. Most appliance jobs take 20 to 40 minutes with a 2-person crew, and refrigerant is routed to a certified recycler. Same-day service, fully insured. Call (585) 200-0871.",
     intro:
       "Appliances are heavy, awkward, and nobody wants to carry a refrigerator down a basement staircase. We do this every day. Two-person crews show up with the right gear, protect your floors and doorways, and get that old appliance out of your house in under 30 minutes most of the time. We follow EPA guidelines for refrigerant recovery on fridges and freezers, so you don't have to worry about disposal rules or drop-off fees.",
     typicalJob:
@@ -202,14 +196,12 @@ export const services: Service[] = [
     ],
     quickFacts: [
       { label: "Typical job time", value: "20 to 40 minutes" },
-      { label: "Single appliance", value: "from $95" },
+      { label: "Typical job length", value: "20 to 40 minutes" },
       { label: "Multi-appliance discount", value: "10 to 25 percent off" },
       { label: "Basement pickups", value: "Standard, no extra fee" },
       { label: "Disposal", value: "EPA-compliant, fully licensed" },
     ],
-    pricingAnchor: "Single appliances from $95. Multi-appliance discounts available.",
-    priceLow: 95,
-    priceHigh: 250,
+    pricingAnchor: "Free quotes over the phone. Priced per appliance, with multi-appliance jobs quoted as one.",
     heroImage: "/images/services/appliance-removal.jpg",
     faqs: [
       {
@@ -234,15 +226,15 @@ export const services: Service[] = [
       },
       {
         q: "How do I get rid of an old refrigerator in Pittsburgh?",
-        a: "You can't put it at the curb. Pittsburgh trash collection won't take a refrigerator or freezer because of the refrigerant, and most transfer stations charge a separate freon-recovery fee on top of the dump fee. We haul it instead, from $95 for a single unit, recover the refrigerant under EPA rules, and send the shell to a scrap recycler. Basement fridges come up the stairs at no extra charge.",
+        a: "You can't put it at the curb. Pittsburgh trash collection won't take a refrigerator or freezer because of the refrigerant, and most transfer stations charge a separate freon-recovery fee on top of the dump fee. We haul it instead, recover the refrigerant under EPA rules, and send the shell to a scrap recycler. Basement fridges come up the stairs at no extra charge.",
       },
       {
         q: "Will you haul away an old washer and dryer?",
-        a: "Yes. Washers, dryers, and stacked combos are our most common two-item job, usually $140 to $185 for the pair. We disconnect the supply hoses and the dryer plug ourselves. A gas dryer needs the gas line shut off and capped by a plumber before we arrive. Most laundry-room pickups take under 30 minutes.",
+        a: "Yes. Washers, dryers, and stacked combos are our most common two-item job, quoted as one job rather than two pickups. We disconnect the supply hoses and the dryer plug ourselves. A gas dryer needs the gas line shut off and capped by a plumber before we arrive. Most laundry-room pickups take under 30 minutes.",
       },
       {
         q: "Do you remove old water heaters?",
-        a: "Yes. Electric water heaters we disconnect and carry out ourselves, from $110. Gas water heaters need to be shut off and disconnected by a licensed plumber first, then we haul the tank. Both go to scrap metal recycling. Basement water heaters are standard work for us, stairs included.",
+        a: "Yes. Electric water heaters we disconnect and carry out ourselves. Gas water heaters need to be shut off and disconnected by a licensed plumber first, then we haul the tank. Both go to scrap metal recycling. Basement water heaters are standard work for us, stairs included.",
       },
       {
         q: "Can you come the same day for appliance removal?",
@@ -260,7 +252,7 @@ export const services: Service[] = [
     heroHeadline: "Pittsburgh Furniture Removal",
     heroSub: "One couch or a whole house. We'll haul it.",
     citableSnippet:
-      "Steel City Cleanouts hauls old furniture (couches, mattresses, dressers, dining sets) across Pittsburgh, PA. Couches from $95. Mattresses from $85. Same-day pickup. Call (585) 200-0871.",
+      "Steel City Cleanouts hauls old furniture (couches, mattresses, dressers, dining sets) across Pittsburgh, PA. Priced per piece on the floor it sits on and whether it needs disassembly. Stairs and tight turns are handled in the quote, not added on the day. Same-day pickup. Call (585) 200-0871.",
     intro:
       "That old sectional that won't fit down the stairs, the mattress nobody wants, the dining room set your parents left you. We take it all. Our crews carry furniture out without dinging your walls, load it in the truck, and get it out of your life. Donation-worthy pieces go to local Pittsburgh charities when possible, and mattresses are recycled under PA regional programs when they're in good enough shape.",
     typicalJob:
@@ -285,14 +277,12 @@ export const services: Service[] = [
     ],
     quickFacts: [
       { label: "Typical job time", value: "20 to 60 minutes" },
-      { label: "Couch from", value: "$95" },
-      { label: "Mattress from", value: "$85" },
-      { label: "Full room from", value: "$250" },
+      { label: "Smallest job", value: "One piece" },
+      { label: "Mattress and box spring", value: "Taken together in one trip" },
+      { label: "Full room", value: "Quoted as one job" },
       { label: "Availability", value: "Same day, 7 days a week" },
     ],
-    pricingAnchor: "Couches from $95. Mattresses from $85. Full rooms from $250.",
-    priceLow: 85,
-    priceHigh: 450,
+    pricingAnchor: "Free quotes over the phone. Priced on piece count, the floor it is on, and whether anything needs disassembly.",
     heroImage: "/images/services/furniture-removal.jpg",
     faqs: [
       {
@@ -327,7 +317,7 @@ export const services: Service[] = [
     heroHeadline: "Garage Cleanouts in Pittsburgh",
     heroSub: "Park your car in your garage again.",
     citableSnippet:
-      "Steel City Cleanouts clears whole garages in Pittsburgh, PA in a single visit. Most 2-car garages take 3 to 5 hours and cost $350 to $900. Same-day scheduling. Call (585) 200-0871.",
+      "Steel City Cleanouts clears whole garages in Pittsburgh, PA in a single visit. Most 2-car garages take 3 to 5 hours with a 2 to 3-person crew. Paint, oil, and chemicals cannot be hauled with ordinary junk and are flagged before we start. Same-day scheduling. Call (585) 200-0871.",
     intro:
       "Most Pittsburgh garages start as car storage and end up as a 20-year collection of tools, boxes, bikes, broken lawnmowers, and paint cans nobody's opened since 2009. We come in, clear the whole thing, and leave you with a swept, empty garage in a single visit. Usually done in half a day. Most customers call us in late spring when they want the car back in the garage before summer storms, or in early fall when they're clearing winter storage space.",
     typicalJob:
@@ -353,13 +343,11 @@ export const services: Service[] = [
     quickFacts: [
       { label: "Typical 2-car garage", value: "3 to 5 hours" },
       { label: "Typical 1-car garage", value: "2 to 3 hours" },
-      { label: "Typical price", value: "$350 to $900" },
+      { label: "Typical job length", value: "2 to 3 hours" },
       { label: "Crew size", value: "2 or 3 people" },
       { label: "Donation sorting", value: "Included at no extra cost" },
     ],
-    pricingAnchor: "Most garages $350 to $900 depending on volume.",
-    priceLow: 350,
-    priceHigh: 900,
+    pricingAnchor: "Free quotes. Priced on bay count and how densely the garage is packed.",
     heroImage: "/images/services/garage-cleanouts.jpg",
     faqs: [
       {
@@ -390,11 +378,11 @@ export const services: Service[] = [
     shortName: "Basement Cleanouts",
     seoTitle: "Basement Cleanouts Pittsburgh PA | Stairs Included | Steel City Cleanouts",
     seoDescription:
-      "Full and partial basement cleanouts in Pittsburgh. 3-person crews, stairs already in the price, old appliances included. $350 to $850. Call (585) 200-0871.",
+      "Full and partial basement cleanouts in Pittsburgh. 3-person crews, the stair carry built into the quote, old appliances included. Free estimate. Call (585) 200-0871.",
     heroHeadline: "Basement Cleanouts in Pittsburgh",
     heroSub: "Everything comes up the stairs. You don't lift a thing.",
     citableSnippet:
-      "Steel City Cleanouts clears Pittsburgh basements with 3-person crews. A partial basement runs $350 to $550, a full basement $550 to $850, and the stairs are already built into the price. Old washers, dryers, and water heaters are included. Same-day scheduling. Call (585) 200-0871.",
+      "Steel City Cleanouts clears Pittsburgh basements with 3-person crews. A partial basement is usually under 2 hours and a full basement is a half day or more, with the stair carry built into the quote rather than added on the day. Old washers, dryers, and water heaters are included. Same-day scheduling. Call (585) 200-0871.",
     intro:
       "Pittsburgh basements are where 30 years of a household ends up. Boxes from the last three moves, the couch that got replaced in 2011, a dead dehumidifier, the old washer that was too heavy to carry back up, and shelving units full of things nobody has looked at since the kids left. Then the basement floods once, or the house goes up for sale, or a parent moves to assisted living, and all of it has to come up the stairs at once. That's the job we do. We send a 3-person crew, we carry every item up, and we leave you a swept concrete floor. Most basements are done in 2 to 5 hours.",
     typicalJob:
@@ -420,21 +408,19 @@ export const services: Service[] = [
       "Floor sweep and final bag-out",
     ],
     quickFacts: [
-      { label: "Partial basement", value: "$350 to $550" },
-      { label: "Full basement", value: "$550 to $850" },
+      { label: "Partial basement", value: "Under 2 hours, 2-person crew" },
+      { label: "Full basement", value: "Half day, 3-person crew" },
       { label: "Typical time on site", value: "2 to 5 hours" },
       { label: "Crew size", value: "3 people on most basement jobs" },
       { label: "Stairs surcharge", value: "None, already in the price" },
-      { label: "Mold-safe disposal", value: "$100 to $200 when needed" },
+      { label: "Mold-safe disposal", value: "Quoted up front when needed" },
     ],
-    pricingAnchor: "Partial basement $350 to $550. Full basement $550 to $850. Stairs included.",
-    priceLow: 350,
-    priceHigh: 850,
+    pricingAnchor: "Free quotes. Priced on the stairs as much as the volume, and the carry is built into the number.",
     heroImage: "/images/pricing/basement-cleanout.jpg",
     faqs: [
       {
         q: "How much does a basement cleanout cost in Pittsburgh?",
-        a: "A partial basement (one area or a half truck of stuff) runs $350 to $550. A full unfinished basement runs $475 to $650. A full finished basement with furniture and built-ins runs $650 to $850. Those ranges already include the stairs, labor, truck, and disposal. Full breakdown is on our basement cleanout pricing page.",
+        a: "A partial basement is one area or about a half truck of material. A full unfinished basement is the whole floor. A full finished basement with furniture and built-ins is the biggest of the three, usually a half day or more with disassembly. Those ranges already include the stairs, labor, truck, and disposal. Full breakdown is on our basement cleanout pricing page.",
       },
       {
         q: "Do you charge extra for stairs?",
@@ -442,7 +428,7 @@ export const services: Service[] = [
       },
       {
         q: "My basement flooded. Can you still clear it?",
-        a: "Yes. Pittsburgh basements flood, and post-flood cleanouts are a regular job for us. Wet boxes, ruined carpet, swollen furniture, and waterlogged drywall all come out. If there's visible mold, we wear respirators and use sealed bags, and mold-safe disposal adds $100 to $200. If the mold is widespread, we'll tell you to bring in a remediation company first and come back after.",
+        a: "Yes. Pittsburgh basements flood, and post-flood cleanouts are a regular job for us. Wet boxes, ruined carpet, swollen furniture, and waterlogged drywall all come out. If there's visible mold, we wear respirators and use sealed bags, and mold-safe disposal is quoted up front as part of the job. If the mold is widespread, we'll tell you to bring in a remediation company first and come back after.",
       },
       {
         q: "Can you take the old washer, dryer, or water heater?",
@@ -471,7 +457,7 @@ services.push(
     heroHeadline: "Pittsburgh Hoarder Cleanouts",
     heroSub: "Discreet, compassionate, done right.",
     citableSnippet:
-      "Steel City Cleanouts handles hoarder cleanouts in Pittsburgh, PA with discretion and zero judgment. Unmarked trucks on request, full PPE, multi-day jobs. Most fall between $2,000 and $8,000. Call (585) 200-0871.",
+      "Steel City Cleanouts handles hoarder cleanouts in Pittsburgh, PA with discretion and zero judgment. Unmarked trucks on request, full PPE, multi-day jobs scaled to the clutter level from 1 through 5. The walk-through is private and costs nothing. Call (585) 200-0871.",
     intro:
       "Hoarder cleanouts are some of the hardest jobs we do. They're also some of the most important. We handle every Pittsburgh hoarder cleanout with discretion, patience, and zero judgment. Our crews arrive in unmarked trucks when requested, wear full PPE when needed, and work at a pace the family or property owner can actually handle emotionally and physically. Most jobs span 2 to 5 days because rushing a hoarder cleanout usually ends with important things getting thrown away by accident.",
     typicalJob:
@@ -496,14 +482,12 @@ services.push(
     ],
     quickFacts: [
       { label: "Typical job length", value: "2 to 5 days" },
-      { label: "Typical price range", value: "$2,000 to $8,000" },
+      { label: "Typical timeline", value: "1 to 5 days by clutter level" },
       { label: "Crew size", value: "2 to 4 people" },
       { label: "PPE", value: "Full, including respirators for severe cases" },
       { label: "Discretion", value: "Unmarked trucks on request" },
     ],
-    pricingAnchor: "Hoarder cleanouts vary widely. Most fall between $2,000 and $8,000. Free private walk-through.",
-    priceLow: 2000,
-    priceHigh: 8000,
+    pricingAnchor: "Free private walk-through. Priced on clutter level, days on site, and disposal requirements.",
     heroImage: "/images/services/hoarder-cleanouts.jpg",
     faqs: [
       {
@@ -534,7 +518,7 @@ services.push(
     heroHeadline: "Pittsburgh Foreclosure Cleanouts",
     heroSub: "Bank-ready property trash-outs, fast.",
     citableSnippet:
-      "Steel City Cleanouts handles foreclosure trash-outs for Pittsburgh banks, asset managers, and REO realtors. Most single-family properties ready for listing in 1 to 2 days for $700 to $2,800. Volume pricing available. Call (585) 200-0871.",
+      "Steel City Cleanouts handles foreclosure trash-outs for Pittsburgh banks, asset managers, and REO realtors. Most single-family properties are ready for listing photos in 1 to 2 days. Volume agreements available for asset managers. Call (585) 200-0871.",
     intro:
       "Foreclosed properties need to be emptied, cleaned, and listing-ready fast. We work with banks, asset managers, and Pittsburgh realtors to handle trash-outs on REO (real estate owned) homes. Whole-property cleanouts, yard work, lock changes coordinated with your preferred locksmith, and photo-ready finishes. Invoicing works with standard asset management platforms. Most properties go from full to listing-ready in 1 to 2 business days.",
     typicalJob:
@@ -559,14 +543,12 @@ services.push(
     ],
     quickFacts: [
       { label: "Typical turnaround", value: "1 to 2 days" },
-      { label: "Typical price", value: "$700 to $2,800" },
+      { label: "Typical turnaround", value: "Same week, listing-ready" },
       { label: "Documentation", value: "Before/after photos on every job" },
       { label: "Volume pricing", value: "Available for 3+ properties" },
       { label: "Platforms", value: "Compatible with standard asset management systems" },
     ],
-    pricingAnchor: "Most foreclosure jobs $700 to $2,800 depending on property size and volume. Volume pricing for asset managers.",
-    priceLow: 700,
-    priceHigh: 2800,
+    pricingAnchor: "Priced on property size and volume. Volume agreements available for asset managers.",
     heroImage: "/images/services/foreclosure-cleanouts.jpg",
     faqs: [
       {
@@ -597,7 +579,7 @@ services.push(
     heroHeadline: "Pittsburgh Eviction Cleanouts",
     heroSub: "Get the unit rent-ready. Fast.",
     citableSnippet:
-      "Steel City Cleanouts provides same-day eviction trash-outs for Pittsburgh landlords and property managers. Apartment units from $350. Single-family from $650. Volume discounts available. Call (585) 200-0871.",
+      "Steel City Cleanouts provides same-day eviction trash-outs for Pittsburgh landlords and property managers. Apartment units are usually same day and single-family trash-outs run 1 to 2 days. Volume agreements available for property managers. Call (585) 200-0871.",
     intro:
       "After an eviction, time is money. Every day the unit sits full of the previous tenant's belongings is a day of lost rent. We show up same-day or next-day, trash out the entire unit, and leave it broom-swept and ready for turnover. Single-family homes, duplexes, apartments, student rentals. We handle all of it for Pittsburgh landlords and property managers, and we're familiar with PA tenant property rules and the 10-day notice process.",
     typicalJob:
@@ -622,14 +604,12 @@ services.push(
     ],
     quickFacts: [
       { label: "Typical single-unit job", value: "3 to 6 hours" },
-      { label: "Apartment units from", value: "$350" },
-      { label: "Single-family from", value: "$650" },
+      { label: "Apartment units", value: "Usually same day" },
+      { label: "Single-family trash-outs", value: "1 to 2 days" },
       { label: "Turnaround", value: "Same day or next day" },
       { label: "Volume discounts", value: "Available for 5+ doors" },
     ],
-    pricingAnchor: "Apartment units from $350. Single-family trash-outs $650 to $2,000. Volume discounts for property managers.",
-    priceLow: 350,
-    priceHigh: 2000,
+    pricingAnchor: "Priced per unit on volume and access. Volume agreements available for property managers.",
     heroImage: "/images/services/eviction-cleanouts.jpg",
     faqs: [
       {
@@ -663,7 +643,7 @@ services.push(
     heroHeadline: "Pittsburgh Construction Debris Removal",
     heroSub: "Renovation leftover, remodel junk, demo debris. We'll haul it.",
     citableSnippet:
-      "Steel City Cleanouts hauls homeowner-generated construction and renovation debris across Pittsburgh, PA. Single-room debris from $250. Full-gut jobs $800 to $2,500. Often cheaper than renting a dumpster. Call (585) 200-0871.",
+      "Steel City Cleanouts hauls homeowner-generated construction and renovation debris across Pittsburgh, PA. Debris is priced by weight because disposal is charged by the ton, so a single room of drywall and a full gut are very different jobs. Often cheaper than renting a dumpster once your labor is counted. Call (585) 200-0871.",
     intro:
       "Remodeling or demoing a room leaves behind piles of drywall, lumber, flooring, cabinets, and fixtures. We handle the haul-away so you can keep working. Single rooms, whole-house renovations, and post-contractor cleanups. We take homeowner-generated construction debris across Pittsburgh and surrounding areas. For most small to medium renovations, hiring us for 2 or 3 truckloads is cheaper than a 2-week dumpster rental.",
     typicalJob:
@@ -687,15 +667,13 @@ services.push(
       "We load it, you keep working",
     ],
     quickFacts: [
-      { label: "Typical single-room debris", value: "from $250" },
-      { label: "Full-gut renovation", value: "$800 to $2,500" },
+      { label: "Single-room debris", value: "Priced by weight" },
+      { label: "Full-gut renovation", value: "Multiple truckloads, priced by the ton" },
       { label: "Truck capacity", value: "~15 cubic yards per load" },
       { label: "Turnaround", value: "Same day or next morning" },
       { label: "vs. dumpster rental", value: "Often cheaper, and no loading labor" },
     ],
-    pricingAnchor: "Single-room debris from $250. Full-gut renovation jobs $800 to $2,500.",
-    priceLow: 250,
-    priceHigh: 2500,
+    pricingAnchor: "Priced by weight and volume, because debris is dense and disposal is charged by the ton.",
     heroImage: "/images/services/construction-debris.jpg",
     faqs: [
       {
@@ -722,7 +700,7 @@ services.push(
     heroHeadline: "Pittsburgh Yard Waste Removal",
     heroSub: "Brush, branches, old playsets, deck debris. We'll haul it.",
     citableSnippet:
-      "Steel City Cleanouts hauls yard waste (brush, branches, playsets, fencing, deck debris) across Pittsburgh, PA. Single pile from $150. Full yard cleanouts $400 to $1,200. Same-day service. Call (585) 200-0871.",
+      "Steel City Cleanouts hauls yard waste (brush, branches, playsets, fencing, deck debris) across Pittsburgh, PA. Jobs run from a single brush pile in under an hour to a full property clearing over a day. Same-day service. Call (585) 200-0871.",
     intro:
       "Pittsburgh yards generate a lot of debris: storm damage, fallen branches, overgrown beds, old playsets, busted fencing, and deck tear-downs. We haul it all away in one visit. No bagging, no waiting for municipal pickup, no scheduling around the township's brush collection week. Most Allegheny and Butler County townships only do yard waste pickup a few weeks a year, and they have volume limits. We don't.",
     typicalJob:
@@ -747,14 +725,12 @@ services.push(
     ],
     quickFacts: [
       { label: "Typical job time", value: "30 min to 3 hours" },
-      { label: "Single brush pile", value: "from $150" },
-      { label: "Full yard cleanout", value: "$400 to $1,200" },
+      { label: "Single brush pile", value: "Usually under an hour" },
+      { label: "Full yard cleanout", value: "Half day to a full day" },
       { label: "Playset disassembly", value: "~45 minutes" },
       { label: "Bag it yourself", value: "Never required" },
     ],
-    pricingAnchor: "Single brush pile from $150. Full yard cleanouts $400 to $1,200.",
-    priceLow: 150,
-    priceHigh: 1200,
+    pricingAnchor: "Priced on volume and access, from a single brush pile to a full property clearing.",
     heroImage: "/images/services/yard-waste-removal.jpg",
     faqs: [
       {
@@ -780,11 +756,11 @@ services.push(
     shortName: "Storage Unit Cleanouts",
     seoTitle: "Storage Unit Cleanouts Pittsburgh PA | Fast Lockup Haul-Away",
     seoDescription:
-      "Fast storage unit cleanouts in Pittsburgh. We empty the unit, haul everything, and leave it broom-swept. Starts around $250. Call (585) 200-0871.",
+      "Fast storage unit cleanouts in Pittsburgh. We empty the unit, haul everything, and leave it broom-swept, usually in under 2 hours. Free quote. Call (585) 200-0871.",
     heroHeadline: "Pittsburgh Storage Unit Cleanouts",
     heroSub: "Stop paying for a unit full of stuff you don't want. We'll empty it.",
     citableSnippet:
-      "Steel City Cleanouts empties storage units across Pittsburgh, PA in under 2 hours. Most jobs run $250 to $900. We haul everything, leave it broom-swept, and help you stop paying rent on a lockup you don't need. Call (585) 200-0871.",
+      "Steel City Cleanouts empties storage units across Pittsburgh, PA in under 2 hours, priced on unit size and how full it actually is. We haul everything, leave it broom-swept, and help you stop paying rent on a lockup you don't need. Call (585) 200-0871.",
     intro:
       "Nobody wants to pay $200 a month forever for a storage unit they haven't opened in a year. We get it. Most of our storage unit cleanout calls come from people who stopped paying, inherited a unit, or just decided it's time to let go of whatever's in there. We empty the whole unit, haul everything away, and leave it swept and ready to hand back to the facility. Usually done in 1 to 3 hours depending on size.",
     typicalJob:
@@ -809,19 +785,17 @@ services.push(
     ],
     quickFacts: [
       { label: "Typical job time", value: "1 to 3 hours" },
-      { label: "Typical price range", value: "$250 to $900" },
+      { label: "Typical job length", value: "1 to 3 hours" },
       { label: "Unit sizes handled", value: "5x5 to 10x30" },
       { label: "Availability", value: "Same day most weekdays" },
       { label: "Payment", value: "On the spot, card or Venmo" },
     ],
-    pricingAnchor: "Most units $250 to $900 depending on size and volume. Free quotes over the phone.",
-    priceLow: 250,
-    priceHigh: 900,
+    pricingAnchor: "Free quotes over the phone. Priced on unit size and how full it actually is.",
     heroImage: "/images/services/storage-unit-cleanouts.jpg",
     faqs: [
       {
         q: "How much does it cost to empty a 10x10 storage unit?",
-        a: "Most 10x10 units run $350 to $550 depending on how full they are. A packed-to-the-ceiling 10x10 is on the higher end. A half-full 10x10 is on the lower end. We quote you before we start loading so there are no surprises.",
+        a: "A 10x10 is the most common size we clear, and the number depends entirely on how full it is. A packed-to-the-ceiling 10x10 is a very different job from a half-full one, so we ask you to describe the stack height on the call. Most clear in under two hours either way. That is the lower end. We quote you before we start loading so there are no surprises.",
       },
       {
         q: "Can you meet me at the facility?",
@@ -855,7 +829,7 @@ services.push(
     heroHeadline: "Pittsburgh Commercial Cleanouts",
     heroSub: "Office, retail, restaurant. Cleared fast, after hours if needed.",
     citableSnippet:
-      "Steel City Cleanouts handles commercial cleanouts across Pittsburgh, PA: office trash-outs, retail fixture removal, restaurant equipment, and end-of-lease clearouts. After-hours work available. From $500 per job. Call (585) 200-0871.",
+      "Steel City Cleanouts handles commercial cleanouts across Pittsburgh, PA: office trash-outs, retail fixture removal, restaurant equipment, and end-of-lease clearouts. After-hours work available so the clearout does not interrupt trading hours. Priced on square footage and volume. Call (585) 200-0871.",
     intro:
       "When a Pittsburgh business closes, moves, or renovates, the old space needs to be cleared fast. We handle commercial cleanouts of every size: small offices (single room to whole floor), retail spaces, restaurants, light industrial, and end-of-lease clearouts for property managers. We work after hours and early mornings so your operation keeps running while we clear the back room.",
     typicalJob:
@@ -881,13 +855,11 @@ services.push(
     quickFacts: [
       { label: "Typical small-office job", value: "3 to 6 hours" },
       { label: "Typical full-floor job", value: "1 to 2 days" },
-      { label: "Starting price", value: "$500" },
+      { label: "Smallest job", value: "Single office suite" },
       { label: "After-hours work", value: "Available on request" },
       { label: "Volume pricing", value: "Available for 3+ locations" },
     ],
-    pricingAnchor: "Small offices from $500. Retail and restaurant from $900. Full-floor jobs $2,000 to $8,000+.",
-    priceLow: 500,
-    priceHigh: 8000,
+    pricingAnchor: "Priced on square footage, volume, and whether the work has to happen after hours.",
     heroImage: "/images/services/commercial-cleanouts.jpg",
     faqs: [
       {
@@ -951,14 +923,12 @@ services.push(
     ],
     quickFacts: [
       { label: "Typical timing", value: "Whenever the family is ready" },
-      { label: "Typical price range", value: "$800 to $3,500" },
+      { label: "Typical timeline", value: "1 to 3 days" },
       { label: "Walk-through", value: "Free, no pressure, no commitment" },
       { label: "Pacing", value: "Family sets the speed" },
       { label: "Out-of-state family coordination", value: "Included" },
     ],
-    pricingAnchor: "Same pricing as standard estate cleanouts. Most homes $800 to $3,500. Free private walk-through.",
-    priceLow: 800,
-    priceHigh: 3500,
+    pricingAnchor: "Free private walk-through. Same basis as estate cleanouts: size, volume, access, and sorting time.",
     heroImage: "/images/services/bereavement-cleanouts.jpg",
     faqs: [
       {

@@ -264,8 +264,6 @@ export function ComboPageTemplate({ data }: { data: ComboPage }) {
             offers: {
               "@type": "AggregateOffer",
               priceCurrency: "USD",
-              ...(service.priceLow ? { lowPrice: service.priceLow } : {}),
-              ...(service.priceHigh ? { highPrice: service.priceHigh } : {}),
               description: service.pricingAnchor,
             },
           }),

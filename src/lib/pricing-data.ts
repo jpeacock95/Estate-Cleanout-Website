@@ -4,8 +4,6 @@ export type PricingRow = {
   label: string;
   price: string;
   description?: string;
-  priceLow?: number;
-  priceHigh?: number;
 };
 
 export type PricingPage = {
@@ -19,11 +17,10 @@ export type PricingPage = {
   eyebrow: string;
   citableSnippet: string;
   intro: string;
-  priceLow?: number;
-  priceHigh?: number;
   pricingAnchor: string;
   tableHeading: string;
   tableSubheading?: string;
+  tableColumnLabel?: string;
   rows: PricingRow[];
   whatsIncluded?: string[];
   factors?: string[];
@@ -39,50 +36,41 @@ export const pricingPages: PricingPage[] = [
     slug: "by-load-size",
     name: "Pricing by Load Size",
     category: "by-load-size",
-    seoTitle: "Junk Removal Pricing by Load Size | Pittsburgh | Steel City Cleanouts",
+    seoTitle: "Junk Removal Cost by Load Size in Pittsburgh | What Each Size Holds",
     seoDescription:
-      "Real Pittsburgh junk removal pricing by load size. Single item from $99. Quarter truck $175-$275. Half truck $275-$425. Full truck $475-$750. No hidden fees.",
+      "How junk removal load sizes work in Pittsburgh. What a single item, quarter truck, half truck, and full truck actually hold, and what moves your quote.",
     heroHeadline: "Pittsburgh Junk Removal Pricing by Load Size",
-    heroSub: "Single item, quarter truck, half truck, full truck. Here's what each one costs.",
+    heroSub: "Single item, quarter truck, half truck, full truck. Here is what each one actually holds.",
     eyebrow: "Pricing · Load Size",
     citableSnippet:
-      "Steel City Cleanouts prices junk removal in Pittsburgh by how much space your items take in the truck. Single items start at $99. A quarter truck runs $175 to $275, half truck $275 to $425, full truck $475 to $750. The quote we give over the phone is the price you pay.",
+      "Junk removal in Pittsburgh is priced by how much truck space your load fills. A quarter truck is about 3.5 cubic yards, roughly a pickup bed. A half truck is about 7 cubic yards. A full truck is about 15 cubic yards. Your quote depends on that volume plus access, stairs, item type, and disposal requirements.",
     intro:
       "Most junk removal companies hide pricing behind a quote form. We don't. Every Pittsburgh job we run falls into one of four load sizes, and the price is tied to how much space your items take up in our 15-cubic-yard truck. Nothing else. No fuel surcharge, no disposal fee, no environmental tax tacked on at the end.",
-    priceLow: 99,
-    priceHigh: 750,
     pricingAnchor:
-      "Single item $99. Quarter truck $175 to $275. Half truck $275 to $425. Full truck $475 to $750. All-in, Pittsburgh metro.",
-    tableHeading: "Load Size Pricing",
+      "Load size sets the baseline, access and item type adjust it. We quote the whole job before anyone loads.",
+    tableHeading: "What Each Load Size Holds",
+    tableColumnLabel: "What It Holds",
     tableSubheading: "Prices are all-in for Pittsburgh, Allegheny County, and surrounding suburbs.",
     rows: [
       {
         label: "Minimum / single item",
-        price: "$99",
+        price: "One item, curbside or carried out",
         description: "One item like a mattress, couch, or appliance. Curbside or garage pickup.",
-        priceLow: 99,
-        priceHigh: 99,
       },
       {
         label: "Quarter truck (~3.5 cubic yards)",
-        price: "$175 to $275",
+        price: "About a pickup bed",
         description: "Small cleanup. About the size of a pickup truck bed.",
-        priceLow: 175,
-        priceHigh: 275,
       },
       {
         label: "Half truck (~7 cubic yards)",
-        price: "$275 to $425",
+        price: "A garage corner or small apartment",
         description: "Medium job. Garage clean-out, basement corner, or small apartment.",
-        priceLow: 275,
-        priceHigh: 425,
       },
       {
         label: "Full truck (~15 cubic yards)",
-        price: "$475 to $750",
+        price: "A packed garage, full basement, or multi-room clearout",
         description: "Big job. Whole garage, large basement, or multi-room cleanout.",
-        priceLow: 475,
-        priceHigh: 750,
       },
     ],
     whatsIncluded: [
@@ -94,20 +82,20 @@ export const pricingPages: PricingPage[] = [
     ],
     factors: [
       "Truck fill percentage (volume drives price)",
-      "Stairs over 8 steps (add $50 to $100)",
-      "Heavy items like pianos, safes, hot tubs (add $75 to $200)",
-      "Biohazard or heavy soil (add $300 or more)",
-      "Long carry over 50 feet from the truck (add $50)",
+      "Stairs over 8 steps, because every trip takes longer",
+      "Heavy items like pianos, safes, and hot tubs, which need extra crew and equipment",
+      "Biohazard or heavy soil, which needs protective gear and a separate disposal route",
+      "Long carry over 50 feet from the truck",
     ],
     exampleJob: {
       title: "Real Pittsburgh job, March 2026",
-      body: "Ross Township homeowner. One sectional couch, 6 boxes, 1 queen mattress, 2 lamps, and a broken dresser. About half a truck. Stairs from the basement added $75. Final price: $485, paid on the spot with a card.",
+      body: "Ross Township homeowner. One sectional couch, 6 boxes, 1 queen mattress, 2 lamps, and a broken dresser. About half a truck, with stairs from the basement adding a second crew member. Quoted at the walk-through, paid on the spot with a card.",
     },
     heroImage: "/images/pricing/by-load-size.jpg",
     faqs: [
       {
         q: "What's the minimum charge for junk removal in Pittsburgh?",
-        a: "Our minimum charge is $99 for a single item. That covers things like a mattress, couch, refrigerator, or treadmill. We haul it, take the truck to recycling or landfill, and include disposal fees in that $99.",
+        a: "Single-item pickup is our smallest job type. It covers one piece such as a mattress, couch, refrigerator, or treadmill. We haul it, route it to recycling, donation, or landfill, and the disposal fee is inside the quoted number rather than added afterward.",
       },
       {
         q: "How do you measure a 'quarter truck' or 'half truck'?",
@@ -128,27 +116,26 @@ export const pricingPages: PricingPage[] = [
     slug: "minimum-charge",
     name: "Minimum Charge",
     category: "by-load-size",
-    seoTitle: "Junk Removal Minimum Charge Pittsburgh | $99 Single Item | Steel City Cleanouts",
+    seoTitle: "Junk Removal Minimum Charge in Pittsburgh | Single Item Pickup",
     seoDescription:
-      "Steel City Cleanouts minimum charge is $99 for a single item in Pittsburgh. Covers mattress, couch, appliance, treadmill, and more. No hidden fees.",
+      "How single-item junk removal pickup works in Pittsburgh. What counts as one item, what gets quoted separately, and what affects the price.",
     heroHeadline: "What's the Minimum Charge for Junk Removal in Pittsburgh?",
-    heroSub: "$99 flat, single item, anywhere in the Pittsburgh metro.",
+    heroSub: "One item, anywhere in the Pittsburgh metro. Here is how it is quoted.",
     eyebrow: "Pricing · Minimum",
     citableSnippet:
-      "The minimum charge for junk removal with Steel City Cleanouts in Pittsburgh is $99 for a single item. That covers a mattress, couch, refrigerator, treadmill, or any similar single piece. Labor, truck, disposal, and donation routing are all included.",
+      "Single-item junk removal in Pittsburgh covers one piece picked up and hauled, such as a couch, a mattress, a recliner, or one appliance. It is the smallest job type and it is quoted on its own rather than as part of a load. Oversized items like pianos, hot tubs, and pool tables are quoted separately because of weight and disassembly.",
     intro:
-      "People ask about the minimum charge because they have just one thing to get rid of and they don't want to pay for a whole truck. Fair. Our minimum is $99 and it covers exactly that. One mattress, one couch, one appliance, one treadmill, one sofa bed. We pull up, load it, and haul it. No extra fees on top.",
-    priceLow: 99,
-    priceHigh: 99,
-    pricingAnchor: "$99 flat for a single item, anywhere in the Pittsburgh metro. All-in, no surcharges.",
-    tableHeading: "What $99 Gets You",
+      "People ask about the minimum charge because they have just one thing to get rid of and they don't want to pay for a whole truck. Fair. Single-item pickup covers exactly that. One mattress, one couch, one appliance, one treadmill, one sofa bed. We pull up, load it, and haul it. No extra fees on top.",
+    pricingAnchor: "One item, quoted on the call. Oversized pieces like pianos and hot tubs are quoted separately.",
+    tableHeading: "What Counts as a Single Item",
+    tableColumnLabel: "How It Is Handled",
     rows: [
-      { label: "Mattress (any size)", price: "$99", priceLow: 99, priceHigh: 99 },
-      { label: "Couch or sectional (1 piece)", price: "$99", priceLow: 99, priceHigh: 99 },
-      { label: "Refrigerator or washer", price: "$99", priceLow: 99, priceHigh: 99 },
-      { label: "Treadmill or exercise bike", price: "$99", priceLow: 99, priceHigh: 99 },
-      { label: "Recliner or armchair", price: "$99", priceLow: 99, priceHigh: 99 },
-      { label: "TV up to 65 inches", price: "$99", priceLow: 99, priceHigh: 99 },
+      { label: "Mattress (any size)", price: "Standard single-item pickup" },
+      { label: "Couch or sectional (1 piece)", price: "Standard single-item pickup" },
+      { label: "Refrigerator or washer", price: "Standard single-item pickup" },
+      { label: "Treadmill or exercise bike", price: "Standard single-item pickup" },
+      { label: "Recliner or armchair", price: "Standard single-item pickup" },
+      { label: "TV up to 65 inches", price: "Standard single-item pickup" },
     ],
     whatsIncluded: [
       "2-person crew to carry the item",
@@ -158,27 +145,27 @@ export const pricingPages: PricingPage[] = [
       "Same-day or scheduled service",
     ],
     notes: [
-      "Piano, hot tub, and pool table remove are not $99. Those have their own pricing (add $75 to $200).",
+      "Pianos, hot tubs, and pool tables are not single-item pickups. They are quoted on their own because of weight, disassembly, and equipment.",
       "If you have more than one item, a quarter-truck job usually makes more financial sense.",
-      "Basement or upper-floor pickups are still $99, but add $50 if there are more than 8 stairs.",
+      "Basement and upper-floor pickups are still single-item jobs, with the stair carry accounted for in the quote.",
     ],
     heroImage: "/images/pricing/minimum-charge.jpg",
     faqs: [
       {
-        q: "Is the $99 minimum really all-in?",
-        a: "Yes. $99 covers the labor, truck, fuel, disposal fee, and donation routing. We don't add a fuel surcharge, environmental fee, or disposal tax. The only way the price goes up is if you have stairs over 8 steps, or if the item is one of the heavy specialty items listed above.",
+        q: "Is the single-item price really all-in?",
+        a: "Yes. Your quote covers the labor, truck, fuel, disposal fee, and donation routing. We don't add a fuel surcharge, environmental fee, or disposal tax. The only way the price goes up is if you have stairs over 8 steps, or if the item is one of the heavy specialty items listed above.",
       },
       {
-        q: "Can I pay $99 to have 3 small items removed?",
-        a: "Usually, yes. If the 3 small items all fit in the same trip and they're easy to carry (like a chair, a side table, and a box of kitchen stuff), we'll do it for $99. If it's 3 bigger items, it's cheaper to bundle them into a quarter-truck job at $175 to $275.",
+        q: "Can I get 3 small items removed as one pickup?",
+        a: "Usually, yes. If the 3 small items all fit in the same trip and they're easy to carry (like a chair, a side table, and a box of kitchen stuff), we'll quote it as one single-item pickup. If it's 3 bigger items, it's cheaper to bundle them into one quarter-truck job than to book three separate pickups.",
       },
       {
         q: "What if I only have junk bags?",
-        a: "Four or fewer standard contractor bags still count as the $99 minimum. Five or more bags usually puts you in quarter-truck territory.",
+        a: "Four or fewer standard contractor bags still count as a single-item pickup. Five or more bags usually puts you in quarter-truck territory.",
       },
       {
         q: "Do I have to book a full truck to get the minimum price?",
-        a: "No. The $99 minimum is a real minimum, not a teaser rate. You can book a single-item pickup and pay exactly $99 for it.",
+        a: "No. The single-item rate is a real job type, not a teaser to get us in the door. You can book one item, and the number quoted on the call is the number you pay.",
       },
     ],
     relatedSlugs: ["by-load-size", "quarter-truck", "surcharges"],
@@ -187,41 +174,34 @@ export const pricingPages: PricingPage[] = [
     slug: "quarter-truck",
     name: "Quarter Truck Load",
     category: "by-load-size",
-    seoTitle: "Quarter Truck Junk Removal Pittsburgh | $175 to $275 | Steel City Cleanouts",
+    seoTitle: "Quarter Truck Junk Removal in Pittsburgh | What Fits and What It Costs",
     seoDescription:
-      "Quarter truck junk removal in Pittsburgh runs $175 to $275. About 3.5 cubic yards or a pickup bed of stuff. Includes labor, truck, and disposal.",
+      "Quarter truck junk removal in Pittsburgh holds about 3.5 cubic yards, roughly a pickup bed. What fits, how long it takes, and what moves the quote.",
     heroHeadline: "Quarter Truck Junk Removal in Pittsburgh",
-    heroSub: "About a pickup bed of stuff. $175 to $275 all-in.",
+    heroSub: "About a pickup bed of stuff. Usually 30 to 45 minutes on site.",
     eyebrow: "Pricing · Quarter Truck",
     citableSnippet:
-      "A quarter truck junk removal job in Pittsburgh with Steel City Cleanouts runs $175 to $275. That's about 3.5 cubic yards, or roughly the size of a pickup truck bed. Labor, truck, disposal, and donation routing are all included.",
+      "A quarter truck junk removal load in Pittsburgh is about 3.5 cubic yards, roughly the volume of a pickup truck bed. That is typically 4 to 6 moving boxes plus a couple of furniture pieces. Most quarter truck jobs take 30 to 45 minutes with a 2 or 3-person crew, and the quote covers labor, truck, and disposal.",
     intro:
       "A quarter truck is the sweet spot for small cleanouts. If you have a garage corner of old tools, a basement pile of boxes, or the contents of a small storage unit, a quarter truck is usually the right size. Most quarter-truck jobs in Pittsburgh take 30 to 45 minutes start to finish.",
-    priceLow: 175,
-    priceHigh: 275,
-    pricingAnchor: "Quarter truck: $175 to $275 all-in. About 3.5 cubic yards.",
-    tableHeading: "Quarter Truck Pricing",
+    pricingAnchor: "Quarter truck: about 3.5 cubic yards, 30 to 45 minutes on site. Quoted before we load.",
+    tableHeading: "Quarter Truck Load Guide",
+    tableColumnLabel: "Time and Crew",
     rows: [
       {
         label: "Quarter truck, light load",
-        price: "$175",
+        price: "About 30 minutes, 2-person crew",
         description: "Boxes, bags, light furniture. Easy carry.",
-        priceLow: 175,
-        priceHigh: 175,
       },
       {
         label: "Quarter truck, typical load",
-        price: "$225",
+        price: "35 to 45 minutes, 2-person crew",
         description: "Mixed furniture and boxes. Standard garage clean-out corner.",
-        priceLow: 225,
-        priceHigh: 225,
       },
       {
         label: "Quarter truck, heavy load",
-        price: "$275",
+        price: "45 minutes or more, often a 3rd crew member",
         description: "Dense or heavy items, multiple trips from basement, or stairs.",
-        priceLow: 275,
-        priceHigh: 275,
       },
     ],
     whatsIncluded: [
@@ -233,7 +213,7 @@ export const pricingPages: PricingPage[] = [
     ],
     exampleJob: {
       title: "Real quarter-truck job, February 2026",
-      body: "Mt Lebanon homeowner. Old armchair, 4 moving boxes of kitchen stuff, a rolled rug, and 2 bags of yard debris from a garage corner. 35 minutes total. Final price: $225.",
+      body: "Mt Lebanon homeowner. Old armchair, 4 moving boxes of kitchen stuff, a rolled rug, and 2 bags of yard debris from a garage corner. Textbook quarter truck, 35 minutes start to finish, quoted on the phone before the truck rolled.",
     },
     heroImage: "/images/pricing/quarter-truck.jpg",
     faqs: [
@@ -256,41 +236,34 @@ export const pricingPages: PricingPage[] = [
     slug: "half-truck",
     name: "Half Truck Load",
     category: "by-load-size",
-    seoTitle: "Half Truck Junk Removal Pittsburgh | $275 to $425 | Steel City Cleanouts",
+    seoTitle: "Half Truck Junk Removal in Pittsburgh | What Fits and What It Costs",
     seoDescription:
-      "Half truck junk removal in Pittsburgh costs $275 to $425. Around 7 cubic yards. Perfect for garage clean-outs, basement corners, or small apartments.",
+      "Half truck junk removal in Pittsburgh holds about 7 cubic yards. What fits, how long it takes, and what affects the quote on a garage or basement clearout.",
     heroHeadline: "Half Truck Junk Removal in Pittsburgh",
-    heroSub: "Garage, basement corner, or small apartment. $275 to $425 all-in.",
+    heroSub: "A garage, a basement corner, or a small apartment. Here is what fits.",
     eyebrow: "Pricing · Half Truck",
     citableSnippet:
-      "A half truck junk removal job in Pittsburgh with Steel City Cleanouts runs $275 to $425. That's about 7 cubic yards. It's the right size for a full garage clean-out, a basement corner, or a small apartment emptying. Labor, truck, disposal, and donation routing are included.",
+      "A half truck junk removal load in Pittsburgh is about 7 cubic yards, which is the most common job size. It typically covers a single-bay garage, a basement corner, or the furniture from a one or two-bedroom apartment. Most half truck jobs run 45 to 75 minutes with a 2 or 3-person crew.",
     intro:
       "Half-truck jobs are our most common size. They cover a full garage cleanout, a basement section, a small one-bedroom apartment empty, or about half of a typical estate cleanout's excess. Most Pittsburgh half-truck jobs finish in 45 to 75 minutes.",
-    priceLow: 275,
-    priceHigh: 425,
-    pricingAnchor: "Half truck: $275 to $425 all-in. About 7 cubic yards.",
-    tableHeading: "Half Truck Pricing",
+    pricingAnchor: "Half truck: about 7 cubic yards, 45 to 75 minutes on site. Quoted before we load.",
+    tableHeading: "Half Truck Load Guide",
+    tableColumnLabel: "Time and Crew",
     rows: [
       {
         label: "Half truck, light load",
-        price: "$275",
+        price: "About 45 minutes, 2-person crew",
         description: "Boxes, bags, and 1 or 2 furniture pieces.",
-        priceLow: 275,
-        priceHigh: 275,
       },
       {
         label: "Half truck, typical load",
-        price: "$350",
+        price: "About an hour, 2 or 3-person crew",
         description: "Mixed garage or basement contents. Couch, dresser, boxes.",
-        priceLow: 350,
-        priceHigh: 350,
       },
       {
         label: "Half truck, heavy load",
-        price: "$425",
+        price: "75 minutes or more, 3-person crew",
         description: "Dense or heavy. Stairs, multiple trips, or construction debris.",
-        priceLow: 425,
-        priceHigh: 425,
       },
     ],
     whatsIncluded: [
@@ -302,7 +275,7 @@ export const pricingPages: PricingPage[] = [
     ],
     exampleJob: {
       title: "Real half-truck job, March 2026",
-      body: "Cranberry Township rental turnover. Outgoing tenant left a couch, bed frame, mattress, 8 bags of trash, a broken TV, and an armchair. Half-truck job. 55 minutes. Final price: $350.",
+      body: "Cranberry Township rental turnover. Outgoing tenant left a couch, bed frame, mattress, 8 bags of trash, a broken TV, and an armchair. Textbook half truck, 55 minutes, and the landlord had the unit ready to show the next morning.",
     },
     heroImage: "/images/pricing/half-truck.jpg",
     faqs: [
@@ -325,41 +298,34 @@ export const pricingPages: PricingPage[] = [
     slug: "full-truck",
     name: "Full Truck Load",
     category: "by-load-size",
-    seoTitle: "Full Truck Junk Removal Pittsburgh | $475 to $750 | Steel City Cleanouts",
+    seoTitle: "Full Truck Junk Removal in Pittsburgh | What Fits and What It Costs",
     seoDescription:
-      "Full truck junk removal in Pittsburgh costs $475 to $750. Around 15 cubic yards. Big jobs: whole garage, full basement, or multi-room cleanout.",
+      "Full truck junk removal in Pittsburgh holds about 15 cubic yards. What fits in a whole-garage or full-basement clearout and what moves the quote.",
     heroHeadline: "Full Truck Junk Removal in Pittsburgh",
-    heroSub: "Big jobs only. Whole garage, full basement, multi-room. $475 to $750 all-in.",
+    heroSub: "Big jobs. A whole garage, a full basement, or several rooms.",
     eyebrow: "Pricing · Full Truck",
     citableSnippet:
-      "A full truck junk removal job in Pittsburgh with Steel City Cleanouts runs $475 to $750. That's about 15 cubic yards, or the entire contents of a packed 2-car garage. Labor, truck, disposal, and donation routing are included.",
+      "A full truck junk removal load in Pittsburgh is about 15 cubic yards. That covers a packed two-car garage, a full basement, or several rooms of furniture at once. Full truck jobs usually take 2 to 4 hours with a 3-person crew, and very large homes sometimes need more than one truckload.",
     intro:
       "Full-truck jobs are the big ones. Whole packed garages, entire finished basements, or 2 to 3 rooms of furniture and boxes. Most full-truck Pittsburgh jobs take 90 to 120 minutes with a 3-person crew. If your job is bigger than one full truck, we just come back with another load and the second truck is priced at a discount.",
-    priceLow: 475,
-    priceHigh: 750,
-    pricingAnchor: "Full truck: $475 to $750 all-in. About 15 cubic yards.",
-    tableHeading: "Full Truck Pricing",
+    pricingAnchor: "Full truck: about 15 cubic yards, 2 to 4 hours on site. Quoted after a walk-through.",
+    tableHeading: "Full Truck Load Guide",
+    tableColumnLabel: "Time and Crew",
     rows: [
       {
         label: "Full truck, light load",
-        price: "$475",
+        price: "About 2 hours, 3-person crew",
         description: "Large volume but light items. Boxes, bags, soft goods.",
-        priceLow: 475,
-        priceHigh: 475,
       },
       {
         label: "Full truck, typical load",
-        price: "$595",
+        price: "2 to 3 hours, 3-person crew",
         description: "Full garage or basement. Mixed furniture and boxes.",
-        priceLow: 595,
-        priceHigh: 595,
       },
       {
         label: "Full truck, heavy load",
-        price: "$750",
+        price: "3 to 4 hours, 3-person crew",
         description: "Dense or heavy. Construction debris, appliances, multiple heavy items.",
-        priceLow: 750,
-        priceHigh: 750,
       },
     ],
     whatsIncluded: [
@@ -375,7 +341,7 @@ export const pricingPages: PricingPage[] = [
     ],
     exampleJob: {
       title: "Real full-truck job, March 2026",
-      body: "Bethel Park basement cleanout. 30 years of accumulated boxes, an old couch set, a treadmill, a broken water heater, 12 bags of clothes, shelving, and a disassembled pool table. 2 hours, 3 guys. Final price: $675.",
+      body: "Bethel Park basement cleanout. 30 years of accumulated boxes, an old couch set, a treadmill, a broken water heater, 12 bags of clothes, shelving, and a disassembled pool table. Full truck, 2 hours, 3-person crew, one trip.",
     },
     heroImage: "/images/pricing/full-truck.jpg",
     faqs: [
@@ -398,45 +364,38 @@ export const pricingPages: PricingPage[] = [
     slug: "estate-cleanout",
     name: "Estate Cleanout Pricing",
     category: "by-service",
-    seoTitle: "Estate Cleanout Cost Pittsburgh | $850 to $3,500 | Steel City Cleanouts",
+    seoTitle: "Estate Cleanout Cost in Pittsburgh | What Drives the Price",
     seoDescription:
-      "Real estate cleanout pricing in Pittsburgh. Most whole-home jobs run $850 to $3,500 depending on size and volume. All-in, including haul and disposal.",
+      "What an estate cleanout costs in Pittsburgh and why. Home size, volume, access, and sorting time are the four things that move the number. Free walk-through.",
     heroHeadline: "Estate Cleanout Pricing in Pittsburgh",
-    heroSub: "Whole-home cleanouts. $850 to $3,500 depending on size and contents.",
+    heroSub: "Whole-home cleanouts. Here is what actually moves the number.",
     eyebrow: "Pricing · Estate",
     citableSnippet:
-      "Estate cleanout pricing in Pittsburgh with Steel City Cleanouts runs $850 to $3,500 for most whole-home jobs. The price is based on square footage and how much is inside. A 1,500 sq ft home usually runs $850 to $1,500. A 3,500+ sq ft home with outbuildings runs $2,500 to $3,500. Labor, truck, disposal, and donation routing included.",
+      "Estate cleanout cost in Pittsburgh is driven by four things: the square footage of the home, how densely it is packed, access such as stairs and driveway distance, and how much sorting the family wants before anything is hauled. A single-family home typically takes 1 to 3 days with a 2 to 4-person crew. Quotes are given after a free walk-through.",
     intro:
       "Estate cleanouts are the largest job type we run. The price scales with the size of the home and how much stuff is in it. We price the whole job up front with a single written quote on the walk-through, so there are no surprises on job day.",
-    priceLow: 850,
-    priceHigh: 3500,
-    pricingAnchor: "Whole-home: $850 to $3,500 depending on size and volume.",
-    tableHeading: "Estate Cleanout Pricing by Home Size",
+    pricingAnchor: "Quoted after a free walk-through, because two homes the same size can differ by a factor of three.",
+    tableHeading: "Estate Cleanout Scope by Home Size",
+    tableColumnLabel: "What to Expect",
     rows: [
       {
         label: "Small home (under 1,500 sq ft)",
-        price: "$850 to $1,500",
+        price: "Usually 1 day, 2-person crew, 1 to 2 truckloads",
         description: "Condo, small single-story, or 2-bedroom apartment.",
-        priceLow: 850,
-        priceHigh: 1500,
       },
       {
         label: "Medium home (1,500 to 2,500 sq ft)",
-        price: "$1,500 to $2,500",
+        price: "1 to 2 days, 2 to 3-person crew, 2 to 3 truckloads",
         description: "Standard Pittsburgh single-family with basement.",
-        priceLow: 1500,
-        priceHigh: 2500,
       },
       {
         label: "Large home (2,500 to 3,500 sq ft)",
-        price: "$2,500 to $3,500",
+        price: "2 to 3 days, 3-person crew, 3 to 5 truckloads",
         description: "Bigger single-family with finished basement and garage.",
-        priceLow: 2500,
-        priceHigh: 3500,
       },
       {
         label: "Very large home (3,500+ sq ft)",
-        price: "$3,500+",
+        price: "3+ days, 3 to 4-person crew, walk-through required",
         description: "Quoted on-site. Usually 2 to 3 days of work with multiple trucks.",
       },
     ],
@@ -458,13 +417,13 @@ export const pricingPages: PricingPage[] = [
     ],
     exampleJob: {
       title: "Real estate cleanout, March 2026",
-      body: "Upper St Clair family. Parents' home of 42 years, 2,800 sq ft with finished basement, 2-car garage, and a shed. 3 days of work with a 3-person crew, 4 truckloads total. Final price: $2,750. Family received donation receipt, before/after photos, and a valuables box.",
+      body: "Upper St Clair family. Parents' home of 42 years, 2,800 sq ft with finished basement, 2-car garage, and a shed. 3 days of work with a 3-person crew and 4 truckloads, quoted as one written price at the walk-through. The family received a donation receipt, before and after photos, and a valuables box.",
     },
     heroImage: "/images/pricing/estate-cleanout.jpg",
     faqs: [
       {
         q: "How do you price an estate cleanout if I have no idea how much is inside?",
-        a: "We come out, walk through, and give you a single written price based on what we see. It's free, takes about 30 minutes, and there's no obligation to book. Most people are in the $1,500 to $2,500 range after the walk-through.",
+        a: "We come out, walk through, and give you a single written price based on what we see. It's free, takes about 30 minutes, and there's no obligation to book. The written number is the number, and nothing gets added after the walk-through.",
       },
       {
         q: "What's included in the estate cleanout price?",
@@ -485,55 +444,44 @@ export const pricingPages: PricingPage[] = [
     slug: "hoarder-cleanout",
     name: "Hoarder Cleanout Pricing",
     category: "by-service",
-    seoTitle: "Hoarding Cleanup Cost Pittsburgh | $1,200 to $8,500 | Steel City Cleanouts",
+    seoTitle: "Hoarding Cleanup Cost in Pittsburgh | Levels 1 to 5 Explained",
     seoDescription:
-      "Real hoarding cleanup pricing in Pittsburgh. Level 1 $1,200 to $2,500. Level 5 $5,000 to $8,500+. Discreet, compassionate, fully insured crews.",
+      "What hoarding cleanup costs in Pittsburgh and why. The clutter scale from Level 1 to Level 5, what each level involves, and the factors that drive the quote.",
     heroHeadline: "Hoarder Cleanout Pricing in Pittsburgh",
-    heroSub: "Level 1 to Level 5. $1,200 to $8,500+ depending on severity.",
+    heroSub: "Level 1 to Level 5. What each one involves, and what it takes to clear it.",
     eyebrow: "Pricing · Hoarder Cleanout",
     citableSnippet:
-      "Hoarder cleanout pricing in Pittsburgh with Steel City Cleanouts runs $1,200 to $8,500+ depending on severity level. Level 1 (cluttered but manageable) starts at $1,200. Level 5 (severe, biohazard present) runs $5,000 to $8,500+. Discreet, compassionate, fully insured.",
+      "Hoarding cleanup cost in Pittsburgh scales with the clutter level. Level 1 is cluttered but walkable and clears in about a day. Level 3 has blocked exits and needs several days. Level 5 involves structural or biohazard conditions, protective equipment, and specialized disposal. Crew size, days on site, and disposal requirements drive the quote, which comes after a discreet walk-through.",
     intro:
       "Hoarding cleanup is priced by severity level, not by square footage. We use a Level 1 through 5 framework similar to what the Institute for Challenging Disorganization uses. Level 1 is cluttered but walkable. Level 5 involves biohazards, structural damage, or no clear pathways. The price scales with how much work and how much protective equipment is needed.",
-    priceLow: 1200,
-    priceHigh: 8500,
-    pricingAnchor: "Level 1 from $1,200. Level 3 from $3,000. Level 5 from $5,000 up to $8,500+.",
-    tableHeading: "Hoarding Cleanup Pricing by Level",
+    pricingAnchor: "Quoted after a discreet walk-through. Unmarked trucks, and the assessment costs nothing.",
+    tableHeading: "Hoarding Levels and What They Involve",
+    tableColumnLabel: "What It Involves",
     rows: [
       {
         label: "Level 1 (cluttered, walkable)",
-        price: "$1,200 to $2,500",
+        price: "All rooms usable, about a day, standard crew",
         description: "Some clutter, all rooms usable, no biohazards.",
-        priceLow: 1200,
-        priceHigh: 2500,
       },
       {
         label: "Level 2 (heavier clutter)",
-        price: "$2,000 to $3,500",
+        price: "Some rooms unusable, light odor, 1 to 2 days",
         description: "Multiple rooms with blocked areas, some odor, minor pests.",
-        priceLow: 2000,
-        priceHigh: 3500,
       },
       {
         label: "Level 3 (severe clutter)",
-        price: "$3,000 to $5,000",
+        price: "Blocked exits, several days, protective gear",
         description: "Narrow pathways, heavy odor, rodent or insect activity.",
-        priceLow: 3000,
-        priceHigh: 5000,
       },
       {
         label: "Level 4 (hazardous)",
-        price: "$4,000 to $6,500",
+        price: "Structural concerns, pests, specialized disposal",
         description: "Structural concerns, mold, heavy biohazard potential.",
-        priceLow: 4000,
-        priceHigh: 6500,
       },
       {
         label: "Level 5 (severe, biohazard)",
-        price: "$5,000 to $8,500+",
+        price: "Full PPE, biohazard handling, multi-day, coordinated plan",
         description: "Human or animal waste, severe mold, needs full PPE and special disposal.",
-        priceLow: 5000,
-        priceHigh: 8500,
       },
     ],
     whatsIncluded: [
@@ -581,48 +529,39 @@ export const pricingPages: PricingPage[] = [
     slug: "garage-cleanout",
     name: "Garage Cleanout Pricing",
     category: "by-service",
-    seoTitle: "Garage Cleanout Cost Pittsburgh | $275 to $650 | Steel City Cleanouts",
+    seoTitle: "Garage Cleanout Cost in Pittsburgh | What Drives the Price",
     seoDescription:
-      "Real garage cleanout pricing in Pittsburgh. Single-bay $275 to $425. Two-car $400 to $650. Includes labor, haul, and disposal.",
+      "What a garage cleanout costs in Pittsburgh. Single-bay versus two-car, how packed it is, and the hazardous items we cannot take. Free quote.",
     heroHeadline: "Garage Cleanout Pricing in Pittsburgh",
-    heroSub: "Single-bay $275 to $425. Two-car $400 to $650. All-in.",
+    heroSub: "Single-bay or two-car. Here is what changes the number.",
     eyebrow: "Pricing · Garage",
     citableSnippet:
-      "Garage cleanout pricing in Pittsburgh with Steel City Cleanouts runs $275 to $650. A single-bay garage is $275 to $425. A two-car garage is $400 to $650. Labor, truck, disposal, and donation routing are all included.",
+      "Garage cleanout cost in Pittsburgh depends on the bay count, how densely the garage is packed, and whether it holds items that need separate handling. Paint, oil, gasoline, and chemicals cannot be hauled with ordinary junk and have to go to a household hazardous waste event. Most single-bay garages clear in under 2 hours.",
     intro:
       "Garage cleanouts are one of the most common jobs we run in Pittsburgh. Most Pittsburgh garages have 5 to 15 years of accumulated stuff: broken tools, old paint cans, holiday decorations, boxes nobody opened after the last move. We clear it, haul it, and sweep the concrete.",
-    priceLow: 275,
-    priceHigh: 650,
-    pricingAnchor: "Single-bay $275 to $425. Two-car $400 to $650. All-in.",
-    tableHeading: "Garage Cleanout Pricing",
+    pricingAnchor: "Quoted on the call or on site. Hazardous items are flagged before we start, not after.",
+    tableHeading: "Garage Cleanout Scope",
+    tableColumnLabel: "What to Expect",
     rows: [
       {
         label: "Single-bay garage, light",
-        price: "$275 to $325",
+        price: "Under 2 hours, 2-person crew, partial truckload",
         description: "Tidy garage with some clutter to clear.",
-        priceLow: 275,
-        priceHigh: 325,
       },
       {
         label: "Single-bay garage, typical",
-        price: "$325 to $425",
+        price: "About 2 hours, 2-person crew, half truckload",
         description: "Years of accumulation, furniture, tools, boxes.",
-        priceLow: 325,
-        priceHigh: 425,
       },
       {
         label: "Two-car garage, typical",
-        price: "$400 to $550",
+        price: "2 to 3 hours, 2 to 3-person crew, most of a truck",
         description: "Standard 2-car with shelving and stored items.",
-        priceLow: 400,
-        priceHigh: 550,
       },
       {
         label: "Two-car garage, packed",
-        price: "$550 to $650",
+        price: "3+ hours, 3-person crew, often a full truckload",
         description: "Packed floor-to-ceiling. Usually a full truck.",
-        priceLow: 550,
-        priceHigh: 650,
       },
     ],
     whatsIncluded: [
@@ -657,41 +596,34 @@ export const pricingPages: PricingPage[] = [
     slug: "basement-cleanout",
     name: "Basement Cleanout Pricing",
     category: "by-service",
-    seoTitle: "Basement Cleanout Cost Pittsburgh | $350 to $850 | Steel City Cleanouts",
+    seoTitle: "Basement Cleanout Cost in Pittsburgh | What Drives the Price",
     seoDescription:
-      "Real basement cleanout pricing in Pittsburgh. Partial $350 to $550. Full basement $550 to $850. Stairs surcharge included in the price range.",
+      "What a basement cleanout costs in Pittsburgh. Why the stairs set the price, partial versus full, finished versus unfinished, and what to expect. Free quote.",
     heroHeadline: "Basement Cleanout Pricing in Pittsburgh",
-    heroSub: "Partial $350 to $550. Full basement $550 to $850.",
+    heroSub: "Partial or full. In a basement, the stairs are the whole job.",
     eyebrow: "Pricing · Basement",
     citableSnippet:
-      "Basement cleanout pricing in Pittsburgh with Steel City Cleanouts runs $350 to $850. A partial basement is $350 to $550. A full basement is $550 to $850. The stairs surcharge is already included in these ranges.",
+      "Basement cleanout cost in Pittsburgh is driven by the stairs more than the volume, because every item has to be carried up. A narrow staircase with a turn, a bulkhead entrance, or a finished basement with furniture that will not clear the landing all add crew time. Pittsburgh basements commonly hold 30 or more years of storage.",
     intro:
       "Basement cleanouts are a specialty because of the stairs. Every item has to come up, and Pittsburgh basements tend to accumulate decades of boxes, old furniture, and broken appliances. We bring 3-person crews for most basement jobs to keep the carry-up moving fast.",
-    priceLow: 350,
-    priceHigh: 850,
-    pricingAnchor: "Partial $350 to $550. Full basement $550 to $850. Stairs already included.",
-    tableHeading: "Basement Cleanout Pricing",
+    pricingAnchor: "Quoted after we see the stairs. The carry is built into the job, not added on the day.",
+    tableHeading: "Basement Cleanout Scope",
+    tableColumnLabel: "What to Expect",
     rows: [
       {
         label: "Basement corner or partial",
-        price: "$350 to $475",
+        price: "Under 2 hours, 2-person crew, one carry route",
         description: "One area or room of the basement. Half truck of stuff.",
-        priceLow: 350,
-        priceHigh: 475,
       },
       {
         label: "Full unfinished basement",
-        price: "$475 to $650",
+        price: "2 to 4 hours, 3-person crew, repeated stair trips",
         description: "Whole unfinished basement. Full truck.",
-        priceLow: 475,
-        priceHigh: 650,
       },
       {
         label: "Full finished basement",
-        price: "$650 to $850",
+        price: "Half day or more, 3-person crew, furniture disassembly likely",
         description: "Whole finished basement with furniture and built-ins.",
-        priceLow: 650,
-        priceHigh: 850,
       },
     ],
     whatsIncluded: [
@@ -709,7 +641,7 @@ export const pricingPages: PricingPage[] = [
     ],
     exampleJob: {
       title: "Real basement cleanout, February 2026",
-      body: "Plum Borough homeowner. Full unfinished basement with 25 years of boxes, old couches, a broken washer, a dehumidifier, and shelving units. Narrow stairs. 3-person crew, 90 minutes. Final price: $585.",
+      body: "Plum Borough homeowner. Full unfinished basement with 25 years of boxes, old couches, a broken washer, a dehumidifier, and shelving units. Narrow stairs with a turn, so a 3-person crew ran a relay. 90 minutes, quoted before anyone started.",
     },
     heroImage: "/images/pricing/basement-cleanout.jpg",
     faqs: [
@@ -719,7 +651,7 @@ export const pricingPages: PricingPage[] = [
       },
       {
         q: "What if my basement has water damage or mold?",
-        a: "We still do the cleanout, but we wear respirators and use sealed bags for the moldy items. There's a small surcharge for mold-safe disposal (usually $100 to $200). If the mold is severe, we'll refer you to a remediation company first.",
+        a: "We still do the cleanout, but we wear respirators and use sealed bags for the moldy items. There is an additional charge for mold-safe disposal, quoted up front before we start. If the mold is severe, we'll refer you to a remediation company first.",
       },
       {
         q: "Can you remove an old water heater or washer from my basement?",
@@ -732,48 +664,39 @@ export const pricingPages: PricingPage[] = [
     slug: "same-day",
     name: "Same-Day Junk Removal Pricing",
     category: "by-service",
-    seoTitle: "Same-Day Junk Removal Pittsburgh Cost | +$50 to $100 | Steel City Cleanouts",
+    seoTitle: "Same-Day Junk Removal in Pittsburgh | How It Works",
     seoDescription:
-      "Same-day junk removal in Pittsburgh adds a $50 to $100 surcharge on top of the standard price. Call before 2pm for same-day service.",
+      "How same-day junk removal works in Pittsburgh. Cutoff times, what fits into a same-day slot, and when next-day is the better call. Available 7 days a week.",
     heroHeadline: "Same-Day Junk Removal Pricing in Pittsburgh",
-    heroSub: "Same-day service adds $50 to $100 on top of the standard price.",
+    heroSub: "Called this morning, gone this afternoon. Here is how the slots work.",
     eyebrow: "Pricing · Same-Day",
     citableSnippet:
-      "Same-day junk removal in Pittsburgh with Steel City Cleanouts adds a $50 to $100 surcharge on top of the standard load-size pricing. If you call before 2pm on a weekday, we can almost always get a crew there the same day. Next-day service is standard pricing with no surcharge.",
+      "Same-day junk removal in Pittsburgh depends on how early you call and how big the job is. Calls before 11am have the best chance of a same-day slot. Small and mid-size loads fit into same-day far more often than whole-home cleanouts, which need a scheduled walk-through. Service runs 7 days a week, 7am to 8pm.",
     intro:
       "Same-day junk removal is for urgent jobs. Real estate closings tomorrow. Last-minute move-outs. Family arriving from out of state. We keep a rotating same-day slot open on most weekdays, and the surcharge is the only premium.",
-    priceLow: 50,
-    priceHigh: 100,
-    pricingAnchor: "Same-day surcharge: $50 to $100 on top of standard load-size pricing.",
-    tableHeading: "Same-Day Surcharge",
+    pricingAnchor: "Same-day availability depends on the time you call and the size of the job. Quoted on that call.",
+    tableHeading: "Same-Day Availability by Call Time",
+    tableColumnLabel: "Your Odds",
     rows: [
       {
         label: "Same-day, called before 11am",
-        price: "+$50",
+        price: "Best odds, most job sizes",
         description: "Standard weekday same-day. Usually a 2 to 4 hour window.",
-        priceLow: 50,
-        priceHigh: 50,
       },
       {
         label: "Same-day, called 11am to 2pm",
-        price: "+$75",
+        price: "Good odds for small and mid-size loads",
         description: "Tighter window. We shuffle other jobs to fit you in.",
-        priceLow: 75,
-        priceHigh: 75,
       },
       {
         label: "Same-day, called after 2pm",
-        price: "+$100",
+        price: "Possible for small loads, otherwise next morning",
         description: "Last-minute. Only if we have availability, not always possible.",
-        priceLow: 100,
-        priceHigh: 100,
       },
       {
         label: "Sunday or holiday same-day",
-        price: "+$100",
+        price: "Available, fewer slots, call early",
         description: "Weekend or holiday same-day surcharge on top of the weekday rate.",
-        priceLow: 100,
-        priceHigh: 100,
       },
     ],
     whatsIncluded: [
@@ -793,11 +716,11 @@ export const pricingPages: PricingPage[] = [
       },
       {
         q: "Is next-day service the same price as regular?",
-        a: "Yes. Next-day service has no surcharge. Most urgent jobs people think need same-day are actually fine with next-day, which saves you $50 to $100.",
+        a: "Yes, and next-day is quoted without the same-day premium. Most jobs people think need same-day are fine next morning, which is the cheaper call.",
       },
       {
         q: "Do you do same-day on weekends?",
-        a: "Yes, with a $100 weekend surcharge on top of the weekday same-day rate. Weekends are busy so we can't always fit new jobs in, but we try.",
+        a: "Yes, at a weekend rate quoted on the call. Weekends fill up fastest, so the earlier you ring the better your odds of a slot.",
       },
     ],
     relatedSlugs: ["by-load-size", "surcharges"],
@@ -806,86 +729,69 @@ export const pricingPages: PricingPage[] = [
     slug: "surcharges",
     name: "Surcharge Schedule",
     category: "surcharges",
-    seoTitle: "Junk Removal Surcharges Pittsburgh | Transparent Fee Schedule | Steel City Cleanouts",
+    seoTitle: "Junk Removal Extras in Pittsburgh | What Gets Quoted Separately",
     seoDescription:
-      "Full surcharge schedule for Steel City Cleanouts in Pittsburgh. Stairs, heavy items, biohazard, long carry, after-hours. Every fee disclosed up front.",
+      "What gets quoted separately on a Pittsburgh junk removal job. Stairs, pianos, hot tubs, safes, long carries, and biohazard work, all flagged before we start.",
     heroHeadline: "Junk Removal Surcharge Schedule",
-    heroSub: "Every fee we charge on top of base pricing. All disclosed up front.",
+    heroSub: "What gets quoted separately, and why. All of it flagged before we start.",
     eyebrow: "Pricing · Surcharges",
     citableSnippet:
-      "Steel City Cleanouts charges a transparent surcharge schedule on top of base load-size pricing in Pittsburgh: stairs over 8 steps $50 to $100, heavy items like pianos and hot tubs $75 to $200, long carry over 50 feet $50, biohazard or Level 3+ hoarding $300+, and after-hours or weekend $100. Every fee is disclosed before the job starts.",
+      "Some items and conditions are quoted separately from a standard junk removal load because they change crew size, equipment, or disposal route. That list includes long stair carries, pianos, hot tubs, pool tables, heavy safes, long carries from the truck, tires, and biohazard conditions. All of it is identified at the walk-through, never added after the job.",
     intro:
       "Most junk removal companies hide their surcharges until the truck arrives. We publish ours. Here's every surcharge we charge, why we charge it, and the specific situations that trigger it. If a surcharge isn't on this list, we don't charge it.",
-    pricingAnchor: "Every surcharge we charge, disclosed up front. Nothing hidden.",
-    tableHeading: "Surcharge Schedule",
+    pricingAnchor: "Everything on this list is flagged at the walk-through and included in your quote before work starts.",
+    tableHeading: "What Gets Quoted Separately",
+    tableColumnLabel: "Why",
     rows: [
       {
         label: "Stairs over 8 steps",
-        price: "+$50 to $100",
-        description: "Per flight, not per item. One flight = $50, two flights = $100.",
-        priceLow: 50,
-        priceHigh: 100,
+        price: "Extra crew time on every trip",
+        description: "Charged per flight of stairs, not per item carried.",
       },
       {
         label: "Piano (upright)",
-        price: "+$75",
+        price: "300 to 500 lbs, piano board and straps",
         description: "On top of base pickup price. Crew brings straps and dollies.",
-        priceLow: 75,
-        priceHigh: 75,
       },
       {
         label: "Piano (grand or baby grand)",
-        price: "+$150",
+        price: "Legs and lyre come off, 3+ person lift",
         description: "Heavier and more fragile. 3-person crew required.",
-        priceLow: 150,
-        priceHigh: 150,
       },
       {
         label: "Hot tub removal",
-        price: "+$200",
+        price: "Drain, then carry whole or cut down on site",
         description: "We drain, cut, and haul. See hot tub pricing for full breakdown.",
-        priceLow: 200,
-        priceHigh: 200,
       },
       {
         label: "Pool table",
-        price: "+$100 to $150",
+        price: "Slate comes out in sections, 3+ person lift",
         description: "Slate is heavy. Usually requires disassembly.",
-        priceLow: 100,
-        priceHigh: 150,
       },
       {
         label: "Safe (over 200 lbs)",
-        price: "+$100 to $200",
+        price: "Rated equipment and floor protection",
         description: "Depends on weight and access. Quoted on-site.",
-        priceLow: 100,
-        priceHigh: 200,
       },
       {
         label: "Long carry (over 50 feet from truck)",
-        price: "+$50",
+        price: "Adds time to every load",
         description: "For jobs where we can't park close to the items.",
-        priceLow: 50,
-        priceHigh: 50,
       },
       {
         label: "Biohazard (Level 3+ hoarding, bodily fluids)",
-        price: "+$300 to $1,500",
+        price: "PPE and specialized disposal route",
         description: "Requires PPE, special disposal routing, extra time.",
-        priceLow: 300,
-        priceHigh: 1500,
       },
       {
         label: "Tire disposal",
-        price: "+$5 to $15 per tire",
+        price: "Landfills refuse tires, separate recycler required",
         description: "PA regulates tire disposal separately.",
       },
       {
         label: "After-hours or weekend",
-        price: "+$100",
+        price: "Crew scheduling outside standard hours",
         description: "Jobs starting after 6pm or on Sundays.",
-        priceLow: 100,
-        priceHigh: 100,
       },
     ],
     notes: [
@@ -897,7 +803,7 @@ export const pricingPages: PricingPage[] = [
     faqs: [
       {
         q: "Are surcharges really all-in like the base prices?",
-        a: "Yes. If you have stairs and a piano, you pay the base price plus $50 to $100 for stairs plus $75 for the piano. That's the total. No fuel surcharge, no disposal fee on top, no environmental tax.",
+        a: "Yes, and they are added together into one quoted number before work starts rather than appearing on the invoice afterward. A job with stairs and a piano is quoted as that job. No fuel surcharge, no disposal fee on top, no environmental tax.",
       },
       {
         q: "How do you decide what counts as a 'heavy item'?",
@@ -914,24 +820,25 @@ export const pricingPages: PricingPage[] = [
     slug: "vs-dumpster-rental",
     name: "Junk Removal vs Dumpster Rental",
     category: "comparison",
-    seoTitle: "Junk Removal vs Dumpster Rental Pittsburgh | Cost Comparison | Steel City Cleanouts",
+    seoTitle: "Junk Removal vs Dumpster Rental in Pittsburgh | Honest Comparison",
     seoDescription:
-      "Junk removal vs dumpster rental in Pittsburgh: real cost comparison, decision framework, and which one saves you money.",
+      "Junk removal versus dumpster rental in Pittsburgh. Real dumpster market rates, permit costs, how many hours of your labor each takes, and which one fits your job.",
     heroHeadline: "Junk Removal vs Dumpster Rental in Pittsburgh",
-    heroSub: "Which one is actually cheaper? Real numbers, no fluff.",
+    heroSub: "Which one actually fits your job? Real numbers on the dumpster side.",
     eyebrow: "Pricing · Comparison",
     citableSnippet:
-      "In Pittsburgh, full-service junk removal costs $275 to $750 for most jobs and takes 1 to 2 hours of your time. A 10-yard dumpster rental costs $350 to $550, takes 3 to 7 days, and you load it yourself. Dumpster rental is cheaper only if you have 20+ hours of labor you're willing to donate.",
+      "In Pittsburgh a 10-yard dumpster rental typically runs $350 to $550 for 3 to 7 days on the open market, plus a city permit if it sits on the street, and you do all the loading, which is commonly 15 to 25 hours of work. Full-service junk removal is quoted per job and the crew does the loading in 1 to 2 hours. Dumpster rental wins on multi-week renovations; junk removal wins on one-time cleanouts.",
     intro:
       "Dumpster rental looks cheaper on the sticker price, but the total cost depends on how much free time you have and how heavy the stuff is. Here's the honest comparison.",
     pricingAnchor:
-      "Junk removal $275 to $750 all-in, 1 to 2 hours. Dumpster rental $350 to $550 sticker plus 20+ hours of your labor.",
+      "Dumpster rental is the cheaper sticker and the bigger time cost. We quote our side per job.",
     tableHeading: "Junk Removal vs Dumpster Rental",
+    tableColumnLabel: "Junk Removal vs Dumpster",
     rows: [
       {
         label: "Base price (half truck vs 10-yard dumpster)",
-        price: "$275-$425 vs $350-$550",
-        description: "Dumpster rental sticker looks cheaper by about $75.",
+        price: "Quoted per job vs $350 to $550 market rate",
+        description: "The dumpster sticker usually looks a little cheaper before labor.",
       },
       {
         label: "Your labor",
@@ -945,7 +852,7 @@ export const pricingPages: PricingPage[] = [
       },
       {
         label: "Disposal fees",
-        price: "Included vs +$30 to $150 per ton overage",
+        price: "Included in the quote vs $30 to $150 per ton overage",
         description: "Dumpster rentals charge extra if you go over weight.",
       },
       {
@@ -966,13 +873,13 @@ export const pricingPages: PricingPage[] = [
     ],
     exampleJob: {
       title: "Same job, both options, priced out",
-      body: "Bethel Park homeowner needed to clear a packed 2-car garage. Junk removal: $575 all-in, 90 minutes on a Thursday, done. Dumpster rental: $425 for a 10-yard bin for 5 days, plus about 18 hours of homeowner labor over a weekend, plus a $40 overage fee for going 0.4 tons heavy. Total dumpster cost including lost weekend: $465 out-of-pocket plus 18 hours.",
+      body: "Bethel Park homeowner needed to clear a packed 2-car garage. Junk removal: quoted as one number, 90 minutes on a Thursday, done. Dumpster rental: $425 for a 10-yard bin for 5 days at market rate, plus about 18 hours of homeowner labor over a weekend, plus a $40 overage for going 0.4 tons heavy. The sticker gap was small. The lost weekend was not.",
     },
     heroImage: "/images/pricing/vs-dumpster-rental.jpg",
     faqs: [
       {
         q: "Is a dumpster rental actually cheaper than junk removal in Pittsburgh?",
-        a: "Only if your time is free. The dumpster sticker price looks cheaper by about $75 to $100, but you do all the loading yourself and the dumpster sits in your driveway for 3 to 7 days. If you can't get friends to help, the math rarely works out in dumpster rental's favor for small to medium jobs.",
+        a: "Only if your time is free. The dumpster sticker usually looks a little cheaper, but you do all the loading yourself and the bin sits in your driveway for 3 to 7 days. If you can't get friends to help, the math rarely works out in dumpster rental's favor for small to medium jobs.",
       },
       {
         q: "When does dumpster rental make more sense?",
@@ -989,19 +896,20 @@ export const pricingPages: PricingPage[] = [
     slug: "vs-diy",
     name: "Junk Removal vs DIY Transfer Station",
     category: "comparison",
-    seoTitle: "Junk Removal vs DIY Dump Trip Pittsburgh | Real Cost Comparison | Steel City Cleanouts",
+    seoTitle: "Junk Removal vs Hauling It Yourself in Pittsburgh | Real Cost Comparison",
     seoDescription:
-      "Junk removal vs hauling it yourself to a Pittsburgh transfer station. Real cost comparison with McKees Rocks, Imperial, and other Allegheny County options.",
+      "What hauling junk yourself actually costs in Pittsburgh: transfer station fees, gas, truck rental, and the hours nobody counts. Compared against hiring a crew.",
     heroHeadline: "Junk Removal vs DIY Trip to the Transfer Station",
-    heroSub: "Real cost if you haul it yourself, including the stuff nobody tells you.",
+    heroSub: "What it really costs to haul it yourself, including the parts nobody counts.",
     eyebrow: "Pricing · Comparison",
     citableSnippet:
-      "Hauling your own junk to a Pittsburgh-area transfer station like McKees Rocks costs about $75 to $120 per vehicle load if you have a pickup or SUV you can load yourself. Full-service junk removal costs $99 to $275 for the same amount but saves you 3 to 5 hours, a rental truck, and a trip to the landfill.",
+      "Hauling junk yourself in Pittsburgh means a transfer station fee, commonly $50 to $75 per vehicle load, plus gas, plus a truck if you do not own one, plus 3 to 5 hours of loading, driving, and unloading for a small load. Full-service junk removal is quoted per job and takes none of your time. DIY wins on cash for small loads; the gap closes fast once stairs or multiple trips are involved.",
     intro:
       "If you have a pickup truck, strong friends, and a free Saturday, hauling your own junk is a legit option in Pittsburgh. Here's what it actually costs once you add up the transfer station fee, gas, and your time.",
     pricingAnchor:
-      "DIY $75 to $120 per vehicle load plus 3 to 5 hours of your time. Junk removal $99 to $275 for the same amount, no labor on your end.",
-    tableHeading: "DIY Haul vs Junk Removal",
+      "DIY saves cash and costs hours. We quote our side per job so you can compare honestly.",
+    tableHeading: "Hauling It Yourself vs Hiring a Crew",
+    tableColumnLabel: "What It Costs You",
     rows: [
       {
         label: "Transfer station fee (McKees Rocks)",
@@ -1010,27 +918,27 @@ export const pricingPages: PricingPage[] = [
       },
       {
         label: "Gas and time to the station",
-        price: "$10 to $20 + 1 hour",
+        price: "$10 to $20 plus 1 hour",
         description: "Most Pittsburgh transfer stations are 20 to 40 minutes out.",
       },
       {
         label: "Loading the truck yourself",
-        price: "$0 + 1 to 3 hours",
+        price: "1 to 3 hours of your labor",
         description: "Plus strong friends and a functioning back.",
       },
       {
         label: "Disposal of non-dump items",
-        price: "Varies",
+        price: "Separate trips, varies by item",
         description: "Tires, appliances, electronics not accepted at most transfer stations.",
       },
       {
         label: "Total DIY cost for a small load",
-        price: "$75 to $120 + 3 to 5 hours",
+        price: "Roughly $75 to $120 plus 3 to 5 hours",
         description: "If everything goes right.",
       },
       {
         label: "Junk removal, same load (minimum or quarter truck)",
-        price: "$99 to $275",
+        price: "Quoted per job, none of your time",
         description: "We handle everything. Zero hours on your end.",
       },
     ],
@@ -1055,7 +963,7 @@ export const pricingPages: PricingPage[] = [
       },
       {
         q: "Is DIY actually cheaper than junk removal in Pittsburgh?",
-        a: "Only if you already own a pickup, have free labor, and your items are all acceptable at a transfer station. For a small load of boxes and one couch, DIY saves about $40. For anything bigger or weirder, junk removal is usually cheaper once you count the time.",
+        a: "Only if you already own a pickup, have free labor, and your items are all acceptable at a transfer station. For a small load of boxes and one couch, DIY usually saves a modest amount of cash. For anything bigger or weirder, junk removal is usually cheaper once you count the time.",
       },
     ],
     relatedSlugs: ["vs-dumpster-rental", "by-load-size", "minimum-charge"],
@@ -1064,39 +972,38 @@ export const pricingPages: PricingPage[] = [
     slug: "pittsburgh-vs-national",
     name: "Pittsburgh vs National Pricing",
     category: "comparison",
-    seoTitle: "Pittsburgh Junk Removal Cost vs National Average | Steel City Cleanouts",
+    seoTitle: "Pittsburgh Junk Removal Cost vs the National Average | What to Expect",
     seoDescription:
-      "How Pittsburgh junk removal pricing compares to the national average. Real city-by-city comparison from live industry data.",
+      "How Pittsburgh junk removal pricing compares to national averages, what the published national figures actually mean, and why local quotes vary.",
     heroHeadline: "Pittsburgh Junk Removal Pricing vs National Average",
-    heroSub: "How our rates stack up against the national big-name averages.",
+    heroSub: "What the national numbers say, and why your local quote will differ.",
     eyebrow: "Pricing · Comparison",
     citableSnippet:
-      "Pittsburgh junk removal pricing with Steel City Cleanouts runs $99 to $750 for most jobs. The national average reported by Angi, LoadUp, and College Hunks is $210 for a typical haul, with ranges from $150 to $800. Pittsburgh pricing lines up just under the national average thanks to lower Allegheny County disposal fees and a shorter drive to the landfill.",
+      "National junk removal averages published by home services marketplaces put a typical single job around $241, with quarter truck loads commonly $200 to $396 and full truck loads $600 to $1,099 nationally. Those are national aggregates across very different markets. Pittsburgh generally sits at or below national averages, but the only number that applies to your job is a local quote against your actual load and access.",
     intro:
       "National chains like 1-800-GOT-JUNK, College Hunks, and LoadUp publish pricing ranges based on national averages. Those averages come from markets like Los Angeles, Boston, and Atlanta where disposal fees and labor are higher than Pittsburgh. Here's how local Pittsburgh pricing compares.",
-    priceLow: 99,
-    priceHigh: 750,
-    pricingAnchor: "Pittsburgh pricing sits just under the national average across every load size.",
-    tableHeading: "Pittsburgh vs National Pricing",
+    pricingAnchor: "National averages are a reference point, not a quote. Pittsburgh generally runs at or below them.",
+    tableHeading: "National Reference Points",
+    tableColumnLabel: "Published National Figures",
     rows: [
       {
         label: "Minimum / single item",
-        price: "Pittsburgh $99 vs National $107 to $125",
+        price: "National $107 to $125",
         description: "Steel City is at or below national minimums.",
       },
       {
         label: "Quarter truck",
-        price: "Pittsburgh $175-$275 vs National $200-$396",
+        price: "National $200 to $396",
         description: "Lower ceiling than national averages.",
       },
       {
         label: "Half truck",
-        price: "Pittsburgh $275-$425 vs National $300-$600",
+        price: "National $300 to $600",
         description: "Meaningfully under the national mid-range.",
       },
       {
         label: "Full truck",
-        price: "Pittsburgh $475-$750 vs National $600-$1,099",
+        price: "National $600 to $1,099",
         description: "Lower on both ends of the range.",
       },
       {
@@ -1108,7 +1015,7 @@ export const pricingPages: PricingPage[] = [
     notes: [
       "National averages are pulled from Angi (2026 data), LoadUp, College Hunks, and 1-800-GOT-JUNK published pricing pages.",
       "Pittsburgh disposal fees are lower than coastal markets like LA or Boston, which is why our pricing comes in below the national mid-range.",
-      "The national average of $241 per job (Angi) is right in the middle of our half-truck range.",
+      "The national average of $241 per job (Angi) is a useful reference point, but it averages across markets that look nothing like Pittsburgh.",
     ],
     heroImage: "/images/pricing/pittsburgh-vs-national.jpg",
     faqs: [
@@ -1131,63 +1038,62 @@ export const pricingPages: PricingPage[] = [
     slug: "by-item",
     name: "Pricing by Item",
     category: "core",
-    seoTitle: "Junk Removal Pricing by Item Pittsburgh | Full Item List | Steel City Cleanouts",
+    seoTitle: "Junk Removal by Item in Pittsburgh | What We Take and How It Is Quoted",
     seoDescription:
-      "Pittsburgh junk removal pricing by specific item. Mattress, couch, piano, hot tub, appliance, tire, TV. Real dollar figures for every item.",
+      "Item-by-item junk removal in Pittsburgh. What counts as a standard single item, which pieces are quoted separately, and what we cannot haul at all.",
     heroHeadline: "Junk Removal Pricing by Item",
-    heroSub: "Specific items, specific prices. All Pittsburgh rates.",
+    heroSub: "Specific items, and how each one gets quoted.",
     eyebrow: "Pricing · By Item",
     citableSnippet:
-      "Steel City Cleanouts prices single items at $99 minimum in Pittsburgh. Mattresses, couches, refrigerators, and treadmills are all $99 each. Heavy specialty items cost more: pianos $75 to $150 on top of base, hot tubs $375 to $750 all-in, pool tables $100 to $150 on top of base.",
+      "Most single household items are quoted as a standard single-item pickup in Pittsburgh, including couches, mattresses, recliners, and individual appliances. Pianos, hot tubs, pool tables, and heavy safes are quoted separately because of weight, disassembly, and equipment. Paint, oil, gasoline, chemicals, asbestos, and medical waste cannot be hauled at all.",
     intro:
-      "Most items fit into the $99 single-item minimum. The exceptions are heavy specialty pieces like pianos, hot tubs, and pool tables, which have their own pricing because they need extra crew, tools, or disposal routing. Here's the full list.",
-    priceLow: 99,
-    priceHigh: 1100,
-    pricingAnchor: "$99 for most single items. Pianos, hot tubs, and pool tables have their own pricing.",
-    tableHeading: "Pricing by Item",
+      "Most household items are quoted as a standard single-item pickup. The exceptions are heavy specialty pieces like pianos, hot tubs, and pool tables, which are quoted on their own because they need extra crew, tools, or disposal routing. Here's the full list.",
+    pricingAnchor: "Most single items are one standard pickup. Oversized pieces are quoted separately on the call.",
+    tableHeading: "How Each Item Is Quoted",
+    tableColumnLabel: "How It Is Quoted",
     rows: [
-      { label: "Mattress (any size)", price: "$99", priceLow: 99, priceHigh: 99 },
-      { label: "Couch or sectional", price: "$99", priceLow: 99, priceHigh: 99 },
-      { label: "Refrigerator (no Freon issues)", price: "$99", priceLow: 99, priceHigh: 99 },
-      { label: "Washer or dryer", price: "$99", priceLow: 99, priceHigh: 99 },
-      { label: "TV up to 65 inches", price: "$99", priceLow: 99, priceHigh: 99 },
-      { label: "Treadmill or exercise bike", price: "$99", priceLow: 99, priceHigh: 99 },
-      { label: "Recliner or armchair", price: "$99", priceLow: 99, priceHigh: 99 },
-      { label: "Dining table or desk", price: "$99", priceLow: 99, priceHigh: 99 },
-      { label: "Upright piano", price: "$174 ($99 + $75)", priceLow: 174, priceHigh: 174 },
-      { label: "Grand or baby grand piano", price: "$249 ($99 + $150)", priceLow: 249, priceHigh: 249 },
-      { label: "Hot tub (small, 2-3 person)", price: "$375 to $450", priceLow: 375, priceHigh: 450 },
-      { label: "Hot tub (standard, 4-5 person)", price: "$450 to $600", priceLow: 450, priceHigh: 600 },
-      { label: "Hot tub (large, 6-8 person)", price: "$550 to $750", priceLow: 550, priceHigh: 750 },
-      { label: "Swim spa (8+ person)", price: "$750 to $1,100", priceLow: 750, priceHigh: 1100 },
-      { label: "Pool table (slate)", price: "$199 to $249", priceLow: 199, priceHigh: 249 },
-      { label: "Safe (under 200 lbs)", price: "$99", priceLow: 99, priceHigh: 99 },
-      { label: "Safe (200+ lbs)", price: "$199 to $299", priceLow: 199, priceHigh: 299 },
-      { label: "Tires (each)", price: "$5 to $15", priceLow: 5, priceHigh: 15 },
+      { label: "Mattress (any size)", price: "Standard single-item pickup" },
+      { label: "Couch or sectional", price: "Standard single-item pickup" },
+      { label: "Refrigerator (no Freon issues)", price: "Standard single-item pickup" },
+      { label: "Washer or dryer", price: "Standard single-item pickup" },
+      { label: "TV up to 65 inches", price: "Standard single-item pickup" },
+      { label: "Treadmill or exercise bike", price: "Standard single-item pickup" },
+      { label: "Recliner or armchair", price: "Standard single-item pickup" },
+      { label: "Dining table or desk", price: "Standard single-item pickup" },
+      { label: "Upright piano", price: "Quoted separately, piano board and 3-person lift" },
+      { label: "Grand or baby grand piano", price: "Quoted separately, legs and lyre come off first" },
+      { label: "Hot tub (small, 2-3 person)", price: "Quoted separately, drain then carry or cut down" },
+      { label: "Hot tub (standard, 4-5 person)", price: "Quoted separately, access decides the method" },
+      { label: "Hot tub (large, 6-8 person)", price: "Quoted separately, usually cut down on site" },
+      { label: "Swim spa (8+ person)", price: "Quoted on site, cut down and removed in sections" },
+      { label: "Pool table (slate)", price: "Quoted separately, slate comes out in sections" },
+      { label: "Safe (under 200 lbs)", price: "Standard single-item pickup" },
+      { label: "Safe (200+ lbs)", price: "Quoted separately, rated equipment and floor protection" },
+      { label: "Tires (each)", price: "PA disposal fee of $5 to $15 each, passed through" },
     ],
     notes: [
       "Item pricing assumes curbside or garage-level access. Basement or upper-floor pickups add a stairs surcharge where applicable.",
-      "Old refrigerators, ACs, and dehumidifiers with refrigerant need EPA-compliant routing (still included in our $99, no extra fee).",
+      "Old refrigerators, ACs, and dehumidifiers with refrigerant need EPA-compliant routing, which is included in the quote rather than billed separately.",
       "CRT TVs over 32 inches have a small disposal surcharge ($10 to $25) due to PA e-waste rules.",
       "Pianos include strap, dolly, and careful handling. We don't tune, don't move, just remove.",
     ],
     heroImage: "/images/pricing/by-item.jpg",
     faqs: [
       {
-        q: "Can you remove a hot tub for the $99 minimum?",
-        a: "No. Hot tub removal has its own pricing because it requires draining, cutting the shell, and routing the pieces to multiple disposal points. Small hot tubs run $375 to $450 all-in. See the hot tub pricing page (coming soon) for the full breakdown.",
+        q: "Can you remove a hot tub as a single item?",
+        a: "No. Hot tub removal has its own pricing because it requires draining, cutting the shell, and routing the pieces to multiple disposal points. Hot tubs are quoted on their own after we see the access. See the hot tub pricing page (coming soon) for the full breakdown.",
       },
       {
         q: "Do you charge extra for appliances with Freon?",
-        a: "No. Our $99 item price includes EPA-compliant Freon handling. We work with local appliance recyclers who handle the refrigerant recovery. Other Pittsburgh junk haulers sometimes add a $25 to $50 Freon fee; we don't.",
+        a: "No. Your single-item quote includes EPA-compliant Freon handling. We work with local appliance recyclers who handle the refrigerant recovery. Some haulers bill a separate Freon fee on top of the job; we don't.",
       },
       {
         q: "What about CRT TVs or old monitors?",
-        a: "We take them. Pennsylvania's electronics recycling law adds a small disposal surcharge ($10 to $25) for CRTs over 32 inches because they require special routing. Flat-panel TVs up to 65 inches are included in the $99 minimum with no surcharge.",
+        a: "We take them. Pennsylvania's electronics recycling law adds a small disposal surcharge ($10 to $25) for CRTs over 32 inches because they require special routing. Flat-panel TVs up to 65 inches are a standard single-item pickup with no added surcharge.",
       },
       {
-        q: "Can I bundle 3 items for less than $297?",
-        a: "Sometimes. If all 3 items fit in one trip and are easy to carry, we can do the bundle for $175 to $225 as a quarter-truck job instead of charging $99 per item. Call us and we'll tell you which option makes more sense for your specific items.",
+        q: "Is it cheaper to bundle 3 items than book them separately?",
+        a: "Usually yes. If all 3 items fit in one trip and are easy to carry, we quote it as one quarter-truck job rather than three separate pickups, which comes out ahead for you. Tell us all three items on the first call so we can price it that way instead of charging per item. Call us and we'll tell you which option makes more sense for your specific items.",
       },
     ],
     relatedSlugs: ["minimum-charge", "by-load-size", "surcharges"],
