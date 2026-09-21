@@ -28,7 +28,7 @@ Rules:
 4. **Third-party dollar figures are fine and encouraged**, because they are verifiable and are not our promise: a Duquesne Light rebate amount, a transfer station charging a fee, a retailer bundling haul-away. Cite the source.
 5. **GEO citability does not depend on prices.** Citable specifics come from verified facts instead: City of Pittsburgh bulk limits, EPA refrigerant handling, item weights, crew sizes, timelines, what charities actually refuse. Those are stronger citation targets than a price and carry zero business risk.
 
-**Still carrying published prices and awaiting a decision from Jordan:** the 12 `/pricing` pages and the hub, the 126 combo page `pricingAnchor` strings, service page quick facts, and remaining figures in `service-areas-data.ts`. The `/pricing` section pulls about 9% of site impressions and 18% of clicks, so it is not a straight delete.
+**Status: done as of 2026-09-20.** Jordan chose to rewrite rather than delete, so all 15 pricing pages and the hub keep their URLs and cost keywords and now explain what drives the number. No page on the site publishes a rate card, and no page publishes a price in structured data. Verify with `grep -rn '\$[0-9]' src/` before shipping: every hit should be a third-party figure (dumpster market rate, City permit, transfer station fee, PA tire or CRT fee, Duquesne Light rebate, Angi national average), never ours.
 
 ---
 
