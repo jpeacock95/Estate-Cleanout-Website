@@ -1,0 +1,211 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - navigation [ref=e3]:
+      - link "Steel City Cleanouts home" [ref=e4] [cursor=pointer]:
+        - /url: /
+        - img "Steel City Cleanouts, Pittsburgh, PA" [ref=e5]
+      - button "Toggle navigation" [ref=e6]:
+        - img [ref=e7]
+  - main [ref=e8]:
+    - generic [ref=e9]:
+      - img "Steel City Cleanouts crew on the job in Pittsburgh" [ref=e11]
+      - generic [ref=e14]:
+        - generic [ref=e17]: About Us
+        - heading "Family-Owned. Pittsburgh Born." [level=1] [ref=e18]
+        - paragraph [ref=e19]: Steel City Cleanouts is a family-run junk removal and estate cleanout business serving Pittsburgh and every surrounding township.
+        - generic [ref=e20]:
+          - link "CALL NOW FOR PICKUP" [ref=e21] [cursor=pointer]:
+            - /url: tel:5852000871
+            - img [ref=e22]
+            - generic [ref=e24]: CALL NOW FOR PICKUP
+          - link "GET A FREE QUOTE" [ref=e25] [cursor=pointer]:
+            - /url: /contact
+            - generic [ref=e26]: GET A FREE QUOTE
+    - generic [ref=e28]:
+      - paragraph [ref=e30]: Steel City Cleanouts is a family-owned junk removal and estate cleanout company based in the Pittsburgh region. Fully insured, 7 days a week, upfront pricing.
+      - heading "Who We Are" [level=2] [ref=e31]
+      - paragraph [ref=e32]: "Steel City Cleanouts started out of a simple observation: Pittsburgh families deserve better than the usual junk removal experience. No hidden fees, no four-hour arrival windows, no showing up with the wrong truck. We built this business to do it the right way, every time."
+      - heading "What Makes Us Different" [level=2] [ref=e33]
+      - list [ref=e34]:
+        - listitem [ref=e35]:
+          - strong [ref=e36]: Upfront pricing.
+          - text: We tell you the price before we touch anything. No surprises.
+        - listitem [ref=e37]:
+          - strong [ref=e38]: Same-day service.
+          - text: Most calls can be handled same day or next morning. No week-out scheduling.
+        - listitem [ref=e39]:
+          - strong [ref=e40]: Fully insured.
+          - text: Our crews are insured, uniformed, and trained to protect your floors, walls, and doorways.
+        - listitem [ref=e41]:
+          - strong [ref=e42]: Donation-first.
+          - text: Anything in good condition goes to local Pittsburgh charities when possible. We hate landfills too.
+        - listitem [ref=e43]:
+          - strong [ref=e44]: Family-owned.
+          - text: Local owners answer the phone, do walk-throughs, and stand behind every job.
+      - heading "Where We Work" [level=2] [ref=e45]
+      - paragraph [ref=e46]: We serve Pittsburgh, Cranberry Township, Wexford, Mt. Lebanon, Monroeville, and every neighborhood and township in between. If you can get to Point State Park in under 45 minutes, we work your area.
+    - generic [ref=e48]:
+      - heading "Ready to Clear It Out?" [level=2] [ref=e49]
+      - paragraph [ref=e50]: Same-day service across Pittsburgh. Upfront pricing. No hidden fees. Call or text for a free quote.
+      - generic [ref=e51]:
+        - link "CALL (585) 200-0871" [ref=e52] [cursor=pointer]:
+          - /url: tel:5852000871
+          - img [ref=e53]
+          - generic [ref=e55]: CALL (585) 200-0871
+        - link "GET A FREE QUOTE" [ref=e56] [cursor=pointer]:
+          - /url: /contact
+          - generic [ref=e57]: GET A FREE QUOTE
+  - contentinfo [ref=e58]:
+    - generic [ref=e59]:
+      - generic [ref=e60]:
+        - generic [ref=e61]:
+          - img "Steel City Cleanouts, Pittsburgh, PA" [ref=e63]
+          - generic [ref=e64]:
+            - paragraph [ref=e65]: Same-Day Service
+            - link "(585) 200-0871" [ref=e66] [cursor=pointer]:
+              - /url: tel:5852000871
+            - link "hello@steelcitycleanouts.com" [ref=e67] [cursor=pointer]:
+              - /url: mailto:hello@steelcitycleanouts.com
+            - paragraph [ref=e68]: Open 7 Days A Week
+        - generic [ref=e69]:
+          - heading "Services" [level=3] [ref=e70]
+          - list [ref=e71]:
+            - listitem [ref=e72]:
+              - link "Estate Cleanouts" [ref=e73] [cursor=pointer]:
+                - /url: /services/estate-cleanouts
+            - listitem [ref=e74]:
+              - link "Junk Removal" [ref=e75] [cursor=pointer]:
+                - /url: /services/junk-removal
+            - listitem [ref=e76]:
+              - link "Appliance Removal" [ref=e77] [cursor=pointer]:
+                - /url: /services/appliance-removal
+            - listitem [ref=e78]:
+              - link "Furniture Removal" [ref=e79] [cursor=pointer]:
+                - /url: /services/furniture-removal
+            - listitem [ref=e80]:
+              - link "Garage Cleanouts" [ref=e81] [cursor=pointer]:
+                - /url: /services/garage-cleanouts
+            - listitem [ref=e82]:
+              - link "Hoarder Cleanouts" [ref=e83] [cursor=pointer]:
+                - /url: /services/hoarder-cleanouts
+            - listitem [ref=e84]:
+              - link "Foreclosure Cleanouts" [ref=e85] [cursor=pointer]:
+                - /url: /services/foreclosure-cleanouts
+            - listitem [ref=e86]:
+              - link "Eviction Cleanouts" [ref=e87] [cursor=pointer]:
+                - /url: /services/eviction-cleanouts
+            - listitem [ref=e88]:
+              - link "Construction Debris" [ref=e89] [cursor=pointer]:
+                - /url: /services/construction-debris
+            - listitem [ref=e90]:
+              - link "Yard Waste" [ref=e91] [cursor=pointer]:
+                - /url: /services/yard-waste-removal
+            - listitem [ref=e92]:
+              - link "Storage Unit Cleanouts" [ref=e93] [cursor=pointer]:
+                - /url: /services/storage-unit-cleanouts
+            - listitem [ref=e94]:
+              - link "Commercial Cleanouts" [ref=e95] [cursor=pointer]:
+                - /url: /services/commercial-cleanouts
+            - listitem [ref=e96]:
+              - link "Bereavement Cleanouts" [ref=e97] [cursor=pointer]:
+                - /url: /services/bereavement-cleanouts
+            - listitem [ref=e98]:
+              - link "All Services →" [ref=e99] [cursor=pointer]:
+                - /url: /services
+        - generic [ref=e100]:
+          - heading "Service Areas" [level=3] [ref=e101]
+          - list [ref=e102]:
+            - listitem [ref=e103]:
+              - link "Pittsburgh, PA" [ref=e104] [cursor=pointer]:
+                - /url: /service-areas/pittsburgh
+            - listitem [ref=e105]:
+              - link "Cranberry Township, PA" [ref=e106] [cursor=pointer]:
+                - /url: /service-areas/cranberry-township
+            - listitem [ref=e107]:
+              - link "Wexford, PA" [ref=e108] [cursor=pointer]:
+                - /url: /service-areas/wexford
+            - listitem [ref=e109]:
+              - link "Mt. Lebanon, PA" [ref=e110] [cursor=pointer]:
+                - /url: /service-areas/mt-lebanon
+            - listitem [ref=e111]:
+              - link "Monroeville, PA" [ref=e112] [cursor=pointer]:
+                - /url: /service-areas/monroeville
+            - listitem [ref=e113]:
+              - link "Shadyside, PA" [ref=e114] [cursor=pointer]:
+                - /url: /service-areas/shadyside
+            - listitem [ref=e115]:
+              - link "Squirrel Hill, PA" [ref=e116] [cursor=pointer]:
+                - /url: /service-areas/squirrel-hill
+            - listitem [ref=e117]:
+              - link "Upper St. Clair, PA" [ref=e118] [cursor=pointer]:
+                - /url: /service-areas/upper-st-clair
+            - listitem [ref=e119]:
+              - link "Sewickley, PA" [ref=e120] [cursor=pointer]:
+                - /url: /service-areas/sewickley
+            - listitem [ref=e121]:
+              - link "Bethel Park, PA" [ref=e122] [cursor=pointer]:
+                - /url: /service-areas/bethel-park
+            - listitem [ref=e123]:
+              - link "Ross Township, PA" [ref=e124] [cursor=pointer]:
+                - /url: /service-areas/ross-township
+            - listitem [ref=e125]:
+              - link "Fox Chapel, PA" [ref=e126] [cursor=pointer]:
+                - /url: /service-areas/fox-chapel
+            - listitem [ref=e127]:
+              - link "Shaler Township, PA" [ref=e128] [cursor=pointer]:
+                - /url: /service-areas/shaler-township
+            - listitem [ref=e129]:
+              - link "Penn Hills, PA" [ref=e130] [cursor=pointer]:
+                - /url: /service-areas/penn-hills
+            - listitem [ref=e131]:
+              - link "Plum Borough, PA" [ref=e132] [cursor=pointer]:
+                - /url: /service-areas/plum-borough
+            - listitem [ref=e133]:
+              - link "Moon Township, PA" [ref=e134] [cursor=pointer]:
+                - /url: /service-areas/moon-township
+            - listitem [ref=e135]:
+              - link "Robinson Township, PA" [ref=e136] [cursor=pointer]:
+                - /url: /service-areas/robinson-township
+            - listitem [ref=e137]:
+              - link "Hampton Township, PA" [ref=e138] [cursor=pointer]:
+                - /url: /service-areas/hampton-township
+            - listitem [ref=e139]:
+              - link "McCandless, PA" [ref=e140] [cursor=pointer]:
+                - /url: /service-areas/mccandless
+            - listitem [ref=e141]:
+              - link "All Areas →" [ref=e142] [cursor=pointer]:
+                - /url: /service-areas
+        - generic [ref=e143]:
+          - heading "Company" [level=3] [ref=e144]
+          - list [ref=e145]:
+            - listitem [ref=e146]:
+              - link "About Us" [ref=e147] [cursor=pointer]:
+                - /url: /about
+            - listitem [ref=e148]:
+              - link "Reviews" [ref=e149] [cursor=pointer]:
+                - /url: /reviews
+            - listitem [ref=e150]:
+              - link "Contact Us" [ref=e151] [cursor=pointer]:
+                - /url: /contact
+            - listitem [ref=e152]:
+              - link "Free Estimate" [ref=e153] [cursor=pointer]:
+                - /url: /contact
+        - generic [ref=e154]:
+          - heading "Resources" [level=3] [ref=e155]
+          - list [ref=e156]:
+            - listitem [ref=e157]:
+              - link "Estate Cleanout Guide" [ref=e158] [cursor=pointer]:
+                - /url: /resources/estate-cleanout-guide
+            - listitem [ref=e159]:
+              - link "What We Take" [ref=e160] [cursor=pointer]:
+                - /url: /resources/what-we-take
+            - listitem [ref=e161]:
+              - link "Pricing FAQ" [ref=e162] [cursor=pointer]:
+                - /url: /resources/pricing-faq
+            - listitem [ref=e163]:
+              - link "Donation Partners" [ref=e164] [cursor=pointer]:
+                - /url: /resources/donation-partners
+      - paragraph [ref=e168]: © 2026 Steel City Cleanouts. All rights reserved. Licensed & Insured.
+  - button "Open Next.js Dev Tools" [ref=e174] [cursor=pointer]:
+    - img [ref=e175]
+  - alert [ref=e178]

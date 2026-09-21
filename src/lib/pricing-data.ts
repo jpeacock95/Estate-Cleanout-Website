@@ -8,6 +8,8 @@ export type PricingRow = {
 
 export type PricingPage = {
   slug: string;
+  /** ISO date of the last meaningful content change. Drives sitemap lastmod. */
+  updatedAt: string;
   name: string;
   category: "by-load-size" | "by-service" | "comparison" | "surcharges" | "core";
   seoTitle: string;
@@ -34,6 +36,7 @@ export type PricingPage = {
 export const pricingPages: PricingPage[] = [
   {
     slug: "by-load-size",
+    updatedAt: "2026-09-20",
     name: "Pricing by Load Size",
     category: "by-load-size",
     seoTitle: "Junk Removal Cost by Load Size in Pittsburgh | What Each Size Holds",
@@ -114,6 +117,7 @@ export const pricingPages: PricingPage[] = [
   },
   {
     slug: "minimum-charge",
+    updatedAt: "2026-09-20",
     name: "Minimum Charge",
     category: "by-load-size",
     seoTitle: "Junk Removal Minimum Charge in Pittsburgh | Single Item Pickup",
@@ -172,6 +176,7 @@ export const pricingPages: PricingPage[] = [
   },
   {
     slug: "quarter-truck",
+    updatedAt: "2026-09-20",
     name: "Quarter Truck Load",
     category: "by-load-size",
     seoTitle: "Quarter Truck Junk Removal in Pittsburgh | What Fits and What It Costs",
@@ -234,6 +239,7 @@ export const pricingPages: PricingPage[] = [
   },
   {
     slug: "half-truck",
+    updatedAt: "2026-09-20",
     name: "Half Truck Load",
     category: "by-load-size",
     seoTitle: "Half Truck Junk Removal in Pittsburgh | What Fits and What It Costs",
@@ -296,6 +302,7 @@ export const pricingPages: PricingPage[] = [
   },
   {
     slug: "full-truck",
+    updatedAt: "2026-09-20",
     name: "Full Truck Load",
     category: "by-load-size",
     seoTitle: "Full Truck Junk Removal in Pittsburgh | What Fits and What It Costs",
@@ -362,6 +369,7 @@ export const pricingPages: PricingPage[] = [
   },
   {
     slug: "estate-cleanout",
+    updatedAt: "2026-09-20",
     name: "Estate Cleanout Pricing",
     category: "by-service",
     seoTitle: "Estate Cleanout Cost in Pittsburgh | What Drives the Price",
@@ -442,6 +450,7 @@ export const pricingPages: PricingPage[] = [
   },
   {
     slug: "hoarder-cleanout",
+    updatedAt: "2026-09-20",
     name: "Hoarder Cleanout Pricing",
     category: "by-service",
     seoTitle: "Hoarding Cleanup Cost in Pittsburgh | Levels 1 to 5 Explained",
@@ -527,6 +536,7 @@ export const pricingPages: PricingPage[] = [
   },
   {
     slug: "garage-cleanout",
+    updatedAt: "2026-09-20",
     name: "Garage Cleanout Pricing",
     category: "by-service",
     seoTitle: "Garage Cleanout Cost in Pittsburgh | What Drives the Price",
@@ -594,6 +604,7 @@ export const pricingPages: PricingPage[] = [
   },
   {
     slug: "basement-cleanout",
+    updatedAt: "2026-09-20",
     name: "Basement Cleanout Pricing",
     category: "by-service",
     seoTitle: "Basement Cleanout Cost in Pittsburgh | What Drives the Price",
@@ -662,6 +673,7 @@ export const pricingPages: PricingPage[] = [
   },
   {
     slug: "same-day",
+    updatedAt: "2026-09-20",
     name: "Same-Day Junk Removal Pricing",
     category: "by-service",
     seoTitle: "Same-Day Junk Removal in Pittsburgh | How It Works",
@@ -727,6 +739,7 @@ export const pricingPages: PricingPage[] = [
   },
   {
     slug: "surcharges",
+    updatedAt: "2026-09-20",
     name: "Surcharge Schedule",
     category: "surcharges",
     seoTitle: "Junk Removal Extras in Pittsburgh | What Gets Quoted Separately",
@@ -818,6 +831,7 @@ export const pricingPages: PricingPage[] = [
   },
   {
     slug: "vs-dumpster-rental",
+    updatedAt: "2026-09-20",
     name: "Junk Removal vs Dumpster Rental",
     category: "comparison",
     seoTitle: "Junk Removal vs Dumpster Rental in Pittsburgh | Honest Comparison",
@@ -894,6 +908,7 @@ export const pricingPages: PricingPage[] = [
   },
   {
     slug: "vs-diy",
+    updatedAt: "2026-09-20",
     name: "Junk Removal vs DIY Transfer Station",
     category: "comparison",
     seoTitle: "Junk Removal vs Hauling It Yourself in Pittsburgh | Real Cost Comparison",
@@ -970,6 +985,7 @@ export const pricingPages: PricingPage[] = [
   },
   {
     slug: "pittsburgh-vs-national",
+    updatedAt: "2026-09-20",
     name: "Pittsburgh vs National Pricing",
     category: "comparison",
     seoTitle: "Pittsburgh Junk Removal Cost vs the National Average | What to Expect",
@@ -1036,6 +1052,7 @@ export const pricingPages: PricingPage[] = [
   },
   {
     slug: "by-item",
+    updatedAt: "2026-09-20",
     name: "Pricing by Item",
     category: "core",
     seoTitle: "Junk Removal by Item in Pittsburgh | What We Take and How It Is Quoted",

@@ -1,0 +1,378 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - navigation [ref=e3]:
+      - link "Steel City Cleanouts home" [ref=e4] [cursor=pointer]:
+        - /url: /
+        - img "Steel City Cleanouts, Pittsburgh, PA" [ref=e5]
+      - generic [ref=e6]:
+        - list [ref=e7]:
+          - listitem [ref=e8]:
+            - link "SERVICES" [ref=e9] [cursor=pointer]:
+              - /url: /services
+          - listitem [ref=e10]:
+            - link "PRICING" [ref=e11] [cursor=pointer]:
+              - /url: /pricing
+          - listitem [ref=e12]:
+            - link "SERVICE AREA" [ref=e13] [cursor=pointer]:
+              - /url: /service-areas
+          - listitem [ref=e14]:
+            - link "ABOUT" [ref=e15] [cursor=pointer]:
+              - /url: /about
+          - listitem [ref=e16]:
+            - link "REVIEWS" [ref=e17] [cursor=pointer]:
+              - /url: /reviews
+          - listitem [ref=e18]:
+            - link "CONTACT" [ref=e19] [cursor=pointer]:
+              - /url: /contact
+        - link "CALL NOW" [ref=e20] [cursor=pointer]:
+          - /url: tel:5852000871
+          - img [ref=e21]
+          - text: CALL NOW
+  - main [ref=e23]:
+    - generic [ref=e24]:
+      - img "Steel City Cleanouts pricing in Pittsburgh" [ref=e26]
+      - generic [ref=e29]:
+        - generic [ref=e32]: Pricing
+        - heading "Pittsburgh Junk Removal Pricing" [level=1] [ref=e33]
+        - paragraph [ref=e34]: Every price we charge, published up front. No quote form required.
+        - generic [ref=e35]:
+          - link "CALL NOW FOR PICKUP" [ref=e36] [cursor=pointer]:
+            - /url: tel:5852000871
+            - img [ref=e37]
+            - generic [ref=e39]: CALL NOW FOR PICKUP
+          - link "GET A FREE QUOTE" [ref=e40] [cursor=pointer]:
+            - /url: /contact
+            - generic [ref=e41]: GET A FREE QUOTE
+    - navigation "Breadcrumb" [ref=e42]:
+      - list [ref=e43]:
+        - listitem [ref=e44]:
+          - link "Home" [ref=e45] [cursor=pointer]:
+            - /url: /
+            - img [ref=e46]
+            - generic [ref=e49]: Home
+        - listitem [ref=e50]:
+          - img [ref=e51]
+          - generic [ref=e53]: Pricing
+    - generic [ref=e55]:
+      - paragraph [ref=e57]: Steel City Cleanouts publishes real Pittsburgh pricing for every service. Single items start at $99. Quarter truck runs $175 to $275. Half truck $275 to $425. Full truck $475 to $750. Whole-home estate cleanouts run $850 to $3,500. Every surcharge is listed. The quote we give you is the price you pay.
+      - paragraph [ref=e58]: Most junk removal companies in Pittsburgh hide their prices behind a quote form. We don't. Pick the page below that matches your job and you'll see a real dollar range, what's included, and what costs extra. If you want a firm number in under 5 minutes, call ((585) 200-0871) or use the form at the bottom of any page.
+    - generic [ref=e60]:
+      - heading "Core Pricing" [level=2] [ref=e61]
+      - link "Pricing · By Item Pricing by Item $99 for most single items. Pianos, hot tubs, and pool tables have their own pricing. See Pricing" [ref=e63] [cursor=pointer]:
+        - /url: /pricing/by-item
+        - generic [ref=e64]:
+          - paragraph [ref=e65]: Pricing · By Item
+          - heading "Pricing by Item" [level=3] [ref=e66]
+          - paragraph [ref=e67]: $99 for most single items. Pianos, hot tubs, and pool tables have their own pricing.
+        - paragraph [ref=e68]:
+          - text: See Pricing
+          - img [ref=e69]
+    - generic [ref=e72]:
+      - heading "By Load Size" [level=2] [ref=e73]
+      - generic [ref=e74]:
+        - link "Pricing · Load Size Pricing by Load Size Single item $99. Quarter truck $175 to $275. Half truck $275 to $425. Full truck $475 to $750. All-in, Pittsburgh metro. See Pricing" [ref=e75] [cursor=pointer]:
+          - /url: /pricing/by-load-size
+          - generic [ref=e76]:
+            - paragraph [ref=e77]: Pricing · Load Size
+            - heading "Pricing by Load Size" [level=3] [ref=e78]
+            - paragraph [ref=e79]: Single item $99. Quarter truck $175 to $275. Half truck $275 to $425. Full truck $475 to $750. All-in, Pittsburgh metro.
+          - paragraph [ref=e80]:
+            - text: See Pricing
+            - img [ref=e81]
+        - link "Pricing · Minimum Minimum Charge $99 flat for a single item, anywhere in the Pittsburgh metro. All-in, no surcharges. See Pricing" [ref=e83] [cursor=pointer]:
+          - /url: /pricing/minimum-charge
+          - generic [ref=e84]:
+            - paragraph [ref=e85]: Pricing · Minimum
+            - heading "Minimum Charge" [level=3] [ref=e86]
+            - paragraph [ref=e87]: $99 flat for a single item, anywhere in the Pittsburgh metro. All-in, no surcharges.
+          - paragraph [ref=e88]:
+            - text: See Pricing
+            - img [ref=e89]
+        - 'link "Pricing · Quarter Truck Quarter Truck Load Quarter truck: $175 to $275 all-in. About 3.5 cubic yards. See Pricing" [ref=e91] [cursor=pointer]':
+          - /url: /pricing/quarter-truck
+          - generic [ref=e92]:
+            - paragraph [ref=e93]: Pricing · Quarter Truck
+            - heading "Quarter Truck Load" [level=3] [ref=e94]
+            - paragraph [ref=e95]: "Quarter truck: $175 to $275 all-in. About 3.5 cubic yards."
+          - paragraph [ref=e96]:
+            - text: See Pricing
+            - img [ref=e97]
+        - 'link "Pricing · Half Truck Half Truck Load Half truck: $275 to $425 all-in. About 7 cubic yards. See Pricing" [ref=e99] [cursor=pointer]':
+          - /url: /pricing/half-truck
+          - generic [ref=e100]:
+            - paragraph [ref=e101]: Pricing · Half Truck
+            - heading "Half Truck Load" [level=3] [ref=e102]
+            - paragraph [ref=e103]: "Half truck: $275 to $425 all-in. About 7 cubic yards."
+          - paragraph [ref=e104]:
+            - text: See Pricing
+            - img [ref=e105]
+        - 'link "Pricing · Full Truck Full Truck Load Full truck: $475 to $750 all-in. About 15 cubic yards. See Pricing" [ref=e107] [cursor=pointer]':
+          - /url: /pricing/full-truck
+          - generic [ref=e108]:
+            - paragraph [ref=e109]: Pricing · Full Truck
+            - heading "Full Truck Load" [level=3] [ref=e110]
+            - paragraph [ref=e111]: "Full truck: $475 to $750 all-in. About 15 cubic yards."
+          - paragraph [ref=e112]:
+            - text: See Pricing
+            - img [ref=e113]
+    - generic [ref=e116]:
+      - heading "By Service" [level=2] [ref=e117]
+      - generic [ref=e118]:
+        - 'link "Pricing · Estate Estate Cleanout Pricing Whole-home: $850 to $3,500 depending on size and volume. See Pricing" [ref=e119] [cursor=pointer]':
+          - /url: /pricing/estate-cleanout
+          - generic [ref=e120]:
+            - paragraph [ref=e121]: Pricing · Estate
+            - heading "Estate Cleanout Pricing" [level=3] [ref=e122]
+            - paragraph [ref=e123]: "Whole-home: $850 to $3,500 depending on size and volume."
+          - paragraph [ref=e124]:
+            - text: See Pricing
+            - img [ref=e125]
+        - link "Pricing · Hoarder Cleanout Hoarder Cleanout Pricing Level 1 from $1,200. Level 3 from $3,000. Level 5 from $5,000 up to $8,500+. See Pricing" [ref=e127] [cursor=pointer]:
+          - /url: /pricing/hoarder-cleanout
+          - generic [ref=e128]:
+            - paragraph [ref=e129]: Pricing · Hoarder Cleanout
+            - heading "Hoarder Cleanout Pricing" [level=3] [ref=e130]
+            - paragraph [ref=e131]: Level 1 from $1,200. Level 3 from $3,000. Level 5 from $5,000 up to $8,500+.
+          - paragraph [ref=e132]:
+            - text: See Pricing
+            - img [ref=e133]
+        - link "Pricing · Garage Garage Cleanout Pricing Single-bay $275 to $425. Two-car $400 to $650. All-in. See Pricing" [ref=e135] [cursor=pointer]:
+          - /url: /pricing/garage-cleanout
+          - generic [ref=e136]:
+            - paragraph [ref=e137]: Pricing · Garage
+            - heading "Garage Cleanout Pricing" [level=3] [ref=e138]
+            - paragraph [ref=e139]: Single-bay $275 to $425. Two-car $400 to $650. All-in.
+          - paragraph [ref=e140]:
+            - text: See Pricing
+            - img [ref=e141]
+        - link "Pricing · Basement Basement Cleanout Pricing Partial $350 to $550. Full basement $550 to $850. Stairs already included. See Pricing" [ref=e143] [cursor=pointer]:
+          - /url: /pricing/basement-cleanout
+          - generic [ref=e144]:
+            - paragraph [ref=e145]: Pricing · Basement
+            - heading "Basement Cleanout Pricing" [level=3] [ref=e146]
+            - paragraph [ref=e147]: Partial $350 to $550. Full basement $550 to $850. Stairs already included.
+          - paragraph [ref=e148]:
+            - text: See Pricing
+            - img [ref=e149]
+        - 'link "Pricing · Same-Day Same-Day Junk Removal Pricing Same-day surcharge: $50 to $100 on top of standard load-size pricing. See Pricing" [ref=e151] [cursor=pointer]':
+          - /url: /pricing/same-day
+          - generic [ref=e152]:
+            - paragraph [ref=e153]: Pricing · Same-Day
+            - heading "Same-Day Junk Removal Pricing" [level=3] [ref=e154]
+            - paragraph [ref=e155]: "Same-day surcharge: $50 to $100 on top of standard load-size pricing."
+          - paragraph [ref=e156]:
+            - text: See Pricing
+            - img [ref=e157]
+    - generic [ref=e160]:
+      - heading "Comparisons" [level=2] [ref=e161]
+      - generic [ref=e162]:
+        - link "Pricing · Comparison Junk Removal vs Dumpster Rental Junk removal $275 to $750 all-in, 1 to 2 hours. Dumpster rental $350 to $550 sticker plus 20+ hours of your labor. See Pricing" [ref=e163] [cursor=pointer]:
+          - /url: /pricing/vs-dumpster-rental
+          - generic [ref=e164]:
+            - paragraph [ref=e165]: Pricing · Comparison
+            - heading "Junk Removal vs Dumpster Rental" [level=3] [ref=e166]
+            - paragraph [ref=e167]: Junk removal $275 to $750 all-in, 1 to 2 hours. Dumpster rental $350 to $550 sticker plus 20+ hours of your labor.
+          - paragraph [ref=e168]:
+            - text: See Pricing
+            - img [ref=e169]
+        - link "Pricing · Comparison Junk Removal vs DIY Transfer Station DIY $75 to $120 per vehicle load plus 3 to 5 hours of your time. Junk removal $99 to $275 for the same amount, no labor on your end. See Pricing" [ref=e171] [cursor=pointer]:
+          - /url: /pricing/vs-diy
+          - generic [ref=e172]:
+            - paragraph [ref=e173]: Pricing · Comparison
+            - heading "Junk Removal vs DIY Transfer Station" [level=3] [ref=e174]
+            - paragraph [ref=e175]: DIY $75 to $120 per vehicle load plus 3 to 5 hours of your time. Junk removal $99 to $275 for the same amount, no labor on your end.
+          - paragraph [ref=e176]:
+            - text: See Pricing
+            - img [ref=e177]
+        - link "Pricing · Comparison Pittsburgh vs National Pricing Pittsburgh pricing sits just under the national average across every load size. See Pricing" [ref=e179] [cursor=pointer]:
+          - /url: /pricing/pittsburgh-vs-national
+          - generic [ref=e180]:
+            - paragraph [ref=e181]: Pricing · Comparison
+            - heading "Pittsburgh vs National Pricing" [level=3] [ref=e182]
+            - paragraph [ref=e183]: Pittsburgh pricing sits just under the national average across every load size.
+          - paragraph [ref=e184]:
+            - text: See Pricing
+            - img [ref=e185]
+    - generic [ref=e188]:
+      - heading "Surcharges" [level=2] [ref=e189]
+      - link "Pricing · Surcharges Surcharge Schedule Every surcharge we charge, disclosed up front. Nothing hidden. See Pricing" [ref=e191] [cursor=pointer]:
+        - /url: /pricing/surcharges
+        - generic [ref=e192]:
+          - paragraph [ref=e193]: Pricing · Surcharges
+          - heading "Surcharge Schedule" [level=3] [ref=e194]
+          - paragraph [ref=e195]: Every surcharge we charge, disclosed up front. Nothing hidden.
+        - paragraph [ref=e196]:
+          - text: See Pricing
+          - img [ref=e197]
+    - generic [ref=e200]:
+      - heading "Ready to Clear It Out?" [level=2] [ref=e201]
+      - paragraph [ref=e202]: Same-day service across Pittsburgh. Upfront pricing. No hidden fees. Call or text for a free quote.
+      - generic [ref=e203]:
+        - link "CALL (585) 200-0871" [ref=e204] [cursor=pointer]:
+          - /url: tel:5852000871
+          - img [ref=e205]
+          - generic [ref=e207]: CALL (585) 200-0871
+        - link "GET A FREE QUOTE" [ref=e208] [cursor=pointer]:
+          - /url: /contact
+          - generic [ref=e209]: GET A FREE QUOTE
+  - contentinfo [ref=e210]:
+    - generic [ref=e211]:
+      - generic [ref=e212]:
+        - generic [ref=e213]:
+          - img "Steel City Cleanouts, Pittsburgh, PA" [ref=e215]
+          - generic [ref=e216]:
+            - paragraph [ref=e217]: Same-Day Service
+            - link "(585) 200-0871" [ref=e218] [cursor=pointer]:
+              - /url: tel:5852000871
+            - link "hello@steelcitycleanouts.com" [ref=e219] [cursor=pointer]:
+              - /url: mailto:hello@steelcitycleanouts.com
+            - paragraph [ref=e220]: Open 7 Days A Week
+        - generic [ref=e221]:
+          - heading "Services" [level=3] [ref=e222]
+          - list [ref=e223]:
+            - listitem [ref=e224]:
+              - link "Estate Cleanouts" [ref=e225] [cursor=pointer]:
+                - /url: /services/estate-cleanouts
+            - listitem [ref=e226]:
+              - link "Junk Removal" [ref=e227] [cursor=pointer]:
+                - /url: /services/junk-removal
+            - listitem [ref=e228]:
+              - link "Appliance Removal" [ref=e229] [cursor=pointer]:
+                - /url: /services/appliance-removal
+            - listitem [ref=e230]:
+              - link "Furniture Removal" [ref=e231] [cursor=pointer]:
+                - /url: /services/furniture-removal
+            - listitem [ref=e232]:
+              - link "Garage Cleanouts" [ref=e233] [cursor=pointer]:
+                - /url: /services/garage-cleanouts
+            - listitem [ref=e234]:
+              - link "Hoarder Cleanouts" [ref=e235] [cursor=pointer]:
+                - /url: /services/hoarder-cleanouts
+            - listitem [ref=e236]:
+              - link "Foreclosure Cleanouts" [ref=e237] [cursor=pointer]:
+                - /url: /services/foreclosure-cleanouts
+            - listitem [ref=e238]:
+              - link "Eviction Cleanouts" [ref=e239] [cursor=pointer]:
+                - /url: /services/eviction-cleanouts
+            - listitem [ref=e240]:
+              - link "Construction Debris" [ref=e241] [cursor=pointer]:
+                - /url: /services/construction-debris
+            - listitem [ref=e242]:
+              - link "Yard Waste" [ref=e243] [cursor=pointer]:
+                - /url: /services/yard-waste-removal
+            - listitem [ref=e244]:
+              - link "Storage Unit Cleanouts" [ref=e245] [cursor=pointer]:
+                - /url: /services/storage-unit-cleanouts
+            - listitem [ref=e246]:
+              - link "Commercial Cleanouts" [ref=e247] [cursor=pointer]:
+                - /url: /services/commercial-cleanouts
+            - listitem [ref=e248]:
+              - link "Bereavement Cleanouts" [ref=e249] [cursor=pointer]:
+                - /url: /services/bereavement-cleanouts
+            - listitem [ref=e250]:
+              - link "All Services →" [ref=e251] [cursor=pointer]:
+                - /url: /services
+        - generic [ref=e252]:
+          - heading "Service Areas" [level=3] [ref=e253]
+          - list [ref=e254]:
+            - listitem [ref=e255]:
+              - link "Pittsburgh, PA" [ref=e256] [cursor=pointer]:
+                - /url: /service-areas/pittsburgh
+            - listitem [ref=e257]:
+              - link "Cranberry Township, PA" [ref=e258] [cursor=pointer]:
+                - /url: /service-areas/cranberry-township
+            - listitem [ref=e259]:
+              - link "Wexford, PA" [ref=e260] [cursor=pointer]:
+                - /url: /service-areas/wexford
+            - listitem [ref=e261]:
+              - link "Mt. Lebanon, PA" [ref=e262] [cursor=pointer]:
+                - /url: /service-areas/mt-lebanon
+            - listitem [ref=e263]:
+              - link "Monroeville, PA" [ref=e264] [cursor=pointer]:
+                - /url: /service-areas/monroeville
+            - listitem [ref=e265]:
+              - link "Shadyside, PA" [ref=e266] [cursor=pointer]:
+                - /url: /service-areas/shadyside
+            - listitem [ref=e267]:
+              - link "Squirrel Hill, PA" [ref=e268] [cursor=pointer]:
+                - /url: /service-areas/squirrel-hill
+            - listitem [ref=e269]:
+              - link "Upper St. Clair, PA" [ref=e270] [cursor=pointer]:
+                - /url: /service-areas/upper-st-clair
+            - listitem [ref=e271]:
+              - link "Sewickley, PA" [ref=e272] [cursor=pointer]:
+                - /url: /service-areas/sewickley
+            - listitem [ref=e273]:
+              - link "Bethel Park, PA" [ref=e274] [cursor=pointer]:
+                - /url: /service-areas/bethel-park
+            - listitem [ref=e275]:
+              - link "Ross Township, PA" [ref=e276] [cursor=pointer]:
+                - /url: /service-areas/ross-township
+            - listitem [ref=e277]:
+              - link "Fox Chapel, PA" [ref=e278] [cursor=pointer]:
+                - /url: /service-areas/fox-chapel
+            - listitem [ref=e279]:
+              - link "Shaler Township, PA" [ref=e280] [cursor=pointer]:
+                - /url: /service-areas/shaler-township
+            - listitem [ref=e281]:
+              - link "Penn Hills, PA" [ref=e282] [cursor=pointer]:
+                - /url: /service-areas/penn-hills
+            - listitem [ref=e283]:
+              - link "Plum Borough, PA" [ref=e284] [cursor=pointer]:
+                - /url: /service-areas/plum-borough
+            - listitem [ref=e285]:
+              - link "Moon Township, PA" [ref=e286] [cursor=pointer]:
+                - /url: /service-areas/moon-township
+            - listitem [ref=e287]:
+              - link "Robinson Township, PA" [ref=e288] [cursor=pointer]:
+                - /url: /service-areas/robinson-township
+            - listitem [ref=e289]:
+              - link "Hampton Township, PA" [ref=e290] [cursor=pointer]:
+                - /url: /service-areas/hampton-township
+            - listitem [ref=e291]:
+              - link "McCandless, PA" [ref=e292] [cursor=pointer]:
+                - /url: /service-areas/mccandless
+            - listitem [ref=e293]:
+              - link "All Areas →" [ref=e294] [cursor=pointer]:
+                - /url: /service-areas
+        - generic [ref=e295]:
+          - heading "Company" [level=3] [ref=e296]
+          - list [ref=e297]:
+            - listitem [ref=e298]:
+              - link "About Us" [ref=e299] [cursor=pointer]:
+                - /url: /about
+            - listitem [ref=e300]:
+              - link "Reviews" [ref=e301] [cursor=pointer]:
+                - /url: /reviews
+            - listitem [ref=e302]:
+              - link "Contact Us" [ref=e303] [cursor=pointer]:
+                - /url: /contact
+            - listitem [ref=e304]:
+              - link "Free Estimate" [ref=e305] [cursor=pointer]:
+                - /url: /contact
+        - generic [ref=e306]:
+          - heading "Resources" [level=3] [ref=e307]
+          - list [ref=e308]:
+            - listitem [ref=e309]:
+              - link "Estate Cleanout Guide" [ref=e310] [cursor=pointer]:
+                - /url: /resources/estate-cleanout-guide
+            - listitem [ref=e311]:
+              - link "What We Take" [ref=e312] [cursor=pointer]:
+                - /url: /resources/what-we-take
+            - listitem [ref=e313]:
+              - link "Pricing FAQ" [ref=e314] [cursor=pointer]:
+                - /url: /resources/pricing-faq
+            - listitem [ref=e315]:
+              - link "Donation Partners" [ref=e316] [cursor=pointer]:
+                - /url: /resources/donation-partners
+      - generic [ref=e319]:
+        - paragraph [ref=e320]: © 2026 Steel City Cleanouts. All rights reserved. Licensed & Insured.
+        - paragraph [ref=e321]:
+          - text: Photography via
+          - link "Unsplash" [ref=e322] [cursor=pointer]:
+            - /url: https://unsplash.com
+          - text: and
+          - link "Pexels" [ref=e323] [cursor=pointer]:
+            - /url: https://www.pexels.com
+          - text: . Used under their respective free-use licenses.
+  - alert [ref=e324]

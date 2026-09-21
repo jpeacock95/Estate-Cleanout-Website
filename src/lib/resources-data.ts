@@ -2,6 +2,8 @@ export type ResourceSection = { heading: string; body: string };
 
 export type Resource = {
   slug: string;
+  /** ISO date of the last meaningful content change. Drives sitemap lastmod. */
+  updatedAt: string;
   title: string;
   seoTitle: string;
   seoDescription: string;
@@ -16,6 +18,7 @@ export type Resource = {
 export const resources: Resource[] = [
   {
     slug: "estate-cleanout-guide",
+    updatedAt: "2026-09-20",
     title: "Estate Cleanout Guide",
     seoTitle: "Estate Cleanout Guide | Step-By-Step for Pittsburgh Families",
     seoDescription:
@@ -56,6 +59,7 @@ export const resources: Resource[] = [
   },
   {
     slug: "what-we-take",
+    updatedAt: "2026-09-20",
     title: "What We Take",
     seoTitle: "What We Take | Steel City Cleanouts Pittsburgh PA",
     seoDescription:
@@ -100,6 +104,7 @@ export const resources: Resource[] = [
   },
   {
     slug: "pricing-faq",
+    updatedAt: "2026-09-20",
     title: "Pricing FAQ",
     seoTitle: "Pricing FAQ | Steel City Cleanouts Pittsburgh PA",
     seoDescription:
@@ -140,6 +145,7 @@ export const resources: Resource[] = [
   },
   {
     slug: "donation-partners",
+    updatedAt: "2026-09-20",
     title: "Donation Partners",
     seoTitle: "Donation Partners | Where Your Stuff Goes | Steel City Cleanouts",
     seoDescription:

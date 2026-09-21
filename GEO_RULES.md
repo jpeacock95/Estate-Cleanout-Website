@@ -78,7 +78,7 @@ Rules:
 
 ### Post-publish
 - [ ] Submit URL to Google Indexing API
-- [ ] Update sitemap lastmod
+- [ ] Bump that page's `updatedAt` (data record) or its entry in `src/lib/page-dates.ts`. The sitemap's lastmod reads from these, so only the pages that actually changed should move. Never bulk-update them.
 
 ---
 

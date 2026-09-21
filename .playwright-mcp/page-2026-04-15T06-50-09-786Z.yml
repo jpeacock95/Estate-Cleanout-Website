@@ -1,0 +1,318 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - navigation [ref=e3]:
+      - link "Steel City Cleanouts home" [ref=e4] [cursor=pointer]:
+        - /url: /
+        - img "Steel City Cleanouts, Pittsburgh, PA" [ref=e5]
+      - button "Toggle navigation" [ref=e6]:
+        - img [ref=e7]
+  - main [ref=e8]:
+    - generic [ref=e9]:
+      - img "Steel City Cleanouts estate cleanout pricing in Pittsburgh" [ref=e11]
+      - generic [ref=e14]:
+        - generic [ref=e17]: Pricing · Estate
+        - heading "Estate Cleanout Pricing in Pittsburgh" [level=1] [ref=e18]
+        - paragraph [ref=e19]: Whole-home cleanouts. $850 to $3,500 depending on size and contents.
+        - generic [ref=e20]:
+          - link "CALL NOW FOR PICKUP" [ref=e21] [cursor=pointer]:
+            - /url: tel:5852000871
+            - img [ref=e22]
+            - generic [ref=e24]: CALL NOW FOR PICKUP
+          - link "GET A FREE QUOTE" [ref=e25] [cursor=pointer]:
+            - /url: /contact
+            - generic [ref=e26]: GET A FREE QUOTE
+    - navigation "Breadcrumb" [ref=e27]:
+      - list [ref=e28]:
+        - listitem [ref=e29]:
+          - link "Home" [ref=e30] [cursor=pointer]:
+            - /url: /
+            - img [ref=e31]
+            - generic [ref=e34]: Home
+        - listitem [ref=e35]:
+          - img [ref=e36]
+          - link "Pricing" [ref=e38] [cursor=pointer]:
+            - /url: /pricing
+        - listitem [ref=e39]:
+          - img [ref=e40]
+          - generic [ref=e42]: Estate Cleanout Pricing
+    - generic [ref=e44]:
+      - paragraph [ref=e46]: Estate cleanout pricing in Pittsburgh with Steel City Cleanouts runs $850 to $3,500 for most whole-home jobs. The price is based on square footage and how much is inside. A 1,500 sq ft home usually runs $850 to $1,500. A 3,500+ sq ft home with outbuildings runs $2,500 to $3,500. Labor, truck, disposal, and donation routing included.
+      - paragraph [ref=e47]: Estate cleanouts are the largest job type we run. The price scales with the size of the home and how much stuff is in it. We price the whole job up front with a single written quote on the walk-through, so there are no surprises on job day.
+    - generic [ref=e49]:
+      - heading "Estate Cleanout Pricing by Home Size" [level=2] [ref=e50]
+      - table [ref=e52]:
+        - rowgroup [ref=e53]:
+          - row "Item Price" [ref=e54]:
+            - columnheader "Item" [ref=e55]
+            - columnheader "Price" [ref=e56]
+        - rowgroup [ref=e57]:
+          - row "Small home (under 1,500 sq ft) Condo, small single-story, or 2-bedroom apartment. $850 to $1,500" [ref=e58]:
+            - cell "Small home (under 1,500 sq ft) Condo, small single-story, or 2-bedroom apartment." [ref=e59]:
+              - paragraph [ref=e60]: Small home (under 1,500 sq ft)
+              - paragraph [ref=e61]: Condo, small single-story, or 2-bedroom apartment.
+            - cell "$850 to $1,500" [ref=e62]:
+              - paragraph [ref=e63]: $850 to $1,500
+          - row "Medium home (1,500 to 2,500 sq ft) Standard Pittsburgh single-family with basement. $1,500 to $2,500" [ref=e64]:
+            - cell "Medium home (1,500 to 2,500 sq ft) Standard Pittsburgh single-family with basement." [ref=e65]:
+              - paragraph [ref=e66]: Medium home (1,500 to 2,500 sq ft)
+              - paragraph [ref=e67]: Standard Pittsburgh single-family with basement.
+            - cell "$1,500 to $2,500" [ref=e68]:
+              - paragraph [ref=e69]: $1,500 to $2,500
+          - row "Large home (2,500 to 3,500 sq ft) Bigger single-family with finished basement and garage. $2,500 to $3,500" [ref=e70]:
+            - cell "Large home (2,500 to 3,500 sq ft) Bigger single-family with finished basement and garage." [ref=e71]:
+              - paragraph [ref=e72]: Large home (2,500 to 3,500 sq ft)
+              - paragraph [ref=e73]: Bigger single-family with finished basement and garage.
+            - cell "$2,500 to $3,500" [ref=e74]:
+              - paragraph [ref=e75]: $2,500 to $3,500
+          - row "Very large home (3,500+ sq ft) Quoted on-site. Usually 2 to 3 days of work with multiple trucks. $3,500+" [ref=e76]:
+            - cell "Very large home (3,500+ sq ft) Quoted on-site. Usually 2 to 3 days of work with multiple trucks." [ref=e77]:
+              - paragraph [ref=e78]: Very large home (3,500+ sq ft)
+              - paragraph [ref=e79]: Quoted on-site. Usually 2 to 3 days of work with multiple trucks.
+            - cell "$3,500+" [ref=e80]:
+              - paragraph [ref=e81]: $3,500+
+      - paragraph [ref=e83]: "Whole-home: $850 to $3,500 depending on size and volume."
+    - generic [ref=e85]:
+      - heading "What's Included" [level=2] [ref=e86]
+      - list [ref=e87]:
+        - listitem [ref=e88]:
+          - img [ref=e89]
+          - generic [ref=e91]: Free on-site walk-through
+        - listitem [ref=e92]:
+          - img [ref=e93]
+          - generic [ref=e95]: Single written price with no upsells
+        - listitem [ref=e96]:
+          - img [ref=e97]
+          - generic [ref=e99]: 2 or 3-person crew
+        - listitem [ref=e100]:
+          - img [ref=e101]
+          - generic [ref=e103]: Unlimited truckloads within the quoted price
+        - listitem [ref=e104]:
+          - img [ref=e105]
+          - generic [ref=e107]: Donation routing to local Pittsburgh charities
+        - listitem [ref=e108]:
+          - img [ref=e109]
+          - generic [ref=e111]: Valuables and photos set aside for family review
+        - listitem [ref=e112]:
+          - img [ref=e113]
+          - generic [ref=e115]: Broom-swept finish
+    - generic [ref=e117]:
+      - heading "What Affects the Price" [level=2] [ref=e118]
+      - generic [ref=e119]:
+        - generic [ref=e122]: Total square footage and number of rooms
+        - generic [ref=e125]: Volume and density of contents
+        - generic [ref=e128]: Hoarding-level accumulation (priced separately)
+        - generic [ref=e131]: Hazardous materials requiring special handling
+        - generic [ref=e134]: Access challenges like narrow stairs or long carries
+    - generic [ref=e137]:
+      - paragraph [ref=e138]: Real estate cleanout, March 2026
+      - paragraph [ref=e139]: "Upper St Clair family. Parents' home of 42 years, 2,800 sq ft with finished basement, 2-car garage, and a shed. 3 days of work with a 3-person crew, 4 truckloads total. Final price: $2,750. Family received donation receipt, before/after photos, and a valuables box."
+    - generic [ref=e141]:
+      - heading "Estate Cleanout Pricing FAQs" [level=2] [ref=e142]
+      - generic [ref=e143]:
+        - group [ref=e144]:
+          - generic "How do you price an estate cleanout if I have no idea how much is inside?" [ref=e145] [cursor=pointer]
+        - group [ref=e146]:
+          - generic "What's included in the estate cleanout price?" [ref=e147] [cursor=pointer]
+        - group [ref=e148]:
+          - generic "How long does an estate cleanout take in Pittsburgh?" [ref=e149] [cursor=pointer]
+        - group [ref=e150]:
+          - generic "Do you coordinate with out-of-state family?" [ref=e151] [cursor=pointer]
+    - generic [ref=e153]:
+      - heading "Related Pricing" [level=2] [ref=e154]
+      - generic [ref=e155]:
+        - link "Hoarder Cleanout Pricing Level 1 from $1,200. Level 3 from $3,000. Level 5 from $5,000 up to $8,500+." [ref=e156] [cursor=pointer]:
+          - /url: /pricing/hoarder-cleanout
+          - generic [ref=e157]:
+            - paragraph [ref=e158]: Hoarder Cleanout Pricing
+            - paragraph [ref=e159]: Level 1 from $1,200. Level 3 from $3,000. Level 5 from $5,000 up to $8,500+.
+          - img [ref=e160]
+        - 'link "Full Truck Load Full truck: $475 to $750 all-in. About 15 cubic yards." [ref=e162] [cursor=pointer]':
+          - /url: /pricing/full-truck
+          - generic [ref=e163]:
+            - paragraph [ref=e164]: Full Truck Load
+            - paragraph [ref=e165]: "Full truck: $475 to $750 all-in. About 15 cubic yards."
+          - img [ref=e166]
+        - link "Pittsburgh vs National Pricing Pittsburgh pricing sits just under the national average across every load size." [ref=e168] [cursor=pointer]:
+          - /url: /pricing/pittsburgh-vs-national
+          - generic [ref=e169]:
+            - paragraph [ref=e170]: Pittsburgh vs National Pricing
+            - paragraph [ref=e171]: Pittsburgh pricing sits just under the national average across every load size.
+          - img [ref=e172]
+        - link "Junk Removal vs Dumpster Rental Junk removal $275 to $750 all-in, 1 to 2 hours. Dumpster rental $350 to $550 sticker plus 20+ hours of your labor." [ref=e174] [cursor=pointer]:
+          - /url: /pricing/vs-dumpster-rental
+          - generic [ref=e175]:
+            - paragraph [ref=e176]: Junk Removal vs Dumpster Rental
+            - paragraph [ref=e177]: Junk removal $275 to $750 all-in, 1 to 2 hours. Dumpster rental $350 to $550 sticker plus 20+ hours of your labor.
+          - img [ref=e178]
+    - generic [ref=e181]:
+      - heading "Ready to Clear It Out?" [level=2] [ref=e182]
+      - paragraph [ref=e183]: Same-day service across Pittsburgh. Upfront pricing. No hidden fees. Call or text for a free quote.
+      - generic [ref=e184]:
+        - link "CALL (585) 200-0871" [ref=e185] [cursor=pointer]:
+          - /url: tel:5852000871
+          - img [ref=e186]
+          - generic [ref=e188]: CALL (585) 200-0871
+        - link "GET A FREE QUOTE" [ref=e189] [cursor=pointer]:
+          - /url: /contact
+          - generic [ref=e190]: GET A FREE QUOTE
+  - contentinfo [ref=e191]:
+    - generic [ref=e192]:
+      - generic [ref=e193]:
+        - generic [ref=e194]:
+          - img "Steel City Cleanouts, Pittsburgh, PA" [ref=e196]
+          - generic [ref=e197]:
+            - paragraph [ref=e198]: Same-Day Service
+            - link "(585) 200-0871" [ref=e199] [cursor=pointer]:
+              - /url: tel:5852000871
+            - link "hello@steelcitycleanouts.com" [ref=e200] [cursor=pointer]:
+              - /url: mailto:hello@steelcitycleanouts.com
+            - paragraph [ref=e201]: Open 7 Days A Week
+        - generic [ref=e202]:
+          - heading "Services" [level=3] [ref=e203]
+          - list [ref=e204]:
+            - listitem [ref=e205]:
+              - link "Estate Cleanouts" [ref=e206] [cursor=pointer]:
+                - /url: /services/estate-cleanouts
+            - listitem [ref=e207]:
+              - link "Junk Removal" [ref=e208] [cursor=pointer]:
+                - /url: /services/junk-removal
+            - listitem [ref=e209]:
+              - link "Appliance Removal" [ref=e210] [cursor=pointer]:
+                - /url: /services/appliance-removal
+            - listitem [ref=e211]:
+              - link "Furniture Removal" [ref=e212] [cursor=pointer]:
+                - /url: /services/furniture-removal
+            - listitem [ref=e213]:
+              - link "Garage Cleanouts" [ref=e214] [cursor=pointer]:
+                - /url: /services/garage-cleanouts
+            - listitem [ref=e215]:
+              - link "Hoarder Cleanouts" [ref=e216] [cursor=pointer]:
+                - /url: /services/hoarder-cleanouts
+            - listitem [ref=e217]:
+              - link "Foreclosure Cleanouts" [ref=e218] [cursor=pointer]:
+                - /url: /services/foreclosure-cleanouts
+            - listitem [ref=e219]:
+              - link "Eviction Cleanouts" [ref=e220] [cursor=pointer]:
+                - /url: /services/eviction-cleanouts
+            - listitem [ref=e221]:
+              - link "Construction Debris" [ref=e222] [cursor=pointer]:
+                - /url: /services/construction-debris
+            - listitem [ref=e223]:
+              - link "Yard Waste" [ref=e224] [cursor=pointer]:
+                - /url: /services/yard-waste-removal
+            - listitem [ref=e225]:
+              - link "Storage Unit Cleanouts" [ref=e226] [cursor=pointer]:
+                - /url: /services/storage-unit-cleanouts
+            - listitem [ref=e227]:
+              - link "Commercial Cleanouts" [ref=e228] [cursor=pointer]:
+                - /url: /services/commercial-cleanouts
+            - listitem [ref=e229]:
+              - link "Bereavement Cleanouts" [ref=e230] [cursor=pointer]:
+                - /url: /services/bereavement-cleanouts
+            - listitem [ref=e231]:
+              - link "All Services →" [ref=e232] [cursor=pointer]:
+                - /url: /services
+        - generic [ref=e233]:
+          - heading "Service Areas" [level=3] [ref=e234]
+          - list [ref=e235]:
+            - listitem [ref=e236]:
+              - link "Pittsburgh, PA" [ref=e237] [cursor=pointer]:
+                - /url: /service-areas/pittsburgh
+            - listitem [ref=e238]:
+              - link "Cranberry Township, PA" [ref=e239] [cursor=pointer]:
+                - /url: /service-areas/cranberry-township
+            - listitem [ref=e240]:
+              - link "Wexford, PA" [ref=e241] [cursor=pointer]:
+                - /url: /service-areas/wexford
+            - listitem [ref=e242]:
+              - link "Mt. Lebanon, PA" [ref=e243] [cursor=pointer]:
+                - /url: /service-areas/mt-lebanon
+            - listitem [ref=e244]:
+              - link "Monroeville, PA" [ref=e245] [cursor=pointer]:
+                - /url: /service-areas/monroeville
+            - listitem [ref=e246]:
+              - link "Shadyside, PA" [ref=e247] [cursor=pointer]:
+                - /url: /service-areas/shadyside
+            - listitem [ref=e248]:
+              - link "Squirrel Hill, PA" [ref=e249] [cursor=pointer]:
+                - /url: /service-areas/squirrel-hill
+            - listitem [ref=e250]:
+              - link "Upper St. Clair, PA" [ref=e251] [cursor=pointer]:
+                - /url: /service-areas/upper-st-clair
+            - listitem [ref=e252]:
+              - link "Sewickley, PA" [ref=e253] [cursor=pointer]:
+                - /url: /service-areas/sewickley
+            - listitem [ref=e254]:
+              - link "Bethel Park, PA" [ref=e255] [cursor=pointer]:
+                - /url: /service-areas/bethel-park
+            - listitem [ref=e256]:
+              - link "Ross Township, PA" [ref=e257] [cursor=pointer]:
+                - /url: /service-areas/ross-township
+            - listitem [ref=e258]:
+              - link "Fox Chapel, PA" [ref=e259] [cursor=pointer]:
+                - /url: /service-areas/fox-chapel
+            - listitem [ref=e260]:
+              - link "Shaler Township, PA" [ref=e261] [cursor=pointer]:
+                - /url: /service-areas/shaler-township
+            - listitem [ref=e262]:
+              - link "Penn Hills, PA" [ref=e263] [cursor=pointer]:
+                - /url: /service-areas/penn-hills
+            - listitem [ref=e264]:
+              - link "Plum Borough, PA" [ref=e265] [cursor=pointer]:
+                - /url: /service-areas/plum-borough
+            - listitem [ref=e266]:
+              - link "Moon Township, PA" [ref=e267] [cursor=pointer]:
+                - /url: /service-areas/moon-township
+            - listitem [ref=e268]:
+              - link "Robinson Township, PA" [ref=e269] [cursor=pointer]:
+                - /url: /service-areas/robinson-township
+            - listitem [ref=e270]:
+              - link "Hampton Township, PA" [ref=e271] [cursor=pointer]:
+                - /url: /service-areas/hampton-township
+            - listitem [ref=e272]:
+              - link "McCandless, PA" [ref=e273] [cursor=pointer]:
+                - /url: /service-areas/mccandless
+            - listitem [ref=e274]:
+              - link "All Areas →" [ref=e275] [cursor=pointer]:
+                - /url: /service-areas
+        - generic [ref=e276]:
+          - heading "Company" [level=3] [ref=e277]
+          - list [ref=e278]:
+            - listitem [ref=e279]:
+              - link "About Us" [ref=e280] [cursor=pointer]:
+                - /url: /about
+            - listitem [ref=e281]:
+              - link "Reviews" [ref=e282] [cursor=pointer]:
+                - /url: /reviews
+            - listitem [ref=e283]:
+              - link "Contact Us" [ref=e284] [cursor=pointer]:
+                - /url: /contact
+            - listitem [ref=e285]:
+              - link "Free Estimate" [ref=e286] [cursor=pointer]:
+                - /url: /contact
+        - generic [ref=e287]:
+          - heading "Resources" [level=3] [ref=e288]
+          - list [ref=e289]:
+            - listitem [ref=e290]:
+              - link "Estate Cleanout Guide" [ref=e291] [cursor=pointer]:
+                - /url: /resources/estate-cleanout-guide
+            - listitem [ref=e292]:
+              - link "What We Take" [ref=e293] [cursor=pointer]:
+                - /url: /resources/what-we-take
+            - listitem [ref=e294]:
+              - link "Pricing FAQ" [ref=e295] [cursor=pointer]:
+                - /url: /resources/pricing-faq
+            - listitem [ref=e296]:
+              - link "Donation Partners" [ref=e297] [cursor=pointer]:
+                - /url: /resources/donation-partners
+      - generic [ref=e300]:
+        - paragraph [ref=e301]: © 2026 Steel City Cleanouts. All rights reserved. Licensed & Insured.
+        - paragraph [ref=e302]:
+          - text: Photography via
+          - link "Unsplash" [ref=e303] [cursor=pointer]:
+            - /url: https://unsplash.com
+          - text: and
+          - link "Pexels" [ref=e304] [cursor=pointer]:
+            - /url: https://www.pexels.com
+          - text: . Used under their respective free-use licenses.
+  - alert [ref=e305]

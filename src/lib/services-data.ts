@@ -4,6 +4,8 @@ export type QuickFact = { label: string; value: string };
 
 export type Service = {
   slug: string;
+  /** ISO date of the last meaningful content change. Drives sitemap lastmod. */
+  updatedAt: string;
   name: string;
   shortName: string;
   seoTitle: string;
@@ -25,6 +27,7 @@ export type Service = {
 export const services: Service[] = [
   {
     slug: "estate-cleanouts",
+    updatedAt: "2026-09-20",
     name: "Estate Cleanouts",
     shortName: "Estate Cleanouts",
     seoTitle: "Estate Cleanouts Pittsburgh PA | Same-Day Service | Steel City Cleanouts",
@@ -94,6 +97,7 @@ export const services: Service[] = [
   },
   {
     slug: "junk-removal",
+    updatedAt: "2026-09-20",
     name: "Junk Removal",
     shortName: "Junk Removal",
     seoTitle: "Junk Removal Pittsburgh PA | Same-Day Pickup | Steel City Cleanouts",
@@ -163,6 +167,7 @@ export const services: Service[] = [
   },
   {
     slug: "appliance-removal",
+    updatedAt: "2026-09-20",
     name: "Appliance Removal",
     shortName: "Appliance Removal",
     seoTitle: "Old Appliance Removal Pittsburgh PA | Fridge, Washer, Dryer Haul-Away",
@@ -244,6 +249,7 @@ export const services: Service[] = [
   },
   {
     slug: "furniture-removal",
+    updatedAt: "2026-09-20",
     name: "Furniture Removal",
     shortName: "Furniture Removal",
     seoTitle: "Furniture Removal Pittsburgh PA | Couch, Mattress, Table Haul-Away",
@@ -309,6 +315,7 @@ export const services: Service[] = [
   },
   {
     slug: "garage-cleanouts",
+    updatedAt: "2026-09-20",
     name: "Garage Cleanouts",
     shortName: "Garage Cleanouts",
     seoTitle: "Garage Cleanouts Pittsburgh PA | Full Garage Haul-Away | Steel City",
@@ -374,6 +381,7 @@ export const services: Service[] = [
   },
   {
     slug: "basement-cleanouts",
+    updatedAt: "2026-09-20",
     name: "Basement Cleanouts",
     shortName: "Basement Cleanouts",
     seoTitle: "Basement Cleanouts Pittsburgh PA | Stairs Included | Steel City Cleanouts",
@@ -449,6 +457,7 @@ export const services: Service[] = [
 services.push(
   {
     slug: "hoarder-cleanouts",
+    updatedAt: "2026-09-20",
     name: "Hoarder Cleanouts",
     shortName: "Hoarder Cleanouts",
     seoTitle: "Hoarder Cleanouts Pittsburgh PA | Discreet, Compassionate Service",
@@ -510,6 +519,7 @@ services.push(
   },
   {
     slug: "foreclosure-cleanouts",
+    updatedAt: "2026-09-20",
     name: "Foreclosure Cleanouts",
     shortName: "Foreclosure Cleanouts",
     seoTitle: "Foreclosure Cleanouts Pittsburgh PA | Bank & Realtor Service",
@@ -571,6 +581,7 @@ services.push(
   },
   {
     slug: "eviction-cleanouts",
+    updatedAt: "2026-09-20",
     name: "Eviction Cleanouts",
     shortName: "Eviction Cleanouts",
     seoTitle: "Eviction Cleanouts Pittsburgh PA | Same-Day Landlord Service",
@@ -635,6 +646,7 @@ services.push(
 services.push(
   {
     slug: "construction-debris",
+    updatedAt: "2026-09-20",
     name: "Construction Debris Removal",
     shortName: "Construction Debris",
     seoTitle: "Construction Debris Removal Pittsburgh PA | Renovation Haul-Away",
@@ -692,6 +704,7 @@ services.push(
   },
   {
     slug: "yard-waste-removal",
+    updatedAt: "2026-09-20",
     name: "Yard Waste Removal",
     shortName: "Yard Waste",
     seoTitle: "Yard Waste Removal Pittsburgh PA | Brush, Branches, Debris Haul-Away",
@@ -752,6 +765,7 @@ services.push(
 services.push(
   {
     slug: "storage-unit-cleanouts",
+    updatedAt: "2026-09-20",
     name: "Storage Unit Cleanouts",
     shortName: "Storage Unit Cleanouts",
     seoTitle: "Storage Unit Cleanouts Pittsburgh PA | Fast Lockup Haul-Away",
@@ -821,6 +835,7 @@ services.push(
   },
   {
     slug: "commercial-cleanouts",
+    updatedAt: "2026-09-20",
     name: "Commercial Cleanouts",
     shortName: "Commercial Cleanouts",
     seoTitle: "Commercial Cleanouts Pittsburgh PA | Office, Retail, End-of-Lease",
@@ -890,6 +905,7 @@ services.push(
   },
   {
     slug: "bereavement-cleanouts",
+    updatedAt: "2026-09-20",
     name: "Bereavement Cleanouts",
     shortName: "Bereavement Cleanouts",
     seoTitle: "Bereavement Cleanouts Pittsburgh PA | Compassionate Family Service",

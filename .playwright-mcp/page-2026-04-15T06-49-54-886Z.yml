@@ -1,0 +1,329 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - navigation [ref=e3]:
+      - link "Steel City Cleanouts home" [ref=e4] [cursor=pointer]:
+        - /url: /
+        - img "Steel City Cleanouts, Pittsburgh, PA" [ref=e5]
+      - generic [ref=e6]:
+        - list [ref=e7]:
+          - listitem [ref=e8]:
+            - link "SERVICES" [ref=e9] [cursor=pointer]:
+              - /url: /services
+          - listitem [ref=e10]:
+            - link "PRICING" [ref=e11] [cursor=pointer]:
+              - /url: /pricing
+          - listitem [ref=e12]:
+            - link "SERVICE AREA" [ref=e13] [cursor=pointer]:
+              - /url: /service-areas
+          - listitem [ref=e14]:
+            - link "ABOUT" [ref=e15] [cursor=pointer]:
+              - /url: /about
+          - listitem [ref=e16]:
+            - link "REVIEWS" [ref=e17] [cursor=pointer]:
+              - /url: /reviews
+          - listitem [ref=e18]:
+            - link "CONTACT" [ref=e19] [cursor=pointer]:
+              - /url: /contact
+        - link "CALL NOW" [ref=e20] [cursor=pointer]:
+          - /url: tel:5852000871
+          - img [ref=e21]
+          - text: CALL NOW
+  - main [ref=e23]:
+    - generic [ref=e24]:
+      - img "Steel City Cleanouts minimum charge in Pittsburgh" [ref=e26]
+      - generic [ref=e29]:
+        - generic [ref=e32]: Pricing · Minimum
+        - heading "What's the Minimum Charge for Junk Removal in Pittsburgh?" [level=1] [ref=e33]
+        - paragraph [ref=e34]: $99 flat, single item, anywhere in the Pittsburgh metro.
+        - generic [ref=e35]:
+          - link "CALL NOW FOR PICKUP" [ref=e36] [cursor=pointer]:
+            - /url: tel:5852000871
+            - img [ref=e37]
+            - generic [ref=e39]: CALL NOW FOR PICKUP
+          - link "GET A FREE QUOTE" [ref=e40] [cursor=pointer]:
+            - /url: /contact
+            - generic [ref=e41]: GET A FREE QUOTE
+    - navigation "Breadcrumb" [ref=e42]:
+      - list [ref=e43]:
+        - listitem [ref=e44]:
+          - link "Home" [ref=e45] [cursor=pointer]:
+            - /url: /
+            - img [ref=e46]
+            - generic [ref=e49]: Home
+        - listitem [ref=e50]:
+          - img [ref=e51]
+          - link "Pricing" [ref=e53] [cursor=pointer]:
+            - /url: /pricing
+        - listitem [ref=e54]:
+          - img [ref=e55]
+          - generic [ref=e57]: Minimum Charge
+    - generic [ref=e59]:
+      - paragraph [ref=e61]: The minimum charge for junk removal with Steel City Cleanouts in Pittsburgh is $99 for a single item. That covers a mattress, couch, refrigerator, treadmill, or any similar single piece. Labor, truck, disposal, and donation routing are all included.
+      - paragraph [ref=e62]: People ask about the minimum charge because they have just one thing to get rid of and they don't want to pay for a whole truck. Fair. Our minimum is $99 and it covers exactly that. One mattress, one couch, one appliance, one treadmill, one sofa bed. We pull up, load it, and haul it. No extra fees on top.
+    - generic [ref=e64]:
+      - heading "What $99 Gets You" [level=2] [ref=e65]
+      - table [ref=e67]:
+        - rowgroup [ref=e68]:
+          - row "Item Price" [ref=e69]:
+            - columnheader "Item" [ref=e70]
+            - columnheader "Price" [ref=e71]
+        - rowgroup [ref=e72]:
+          - row "Mattress (any size) $99" [ref=e73]:
+            - cell "Mattress (any size)" [ref=e74]:
+              - paragraph [ref=e75]: Mattress (any size)
+            - cell "$99" [ref=e76]:
+              - paragraph [ref=e77]: $99
+          - row "Couch or sectional (1 piece) $99" [ref=e78]:
+            - cell "Couch or sectional (1 piece)" [ref=e79]:
+              - paragraph [ref=e80]: Couch or sectional (1 piece)
+            - cell "$99" [ref=e81]:
+              - paragraph [ref=e82]: $99
+          - row "Refrigerator or washer $99" [ref=e83]:
+            - cell "Refrigerator or washer" [ref=e84]:
+              - paragraph [ref=e85]: Refrigerator or washer
+            - cell "$99" [ref=e86]:
+              - paragraph [ref=e87]: $99
+          - row "Treadmill or exercise bike $99" [ref=e88]:
+            - cell "Treadmill or exercise bike" [ref=e89]:
+              - paragraph [ref=e90]: Treadmill or exercise bike
+            - cell "$99" [ref=e91]:
+              - paragraph [ref=e92]: $99
+          - row "Recliner or armchair $99" [ref=e93]:
+            - cell "Recliner or armchair" [ref=e94]:
+              - paragraph [ref=e95]: Recliner or armchair
+            - cell "$99" [ref=e96]:
+              - paragraph [ref=e97]: $99
+          - row "TV up to 65 inches $99" [ref=e98]:
+            - cell "TV up to 65 inches" [ref=e99]:
+              - paragraph [ref=e100]: TV up to 65 inches
+            - cell "$99" [ref=e101]:
+              - paragraph [ref=e102]: $99
+      - paragraph [ref=e104]: $99 flat for a single item, anywhere in the Pittsburgh metro. All-in, no surcharges.
+    - generic [ref=e106]:
+      - heading "What's Included" [level=2] [ref=e107]
+      - list [ref=e108]:
+        - listitem [ref=e109]:
+          - img [ref=e110]
+          - generic [ref=e112]: 2-person crew to carry the item
+        - listitem [ref=e113]:
+          - img [ref=e114]
+          - generic [ref=e116]: Truck and fuel
+        - listitem [ref=e117]:
+          - img [ref=e118]
+          - generic [ref=e120]: Landfill or recycling disposal fees
+        - listitem [ref=e121]:
+          - img [ref=e122]
+          - generic [ref=e124]: Donation drop-off if the item is reusable
+        - listitem [ref=e125]:
+          - img [ref=e126]
+          - generic [ref=e128]: Same-day or scheduled service
+    - generic [ref=e131]:
+      - heading "Notes" [level=2] [ref=e132]
+      - list [ref=e133]:
+        - listitem [ref=e134]: Piano, hot tub, and pool table remove are not $99. Those have their own pricing (add $75 to $200).
+        - listitem [ref=e135]: If you have more than one item, a quarter-truck job usually makes more financial sense.
+        - listitem [ref=e136]: Basement or upper-floor pickups are still $99, but add $50 if there are more than 8 stairs.
+    - generic [ref=e138]:
+      - heading "Minimum Charge FAQs" [level=2] [ref=e139]
+      - generic [ref=e140]:
+        - group [ref=e141]:
+          - generic "Is the $99 minimum really all-in?" [ref=e142] [cursor=pointer]
+        - group [ref=e143]:
+          - generic "Can I pay $99 to have 3 small items removed?" [ref=e144] [cursor=pointer]
+        - group [ref=e145]:
+          - generic "What if I only have junk bags?" [ref=e146] [cursor=pointer]
+        - group [ref=e147]:
+          - generic "Do I have to book a full truck to get the minimum price?" [ref=e148] [cursor=pointer]
+    - generic [ref=e150]:
+      - heading "Related Pricing" [level=2] [ref=e151]
+      - generic [ref=e152]:
+        - link "Pricing by Load Size Single item $99. Quarter truck $175 to $275. Half truck $275 to $425. Full truck $475 to $750. All-in, Pittsburgh metro." [ref=e153] [cursor=pointer]:
+          - /url: /pricing/by-load-size
+          - generic [ref=e154]:
+            - paragraph [ref=e155]: Pricing by Load Size
+            - paragraph [ref=e156]: Single item $99. Quarter truck $175 to $275. Half truck $275 to $425. Full truck $475 to $750. All-in, Pittsburgh metro.
+          - img [ref=e157]
+        - 'link "Quarter Truck Load Quarter truck: $175 to $275 all-in. About 3.5 cubic yards." [ref=e159] [cursor=pointer]':
+          - /url: /pricing/quarter-truck
+          - generic [ref=e160]:
+            - paragraph [ref=e161]: Quarter Truck Load
+            - paragraph [ref=e162]: "Quarter truck: $175 to $275 all-in. About 3.5 cubic yards."
+          - img [ref=e163]
+        - link "Surcharge Schedule Every surcharge we charge, disclosed up front. Nothing hidden." [ref=e165] [cursor=pointer]:
+          - /url: /pricing/surcharges
+          - generic [ref=e166]:
+            - paragraph [ref=e167]: Surcharge Schedule
+            - paragraph [ref=e168]: Every surcharge we charge, disclosed up front. Nothing hidden.
+          - img [ref=e169]
+    - generic [ref=e172]:
+      - heading "Ready to Clear It Out?" [level=2] [ref=e173]
+      - paragraph [ref=e174]: Same-day service across Pittsburgh. Upfront pricing. No hidden fees. Call or text for a free quote.
+      - generic [ref=e175]:
+        - link "CALL (585) 200-0871" [ref=e176] [cursor=pointer]:
+          - /url: tel:5852000871
+          - img [ref=e177]
+          - generic [ref=e179]: CALL (585) 200-0871
+        - link "GET A FREE QUOTE" [ref=e180] [cursor=pointer]:
+          - /url: /contact
+          - generic [ref=e181]: GET A FREE QUOTE
+  - contentinfo [ref=e182]:
+    - generic [ref=e183]:
+      - generic [ref=e184]:
+        - generic [ref=e185]:
+          - img "Steel City Cleanouts, Pittsburgh, PA" [ref=e187]
+          - generic [ref=e188]:
+            - paragraph [ref=e189]: Same-Day Service
+            - link "(585) 200-0871" [ref=e190] [cursor=pointer]:
+              - /url: tel:5852000871
+            - link "hello@steelcitycleanouts.com" [ref=e191] [cursor=pointer]:
+              - /url: mailto:hello@steelcitycleanouts.com
+            - paragraph [ref=e192]: Open 7 Days A Week
+        - generic [ref=e193]:
+          - heading "Services" [level=3] [ref=e194]
+          - list [ref=e195]:
+            - listitem [ref=e196]:
+              - link "Estate Cleanouts" [ref=e197] [cursor=pointer]:
+                - /url: /services/estate-cleanouts
+            - listitem [ref=e198]:
+              - link "Junk Removal" [ref=e199] [cursor=pointer]:
+                - /url: /services/junk-removal
+            - listitem [ref=e200]:
+              - link "Appliance Removal" [ref=e201] [cursor=pointer]:
+                - /url: /services/appliance-removal
+            - listitem [ref=e202]:
+              - link "Furniture Removal" [ref=e203] [cursor=pointer]:
+                - /url: /services/furniture-removal
+            - listitem [ref=e204]:
+              - link "Garage Cleanouts" [ref=e205] [cursor=pointer]:
+                - /url: /services/garage-cleanouts
+            - listitem [ref=e206]:
+              - link "Hoarder Cleanouts" [ref=e207] [cursor=pointer]:
+                - /url: /services/hoarder-cleanouts
+            - listitem [ref=e208]:
+              - link "Foreclosure Cleanouts" [ref=e209] [cursor=pointer]:
+                - /url: /services/foreclosure-cleanouts
+            - listitem [ref=e210]:
+              - link "Eviction Cleanouts" [ref=e211] [cursor=pointer]:
+                - /url: /services/eviction-cleanouts
+            - listitem [ref=e212]:
+              - link "Construction Debris" [ref=e213] [cursor=pointer]:
+                - /url: /services/construction-debris
+            - listitem [ref=e214]:
+              - link "Yard Waste" [ref=e215] [cursor=pointer]:
+                - /url: /services/yard-waste-removal
+            - listitem [ref=e216]:
+              - link "Storage Unit Cleanouts" [ref=e217] [cursor=pointer]:
+                - /url: /services/storage-unit-cleanouts
+            - listitem [ref=e218]:
+              - link "Commercial Cleanouts" [ref=e219] [cursor=pointer]:
+                - /url: /services/commercial-cleanouts
+            - listitem [ref=e220]:
+              - link "Bereavement Cleanouts" [ref=e221] [cursor=pointer]:
+                - /url: /services/bereavement-cleanouts
+            - listitem [ref=e222]:
+              - link "All Services →" [ref=e223] [cursor=pointer]:
+                - /url: /services
+        - generic [ref=e224]:
+          - heading "Service Areas" [level=3] [ref=e225]
+          - list [ref=e226]:
+            - listitem [ref=e227]:
+              - link "Pittsburgh, PA" [ref=e228] [cursor=pointer]:
+                - /url: /service-areas/pittsburgh
+            - listitem [ref=e229]:
+              - link "Cranberry Township, PA" [ref=e230] [cursor=pointer]:
+                - /url: /service-areas/cranberry-township
+            - listitem [ref=e231]:
+              - link "Wexford, PA" [ref=e232] [cursor=pointer]:
+                - /url: /service-areas/wexford
+            - listitem [ref=e233]:
+              - link "Mt. Lebanon, PA" [ref=e234] [cursor=pointer]:
+                - /url: /service-areas/mt-lebanon
+            - listitem [ref=e235]:
+              - link "Monroeville, PA" [ref=e236] [cursor=pointer]:
+                - /url: /service-areas/monroeville
+            - listitem [ref=e237]:
+              - link "Shadyside, PA" [ref=e238] [cursor=pointer]:
+                - /url: /service-areas/shadyside
+            - listitem [ref=e239]:
+              - link "Squirrel Hill, PA" [ref=e240] [cursor=pointer]:
+                - /url: /service-areas/squirrel-hill
+            - listitem [ref=e241]:
+              - link "Upper St. Clair, PA" [ref=e242] [cursor=pointer]:
+                - /url: /service-areas/upper-st-clair
+            - listitem [ref=e243]:
+              - link "Sewickley, PA" [ref=e244] [cursor=pointer]:
+                - /url: /service-areas/sewickley
+            - listitem [ref=e245]:
+              - link "Bethel Park, PA" [ref=e246] [cursor=pointer]:
+                - /url: /service-areas/bethel-park
+            - listitem [ref=e247]:
+              - link "Ross Township, PA" [ref=e248] [cursor=pointer]:
+                - /url: /service-areas/ross-township
+            - listitem [ref=e249]:
+              - link "Fox Chapel, PA" [ref=e250] [cursor=pointer]:
+                - /url: /service-areas/fox-chapel
+            - listitem [ref=e251]:
+              - link "Shaler Township, PA" [ref=e252] [cursor=pointer]:
+                - /url: /service-areas/shaler-township
+            - listitem [ref=e253]:
+              - link "Penn Hills, PA" [ref=e254] [cursor=pointer]:
+                - /url: /service-areas/penn-hills
+            - listitem [ref=e255]:
+              - link "Plum Borough, PA" [ref=e256] [cursor=pointer]:
+                - /url: /service-areas/plum-borough
+            - listitem [ref=e257]:
+              - link "Moon Township, PA" [ref=e258] [cursor=pointer]:
+                - /url: /service-areas/moon-township
+            - listitem [ref=e259]:
+              - link "Robinson Township, PA" [ref=e260] [cursor=pointer]:
+                - /url: /service-areas/robinson-township
+            - listitem [ref=e261]:
+              - link "Hampton Township, PA" [ref=e262] [cursor=pointer]:
+                - /url: /service-areas/hampton-township
+            - listitem [ref=e263]:
+              - link "McCandless, PA" [ref=e264] [cursor=pointer]:
+                - /url: /service-areas/mccandless
+            - listitem [ref=e265]:
+              - link "All Areas →" [ref=e266] [cursor=pointer]:
+                - /url: /service-areas
+        - generic [ref=e267]:
+          - heading "Company" [level=3] [ref=e268]
+          - list [ref=e269]:
+            - listitem [ref=e270]:
+              - link "About Us" [ref=e271] [cursor=pointer]:
+                - /url: /about
+            - listitem [ref=e272]:
+              - link "Reviews" [ref=e273] [cursor=pointer]:
+                - /url: /reviews
+            - listitem [ref=e274]:
+              - link "Contact Us" [ref=e275] [cursor=pointer]:
+                - /url: /contact
+            - listitem [ref=e276]:
+              - link "Free Estimate" [ref=e277] [cursor=pointer]:
+                - /url: /contact
+        - generic [ref=e278]:
+          - heading "Resources" [level=3] [ref=e279]
+          - list [ref=e280]:
+            - listitem [ref=e281]:
+              - link "Estate Cleanout Guide" [ref=e282] [cursor=pointer]:
+                - /url: /resources/estate-cleanout-guide
+            - listitem [ref=e283]:
+              - link "What We Take" [ref=e284] [cursor=pointer]:
+                - /url: /resources/what-we-take
+            - listitem [ref=e285]:
+              - link "Pricing FAQ" [ref=e286] [cursor=pointer]:
+                - /url: /resources/pricing-faq
+            - listitem [ref=e287]:
+              - link "Donation Partners" [ref=e288] [cursor=pointer]:
+                - /url: /resources/donation-partners
+      - generic [ref=e291]:
+        - paragraph [ref=e292]: © 2026 Steel City Cleanouts. All rights reserved. Licensed & Insured.
+        - paragraph [ref=e293]:
+          - text: Photography via
+          - link "Unsplash" [ref=e294] [cursor=pointer]:
+            - /url: https://unsplash.com
+          - text: and
+          - link "Pexels" [ref=e295] [cursor=pointer]:
+            - /url: https://www.pexels.com
+          - text: . Used under their respective free-use licenses.
+  - alert [ref=e296]

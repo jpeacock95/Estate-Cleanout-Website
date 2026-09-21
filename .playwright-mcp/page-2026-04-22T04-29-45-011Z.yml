@@ -1,0 +1,508 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - navigation [ref=e3]:
+      - link "Steel City Cleanouts home" [ref=e4] [cursor=pointer]:
+        - /url: /
+        - img "Steel City Cleanouts, Pittsburgh, PA" [ref=e5]
+      - generic [ref=e6]:
+        - list [ref=e7]:
+          - listitem [ref=e8]:
+            - link "SERVICES" [ref=e9] [cursor=pointer]:
+              - /url: /services
+          - listitem [ref=e10]:
+            - link "PRICING" [ref=e11] [cursor=pointer]:
+              - /url: /pricing
+          - listitem [ref=e12]:
+            - link "SERVICE AREA" [ref=e13] [cursor=pointer]:
+              - /url: /service-areas
+          - listitem [ref=e14]:
+            - link "ABOUT" [ref=e15] [cursor=pointer]:
+              - /url: /about
+          - listitem [ref=e16]:
+            - link "REVIEWS" [ref=e17] [cursor=pointer]:
+              - /url: /reviews
+          - listitem [ref=e18]:
+            - link "CONTACT" [ref=e19] [cursor=pointer]:
+              - /url: /contact
+        - link "CALL NOW" [ref=e20] [cursor=pointer]:
+          - /url: tel:5852000871
+          - img [ref=e21]
+          - text: CALL NOW
+  - main [ref=e23]:
+    - generic [ref=e24]:
+      - generic [ref=e25]:
+        - img "Two Steel City Cleanouts crew members in orange safety vests carrying a leather armchair down the front steps of a Pittsburgh red-brick row house" [ref=e27]
+        - img "Two Steel City Cleanouts crew members in orange safety vests loading an old sofa into the bed of their black pickup truck on a Pittsburgh residential street" [ref=e29]
+        - img "Steel City Cleanouts crew member in orange safety vest securing a fully loaded junk removal truck at the curb in front of a Pittsburgh row house" [ref=e31]
+      - generic [ref=e34]:
+        - generic [ref=e37]: Family-Owned · Pittsburgh, PA
+        - heading "Same-Day Junk Removal & Estate Cleanouts Pittsburgh, PA & Surrounding Areas" [level=1] [ref=e38]:
+          - text: Same-Day Junk Removal & Estate Cleanouts
+          - text: Pittsburgh, PA & Surrounding Areas
+        - paragraph [ref=e39]:
+          - link "Estate Cleanouts" [ref=e40] [cursor=pointer]:
+            - /url: "#services"
+          - text: "& Full-Service Junk Removal"
+          - text: Homes, Garages, Attics, Offices | Call Now for Fast, Reliable Pickup.
+        - generic [ref=e41]:
+          - link "CALL NOW FOR PICKUP" [ref=e42] [cursor=pointer]:
+            - /url: tel:5852000871
+            - img [ref=e43]
+            - generic [ref=e45]: CALL NOW FOR PICKUP
+          - link "GET A FREE QUOTE" [ref=e46] [cursor=pointer]:
+            - /url: "#contact"
+            - generic [ref=e47]: GET A FREE QUOTE
+      - img [ref=e49]
+    - generic [ref=e52]:
+      - generic [ref=e53]:
+        - generic [ref=e54]:
+          - img [ref=e55]
+          - generic [ref=e58]: Same-Day Service
+        - heading "Full-Service Cleanouts, On Your Schedule" [level=2] [ref=e59]
+      - generic [ref=e60]:
+        - link "Empty living room with hardwood floors after a full estate cleanout by Steel City Cleanouts Estate Cleanouts Full-home cleanouts for probate, downsizing, and estate sales. Respectful, thorough, and fast. Learn More" [ref=e61] [cursor=pointer]:
+          - /url: /services/estate-cleanouts
+          - img "Empty living room with hardwood floors after a full estate cleanout by Steel City Cleanouts" [ref=e63]
+          - heading "Estate Cleanouts" [level=3] [ref=e65]
+          - paragraph [ref=e66]: Full-home cleanouts for probate, downsizing, and estate sales. Respectful, thorough, and fast.
+          - generic [ref=e67]:
+            - generic [ref=e68]: Learn More
+            - img [ref=e69]
+        - link "Curbside pile of old furniture waiting for junk removal pickup in Pittsburgh Same-Day Junk Removal We show up when we say we will and haul everything out. No sorting, no stress, no hidden fees. Learn More" [ref=e71] [cursor=pointer]:
+          - /url: /services/junk-removal
+          - img "Curbside pile of old furniture waiting for junk removal pickup in Pittsburgh" [ref=e73]
+          - heading "Same-Day Junk Removal" [level=3] [ref=e75]
+          - paragraph [ref=e76]: We show up when we say we will and haul everything out. No sorting, no stress, no hidden fees.
+          - generic [ref=e77]:
+            - generic [ref=e78]: Learn More
+            - img [ref=e79]
+      - generic [ref=e81]:
+        - generic [ref=e82]: We Haul It All
+        - heading "Pittsburgh Junk Removal Services" [level=2] [ref=e83]
+      - generic [ref=e84]:
+        - link "Furniture Learn More" [ref=e85] [cursor=pointer]:
+          - /url: /services/furniture-removal
+          - img [ref=e87]
+          - heading "Furniture" [level=3] [ref=e90]
+          - generic [ref=e91]:
+            - generic [ref=e92]: Learn More
+            - img [ref=e93]
+        - link "Appliances Learn More" [ref=e95] [cursor=pointer]:
+          - /url: /services/appliance-removal
+          - img [ref=e97]
+          - heading "Appliances" [level=3] [ref=e99]
+          - generic [ref=e100]:
+            - generic [ref=e101]: Learn More
+            - img [ref=e102]
+        - link "Estate Cleanouts Learn More" [ref=e104] [cursor=pointer]:
+          - /url: /services/estate-cleanouts
+          - img [ref=e106]
+          - heading "Estate Cleanouts" [level=3] [ref=e109]
+          - generic [ref=e110]:
+            - generic [ref=e111]: Learn More
+            - img [ref=e112]
+        - link "Garage Cleanouts Learn More" [ref=e114] [cursor=pointer]:
+          - /url: /services/garage-cleanouts
+          - img [ref=e116]
+          - heading "Garage Cleanouts" [level=3] [ref=e119]
+          - generic [ref=e120]:
+            - generic [ref=e121]: Learn More
+            - img [ref=e122]
+        - link "Hoarder Cleanup Learn More" [ref=e124] [cursor=pointer]:
+          - /url: /services/hoarder-cleanouts
+          - img [ref=e126]
+          - heading "Hoarder Cleanup" [level=3] [ref=e128]
+          - generic [ref=e129]:
+            - generic [ref=e130]: Learn More
+            - img [ref=e131]
+        - link "Construction Debris Learn More" [ref=e133] [cursor=pointer]:
+          - /url: /services/construction-debris
+          - img [ref=e135]
+          - heading "Construction Debris" [level=3] [ref=e139]
+          - generic [ref=e140]:
+            - generic [ref=e141]: Learn More
+            - img [ref=e142]
+        - link "Yard Waste Learn More" [ref=e144] [cursor=pointer]:
+          - /url: /services/yard-waste-removal
+          - img [ref=e146]
+          - heading "Yard Waste" [level=3] [ref=e149]
+          - generic [ref=e150]:
+            - generic [ref=e151]: Learn More
+            - img [ref=e152]
+        - link "Bulk Junk Removal Learn More" [ref=e154] [cursor=pointer]:
+          - /url: /services/junk-removal
+          - img [ref=e156]
+          - heading "Bulk Junk Removal" [level=3] [ref=e159]
+          - generic [ref=e160]:
+            - generic [ref=e161]: Learn More
+            - img [ref=e162]
+      - link "BOOK YOUR CLEANOUT" [ref=e165] [cursor=pointer]:
+        - /url: /contact
+        - generic [ref=e166]: BOOK YOUR CLEANOUT
+    - generic [ref=e168]:
+      - generic [ref=e169]:
+        - generic [ref=e170]:
+          - img [ref=e171]
+          - generic [ref=e174]: Real Pittsburgh Jobs
+        - heading "See The Difference Drag To Reveal." [level=2] [ref=e175]:
+          - text: See The Difference
+          - text: Drag To Reveal.
+        - paragraph [ref=e176]: "Every cleanout ends the same way: a clean, empty space ready for whatever comes next. Drag the slider to see what we walked into and what we left behind."
+      - generic [ref=e177]:
+        - button "Living Room" [ref=e178]
+        - button "Garage" [ref=e179]
+      - generic [ref=e180]:
+        - slider "Before and after reveal for Living Room. Drag to compare." [ref=e181]:
+          - img "Pittsburgh living room cluttered with old couches, boxes, and belongings before a Steel City Cleanouts estate cleanout" [ref=e182]
+          - img "Same living room completely empty with polished hardwood floors after Steel City Cleanouts finished the estate cleanout" [ref=e184]
+          - generic: Before
+          - generic: After
+          - button "Drag to reveal" [ref=e185]:
+            - img [ref=e186]
+        - paragraph [ref=e189]: Drag the handle · Tap arrows · Swipe on mobile
+      - link "GET YOUR FREE ESTIMATE" [ref=e191] [cursor=pointer]:
+        - /url: "#contact"
+        - generic [ref=e192]: GET YOUR FREE ESTIMATE
+    - generic [ref=e194]:
+      - img "Pittsburgh cityscape with a vibrant yellow suspension bridge and downtown skyline on a bright sunny day" [ref=e195]
+      - generic [ref=e198]:
+        - generic [ref=e199]:
+          - img [ref=e200]
+          - generic [ref=e203]: Born & Raised in the Burgh
+        - heading "Your Neighbors. Not a 1-800 Number." [level=2] [ref=e204]:
+          - text: Your Neighbors.
+          - text: Not a 1-800 Number.
+        - paragraph [ref=e205]: We live in Pittsburgh. We know Allegheny County, the three-story walk-ups in Bloomfield, the tight alleys in the South Side, the back roads out to Cranberry. When you call us, you're talking to someone who's loaded a truck on your block before.
+        - generic [ref=e206]:
+          - generic [ref=e207]:
+            - generic [ref=e208]: 500+
+            - generic [ref=e209]:
+              - text: Cleanouts
+              - text: completed
+          - generic [ref=e210]:
+            - generic [ref=e211]: 5★
+            - generic [ref=e212]:
+              - text: Google
+              - text: rating
+          - generic [ref=e213]:
+            - generic [ref=e214]: 24 hr
+            - generic [ref=e215]:
+              - text: Average
+              - text: turnaround
+    - generic [ref=e217]:
+      - generic [ref=e218]:
+        - heading "Need A Cleanout Today?" [level=2] [ref=e219]
+        - generic [ref=e220]:
+          - paragraph [ref=e221]: Call us now for a free estimate
+          - link "(585) 200-0871" [ref=e222] [cursor=pointer]:
+            - /url: tel:5852000871
+            - img [ref=e223]
+            - generic [ref=e225]: (585) 200-0871
+      - generic [ref=e226]:
+        - generic [ref=e227]:
+          - img [ref=e229]
+          - heading "Family Owned & Local" [level=3] [ref=e231]
+          - paragraph [ref=e232]: Born and raised in the Burgh. You're hiring your neighbors, not a call center.
+        - generic [ref=e233]:
+          - img [ref=e235]
+          - heading "Same-Day Service" [level=3] [ref=e238]
+          - paragraph [ref=e239]: Need it gone today? We work fast and show up when we say we will.
+        - generic [ref=e240]:
+          - img [ref=e242]
+          - heading "Upfront Pricing" [level=3] [ref=e244]
+          - paragraph [ref=e245]: No hidden fees. You get a firm quote before we lift a thing.
+        - generic [ref=e246]:
+          - img [ref=e248]
+          - heading "Fully Insured" [level=3] [ref=e251]
+          - paragraph [ref=e252]: Licensed and insured for your peace of mind on every job, big or small.
+        - generic [ref=e253]:
+          - img [ref=e255]
+          - heading "Respectful & Reliable" [level=3] [ref=e257]
+          - paragraph [ref=e258]: Estate cleanouts are emotional. We handle your home with care and discretion.
+        - generic [ref=e259]:
+          - img [ref=e261]
+          - heading "Satisfaction Guaranteed" [level=3] [ref=e264]
+          - paragraph [ref=e265]: We don't leave until the space is broom-clean and you're 100% happy.
+      - generic [ref=e266]:
+        - generic [ref=e267]:
+          - generic [ref=e269]: Trusted By Families & Realtors
+          - heading "Pittsburgh's Go-To Cleanout Team" [level=2] [ref=e270]
+        - paragraph [ref=e271]: When a loved one passes, the last thing a family needs is another headache. Steel City Cleanouts steps in to take the weight off your shoulders. We've cleaned out hundreds of homes across Allegheny, Butler, Beaver, Washington, and Westmoreland counties, donating what we can, recycling everything possible, and hauling the rest with respect. Whether it's a single room, a garage, or a full estate, we handle it with care.
+        - link "GET YOUR FREE ESTIMATE" [ref=e273] [cursor=pointer]:
+          - /url: "#contact"
+          - generic [ref=e274]: GET YOUR FREE ESTIMATE
+    - generic [ref=e276]:
+      - heading "What Our Customers Say" [level=2] [ref=e277]
+      - generic [ref=e278]:
+        - generic [ref=e279]:
+          - img [ref=e280]
+          - generic [ref=e283]:
+            - img [ref=e284]
+            - img [ref=e286]
+            - img [ref=e288]
+            - img [ref=e290]
+            - img [ref=e292]
+          - paragraph [ref=e294]: “After my mom passed, I had to clear out her house in a week. Steel City showed up the next morning, worked all day, and left the place broom-clean. I cried when they were done. Worth every penny.”
+          - generic [ref=e295]:
+            - paragraph [ref=e296]: Linda M.
+            - paragraph [ref=e297]: Mt. Lebanon
+        - generic [ref=e298]:
+          - img [ref=e299]
+          - generic [ref=e302]:
+            - img [ref=e303]
+            - img [ref=e305]
+            - img [ref=e307]
+            - img [ref=e309]
+            - img [ref=e311]
+          - paragraph [ref=e313]: “Called Monday, they were at my garage Tuesday. Upfront price, no surprises, and two guys who actually knew what they were doing. Hauled stuff I'd been putting off for three years.”
+          - generic [ref=e314]:
+            - paragraph [ref=e315]: Mark T.
+            - paragraph [ref=e316]: Shaler Township
+        - generic [ref=e317]:
+          - img [ref=e318]
+          - generic [ref=e321]:
+            - img [ref=e322]
+            - img [ref=e324]
+            - img [ref=e326]
+            - img [ref=e328]
+            - img [ref=e330]
+          - paragraph [ref=e332]: “I'm a realtor and I use them on every listing that needs a cleanout. Fast, honest, and they make me look great to my sellers. They're on my speed dial for a reason.”
+          - generic [ref=e333]:
+            - paragraph [ref=e334]: Rachel P.
+            - paragraph [ref=e335]: Squirrel Hill
+    - generic [ref=e337]:
+      - generic [ref=e338]:
+        - heading "Pittsburgh PA Service Area" [level=2] [ref=e339]
+        - paragraph [ref=e340]: Same-Day Junk Removal & Estate Cleanouts Across Pittsburgh and Allegheny County
+      - generic [ref=e341]:
+        - generic [ref=e343]:
+          - img "Aerial view of Pittsburgh's Point State Park, Fort Pitt Bridge, and the three rivers, the heart of our Pittsburgh PA service area" [ref=e344]
+          - generic [ref=e347]: PITTSBURGH METRO
+          - paragraph [ref=e349]: Point State Park · Downtown Pittsburgh, PA
+        - generic [ref=e350]:
+          - generic [ref=e351]:
+            - generic [ref=e352]:
+              - img [ref=e353]
+              - heading "Allegheny County" [level=3] [ref=e356]
+            - generic [ref=e357]:
+              - link "Pittsburgh" [ref=e358] [cursor=pointer]:
+                - /url: /service-areas/pittsburgh
+              - link "Mt. Lebanon" [ref=e359] [cursor=pointer]:
+                - /url: /service-areas/mt-lebanon
+              - link "Bethel Park" [ref=e360] [cursor=pointer]:
+                - /url: /service-areas/bethel-park
+              - link "Monroeville" [ref=e361] [cursor=pointer]:
+                - /url: /service-areas/monroeville
+              - link "Penn Hills" [ref=e362] [cursor=pointer]:
+                - /url: /service-areas/penn-hills
+              - link "Shaler Township" [ref=e363] [cursor=pointer]:
+                - /url: /service-areas/shaler-township
+              - generic [ref=e364]: McKeesport
+              - generic [ref=e365]: Wilkinsburg
+              - link "Plum" [ref=e366] [cursor=pointer]:
+                - /url: /service-areas/plum-borough
+              - link "Fox Chapel" [ref=e367] [cursor=pointer]:
+                - /url: /service-areas/fox-chapel
+              - link "McCandless" [ref=e368] [cursor=pointer]:
+                - /url: /service-areas/mccandless
+              - link "Upper St. Clair" [ref=e369] [cursor=pointer]:
+                - /url: /service-areas/upper-st-clair
+              - link "Squirrel Hill" [ref=e370] [cursor=pointer]:
+                - /url: /service-areas/squirrel-hill
+              - link "Robinson" [ref=e371] [cursor=pointer]:
+                - /url: /service-areas/robinson-township
+              - link "Moon Township" [ref=e372] [cursor=pointer]:
+                - /url: /service-areas/moon-township
+          - generic [ref=e373]:
+            - generic [ref=e374]:
+              - img [ref=e375]
+              - heading "Butler County & Surrounding Areas" [level=3] [ref=e378]
+            - generic [ref=e379]:
+              - link "Cranberry Twp" [ref=e380] [cursor=pointer]:
+                - /url: /service-areas/cranberry-township
+              - link "Wexford" [ref=e381] [cursor=pointer]:
+                - /url: /service-areas/wexford
+              - link "Sewickley" [ref=e382] [cursor=pointer]:
+                - /url: /service-areas/sewickley
+              - generic [ref=e383]: Gibsonia
+              - generic [ref=e384]: Mars
+              - generic [ref=e385]: Butler
+              - generic [ref=e386]: Beaver
+              - generic [ref=e387]: Aliquippa
+              - generic [ref=e388]: Coraopolis
+              - generic [ref=e389]: Washington
+              - generic [ref=e390]: Canonsburg
+              - generic [ref=e391]: Greensburg
+              - generic [ref=e392]: Murrysville
+              - generic [ref=e393]: Irwin
+              - generic [ref=e394]: New Kensington
+          - paragraph [ref=e396]:
+            - text: Based in Cranberry Township, PA, covering every Pittsburgh PA neighborhood from Downtown to Mt. Washington. Not sure if we cover your area?
+            - link "See all service areas" [ref=e397] [cursor=pointer]:
+              - /url: /service-areas
+            - text: or call us.
+    - generic [ref=e400]:
+      - img [ref=e402]
+      - heading "Ready For A Fast, Stress-Free Cleanout?" [level=2] [ref=e407]
+      - paragraph [ref=e408]: Contact Steel City Cleanouts today. We'll be at your door tomorrow.
+      - generic [ref=e409]:
+        - link "CALL NOW FOR SERVICE" [ref=e410] [cursor=pointer]:
+          - /url: tel:5852000871
+          - img [ref=e411]
+          - generic [ref=e413]: CALL NOW FOR SERVICE
+        - link "REQUEST A QUOTE" [ref=e414] [cursor=pointer]:
+          - /url: mailto:hello@steelcitycleanouts.com
+          - generic [ref=e415]: REQUEST A QUOTE
+  - contentinfo [ref=e416]:
+    - generic [ref=e417]:
+      - generic [ref=e418]:
+        - generic [ref=e419]:
+          - img "Steel City Cleanouts, Pittsburgh, PA" [ref=e421]
+          - generic [ref=e422]:
+            - paragraph [ref=e423]: Same-Day Service
+            - link "(585) 200-0871" [ref=e424] [cursor=pointer]:
+              - /url: tel:5852000871
+            - link "hello@steelcitycleanouts.com" [ref=e425] [cursor=pointer]:
+              - /url: mailto:hello@steelcitycleanouts.com
+            - paragraph [ref=e426]: Open 7 Days A Week
+        - generic [ref=e427]:
+          - heading "Services" [level=3] [ref=e428]
+          - list [ref=e429]:
+            - listitem [ref=e430]:
+              - link "Estate Cleanouts" [ref=e431] [cursor=pointer]:
+                - /url: /services/estate-cleanouts
+            - listitem [ref=e432]:
+              - link "Junk Removal" [ref=e433] [cursor=pointer]:
+                - /url: /services/junk-removal
+            - listitem [ref=e434]:
+              - link "Appliance Removal" [ref=e435] [cursor=pointer]:
+                - /url: /services/appliance-removal
+            - listitem [ref=e436]:
+              - link "Furniture Removal" [ref=e437] [cursor=pointer]:
+                - /url: /services/furniture-removal
+            - listitem [ref=e438]:
+              - link "Garage Cleanouts" [ref=e439] [cursor=pointer]:
+                - /url: /services/garage-cleanouts
+            - listitem [ref=e440]:
+              - link "Hoarder Cleanouts" [ref=e441] [cursor=pointer]:
+                - /url: /services/hoarder-cleanouts
+            - listitem [ref=e442]:
+              - link "Foreclosure Cleanouts" [ref=e443] [cursor=pointer]:
+                - /url: /services/foreclosure-cleanouts
+            - listitem [ref=e444]:
+              - link "Eviction Cleanouts" [ref=e445] [cursor=pointer]:
+                - /url: /services/eviction-cleanouts
+            - listitem [ref=e446]:
+              - link "Construction Debris" [ref=e447] [cursor=pointer]:
+                - /url: /services/construction-debris
+            - listitem [ref=e448]:
+              - link "Yard Waste" [ref=e449] [cursor=pointer]:
+                - /url: /services/yard-waste-removal
+            - listitem [ref=e450]:
+              - link "Storage Unit Cleanouts" [ref=e451] [cursor=pointer]:
+                - /url: /services/storage-unit-cleanouts
+            - listitem [ref=e452]:
+              - link "Commercial Cleanouts" [ref=e453] [cursor=pointer]:
+                - /url: /services/commercial-cleanouts
+            - listitem [ref=e454]:
+              - link "Bereavement Cleanouts" [ref=e455] [cursor=pointer]:
+                - /url: /services/bereavement-cleanouts
+            - listitem [ref=e456]:
+              - link "All Services →" [ref=e457] [cursor=pointer]:
+                - /url: /services
+        - generic [ref=e458]:
+          - heading "Service Areas" [level=3] [ref=e459]
+          - list [ref=e460]:
+            - listitem [ref=e461]:
+              - link "Pittsburgh, PA" [ref=e462] [cursor=pointer]:
+                - /url: /service-areas/pittsburgh
+            - listitem [ref=e463]:
+              - link "Cranberry Township, PA" [ref=e464] [cursor=pointer]:
+                - /url: /service-areas/cranberry-township
+            - listitem [ref=e465]:
+              - link "Wexford, PA" [ref=e466] [cursor=pointer]:
+                - /url: /service-areas/wexford
+            - listitem [ref=e467]:
+              - link "Mt. Lebanon, PA" [ref=e468] [cursor=pointer]:
+                - /url: /service-areas/mt-lebanon
+            - listitem [ref=e469]:
+              - link "Monroeville, PA" [ref=e470] [cursor=pointer]:
+                - /url: /service-areas/monroeville
+            - listitem [ref=e471]:
+              - link "Shadyside, PA" [ref=e472] [cursor=pointer]:
+                - /url: /service-areas/shadyside
+            - listitem [ref=e473]:
+              - link "Squirrel Hill, PA" [ref=e474] [cursor=pointer]:
+                - /url: /service-areas/squirrel-hill
+            - listitem [ref=e475]:
+              - link "Upper St. Clair, PA" [ref=e476] [cursor=pointer]:
+                - /url: /service-areas/upper-st-clair
+            - listitem [ref=e477]:
+              - link "Sewickley, PA" [ref=e478] [cursor=pointer]:
+                - /url: /service-areas/sewickley
+            - listitem [ref=e479]:
+              - link "Bethel Park, PA" [ref=e480] [cursor=pointer]:
+                - /url: /service-areas/bethel-park
+            - listitem [ref=e481]:
+              - link "Ross Township, PA" [ref=e482] [cursor=pointer]:
+                - /url: /service-areas/ross-township
+            - listitem [ref=e483]:
+              - link "Fox Chapel, PA" [ref=e484] [cursor=pointer]:
+                - /url: /service-areas/fox-chapel
+            - listitem [ref=e485]:
+              - link "Shaler Township, PA" [ref=e486] [cursor=pointer]:
+                - /url: /service-areas/shaler-township
+            - listitem [ref=e487]:
+              - link "Penn Hills, PA" [ref=e488] [cursor=pointer]:
+                - /url: /service-areas/penn-hills
+            - listitem [ref=e489]:
+              - link "Plum Borough, PA" [ref=e490] [cursor=pointer]:
+                - /url: /service-areas/plum-borough
+            - listitem [ref=e491]:
+              - link "Moon Township, PA" [ref=e492] [cursor=pointer]:
+                - /url: /service-areas/moon-township
+            - listitem [ref=e493]:
+              - link "Robinson Township, PA" [ref=e494] [cursor=pointer]:
+                - /url: /service-areas/robinson-township
+            - listitem [ref=e495]:
+              - link "Hampton Township, PA" [ref=e496] [cursor=pointer]:
+                - /url: /service-areas/hampton-township
+            - listitem [ref=e497]:
+              - link "McCandless, PA" [ref=e498] [cursor=pointer]:
+                - /url: /service-areas/mccandless
+            - listitem [ref=e499]:
+              - link "All Areas →" [ref=e500] [cursor=pointer]:
+                - /url: /service-areas
+        - generic [ref=e501]:
+          - heading "Company" [level=3] [ref=e502]
+          - list [ref=e503]:
+            - listitem [ref=e504]:
+              - link "About Us" [ref=e505] [cursor=pointer]:
+                - /url: /about
+            - listitem [ref=e506]:
+              - link "Reviews" [ref=e507] [cursor=pointer]:
+                - /url: /reviews
+            - listitem [ref=e508]:
+              - link "Contact Us" [ref=e509] [cursor=pointer]:
+                - /url: /contact
+            - listitem [ref=e510]:
+              - link "Free Estimate" [ref=e511] [cursor=pointer]:
+                - /url: /contact
+        - generic [ref=e512]:
+          - heading "Resources" [level=3] [ref=e513]
+          - list [ref=e514]:
+            - listitem [ref=e515]:
+              - link "Estate Cleanout Guide" [ref=e516] [cursor=pointer]:
+                - /url: /resources/estate-cleanout-guide
+            - listitem [ref=e517]:
+              - link "What We Take" [ref=e518] [cursor=pointer]:
+                - /url: /resources/what-we-take
+            - listitem [ref=e519]:
+              - link "Pricing FAQ" [ref=e520] [cursor=pointer]:
+                - /url: /resources/pricing-faq
+            - listitem [ref=e521]:
+              - link "Donation Partners" [ref=e522] [cursor=pointer]:
+                - /url: /resources/donation-partners
+      - paragraph [ref=e526]: © 2026 Steel City Cleanouts. All rights reserved. Licensed & Insured.
+  - button "Open Next.js Dev Tools" [ref=e532] [cursor=pointer]:
+    - img [ref=e533]

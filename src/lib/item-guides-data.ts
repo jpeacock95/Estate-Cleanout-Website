@@ -27,6 +27,8 @@ export type ItemGuideSection = { heading: string; body: string };
 
 export type ItemGuide = {
   slug: string;
+  /** ISO date of the last meaningful content change. Drives sitemap lastmod. */
+  updatedAt: string;
   item: string;
   title: string;
   seoTitle: string;
@@ -79,6 +81,7 @@ const PA_TIRES = {
 export const itemGuides: ItemGuide[] = [
   {
     slug: "couch",
+    updatedAt: "2026-09-20",
     item: "couch",
     title: "How to Get Rid of a Couch",
     seoTitle: "How to Get Rid of a Couch in Pittsburgh | Every Option Explained",
@@ -179,6 +182,7 @@ export const itemGuides: ItemGuide[] = [
   },
   {
     slug: "mattress",
+    updatedAt: "2026-09-20",
     item: "mattress",
     title: "How to Dispose of a Mattress",
     seoTitle: "How to Dispose of a Mattress in Pittsburgh | Every Option Explained",
@@ -276,6 +280,7 @@ export const itemGuides: ItemGuide[] = [
   },
   {
     slug: "refrigerator",
+    updatedAt: "2026-09-20",
     item: "refrigerator",
     title: "How to Dispose of an Old Refrigerator",
     seoTitle: "How to Dispose of an Old Refrigerator in Pittsburgh | Freon Rules",
@@ -369,6 +374,7 @@ export const itemGuides: ItemGuide[] = [
   },
   {
     slug: "washer-and-dryer",
+    updatedAt: "2026-09-20",
     item: "washer and dryer",
     title: "How to Get Rid of an Old Washer and Dryer",
     seoTitle: "How to Get Rid of an Old Washer and Dryer in Pittsburgh | Haul Away",
@@ -462,6 +468,7 @@ export const itemGuides: ItemGuide[] = [
   },
   {
     slug: "piano",
+    updatedAt: "2026-09-20",
     item: "piano",
     title: "How to Get Rid of a Piano",
     seoTitle: "How to Get Rid of a Piano in Pittsburgh | Donate, Move, or Remove",
@@ -555,6 +562,7 @@ export const itemGuides: ItemGuide[] = [
   },
   {
     slug: "hot-tub",
+    updatedAt: "2026-09-20",
     item: "hot tub",
     title: "How to Get Rid of a Hot Tub",
     seoTitle: "How to Get Rid of a Hot Tub in Pittsburgh | Removal and Disposal",
@@ -641,6 +649,7 @@ export const itemGuides: ItemGuide[] = [
   },
   {
     slug: "tv",
+    updatedAt: "2026-09-20",
     item: "TV",
     title: "How to Dispose of a TV",
     seoTitle: "How to Dispose of a TV in Pittsburgh | PA Landfill Ban Explained",
@@ -734,6 +743,7 @@ export const itemGuides: ItemGuide[] = [
   },
   {
     slug: "propane-tank",
+    updatedAt: "2026-09-20",
     item: "propane tank",
     title: "How to Dispose of a Propane Tank",
     seoTitle: "How to Dispose of a Propane Tank in Pittsburgh | Safe and Legal Options",
@@ -827,6 +837,7 @@ export const itemGuides: ItemGuide[] = [
   },
   {
     slug: "paint",
+    updatedAt: "2026-09-20",
     item: "old paint",
     title: "How to Get Rid of Old Paint",
     seoTitle: "How to Get Rid of Old Paint in Pittsburgh | Latex vs Oil-Based Rules",
@@ -913,6 +924,7 @@ export const itemGuides: ItemGuide[] = [
   },
   {
     slug: "treadmill",
+    updatedAt: "2026-09-20",
     item: "treadmill",
     title: "How to Get Rid of a Treadmill",
     seoTitle: "How to Get Rid of a Treadmill in Pittsburgh | Removal and Disposal",
@@ -1013,6 +1025,7 @@ export const itemGuides: ItemGuide[] = [
   },
   {
     slug: "tires",
+    updatedAt: "2026-09-20",
     item: "old tires",
     title: "How to Dispose of Old Tires",
     seoTitle: "How to Dispose of Old Tires in Pittsburgh | PA Waste Tire Rules",
@@ -1106,6 +1119,7 @@ export const itemGuides: ItemGuide[] = [
   },
   {
     slug: "grill",
+    updatedAt: "2026-09-20",
     item: "grill",
     title: "How to Get Rid of an Old Grill",
     seoTitle: "How to Get Rid of an Old Grill in Pittsburgh | Gas and Charcoal",

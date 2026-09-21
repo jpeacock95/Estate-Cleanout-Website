@@ -4,6 +4,8 @@ export type AreaQuickFact = { label: string; value: string };
 
 export type ServiceArea = {
   slug: string;
+  /** ISO date of the last meaningful content change. Drives sitemap lastmod. */
+  updatedAt: string;
   name: string;
   fullName: string;
   county: string;
@@ -25,6 +27,7 @@ export type ServiceArea = {
 export const serviceAreas: ServiceArea[] = [
   {
     slug: "pittsburgh",
+    updatedAt: "2026-09-20",
     name: "Pittsburgh",
     fullName: "Pittsburgh, PA",
     county: "Allegheny County",
@@ -93,6 +96,7 @@ export const serviceAreas: ServiceArea[] = [
   },
   {
     slug: "cranberry-township",
+    updatedAt: "2026-09-20",
     name: "Cranberry Township",
     fullName: "Cranberry Township, PA",
     county: "Butler County",
@@ -156,6 +160,7 @@ export const serviceAreas: ServiceArea[] = [
   },
   {
     slug: "wexford",
+    updatedAt: "2026-09-20",
     name: "Wexford",
     fullName: "Wexford, PA",
     county: "Allegheny County",
@@ -223,6 +228,7 @@ export const serviceAreas: ServiceArea[] = [
   },
   {
     slug: "mt-lebanon",
+    updatedAt: "2026-09-20",
     name: "Mt. Lebanon",
     fullName: "Mt. Lebanon, PA",
     county: "Allegheny County",
@@ -286,6 +292,7 @@ export const serviceAreas: ServiceArea[] = [
   },
   {
     slug: "monroeville",
+    updatedAt: "2026-09-20",
     name: "Monroeville",
     fullName: "Monroeville, PA",
     county: "Allegheny County",
@@ -348,6 +355,7 @@ export const serviceAreas: ServiceArea[] = [
 serviceAreas.push(
   {
     slug: "shadyside",
+    updatedAt: "2026-09-20",
     name: "Shadyside",
     fullName: "Shadyside, Pittsburgh, PA",
     county: "Allegheny County",
@@ -411,6 +419,7 @@ serviceAreas.push(
   },
   {
     slug: "squirrel-hill",
+    updatedAt: "2026-09-20",
     name: "Squirrel Hill",
     fullName: "Squirrel Hill, Pittsburgh, PA",
     county: "Allegheny County",
@@ -475,6 +484,7 @@ serviceAreas.push(
   },
   {
     slug: "upper-st-clair",
+    updatedAt: "2026-09-20",
     name: "Upper St. Clair",
     fullName: "Upper St. Clair, PA",
     county: "Allegheny County",
@@ -538,6 +548,7 @@ serviceAreas.push(
   },
   {
     slug: "south-hills",
+    updatedAt: "2026-09-20",
     name: "South Hills",
     fullName: "South Hills, Pittsburgh PA",
     county: "Allegheny County",
@@ -603,6 +614,7 @@ serviceAreas.push(
   },
   {
     slug: "north-hills",
+    updatedAt: "2026-09-20",
     name: "North Hills",
     fullName: "North Hills, Pittsburgh PA",
     county: "Allegheny County",
@@ -667,6 +679,7 @@ serviceAreas.push(
   },
   {
     slug: "sewickley",
+    updatedAt: "2026-09-20",
     name: "Sewickley",
     fullName: "Sewickley, PA",
     county: "Allegheny County",
@@ -730,6 +743,7 @@ serviceAreas.push(
   },
   {
     slug: "bethel-park",
+    updatedAt: "2026-09-20",
     name: "Bethel Park",
     fullName: "Bethel Park, PA",
     county: "Allegheny County",
@@ -797,6 +811,7 @@ serviceAreas.push(
   },
   {
     slug: "ross-township",
+    updatedAt: "2026-09-20",
     name: "Ross Township",
     fullName: "Ross Township, PA",
     county: "Allegheny County",
@@ -863,6 +878,7 @@ serviceAreas.push(
 serviceAreas.push(
   {
     slug: "fox-chapel",
+    updatedAt: "2026-09-20",
     name: "Fox Chapel",
     fullName: "Fox Chapel, PA",
     county: "Allegheny County",
@@ -925,6 +941,7 @@ serviceAreas.push(
   },
   {
     slug: "shaler-township",
+    updatedAt: "2026-09-20",
     name: "Shaler Township",
     fullName: "Shaler Township, PA",
     county: "Allegheny County",
@@ -983,6 +1000,7 @@ serviceAreas.push(
   },
   {
     slug: "penn-hills",
+    updatedAt: "2026-09-20",
     name: "Penn Hills",
     fullName: "Penn Hills, PA",
     county: "Allegheny County",
@@ -1045,6 +1063,7 @@ serviceAreas.push(
   },
   {
     slug: "plum-borough",
+    updatedAt: "2026-09-20",
     name: "Plum Borough",
     fullName: "Plum Borough, PA",
     county: "Allegheny County",
@@ -1103,6 +1122,7 @@ serviceAreas.push(
   },
   {
     slug: "moon-township",
+    updatedAt: "2026-09-20",
     name: "Moon Township",
     fullName: "Moon Township, PA",
     county: "Allegheny County",
@@ -1161,6 +1181,7 @@ serviceAreas.push(
   },
   {
     slug: "robinson-township",
+    updatedAt: "2026-09-20",
     name: "Robinson Township",
     fullName: "Robinson Township, PA",
     county: "Allegheny County",
@@ -1219,6 +1240,7 @@ serviceAreas.push(
   },
   {
     slug: "hampton-township",
+    updatedAt: "2026-09-20",
     name: "Hampton Township",
     fullName: "Hampton Township, PA",
     county: "Allegheny County",
@@ -1277,6 +1299,7 @@ serviceAreas.push(
   },
   {
     slug: "mccandless",
+    updatedAt: "2026-09-20",
     name: "McCandless",
     fullName: "McCandless Township, PA",
     county: "Allegheny County",

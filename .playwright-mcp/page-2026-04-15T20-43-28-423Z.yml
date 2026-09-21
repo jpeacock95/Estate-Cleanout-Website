@@ -1,0 +1,342 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - navigation [ref=e3]:
+      - link "Steel City Cleanouts home" [ref=e4] [cursor=pointer]:
+        - /url: /
+        - img "Steel City Cleanouts, Pittsburgh, PA" [ref=e5]
+      - generic [ref=e6]:
+        - list [ref=e7]:
+          - listitem [ref=e8]:
+            - link "SERVICES" [ref=e9] [cursor=pointer]:
+              - /url: /services
+          - listitem [ref=e10]:
+            - link "PRICING" [ref=e11] [cursor=pointer]:
+              - /url: /pricing
+          - listitem [ref=e12]:
+            - link "SERVICE AREA" [ref=e13] [cursor=pointer]:
+              - /url: /service-areas
+          - listitem [ref=e14]:
+            - link "ABOUT" [ref=e15] [cursor=pointer]:
+              - /url: /about
+          - listitem [ref=e16]:
+            - link "REVIEWS" [ref=e17] [cursor=pointer]:
+              - /url: /reviews
+          - listitem [ref=e18]:
+            - link "CONTACT" [ref=e19] [cursor=pointer]:
+              - /url: /contact
+        - link "CALL NOW" [ref=e20] [cursor=pointer]:
+          - /url: tel:5852000871
+          - img [ref=e21]
+          - text: CALL NOW
+  - main [ref=e23]:
+    - generic [ref=e24]:
+      - img "Steel City Cleanouts crew in Mt. Lebanon, PA" [ref=e26]
+      - generic [ref=e29]:
+        - generic [ref=e32]: Mt. Lebanon, PA · Allegheny County
+        - heading "Mt. Lebanon Cleanouts & Junk Removal" [level=1] [ref=e33]
+        - paragraph [ref=e34]: South Hills estate cleanouts and same-day junk pickup.
+        - generic [ref=e35]:
+          - link "CALL NOW FOR PICKUP" [ref=e36] [cursor=pointer]:
+            - /url: tel:5852000871
+            - img [ref=e37]
+            - generic [ref=e39]: CALL NOW FOR PICKUP
+          - link "GET A FREE QUOTE" [ref=e40] [cursor=pointer]:
+            - /url: /contact
+            - generic [ref=e41]: GET A FREE QUOTE
+    - navigation "Breadcrumb" [ref=e42]:
+      - list [ref=e43]:
+        - listitem [ref=e44]:
+          - link "Home" [ref=e45] [cursor=pointer]:
+            - /url: /
+            - img [ref=e46]
+            - generic [ref=e49]: Home
+        - listitem [ref=e50]:
+          - img [ref=e51]
+          - link "Service Areas" [ref=e53] [cursor=pointer]:
+            - /url: /service-areas
+        - listitem [ref=e54]:
+          - img [ref=e55]
+          - generic [ref=e57]: Mt. Lebanon
+    - generic [ref=e59]:
+      - paragraph [ref=e61]: Steel City Cleanouts offers estate cleanouts and same-day junk removal in Mt. Lebanon, PA (15228). Family-owned, fully insured. Call (585) 200-0871.
+      - paragraph [ref=e62]: Mt. Lebanon's older brick homes and tight residential streets need a crew that knows what it's doing. Finished basements, narrow staircases, and detached garages are the norm here. We've done cleanouts on Washington Road, Beverly Road, and every side street in between. Most Mt. Lebanon homes were built between 1920 and 1960, and the staircases were sized for the furniture of that era, not today's sectionals. We know exactly how to disassemble and work around that.
+      - paragraph [ref=e63]: Mt. Lebanon homes are mostly 1920s-1960s brick with finished basements and narrow back staircases. Older furniture is common in estate jobs. We disassemble when needed and carry it out piece by piece. Tight street parking means we coordinate arrival times carefully. Detached garages on rear alleys are common and typically hold decades of accumulated tools, holiday decorations, and yard equipment.
+      - generic [ref=e64]:
+        - heading "Why Mt. Lebanon Cleanouts Are Different" [level=2] [ref=e65]
+        - paragraph [ref=e66]: Mt. Lebanon is one of the oldest streetcar suburbs in Pittsburgh, and its housing stock reflects that. Brick, plaster walls, narrow back staircases, detached garages, and finished basements with low ceilings. We've learned the quirks. Which staircases need a sectional disassembled in place, which alleys fit our trucks, which streets have meter enforcement on weekdays. We bring that knowledge to every South Hills job.
+      - generic [ref=e67]:
+        - heading "Mt. Lebanon Quick Facts" [level=2] [ref=e68]
+        - generic [ref=e69]:
+          - generic [ref=e70]:
+            - term [ref=e71]: Zip codes served
+            - definition [ref=e72]: 15228, 15216, 15243
+          - generic [ref=e73]:
+            - term [ref=e74]: Housing era
+            - definition [ref=e75]: Mostly 1920-1960 brick
+          - generic [ref=e76]:
+            - term [ref=e77]: Typical arrival time
+            - definition [ref=e78]: 25 to 35 minutes
+          - generic [ref=e79]:
+            - term [ref=e80]: Common challenge
+            - definition [ref=e81]: Narrow back staircases (we disassemble)
+          - generic [ref=e82]:
+            - term [ref=e83]: School district
+            - definition [ref=e84]: Mt. Lebanon SD
+    - generic [ref=e86]:
+      - heading "Services in Mt. Lebanon" [level=2] [ref=e87]
+      - generic [ref=e88]:
+        - link "Estate Cleanouts Estate Cleanouts in Mt. Lebanon" [ref=e89] [cursor=pointer]:
+          - /url: /services/estate-cleanouts/in/mt-lebanon
+          - heading "Estate Cleanouts" [level=3] [ref=e90]
+          - paragraph [ref=e91]: Estate Cleanouts in Mt. Lebanon
+        - link "Junk Removal Junk Removal in Mt. Lebanon" [ref=e92] [cursor=pointer]:
+          - /url: /services/junk-removal/in/mt-lebanon
+          - heading "Junk Removal" [level=3] [ref=e93]
+          - paragraph [ref=e94]: Junk Removal in Mt. Lebanon
+        - link "Appliance Removal Old fridge, dead washer, busted dryer. We'll take it." [ref=e95] [cursor=pointer]:
+          - /url: /services/appliance-removal
+          - heading "Appliance Removal" [level=3] [ref=e96]
+          - paragraph [ref=e97]: Old fridge, dead washer, busted dryer. We'll take it.
+        - link "Furniture Removal Furniture Removal in Mt. Lebanon" [ref=e98] [cursor=pointer]:
+          - /url: /services/furniture-removal/in/mt-lebanon
+          - heading "Furniture Removal" [level=3] [ref=e99]
+          - paragraph [ref=e100]: Furniture Removal in Mt. Lebanon
+        - link "Garage Cleanouts Park your car in your garage again." [ref=e101] [cursor=pointer]:
+          - /url: /services/garage-cleanouts
+          - heading "Garage Cleanouts" [level=3] [ref=e102]
+          - paragraph [ref=e103]: Park your car in your garage again.
+        - link "Hoarder Cleanouts Hoarder Cleanouts in Mt. Lebanon" [ref=e104] [cursor=pointer]:
+          - /url: /services/hoarder-cleanouts/in/mt-lebanon
+          - heading "Hoarder Cleanouts" [level=3] [ref=e105]
+          - paragraph [ref=e106]: Hoarder Cleanouts in Mt. Lebanon
+        - link "Foreclosure Cleanouts Foreclosure Cleanouts in Mt. Lebanon" [ref=e107] [cursor=pointer]:
+          - /url: /services/foreclosure-cleanouts/in/mt-lebanon
+          - heading "Foreclosure Cleanouts" [level=3] [ref=e108]
+          - paragraph [ref=e109]: Foreclosure Cleanouts in Mt. Lebanon
+        - link "Eviction Cleanouts Get the unit rent-ready. Fast." [ref=e110] [cursor=pointer]:
+          - /url: /services/eviction-cleanouts
+          - heading "Eviction Cleanouts" [level=3] [ref=e111]
+          - paragraph [ref=e112]: Get the unit rent-ready. Fast.
+        - link "Construction Debris Removal Renovation leftover, remodel junk, demo debris. We'll haul it." [ref=e113] [cursor=pointer]:
+          - /url: /services/construction-debris
+          - heading "Construction Debris Removal" [level=3] [ref=e114]
+          - paragraph [ref=e115]: Renovation leftover, remodel junk, demo debris. We'll haul it.
+        - link "Yard Waste Removal Brush, branches, old playsets, deck debris. We'll haul it." [ref=e116] [cursor=pointer]:
+          - /url: /services/yard-waste-removal
+          - heading "Yard Waste Removal" [level=3] [ref=e117]
+          - paragraph [ref=e118]: Brush, branches, old playsets, deck debris. We'll haul it.
+        - link "Storage Unit Cleanouts Stop paying for a unit full of stuff you don't want. We'll empty it." [ref=e119] [cursor=pointer]:
+          - /url: /services/storage-unit-cleanouts
+          - heading "Storage Unit Cleanouts" [level=3] [ref=e120]
+          - paragraph [ref=e121]: Stop paying for a unit full of stuff you don't want. We'll empty it.
+        - link "Commercial Cleanouts Office, retail, restaurant. Cleared fast, after hours if needed." [ref=e122] [cursor=pointer]:
+          - /url: /services/commercial-cleanouts
+          - heading "Commercial Cleanouts" [level=3] [ref=e123]
+          - paragraph [ref=e124]: Office, retail, restaurant. Cleared fast, after hours if needed.
+        - link "Bereavement Cleanouts When a loved one passes, we take the heavy part." [ref=e125] [cursor=pointer]:
+          - /url: /services/bereavement-cleanouts
+          - heading "Bereavement Cleanouts" [level=3] [ref=e126]
+          - paragraph [ref=e127]: When a loved one passes, we take the heavy part.
+    - generic [ref=e129]:
+      - heading "Neighborhoods We Cover in Mt. Lebanon" [level=2] [ref=e130]
+      - generic [ref=e131]:
+        - generic [ref=e132]:
+          - img [ref=e133]
+          - generic [ref=e136]: Virginia Manor
+        - generic [ref=e137]:
+          - img [ref=e138]
+          - generic [ref=e141]: Mission Hills
+        - generic [ref=e142]:
+          - img [ref=e143]
+          - generic [ref=e146]: Sunset Hills
+        - generic [ref=e147]:
+          - img [ref=e148]
+          - generic [ref=e151]: Beverly Heights
+        - generic [ref=e152]:
+          - img [ref=e153]
+          - generic [ref=e156]: Washington Road corridor
+        - generic [ref=e157]:
+          - img [ref=e158]
+          - generic [ref=e161]: Beverly Road corridor
+        - generic [ref=e162]:
+          - img [ref=e163]
+          - generic [ref=e166]: Hoodridge
+      - paragraph [ref=e167]: "Zip codes served: 15228, 15216, 15243"
+    - generic [ref=e169]:
+      - heading "Mt. Lebanon Cleanout FAQs" [level=2] [ref=e170]
+      - generic [ref=e171]:
+        - group [ref=e172]:
+          - generic "Can you handle Mt. Lebanon's narrow side streets?" [ref=e173] [cursor=pointer]
+        - group [ref=e174]:
+          - generic "Do you work with Mt. Lebanon estate attorneys?" [ref=e175] [cursor=pointer]
+        - group [ref=e176]:
+          - generic "What about basement cleanouts?" [ref=e177] [cursor=pointer]
+        - group [ref=e178]:
+          - generic "How do you handle old brick homes with plaster walls?" [ref=e179] [cursor=pointer]
+        - group [ref=e180]:
+          - generic "Do you haul from detached garages on rear alleys?" [ref=e181] [cursor=pointer]
+    - generic [ref=e183]:
+      - heading "Mt. Lebanon Cleanout Help, 7 Days a Week" [level=2] [ref=e184]
+      - paragraph [ref=e185]: Same-day service across Pittsburgh. Upfront pricing. No hidden fees. Call or text for a free quote.
+      - generic [ref=e186]:
+        - link "CALL (585) 200-0871" [ref=e187] [cursor=pointer]:
+          - /url: tel:5852000871
+          - img [ref=e188]
+          - generic [ref=e190]: CALL (585) 200-0871
+        - link "GET A FREE QUOTE" [ref=e191] [cursor=pointer]:
+          - /url: /contact
+          - generic [ref=e192]: GET A FREE QUOTE
+  - contentinfo [ref=e193]:
+    - generic [ref=e194]:
+      - generic [ref=e195]:
+        - generic [ref=e196]:
+          - img "Steel City Cleanouts, Pittsburgh, PA" [ref=e198]
+          - generic [ref=e199]:
+            - paragraph [ref=e200]: Same-Day Service
+            - link "(585) 200-0871" [ref=e201] [cursor=pointer]:
+              - /url: tel:5852000871
+            - link "hello@steelcitycleanouts.com" [ref=e202] [cursor=pointer]:
+              - /url: mailto:hello@steelcitycleanouts.com
+            - paragraph [ref=e203]: Open 7 Days A Week
+        - generic [ref=e204]:
+          - heading "Services" [level=3] [ref=e205]
+          - list [ref=e206]:
+            - listitem [ref=e207]:
+              - link "Estate Cleanouts" [ref=e208] [cursor=pointer]:
+                - /url: /services/estate-cleanouts
+            - listitem [ref=e209]:
+              - link "Junk Removal" [ref=e210] [cursor=pointer]:
+                - /url: /services/junk-removal
+            - listitem [ref=e211]:
+              - link "Appliance Removal" [ref=e212] [cursor=pointer]:
+                - /url: /services/appliance-removal
+            - listitem [ref=e213]:
+              - link "Furniture Removal" [ref=e214] [cursor=pointer]:
+                - /url: /services/furniture-removal
+            - listitem [ref=e215]:
+              - link "Garage Cleanouts" [ref=e216] [cursor=pointer]:
+                - /url: /services/garage-cleanouts
+            - listitem [ref=e217]:
+              - link "Hoarder Cleanouts" [ref=e218] [cursor=pointer]:
+                - /url: /services/hoarder-cleanouts
+            - listitem [ref=e219]:
+              - link "Foreclosure Cleanouts" [ref=e220] [cursor=pointer]:
+                - /url: /services/foreclosure-cleanouts
+            - listitem [ref=e221]:
+              - link "Eviction Cleanouts" [ref=e222] [cursor=pointer]:
+                - /url: /services/eviction-cleanouts
+            - listitem [ref=e223]:
+              - link "Construction Debris" [ref=e224] [cursor=pointer]:
+                - /url: /services/construction-debris
+            - listitem [ref=e225]:
+              - link "Yard Waste" [ref=e226] [cursor=pointer]:
+                - /url: /services/yard-waste-removal
+            - listitem [ref=e227]:
+              - link "Storage Unit Cleanouts" [ref=e228] [cursor=pointer]:
+                - /url: /services/storage-unit-cleanouts
+            - listitem [ref=e229]:
+              - link "Commercial Cleanouts" [ref=e230] [cursor=pointer]:
+                - /url: /services/commercial-cleanouts
+            - listitem [ref=e231]:
+              - link "Bereavement Cleanouts" [ref=e232] [cursor=pointer]:
+                - /url: /services/bereavement-cleanouts
+            - listitem [ref=e233]:
+              - link "All Services →" [ref=e234] [cursor=pointer]:
+                - /url: /services
+        - generic [ref=e235]:
+          - heading "Service Areas" [level=3] [ref=e236]
+          - list [ref=e237]:
+            - listitem [ref=e238]:
+              - link "Pittsburgh, PA" [ref=e239] [cursor=pointer]:
+                - /url: /service-areas/pittsburgh
+            - listitem [ref=e240]:
+              - link "Cranberry Township, PA" [ref=e241] [cursor=pointer]:
+                - /url: /service-areas/cranberry-township
+            - listitem [ref=e242]:
+              - link "Wexford, PA" [ref=e243] [cursor=pointer]:
+                - /url: /service-areas/wexford
+            - listitem [ref=e244]:
+              - link "Mt. Lebanon, PA" [ref=e245] [cursor=pointer]:
+                - /url: /service-areas/mt-lebanon
+            - listitem [ref=e246]:
+              - link "Monroeville, PA" [ref=e247] [cursor=pointer]:
+                - /url: /service-areas/monroeville
+            - listitem [ref=e248]:
+              - link "Shadyside, PA" [ref=e249] [cursor=pointer]:
+                - /url: /service-areas/shadyside
+            - listitem [ref=e250]:
+              - link "Squirrel Hill, PA" [ref=e251] [cursor=pointer]:
+                - /url: /service-areas/squirrel-hill
+            - listitem [ref=e252]:
+              - link "Upper St. Clair, PA" [ref=e253] [cursor=pointer]:
+                - /url: /service-areas/upper-st-clair
+            - listitem [ref=e254]:
+              - link "Sewickley, PA" [ref=e255] [cursor=pointer]:
+                - /url: /service-areas/sewickley
+            - listitem [ref=e256]:
+              - link "Bethel Park, PA" [ref=e257] [cursor=pointer]:
+                - /url: /service-areas/bethel-park
+            - listitem [ref=e258]:
+              - link "Ross Township, PA" [ref=e259] [cursor=pointer]:
+                - /url: /service-areas/ross-township
+            - listitem [ref=e260]:
+              - link "Fox Chapel, PA" [ref=e261] [cursor=pointer]:
+                - /url: /service-areas/fox-chapel
+            - listitem [ref=e262]:
+              - link "Shaler Township, PA" [ref=e263] [cursor=pointer]:
+                - /url: /service-areas/shaler-township
+            - listitem [ref=e264]:
+              - link "Penn Hills, PA" [ref=e265] [cursor=pointer]:
+                - /url: /service-areas/penn-hills
+            - listitem [ref=e266]:
+              - link "Plum Borough, PA" [ref=e267] [cursor=pointer]:
+                - /url: /service-areas/plum-borough
+            - listitem [ref=e268]:
+              - link "Moon Township, PA" [ref=e269] [cursor=pointer]:
+                - /url: /service-areas/moon-township
+            - listitem [ref=e270]:
+              - link "Robinson Township, PA" [ref=e271] [cursor=pointer]:
+                - /url: /service-areas/robinson-township
+            - listitem [ref=e272]:
+              - link "Hampton Township, PA" [ref=e273] [cursor=pointer]:
+                - /url: /service-areas/hampton-township
+            - listitem [ref=e274]:
+              - link "McCandless, PA" [ref=e275] [cursor=pointer]:
+                - /url: /service-areas/mccandless
+            - listitem [ref=e276]:
+              - link "All Areas →" [ref=e277] [cursor=pointer]:
+                - /url: /service-areas
+        - generic [ref=e278]:
+          - heading "Company" [level=3] [ref=e279]
+          - list [ref=e280]:
+            - listitem [ref=e281]:
+              - link "About Us" [ref=e282] [cursor=pointer]:
+                - /url: /about
+            - listitem [ref=e283]:
+              - link "Reviews" [ref=e284] [cursor=pointer]:
+                - /url: /reviews
+            - listitem [ref=e285]:
+              - link "Contact Us" [ref=e286] [cursor=pointer]:
+                - /url: /contact
+            - listitem [ref=e287]:
+              - link "Free Estimate" [ref=e288] [cursor=pointer]:
+                - /url: /contact
+        - generic [ref=e289]:
+          - heading "Resources" [level=3] [ref=e290]
+          - list [ref=e291]:
+            - listitem [ref=e292]:
+              - link "Estate Cleanout Guide" [ref=e293] [cursor=pointer]:
+                - /url: /resources/estate-cleanout-guide
+            - listitem [ref=e294]:
+              - link "What We Take" [ref=e295] [cursor=pointer]:
+                - /url: /resources/what-we-take
+            - listitem [ref=e296]:
+              - link "Pricing FAQ" [ref=e297] [cursor=pointer]:
+                - /url: /resources/pricing-faq
+            - listitem [ref=e298]:
+              - link "Donation Partners" [ref=e299] [cursor=pointer]:
+                - /url: /resources/donation-partners
+      - paragraph [ref=e303]: © 2026 Steel City Cleanouts. All rights reserved. Licensed & Insured.
+  - button "Open Next.js Dev Tools" [ref=e309] [cursor=pointer]:
+    - img [ref=e310]
+  - alert [ref=e313]

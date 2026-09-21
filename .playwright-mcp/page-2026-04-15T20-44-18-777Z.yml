@@ -1,0 +1,223 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - navigation [ref=e3]:
+      - link "Steel City Cleanouts home" [ref=e4] [cursor=pointer]:
+        - /url: /
+        - img "Steel City Cleanouts, Pittsburgh, PA" [ref=e5]
+      - button "Toggle navigation" [ref=e6]:
+        - img [ref=e7]
+  - main [ref=e8]:
+    - generic [ref=e9]:
+      - img "Donation Partners" [ref=e11]
+      - generic [ref=e14]:
+        - generic [ref=e17]: Resources
+        - heading "Where Your Stuff Actually Goes" [level=1] [ref=e18]
+        - paragraph [ref=e19]: Good-condition items get a second life with local Pittsburgh charities.
+        - generic [ref=e20]:
+          - link "CALL NOW FOR PICKUP" [ref=e21] [cursor=pointer]:
+            - /url: tel:5852000871
+            - img [ref=e22]
+            - generic [ref=e24]: CALL NOW FOR PICKUP
+          - link "GET A FREE QUOTE" [ref=e25] [cursor=pointer]:
+            - /url: /contact
+            - generic [ref=e26]: GET A FREE QUOTE
+    - navigation "Breadcrumb" [ref=e27]:
+      - list [ref=e28]:
+        - listitem [ref=e29]:
+          - link "Home" [ref=e30] [cursor=pointer]:
+            - /url: /
+            - img [ref=e31]
+            - generic [ref=e34]: Home
+        - listitem [ref=e35]:
+          - img [ref=e36]
+          - generic [ref=e38]: Resources
+        - listitem [ref=e39]:
+          - img [ref=e40]
+          - generic [ref=e42]: Donation Partners
+    - generic [ref=e44]:
+      - paragraph [ref=e46]: Steel City Cleanouts routes donatable items from Pittsburgh cleanouts to local partners including Goodwill, Construction Junction, and area furniture banks. Donation receipts available on request.
+      - paragraph [ref=e47]: We hate landfills as much as you do. When cleanout items are in good enough condition to be reused, they go to local Pittsburgh partners, not the dump. Here's who we work with.
+      - generic [ref=e48]:
+        - generic [ref=e49]:
+          - heading "Goodwill of Southwestern Pennsylvania" [level=2] [ref=e50]
+          - paragraph [ref=e51]: Our first stop for clothing, housewares, working electronics, and small furniture. Multiple drop-off locations across Pittsburgh and the surrounding suburbs.
+        - generic [ref=e52]:
+          - heading "Construction Junction" [level=2] [ref=e53]
+          - paragraph [ref=e54]: Pittsburgh's reuse center for building materials. Doors, windows, cabinets, fixtures, hardware, flooring, lumber. If it came out of a renovation and it's still usable, they take it.
+        - generic [ref=e55]:
+          - heading "Local furniture banks" [level=2] [ref=e56]
+          - paragraph [ref=e57]: Couches, dining sets, beds, and dressers in good condition get routed to furniture banks serving families in transition across Allegheny and Butler counties.
+        - generic [ref=e58]:
+          - heading "St. Vincent de Paul Society" [level=2] [ref=e59]
+          - paragraph [ref=e60]: Clothing, kitchen goods, small appliances, and household items. They support families across the Pittsburgh diocese.
+        - generic [ref=e61]:
+          - heading "Donation receipts" [level=2] [ref=e62]
+          - paragraph [ref=e63]: If you need a donation receipt for estate tax purposes, let us know before the cleanout. We'll document the items that go to donation partners and provide a written list.
+        - generic [ref=e64]:
+          - heading "What can't be donated" [level=2] [ref=e65]
+          - paragraph [ref=e66]: Broken furniture, stained mattresses, non-working appliances, outdated electronics (old CRTs), baby gear that doesn't meet current safety standards, and anything too worn to reuse. These go to licensed disposal and recycling facilities.
+    - generic [ref=e68]:
+      - heading "Ready to Clear It Out?" [level=2] [ref=e69]
+      - paragraph [ref=e70]: Same-day service across Pittsburgh. Upfront pricing. No hidden fees. Call or text for a free quote.
+      - generic [ref=e71]:
+        - link "CALL (585) 200-0871" [ref=e72] [cursor=pointer]:
+          - /url: tel:5852000871
+          - img [ref=e73]
+          - generic [ref=e75]: CALL (585) 200-0871
+        - link "GET A FREE QUOTE" [ref=e76] [cursor=pointer]:
+          - /url: /contact
+          - generic [ref=e77]: GET A FREE QUOTE
+  - contentinfo [ref=e78]:
+    - generic [ref=e79]:
+      - generic [ref=e80]:
+        - generic [ref=e81]:
+          - img "Steel City Cleanouts, Pittsburgh, PA" [ref=e83]
+          - generic [ref=e84]:
+            - paragraph [ref=e85]: Same-Day Service
+            - link "(585) 200-0871" [ref=e86] [cursor=pointer]:
+              - /url: tel:5852000871
+            - link "hello@steelcitycleanouts.com" [ref=e87] [cursor=pointer]:
+              - /url: mailto:hello@steelcitycleanouts.com
+            - paragraph [ref=e88]: Open 7 Days A Week
+        - generic [ref=e89]:
+          - heading "Services" [level=3] [ref=e90]
+          - list [ref=e91]:
+            - listitem [ref=e92]:
+              - link "Estate Cleanouts" [ref=e93] [cursor=pointer]:
+                - /url: /services/estate-cleanouts
+            - listitem [ref=e94]:
+              - link "Junk Removal" [ref=e95] [cursor=pointer]:
+                - /url: /services/junk-removal
+            - listitem [ref=e96]:
+              - link "Appliance Removal" [ref=e97] [cursor=pointer]:
+                - /url: /services/appliance-removal
+            - listitem [ref=e98]:
+              - link "Furniture Removal" [ref=e99] [cursor=pointer]:
+                - /url: /services/furniture-removal
+            - listitem [ref=e100]:
+              - link "Garage Cleanouts" [ref=e101] [cursor=pointer]:
+                - /url: /services/garage-cleanouts
+            - listitem [ref=e102]:
+              - link "Hoarder Cleanouts" [ref=e103] [cursor=pointer]:
+                - /url: /services/hoarder-cleanouts
+            - listitem [ref=e104]:
+              - link "Foreclosure Cleanouts" [ref=e105] [cursor=pointer]:
+                - /url: /services/foreclosure-cleanouts
+            - listitem [ref=e106]:
+              - link "Eviction Cleanouts" [ref=e107] [cursor=pointer]:
+                - /url: /services/eviction-cleanouts
+            - listitem [ref=e108]:
+              - link "Construction Debris" [ref=e109] [cursor=pointer]:
+                - /url: /services/construction-debris
+            - listitem [ref=e110]:
+              - link "Yard Waste" [ref=e111] [cursor=pointer]:
+                - /url: /services/yard-waste-removal
+            - listitem [ref=e112]:
+              - link "Storage Unit Cleanouts" [ref=e113] [cursor=pointer]:
+                - /url: /services/storage-unit-cleanouts
+            - listitem [ref=e114]:
+              - link "Commercial Cleanouts" [ref=e115] [cursor=pointer]:
+                - /url: /services/commercial-cleanouts
+            - listitem [ref=e116]:
+              - link "Bereavement Cleanouts" [ref=e117] [cursor=pointer]:
+                - /url: /services/bereavement-cleanouts
+            - listitem [ref=e118]:
+              - link "All Services →" [ref=e119] [cursor=pointer]:
+                - /url: /services
+        - generic [ref=e120]:
+          - heading "Service Areas" [level=3] [ref=e121]
+          - list [ref=e122]:
+            - listitem [ref=e123]:
+              - link "Pittsburgh, PA" [ref=e124] [cursor=pointer]:
+                - /url: /service-areas/pittsburgh
+            - listitem [ref=e125]:
+              - link "Cranberry Township, PA" [ref=e126] [cursor=pointer]:
+                - /url: /service-areas/cranberry-township
+            - listitem [ref=e127]:
+              - link "Wexford, PA" [ref=e128] [cursor=pointer]:
+                - /url: /service-areas/wexford
+            - listitem [ref=e129]:
+              - link "Mt. Lebanon, PA" [ref=e130] [cursor=pointer]:
+                - /url: /service-areas/mt-lebanon
+            - listitem [ref=e131]:
+              - link "Monroeville, PA" [ref=e132] [cursor=pointer]:
+                - /url: /service-areas/monroeville
+            - listitem [ref=e133]:
+              - link "Shadyside, PA" [ref=e134] [cursor=pointer]:
+                - /url: /service-areas/shadyside
+            - listitem [ref=e135]:
+              - link "Squirrel Hill, PA" [ref=e136] [cursor=pointer]:
+                - /url: /service-areas/squirrel-hill
+            - listitem [ref=e137]:
+              - link "Upper St. Clair, PA" [ref=e138] [cursor=pointer]:
+                - /url: /service-areas/upper-st-clair
+            - listitem [ref=e139]:
+              - link "Sewickley, PA" [ref=e140] [cursor=pointer]:
+                - /url: /service-areas/sewickley
+            - listitem [ref=e141]:
+              - link "Bethel Park, PA" [ref=e142] [cursor=pointer]:
+                - /url: /service-areas/bethel-park
+            - listitem [ref=e143]:
+              - link "Ross Township, PA" [ref=e144] [cursor=pointer]:
+                - /url: /service-areas/ross-township
+            - listitem [ref=e145]:
+              - link "Fox Chapel, PA" [ref=e146] [cursor=pointer]:
+                - /url: /service-areas/fox-chapel
+            - listitem [ref=e147]:
+              - link "Shaler Township, PA" [ref=e148] [cursor=pointer]:
+                - /url: /service-areas/shaler-township
+            - listitem [ref=e149]:
+              - link "Penn Hills, PA" [ref=e150] [cursor=pointer]:
+                - /url: /service-areas/penn-hills
+            - listitem [ref=e151]:
+              - link "Plum Borough, PA" [ref=e152] [cursor=pointer]:
+                - /url: /service-areas/plum-borough
+            - listitem [ref=e153]:
+              - link "Moon Township, PA" [ref=e154] [cursor=pointer]:
+                - /url: /service-areas/moon-township
+            - listitem [ref=e155]:
+              - link "Robinson Township, PA" [ref=e156] [cursor=pointer]:
+                - /url: /service-areas/robinson-township
+            - listitem [ref=e157]:
+              - link "Hampton Township, PA" [ref=e158] [cursor=pointer]:
+                - /url: /service-areas/hampton-township
+            - listitem [ref=e159]:
+              - link "McCandless, PA" [ref=e160] [cursor=pointer]:
+                - /url: /service-areas/mccandless
+            - listitem [ref=e161]:
+              - link "All Areas →" [ref=e162] [cursor=pointer]:
+                - /url: /service-areas
+        - generic [ref=e163]:
+          - heading "Company" [level=3] [ref=e164]
+          - list [ref=e165]:
+            - listitem [ref=e166]:
+              - link "About Us" [ref=e167] [cursor=pointer]:
+                - /url: /about
+            - listitem [ref=e168]:
+              - link "Reviews" [ref=e169] [cursor=pointer]:
+                - /url: /reviews
+            - listitem [ref=e170]:
+              - link "Contact Us" [ref=e171] [cursor=pointer]:
+                - /url: /contact
+            - listitem [ref=e172]:
+              - link "Free Estimate" [ref=e173] [cursor=pointer]:
+                - /url: /contact
+        - generic [ref=e174]:
+          - heading "Resources" [level=3] [ref=e175]
+          - list [ref=e176]:
+            - listitem [ref=e177]:
+              - link "Estate Cleanout Guide" [ref=e178] [cursor=pointer]:
+                - /url: /resources/estate-cleanout-guide
+            - listitem [ref=e179]:
+              - link "What We Take" [ref=e180] [cursor=pointer]:
+                - /url: /resources/what-we-take
+            - listitem [ref=e181]:
+              - link "Pricing FAQ" [ref=e182] [cursor=pointer]:
+                - /url: /resources/pricing-faq
+            - listitem [ref=e183]:
+              - link "Donation Partners" [ref=e184] [cursor=pointer]:
+                - /url: /resources/donation-partners
+      - paragraph [ref=e188]: © 2026 Steel City Cleanouts. All rights reserved. Licensed & Insured.
+  - button "Open Next.js Dev Tools" [ref=e194] [cursor=pointer]:
+    - img [ref=e195]
+  - alert [ref=e198]

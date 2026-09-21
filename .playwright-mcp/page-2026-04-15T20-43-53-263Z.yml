@@ -1,0 +1,296 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - navigation [ref=e3]:
+      - link "Steel City Cleanouts home" [ref=e4] [cursor=pointer]:
+        - /url: /
+        - img "Steel City Cleanouts, Pittsburgh, PA" [ref=e5]
+      - generic [ref=e6]:
+        - list [ref=e7]:
+          - listitem [ref=e8]:
+            - link "SERVICES" [ref=e9] [cursor=pointer]:
+              - /url: /services
+          - listitem [ref=e10]:
+            - link "PRICING" [ref=e11] [cursor=pointer]:
+              - /url: /pricing
+          - listitem [ref=e12]:
+            - link "SERVICE AREA" [ref=e13] [cursor=pointer]:
+              - /url: /service-areas
+          - listitem [ref=e14]:
+            - link "ABOUT" [ref=e15] [cursor=pointer]:
+              - /url: /about
+          - listitem [ref=e16]:
+            - link "REVIEWS" [ref=e17] [cursor=pointer]:
+              - /url: /reviews
+          - listitem [ref=e18]:
+            - link "CONTACT" [ref=e19] [cursor=pointer]:
+              - /url: /contact
+        - link "CALL NOW" [ref=e20] [cursor=pointer]:
+          - /url: tel:5852000871
+          - img [ref=e21]
+          - text: CALL NOW
+  - main [ref=e23]:
+    - generic [ref=e24]:
+      - img "Estate Cleanouts in Squirrel Hill, Pittsburgh, PA" [ref=e26]
+      - generic [ref=e29]:
+        - generic [ref=e32]: Estate Cleanouts · Squirrel Hill, Pittsburgh, PA
+        - heading "Estate Cleanouts in Squirrel Hill" [level=1] [ref=e33]
+        - paragraph [ref=e34]: Estate Cleanouts done right, across Squirrel Hill and the surrounding Allegheny County area.
+        - generic [ref=e35]:
+          - link "CALL NOW FOR PICKUP" [ref=e36] [cursor=pointer]:
+            - /url: tel:5852000871
+            - img [ref=e37]
+            - generic [ref=e39]: CALL NOW FOR PICKUP
+          - link "GET A FREE QUOTE" [ref=e40] [cursor=pointer]:
+            - /url: /contact
+            - generic [ref=e41]: GET A FREE QUOTE
+    - navigation "Breadcrumb" [ref=e42]:
+      - list [ref=e43]:
+        - listitem [ref=e44]:
+          - link "Home" [ref=e45] [cursor=pointer]:
+            - /url: /
+            - img [ref=e46]
+            - generic [ref=e49]: Home
+        - listitem [ref=e50]:
+          - img [ref=e51]
+          - link "Services" [ref=e53] [cursor=pointer]:
+            - /url: /services
+        - listitem [ref=e54]:
+          - img [ref=e55]
+          - link "Estate Cleanouts" [ref=e57] [cursor=pointer]:
+            - /url: /services/estate-cleanouts
+        - listitem [ref=e58]:
+          - img [ref=e59]
+          - generic [ref=e61]: Squirrel Hill
+    - generic [ref=e63]:
+      - paragraph [ref=e65]: Steel City Cleanouts offers same-day estate cleanouts in Squirrel Hill, Pittsburgh, PA. Free on-site estimates. Most homes $800 to $3,500 depending on size and volume. Family-owned, fully insured. Call (585) 200-0871.
+      - paragraph [ref=e66]: When Squirrel Hill homeowners, landlords, and families need estate cleanouts, Steel City Cleanouts is the crew they call. We work every corner of Squirrel Hill, Pittsburgh, PA, from Forbes Avenue, Murray Avenue, Beacon Street and every street in between, and we bring the right equipment and crew size for the kinds of properties common here.
+      - paragraph [ref=e67]: Estate cleanouts in Squirrel Hill usually involve decades of accumulated belongings across multiple floors. Squirrel Hill homes are mostly 1910-1950 single-family with finished basements, walk-up attics, and 1 or 2-car detached garages. Estate cleanouts frequently span multiple truckloads across 2 days. We coordinate with the Squirrel Hill community. Quiet hours, driveway access, and discretion for family estates are all normal here. Many homes have original 1920s built-ins and leaded glass, which we photograph carefully before any cleanout work so families have a record.
+    - generic [ref=e69]:
+      - heading "What Estate Cleanouts in Squirrel Hill Includes" [level=2] [ref=e70]
+      - list [ref=e71]:
+        - listitem [ref=e72]:
+          - img [ref=e73]
+          - generic [ref=e75]: Walk-through and free written estimate
+        - listitem [ref=e76]:
+          - img [ref=e77]
+          - generic [ref=e79]: Furniture, appliances, clothing, books, paperwork
+        - listitem [ref=e80]:
+          - img [ref=e81]
+          - generic [ref=e83]: Basement, attic, garage, shed, and outbuildings
+        - listitem [ref=e84]:
+          - img [ref=e85]
+          - generic [ref=e87]: Donation drop-offs to local partners where possible
+        - listitem [ref=e88]:
+          - img [ref=e89]
+          - generic [ref=e91]: Valuables and photos set aside for family review
+        - listitem [ref=e92]:
+          - img [ref=e93]
+          - generic [ref=e95]: Broom-swept finish so the home is ready for sale or rental
+      - paragraph [ref=e97]: "Pricing: Free on-site estimates. Most homes $800 to $3,500 depending on size and volume."
+    - generic [ref=e99]:
+      - heading "Squirrel Hill Neighborhoods We Serve" [level=2] [ref=e100]
+      - generic [ref=e101]:
+        - generic [ref=e102]: Forbes Avenue
+        - generic [ref=e103]: Murray Avenue
+        - generic [ref=e104]: Beacon Street
+        - generic [ref=e105]: Wightman Street
+        - generic [ref=e106]: Beeler Street
+        - generic [ref=e107]: Squirrel Hill North
+        - generic [ref=e108]: Squirrel Hill South
+        - generic [ref=e109]: Schenley Park adjacent
+      - paragraph [ref=e110]: "Zip codes: 15217"
+    - generic [ref=e112]:
+      - heading "Estate Cleanouts in Squirrel Hill FAQs" [level=2] [ref=e113]
+      - generic [ref=e114]:
+        - group [ref=e115]:
+          - generic "How long does an estate cleanout take?" [ref=e116] [cursor=pointer]
+        - group [ref=e117]:
+          - generic "Do you work with probate attorneys and executors?" [ref=e118] [cursor=pointer]
+        - group [ref=e119]:
+          - generic "Do you handle large Squirrel Hill estate cleanouts?" [ref=e120] [cursor=pointer]
+        - group [ref=e121]:
+          - generic "How much does estate cleanouts cost in Squirrel Hill?" [ref=e122] [cursor=pointer]
+    - generic [ref=e124]:
+      - heading "Related Pages" [level=2] [ref=e125]
+      - generic [ref=e126]:
+        - link "Full service page Estate Cleanouts Whole-house cleanouts handled with respect and speed. Read more" [ref=e127] [cursor=pointer]:
+          - /url: /services/estate-cleanouts
+          - paragraph [ref=e128]: Full service page
+          - heading "Estate Cleanouts" [level=3] [ref=e129]
+          - paragraph [ref=e130]: Whole-house cleanouts handled with respect and speed.
+          - paragraph [ref=e131]:
+            - text: Read more
+            - img [ref=e132]
+        - link "All services in this area Squirrel Hill, Pittsburgh, PA Estate cleanouts for Pittsburgh's largest homes. Read more" [ref=e134] [cursor=pointer]:
+          - /url: /service-areas/squirrel-hill
+          - paragraph [ref=e135]: All services in this area
+          - heading "Squirrel Hill, Pittsburgh, PA" [level=3] [ref=e136]
+          - paragraph [ref=e137]: Estate cleanouts for Pittsburgh's largest homes.
+          - paragraph [ref=e138]:
+            - text: Read more
+            - img [ref=e139]
+    - generic [ref=e142]:
+      - heading "Estate Cleanouts in Squirrel Hill, Same Day" [level=2] [ref=e143]
+      - paragraph [ref=e144]: Same-day service across Pittsburgh. Upfront pricing. No hidden fees. Call or text for a free quote.
+      - generic [ref=e145]:
+        - link "CALL (585) 200-0871" [ref=e146] [cursor=pointer]:
+          - /url: tel:5852000871
+          - img [ref=e147]
+          - generic [ref=e149]: CALL (585) 200-0871
+        - link "GET A FREE QUOTE" [ref=e150] [cursor=pointer]:
+          - /url: /contact
+          - generic [ref=e151]: GET A FREE QUOTE
+  - contentinfo [ref=e152]:
+    - generic [ref=e153]:
+      - generic [ref=e154]:
+        - generic [ref=e155]:
+          - img "Steel City Cleanouts, Pittsburgh, PA" [ref=e157]
+          - generic [ref=e158]:
+            - paragraph [ref=e159]: Same-Day Service
+            - link "(585) 200-0871" [ref=e160] [cursor=pointer]:
+              - /url: tel:5852000871
+            - link "hello@steelcitycleanouts.com" [ref=e161] [cursor=pointer]:
+              - /url: mailto:hello@steelcitycleanouts.com
+            - paragraph [ref=e162]: Open 7 Days A Week
+        - generic [ref=e163]:
+          - heading "Services" [level=3] [ref=e164]
+          - list [ref=e165]:
+            - listitem [ref=e166]:
+              - link "Estate Cleanouts" [ref=e167] [cursor=pointer]:
+                - /url: /services/estate-cleanouts
+            - listitem [ref=e168]:
+              - link "Junk Removal" [ref=e169] [cursor=pointer]:
+                - /url: /services/junk-removal
+            - listitem [ref=e170]:
+              - link "Appliance Removal" [ref=e171] [cursor=pointer]:
+                - /url: /services/appliance-removal
+            - listitem [ref=e172]:
+              - link "Furniture Removal" [ref=e173] [cursor=pointer]:
+                - /url: /services/furniture-removal
+            - listitem [ref=e174]:
+              - link "Garage Cleanouts" [ref=e175] [cursor=pointer]:
+                - /url: /services/garage-cleanouts
+            - listitem [ref=e176]:
+              - link "Hoarder Cleanouts" [ref=e177] [cursor=pointer]:
+                - /url: /services/hoarder-cleanouts
+            - listitem [ref=e178]:
+              - link "Foreclosure Cleanouts" [ref=e179] [cursor=pointer]:
+                - /url: /services/foreclosure-cleanouts
+            - listitem [ref=e180]:
+              - link "Eviction Cleanouts" [ref=e181] [cursor=pointer]:
+                - /url: /services/eviction-cleanouts
+            - listitem [ref=e182]:
+              - link "Construction Debris" [ref=e183] [cursor=pointer]:
+                - /url: /services/construction-debris
+            - listitem [ref=e184]:
+              - link "Yard Waste" [ref=e185] [cursor=pointer]:
+                - /url: /services/yard-waste-removal
+            - listitem [ref=e186]:
+              - link "Storage Unit Cleanouts" [ref=e187] [cursor=pointer]:
+                - /url: /services/storage-unit-cleanouts
+            - listitem [ref=e188]:
+              - link "Commercial Cleanouts" [ref=e189] [cursor=pointer]:
+                - /url: /services/commercial-cleanouts
+            - listitem [ref=e190]:
+              - link "Bereavement Cleanouts" [ref=e191] [cursor=pointer]:
+                - /url: /services/bereavement-cleanouts
+            - listitem [ref=e192]:
+              - link "All Services →" [ref=e193] [cursor=pointer]:
+                - /url: /services
+        - generic [ref=e194]:
+          - heading "Service Areas" [level=3] [ref=e195]
+          - list [ref=e196]:
+            - listitem [ref=e197]:
+              - link "Pittsburgh, PA" [ref=e198] [cursor=pointer]:
+                - /url: /service-areas/pittsburgh
+            - listitem [ref=e199]:
+              - link "Cranberry Township, PA" [ref=e200] [cursor=pointer]:
+                - /url: /service-areas/cranberry-township
+            - listitem [ref=e201]:
+              - link "Wexford, PA" [ref=e202] [cursor=pointer]:
+                - /url: /service-areas/wexford
+            - listitem [ref=e203]:
+              - link "Mt. Lebanon, PA" [ref=e204] [cursor=pointer]:
+                - /url: /service-areas/mt-lebanon
+            - listitem [ref=e205]:
+              - link "Monroeville, PA" [ref=e206] [cursor=pointer]:
+                - /url: /service-areas/monroeville
+            - listitem [ref=e207]:
+              - link "Shadyside, PA" [ref=e208] [cursor=pointer]:
+                - /url: /service-areas/shadyside
+            - listitem [ref=e209]:
+              - link "Squirrel Hill, PA" [ref=e210] [cursor=pointer]:
+                - /url: /service-areas/squirrel-hill
+            - listitem [ref=e211]:
+              - link "Upper St. Clair, PA" [ref=e212] [cursor=pointer]:
+                - /url: /service-areas/upper-st-clair
+            - listitem [ref=e213]:
+              - link "Sewickley, PA" [ref=e214] [cursor=pointer]:
+                - /url: /service-areas/sewickley
+            - listitem [ref=e215]:
+              - link "Bethel Park, PA" [ref=e216] [cursor=pointer]:
+                - /url: /service-areas/bethel-park
+            - listitem [ref=e217]:
+              - link "Ross Township, PA" [ref=e218] [cursor=pointer]:
+                - /url: /service-areas/ross-township
+            - listitem [ref=e219]:
+              - link "Fox Chapel, PA" [ref=e220] [cursor=pointer]:
+                - /url: /service-areas/fox-chapel
+            - listitem [ref=e221]:
+              - link "Shaler Township, PA" [ref=e222] [cursor=pointer]:
+                - /url: /service-areas/shaler-township
+            - listitem [ref=e223]:
+              - link "Penn Hills, PA" [ref=e224] [cursor=pointer]:
+                - /url: /service-areas/penn-hills
+            - listitem [ref=e225]:
+              - link "Plum Borough, PA" [ref=e226] [cursor=pointer]:
+                - /url: /service-areas/plum-borough
+            - listitem [ref=e227]:
+              - link "Moon Township, PA" [ref=e228] [cursor=pointer]:
+                - /url: /service-areas/moon-township
+            - listitem [ref=e229]:
+              - link "Robinson Township, PA" [ref=e230] [cursor=pointer]:
+                - /url: /service-areas/robinson-township
+            - listitem [ref=e231]:
+              - link "Hampton Township, PA" [ref=e232] [cursor=pointer]:
+                - /url: /service-areas/hampton-township
+            - listitem [ref=e233]:
+              - link "McCandless, PA" [ref=e234] [cursor=pointer]:
+                - /url: /service-areas/mccandless
+            - listitem [ref=e235]:
+              - link "All Areas →" [ref=e236] [cursor=pointer]:
+                - /url: /service-areas
+        - generic [ref=e237]:
+          - heading "Company" [level=3] [ref=e238]
+          - list [ref=e239]:
+            - listitem [ref=e240]:
+              - link "About Us" [ref=e241] [cursor=pointer]:
+                - /url: /about
+            - listitem [ref=e242]:
+              - link "Reviews" [ref=e243] [cursor=pointer]:
+                - /url: /reviews
+            - listitem [ref=e244]:
+              - link "Contact Us" [ref=e245] [cursor=pointer]:
+                - /url: /contact
+            - listitem [ref=e246]:
+              - link "Free Estimate" [ref=e247] [cursor=pointer]:
+                - /url: /contact
+        - generic [ref=e248]:
+          - heading "Resources" [level=3] [ref=e249]
+          - list [ref=e250]:
+            - listitem [ref=e251]:
+              - link "Estate Cleanout Guide" [ref=e252] [cursor=pointer]:
+                - /url: /resources/estate-cleanout-guide
+            - listitem [ref=e253]:
+              - link "What We Take" [ref=e254] [cursor=pointer]:
+                - /url: /resources/what-we-take
+            - listitem [ref=e255]:
+              - link "Pricing FAQ" [ref=e256] [cursor=pointer]:
+                - /url: /resources/pricing-faq
+            - listitem [ref=e257]:
+              - link "Donation Partners" [ref=e258] [cursor=pointer]:
+                - /url: /resources/donation-partners
+      - paragraph [ref=e262]: © 2026 Steel City Cleanouts. All rights reserved. Licensed & Insured.
+  - button "Open Next.js Dev Tools" [ref=e268] [cursor=pointer]:
+    - img [ref=e269]
+  - alert [ref=e272]

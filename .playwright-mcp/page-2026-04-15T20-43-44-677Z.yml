@@ -1,0 +1,312 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - navigation [ref=e3]:
+      - link "Steel City Cleanouts home" [ref=e4] [cursor=pointer]:
+        - /url: /
+        - img "Steel City Cleanouts, Pittsburgh, PA" [ref=e5]
+      - generic [ref=e6]:
+        - list [ref=e7]:
+          - listitem [ref=e8]:
+            - link "SERVICES" [ref=e9] [cursor=pointer]:
+              - /url: /services
+          - listitem [ref=e10]:
+            - link "PRICING" [ref=e11] [cursor=pointer]:
+              - /url: /pricing
+          - listitem [ref=e12]:
+            - link "SERVICE AREA" [ref=e13] [cursor=pointer]:
+              - /url: /service-areas
+          - listitem [ref=e14]:
+            - link "ABOUT" [ref=e15] [cursor=pointer]:
+              - /url: /about
+          - listitem [ref=e16]:
+            - link "REVIEWS" [ref=e17] [cursor=pointer]:
+              - /url: /reviews
+          - listitem [ref=e18]:
+            - link "CONTACT" [ref=e19] [cursor=pointer]:
+              - /url: /contact
+        - link "CALL NOW" [ref=e20] [cursor=pointer]:
+          - /url: tel:5852000871
+          - img [ref=e21]
+          - text: CALL NOW
+  - main [ref=e23]:
+    - generic [ref=e24]:
+      - img "Steel City Cleanouts basement cleanout pricing in Pittsburgh" [ref=e26]
+      - generic [ref=e29]:
+        - generic [ref=e32]: Pricing · Basement
+        - heading "Basement Cleanout Pricing in Pittsburgh" [level=1] [ref=e33]
+        - paragraph [ref=e34]: Partial $350 to $550. Full basement $550 to $850.
+        - generic [ref=e35]:
+          - link "CALL NOW FOR PICKUP" [ref=e36] [cursor=pointer]:
+            - /url: tel:5852000871
+            - img [ref=e37]
+            - generic [ref=e39]: CALL NOW FOR PICKUP
+          - link "GET A FREE QUOTE" [ref=e40] [cursor=pointer]:
+            - /url: /contact
+            - generic [ref=e41]: GET A FREE QUOTE
+    - navigation "Breadcrumb" [ref=e42]:
+      - list [ref=e43]:
+        - listitem [ref=e44]:
+          - link "Home" [ref=e45] [cursor=pointer]:
+            - /url: /
+            - img [ref=e46]
+            - generic [ref=e49]: Home
+        - listitem [ref=e50]:
+          - img [ref=e51]
+          - link "Pricing" [ref=e53] [cursor=pointer]:
+            - /url: /pricing
+        - listitem [ref=e54]:
+          - img [ref=e55]
+          - generic [ref=e57]: Basement Cleanout Pricing
+    - generic [ref=e59]:
+      - paragraph [ref=e61]: Basement cleanout pricing in Pittsburgh with Steel City Cleanouts runs $350 to $850. A partial basement is $350 to $550. A full basement is $550 to $850. The stairs surcharge is already included in these ranges.
+      - paragraph [ref=e62]: Basement cleanouts are a specialty because of the stairs. Every item has to come up, and Pittsburgh basements tend to accumulate decades of boxes, old furniture, and broken appliances. We bring 3-person crews for most basement jobs to keep the carry-up moving fast.
+    - generic [ref=e64]:
+      - heading "Basement Cleanout Pricing" [level=2] [ref=e65]
+      - table [ref=e67]:
+        - rowgroup [ref=e68]:
+          - row "Item Price" [ref=e69]:
+            - columnheader "Item" [ref=e70]
+            - columnheader "Price" [ref=e71]
+        - rowgroup [ref=e72]:
+          - row "Basement corner or partial One area or room of the basement. Half truck of stuff. $350 to $475" [ref=e73]:
+            - cell "Basement corner or partial One area or room of the basement. Half truck of stuff." [ref=e74]:
+              - paragraph [ref=e75]: Basement corner or partial
+              - paragraph [ref=e76]: One area or room of the basement. Half truck of stuff.
+            - cell "$350 to $475" [ref=e77]:
+              - paragraph [ref=e78]: $350 to $475
+          - row "Full unfinished basement Whole unfinished basement. Full truck. $475 to $650" [ref=e79]:
+            - cell "Full unfinished basement Whole unfinished basement. Full truck." [ref=e80]:
+              - paragraph [ref=e81]: Full unfinished basement
+              - paragraph [ref=e82]: Whole unfinished basement. Full truck.
+            - cell "$475 to $650" [ref=e83]:
+              - paragraph [ref=e84]: $475 to $650
+          - row "Full finished basement Whole finished basement with furniture and built-ins. $650 to $850" [ref=e85]:
+            - cell "Full finished basement Whole finished basement with furniture and built-ins." [ref=e86]:
+              - paragraph [ref=e87]: Full finished basement
+              - paragraph [ref=e88]: Whole finished basement with furniture and built-ins.
+            - cell "$650 to $850" [ref=e89]:
+              - paragraph [ref=e90]: $650 to $850
+      - paragraph [ref=e92]: Partial $350 to $550. Full basement $550 to $850. Stairs already included.
+    - generic [ref=e94]:
+      - heading "What's Included" [level=2] [ref=e95]
+      - list [ref=e96]:
+        - listitem [ref=e97]:
+          - img [ref=e98]
+          - generic [ref=e100]: 3-person crew for most basement jobs
+        - listitem [ref=e101]:
+          - img [ref=e102]
+          - generic [ref=e104]: Stairs already built into the price
+        - listitem [ref=e105]:
+          - img [ref=e106]
+          - generic [ref=e108]: Labor, truck, fuel, disposal
+        - listitem [ref=e109]:
+          - img [ref=e110]
+          - generic [ref=e112]: Donation routing
+        - listitem [ref=e113]:
+          - img [ref=e114]
+          - generic [ref=e116]: Floor sweep at the end
+    - generic [ref=e118]:
+      - heading "What Affects the Price" [level=2] [ref=e119]
+      - generic [ref=e120]:
+        - generic [ref=e123]: Number of stairs and tightness of the stairwell
+        - generic [ref=e126]: Water damage or mold (may need separate routing)
+        - generic [ref=e129]: Old appliances (water heater, washer, dryer)
+        - generic [ref=e132]: Presence of broken glass or sharp debris (add PPE)
+    - generic [ref=e135]:
+      - paragraph [ref=e136]: Real basement cleanout, February 2026
+      - paragraph [ref=e137]: "Plum Borough homeowner. Full unfinished basement with 25 years of boxes, old couches, a broken washer, a dehumidifier, and shelving units. Narrow stairs. 3-person crew, 90 minutes. Final price: $585."
+    - generic [ref=e139]:
+      - heading "Basement Cleanout Pricing FAQs" [level=2] [ref=e140]
+      - generic [ref=e141]:
+        - group [ref=e142]:
+          - generic "Do you charge extra for basement stairs?" [ref=e143] [cursor=pointer]
+        - group [ref=e144]:
+          - generic "What if my basement has water damage or mold?" [ref=e145] [cursor=pointer]
+        - group [ref=e146]:
+          - generic "Can you remove an old water heater or washer from my basement?" [ref=e147] [cursor=pointer]
+    - generic [ref=e149]:
+      - heading "Related Pricing" [level=2] [ref=e150]
+      - generic [ref=e151]:
+        - link "Garage Cleanout Pricing Single-bay $275 to $425. Two-car $400 to $650. All-in." [ref=e152] [cursor=pointer]:
+          - /url: /pricing/garage-cleanout
+          - generic [ref=e153]:
+            - paragraph [ref=e154]: Garage Cleanout Pricing
+            - paragraph [ref=e155]: Single-bay $275 to $425. Two-car $400 to $650. All-in.
+          - img [ref=e156]
+        - 'link "Full Truck Load Full truck: $475 to $750 all-in. About 15 cubic yards." [ref=e158] [cursor=pointer]':
+          - /url: /pricing/full-truck
+          - generic [ref=e159]:
+            - paragraph [ref=e160]: Full Truck Load
+            - paragraph [ref=e161]: "Full truck: $475 to $750 all-in. About 15 cubic yards."
+          - img [ref=e162]
+        - link "Surcharge Schedule Every surcharge we charge, disclosed up front. Nothing hidden." [ref=e164] [cursor=pointer]:
+          - /url: /pricing/surcharges
+          - generic [ref=e165]:
+            - paragraph [ref=e166]: Surcharge Schedule
+            - paragraph [ref=e167]: Every surcharge we charge, disclosed up front. Nothing hidden.
+          - img [ref=e168]
+    - generic [ref=e171]:
+      - heading "Ready to Clear It Out?" [level=2] [ref=e172]
+      - paragraph [ref=e173]: Same-day service across Pittsburgh. Upfront pricing. No hidden fees. Call or text for a free quote.
+      - generic [ref=e174]:
+        - link "CALL (585) 200-0871" [ref=e175] [cursor=pointer]:
+          - /url: tel:5852000871
+          - img [ref=e176]
+          - generic [ref=e178]: CALL (585) 200-0871
+        - link "GET A FREE QUOTE" [ref=e179] [cursor=pointer]:
+          - /url: /contact
+          - generic [ref=e180]: GET A FREE QUOTE
+  - contentinfo [ref=e181]:
+    - generic [ref=e182]:
+      - generic [ref=e183]:
+        - generic [ref=e184]:
+          - img "Steel City Cleanouts, Pittsburgh, PA" [ref=e186]
+          - generic [ref=e187]:
+            - paragraph [ref=e188]: Same-Day Service
+            - link "(585) 200-0871" [ref=e189] [cursor=pointer]:
+              - /url: tel:5852000871
+            - link "hello@steelcitycleanouts.com" [ref=e190] [cursor=pointer]:
+              - /url: mailto:hello@steelcitycleanouts.com
+            - paragraph [ref=e191]: Open 7 Days A Week
+        - generic [ref=e192]:
+          - heading "Services" [level=3] [ref=e193]
+          - list [ref=e194]:
+            - listitem [ref=e195]:
+              - link "Estate Cleanouts" [ref=e196] [cursor=pointer]:
+                - /url: /services/estate-cleanouts
+            - listitem [ref=e197]:
+              - link "Junk Removal" [ref=e198] [cursor=pointer]:
+                - /url: /services/junk-removal
+            - listitem [ref=e199]:
+              - link "Appliance Removal" [ref=e200] [cursor=pointer]:
+                - /url: /services/appliance-removal
+            - listitem [ref=e201]:
+              - link "Furniture Removal" [ref=e202] [cursor=pointer]:
+                - /url: /services/furniture-removal
+            - listitem [ref=e203]:
+              - link "Garage Cleanouts" [ref=e204] [cursor=pointer]:
+                - /url: /services/garage-cleanouts
+            - listitem [ref=e205]:
+              - link "Hoarder Cleanouts" [ref=e206] [cursor=pointer]:
+                - /url: /services/hoarder-cleanouts
+            - listitem [ref=e207]:
+              - link "Foreclosure Cleanouts" [ref=e208] [cursor=pointer]:
+                - /url: /services/foreclosure-cleanouts
+            - listitem [ref=e209]:
+              - link "Eviction Cleanouts" [ref=e210] [cursor=pointer]:
+                - /url: /services/eviction-cleanouts
+            - listitem [ref=e211]:
+              - link "Construction Debris" [ref=e212] [cursor=pointer]:
+                - /url: /services/construction-debris
+            - listitem [ref=e213]:
+              - link "Yard Waste" [ref=e214] [cursor=pointer]:
+                - /url: /services/yard-waste-removal
+            - listitem [ref=e215]:
+              - link "Storage Unit Cleanouts" [ref=e216] [cursor=pointer]:
+                - /url: /services/storage-unit-cleanouts
+            - listitem [ref=e217]:
+              - link "Commercial Cleanouts" [ref=e218] [cursor=pointer]:
+                - /url: /services/commercial-cleanouts
+            - listitem [ref=e219]:
+              - link "Bereavement Cleanouts" [ref=e220] [cursor=pointer]:
+                - /url: /services/bereavement-cleanouts
+            - listitem [ref=e221]:
+              - link "All Services →" [ref=e222] [cursor=pointer]:
+                - /url: /services
+        - generic [ref=e223]:
+          - heading "Service Areas" [level=3] [ref=e224]
+          - list [ref=e225]:
+            - listitem [ref=e226]:
+              - link "Pittsburgh, PA" [ref=e227] [cursor=pointer]:
+                - /url: /service-areas/pittsburgh
+            - listitem [ref=e228]:
+              - link "Cranberry Township, PA" [ref=e229] [cursor=pointer]:
+                - /url: /service-areas/cranberry-township
+            - listitem [ref=e230]:
+              - link "Wexford, PA" [ref=e231] [cursor=pointer]:
+                - /url: /service-areas/wexford
+            - listitem [ref=e232]:
+              - link "Mt. Lebanon, PA" [ref=e233] [cursor=pointer]:
+                - /url: /service-areas/mt-lebanon
+            - listitem [ref=e234]:
+              - link "Monroeville, PA" [ref=e235] [cursor=pointer]:
+                - /url: /service-areas/monroeville
+            - listitem [ref=e236]:
+              - link "Shadyside, PA" [ref=e237] [cursor=pointer]:
+                - /url: /service-areas/shadyside
+            - listitem [ref=e238]:
+              - link "Squirrel Hill, PA" [ref=e239] [cursor=pointer]:
+                - /url: /service-areas/squirrel-hill
+            - listitem [ref=e240]:
+              - link "Upper St. Clair, PA" [ref=e241] [cursor=pointer]:
+                - /url: /service-areas/upper-st-clair
+            - listitem [ref=e242]:
+              - link "Sewickley, PA" [ref=e243] [cursor=pointer]:
+                - /url: /service-areas/sewickley
+            - listitem [ref=e244]:
+              - link "Bethel Park, PA" [ref=e245] [cursor=pointer]:
+                - /url: /service-areas/bethel-park
+            - listitem [ref=e246]:
+              - link "Ross Township, PA" [ref=e247] [cursor=pointer]:
+                - /url: /service-areas/ross-township
+            - listitem [ref=e248]:
+              - link "Fox Chapel, PA" [ref=e249] [cursor=pointer]:
+                - /url: /service-areas/fox-chapel
+            - listitem [ref=e250]:
+              - link "Shaler Township, PA" [ref=e251] [cursor=pointer]:
+                - /url: /service-areas/shaler-township
+            - listitem [ref=e252]:
+              - link "Penn Hills, PA" [ref=e253] [cursor=pointer]:
+                - /url: /service-areas/penn-hills
+            - listitem [ref=e254]:
+              - link "Plum Borough, PA" [ref=e255] [cursor=pointer]:
+                - /url: /service-areas/plum-borough
+            - listitem [ref=e256]:
+              - link "Moon Township, PA" [ref=e257] [cursor=pointer]:
+                - /url: /service-areas/moon-township
+            - listitem [ref=e258]:
+              - link "Robinson Township, PA" [ref=e259] [cursor=pointer]:
+                - /url: /service-areas/robinson-township
+            - listitem [ref=e260]:
+              - link "Hampton Township, PA" [ref=e261] [cursor=pointer]:
+                - /url: /service-areas/hampton-township
+            - listitem [ref=e262]:
+              - link "McCandless, PA" [ref=e263] [cursor=pointer]:
+                - /url: /service-areas/mccandless
+            - listitem [ref=e264]:
+              - link "All Areas →" [ref=e265] [cursor=pointer]:
+                - /url: /service-areas
+        - generic [ref=e266]:
+          - heading "Company" [level=3] [ref=e267]
+          - list [ref=e268]:
+            - listitem [ref=e269]:
+              - link "About Us" [ref=e270] [cursor=pointer]:
+                - /url: /about
+            - listitem [ref=e271]:
+              - link "Reviews" [ref=e272] [cursor=pointer]:
+                - /url: /reviews
+            - listitem [ref=e273]:
+              - link "Contact Us" [ref=e274] [cursor=pointer]:
+                - /url: /contact
+            - listitem [ref=e275]:
+              - link "Free Estimate" [ref=e276] [cursor=pointer]:
+                - /url: /contact
+        - generic [ref=e277]:
+          - heading "Resources" [level=3] [ref=e278]
+          - list [ref=e279]:
+            - listitem [ref=e280]:
+              - link "Estate Cleanout Guide" [ref=e281] [cursor=pointer]:
+                - /url: /resources/estate-cleanout-guide
+            - listitem [ref=e282]:
+              - link "What We Take" [ref=e283] [cursor=pointer]:
+                - /url: /resources/what-we-take
+            - listitem [ref=e284]:
+              - link "Pricing FAQ" [ref=e285] [cursor=pointer]:
+                - /url: /resources/pricing-faq
+            - listitem [ref=e286]:
+              - link "Donation Partners" [ref=e287] [cursor=pointer]:
+                - /url: /resources/donation-partners
+      - paragraph [ref=e291]: © 2026 Steel City Cleanouts. All rights reserved. Licensed & Insured.
+  - button "Open Next.js Dev Tools" [ref=e297] [cursor=pointer]:
+    - img [ref=e298]
+  - alert [ref=e301]

@@ -21,13 +21,15 @@ Run the Steel City Cleanouts weekly SEO loop from the playbook (canonical: GitHu
    - Risers: add internal links from related pages pointing at them.
    - New query with no matching page: add a planned row to `seo-playbook/properties/steel-city-cleanouts-data-sheet.csv`.
 
-4. **Verify + ship:** `npm run check` clean, commit, push to main, submit changed URLs via `python C:/Users/hocke/tools/google_api.py indexing submit --url "URL"`, Playwright check of changed pages at 1440px and 375px. GEO_RULES.md "done" criteria must pass.
+4. **Bump `updatedAt` on every page you touched.** Each record in `services-data.ts`, `service-areas-data.ts`, `pricing-data.ts`, `item-guides-data.ts`, and `resources-data.ts` carries an `updatedAt` ISO date, and hand-built pages carry theirs in `src/lib/page-dates.ts`. The sitemap's `lastmod` reads from these. Set it to today for the pages whose visible content changed, and leave every other page alone. Do NOT bulk-update them: a sitemap that says all 199 URLs changed is the bug this replaced (see the comment at the top of `src/app/sitemap.ts`). Styling tweaks and dependency bumps do not count as changes.
 
-5. **Log:** update PROJECT_STATUS.md and append one summary line to `research/weekly-loop/log.md` (date, what changed, why). If a batch from the rollout tracker is due (see seo-playbook/properties/steel-city-cleanouts.md), tell Jordan it's ready to run with /steelcity-batch.
+5. **Verify + ship:** `npm run check` clean, commit, push to main, submit changed URLs via `python C:/Users/hocke/tools/google_api.py indexing submit --url "URL"`, Playwright check of changed pages at 1440px and 375px. GEO_RULES.md "done" criteria must pass.
 
-6. **Monthly deep check (first run of each calendar month only):**
+6. **Log:** update PROJECT_STATUS.md and append one summary line to `research/weekly-loop/log.md` (date, what changed, why). If a batch from the rollout tracker is due (see seo-playbook/properties/steel-city-cleanouts.md), tell Jordan it's ready to run with /steelcity-batch.
+
+7. **Monthly deep check (first run of each calendar month only):**
    - AI visibility: ask Perplexity 2-3 customer-style queries ("who does estate cleanouts in Pittsburgh", "hoarding cleanup near Cranberry Township PA") and note whether Steel City Cleanouts is cited. Track in `research/weekly-loop/ai-visibility.md`.
    - If DataForSEO MCP is available, pull live SERPs for "estate cleanout pittsburgh", "junk removal pittsburgh", "hoarding cleanup pittsburgh" (location "Pittsburgh,Pennsylvania,United States").
    - Nudge the off-site blockers if still open: GBP + reviews, named owner on /about, sameAs profiles.
 
-7. **Report to Jordan in plain language:** what moved, what changed, what to expect. Clicks and calls, not jargon.
+8. **Report to Jordan in plain language:** what moved, what changed, what to expect. Clicks and calls, not jargon.

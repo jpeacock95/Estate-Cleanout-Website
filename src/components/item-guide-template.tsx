@@ -252,6 +252,8 @@ export function ItemGuideTemplate({ guide }: { guide: ItemGuide }) {
             description: guide.seoDescription,
             image: `${siteConfig.url}${guide.heroImage}`,
             mainEntityOfPage: pageUrl,
+            dateModified: guide.updatedAt,
+            datePublished: guide.updatedAt,
             author: { "@type": "Organization", name: siteConfig.brand, url: siteConfig.url },
             publisher: {
               "@type": "Organization",

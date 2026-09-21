@@ -1,0 +1,382 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - navigation [ref=e3]:
+      - link "Steel City Cleanouts home" [ref=e4] [cursor=pointer]:
+        - /url: /
+        - img "Steel City Cleanouts, Pittsburgh, PA" [ref=e5]
+      - generic [ref=e6]:
+        - list [ref=e7]:
+          - listitem [ref=e8]:
+            - link "SERVICES" [ref=e9] [cursor=pointer]:
+              - /url: /services
+          - listitem [ref=e10]:
+            - link "PRICING" [ref=e11] [cursor=pointer]:
+              - /url: /pricing
+          - listitem [ref=e12]:
+            - link "SERVICE AREA" [ref=e13] [cursor=pointer]:
+              - /url: /service-areas
+          - listitem [ref=e14]:
+            - link "ABOUT" [ref=e15] [cursor=pointer]:
+              - /url: /about
+          - listitem [ref=e16]:
+            - link "REVIEWS" [ref=e17] [cursor=pointer]:
+              - /url: /reviews
+          - listitem [ref=e18]:
+            - link "CONTACT" [ref=e19] [cursor=pointer]:
+              - /url: /contact
+        - link "CALL NOW" [ref=e20] [cursor=pointer]:
+          - /url: tel:5852000871
+          - img [ref=e21]
+          - text: CALL NOW
+  - main [ref=e23]:
+    - generic [ref=e24]:
+      - img "Steel City Cleanouts hoarder cleanouts in Pittsburgh" [ref=e26]
+      - generic [ref=e29]:
+        - generic [ref=e32]: Hoarder Cleanouts · Pittsburgh, PA
+        - heading "Pittsburgh Hoarder Cleanouts" [level=1] [ref=e33]
+        - paragraph [ref=e34]: Discreet, compassionate, done right.
+        - generic [ref=e35]:
+          - link "CALL NOW FOR PICKUP" [ref=e36] [cursor=pointer]:
+            - /url: tel:5852000871
+            - img [ref=e37]
+            - generic [ref=e39]: CALL NOW FOR PICKUP
+          - link "GET A FREE QUOTE" [ref=e40] [cursor=pointer]:
+            - /url: /contact
+            - generic [ref=e41]: GET A FREE QUOTE
+    - navigation "Breadcrumb" [ref=e42]:
+      - list [ref=e43]:
+        - listitem [ref=e44]:
+          - link "Home" [ref=e45] [cursor=pointer]:
+            - /url: /
+            - img [ref=e46]
+            - generic [ref=e49]: Home
+        - listitem [ref=e50]:
+          - img [ref=e51]
+          - link "Services" [ref=e53] [cursor=pointer]:
+            - /url: /services
+        - listitem [ref=e54]:
+          - img [ref=e55]
+          - generic [ref=e57]: Hoarder Cleanouts
+    - generic [ref=e59]:
+      - paragraph [ref=e61]: Steel City Cleanouts handles hoarder cleanouts in Pittsburgh, PA with discretion and zero judgment. Unmarked trucks on request, full PPE, multi-day jobs. Most fall between $2,000 and $8,000. Call (585) 200-0871.
+      - paragraph [ref=e62]: Hoarder cleanouts are some of the hardest jobs we do. They're also some of the most important. We handle every Pittsburgh hoarder cleanout with discretion, patience, and zero judgment. Our crews arrive in unmarked trucks when requested, wear full PPE when needed, and work at a pace the family or property owner can actually handle emotionally and physically. Most jobs span 2 to 5 days because rushing a hoarder cleanout usually ends with important things getting thrown away by accident.
+      - generic [ref=e63]:
+        - heading "What a Typical Job Looks Like" [level=2] [ref=e64]
+        - paragraph [ref=e65]: "A hoarder cleanout starts with a private walk-through (alone or with the family present, whatever works). We look at every room, ask about valuables, paperwork, and medications, and agree on a sorting plan. On job day, crews arrive early and go slow. Room by room, pile by pile. Everything goes into 4 categories: keep, donate, haul, and review later. The review pile sits on a central table for the homeowner or family to check at the end of each day. Biohazards (sharps, rodent droppings, spoiled food, animal waste) get handled with full PPE and proper disposal. We don't stop unless the family asks us to. Most jobs finish with a broom-swept house ready for cleaning and repairs."
+      - generic [ref=e66]:
+        - generic [ref=e67]:
+          - img [ref=e68]
+          - generic [ref=e70]: Discreet crews, unmarked trucks on request
+        - generic [ref=e71]:
+          - img [ref=e72]
+          - generic [ref=e74]: Full PPE and biohazard handling when needed
+        - generic [ref=e75]:
+          - img [ref=e76]
+          - generic [ref=e78]: Multi-day jobs handled by experienced teams
+        - generic [ref=e79]:
+          - img [ref=e80]
+          - generic [ref=e82]: Work directly with family members or social workers
+        - generic [ref=e83]:
+          - img [ref=e84]
+          - generic [ref=e86]: No judgment, full confidentiality
+        - generic [ref=e87]:
+          - img [ref=e88]
+          - generic [ref=e90]: Sorting pace set by the family, not us
+      - generic [ref=e91]:
+        - heading "Quick Facts" [level=2] [ref=e92]
+        - generic [ref=e93]:
+          - generic [ref=e94]:
+            - term [ref=e95]: Typical job length
+            - definition [ref=e96]: 2 to 5 days
+          - generic [ref=e97]:
+            - term [ref=e98]: Typical price range
+            - definition [ref=e99]: $2,000 to $8,000
+          - generic [ref=e100]:
+            - term [ref=e101]: Crew size
+            - definition [ref=e102]: 2 to 4 people
+          - generic [ref=e103]:
+            - term [ref=e104]: PPE
+            - definition [ref=e105]: Full, including respirators for severe cases
+          - generic [ref=e106]:
+            - term [ref=e107]: Discretion
+            - definition [ref=e108]: Unmarked trucks on request
+      - generic [ref=e109]:
+        - heading "Why Families Choose Us" [level=2] [ref=e110]
+        - paragraph [ref=e111]: "The #1 reason families call us over the national franchises is that we slow down when we need to. A hoarder home isn't a trash problem, it's a life-in-a-house. We respect that. We don't rush people, we don't shame anyone, and we don't haul anything without permission."
+    - generic [ref=e113]:
+      - heading "What's Included" [level=2] [ref=e114]
+      - list [ref=e115]:
+        - listitem [ref=e116]:
+          - img [ref=e117]
+          - generic [ref=e119]: Walk-through and private written estimate
+        - listitem [ref=e120]:
+          - img [ref=e121]
+          - generic [ref=e123]: Heavy sorting (keep, donate, haul, review)
+        - listitem [ref=e124]:
+          - img [ref=e125]
+          - generic [ref=e127]: Sharps, biohazard, and animal waste handling
+        - listitem [ref=e128]:
+          - img [ref=e129]
+          - generic [ref=e131]: Multi-truck loads over 1 or more days
+        - listitem [ref=e132]:
+          - img [ref=e133]
+          - generic [ref=e135]: Final clean-out to broom-swept condition
+        - listitem [ref=e136]:
+          - img [ref=e137]
+          - generic [ref=e139]: Daily review table for family check-in
+      - paragraph [ref=e141]: "Pricing: Hoarder cleanouts vary widely. Most fall between $2,000 and $8,000. Free private walk-through."
+    - generic [ref=e143]:
+      - heading "Frequently Asked Questions" [level=2] [ref=e144]
+      - generic [ref=e145]:
+        - group [ref=e146]:
+          - generic "Will the neighbors see?" [ref=e147] [cursor=pointer]
+        - group [ref=e148]:
+          - generic "Can you handle homes with pests or animal waste?" [ref=e149] [cursor=pointer]
+        - group [ref=e150]:
+          - generic "How long does a hoarder cleanout take?" [ref=e151] [cursor=pointer]
+        - group [ref=e152]:
+          - generic "Do you work with social workers or family members?" [ref=e153] [cursor=pointer]
+    - generic [ref=e155]:
+      - heading "Hoarder Cleanouts Available In" [level=2] [ref=e156]
+      - generic [ref=e157]:
+        - link "Pittsburgh Allegheny County" [ref=e158] [cursor=pointer]:
+          - /url: /services/hoarder-cleanouts/in/pittsburgh
+          - paragraph [ref=e159]: Pittsburgh
+          - paragraph [ref=e160]: Allegheny County
+        - link "Cranberry Township Butler County" [ref=e161] [cursor=pointer]:
+          - /url: /services/hoarder-cleanouts/in/cranberry-township
+          - paragraph [ref=e162]: Cranberry Township
+          - paragraph [ref=e163]: Butler County
+        - link "Wexford Allegheny County" [ref=e164] [cursor=pointer]:
+          - /url: /services/hoarder-cleanouts/in/wexford
+          - paragraph [ref=e165]: Wexford
+          - paragraph [ref=e166]: Allegheny County
+        - link "Mt. Lebanon Allegheny County" [ref=e167] [cursor=pointer]:
+          - /url: /services/hoarder-cleanouts/in/mt-lebanon
+          - paragraph [ref=e168]: Mt. Lebanon
+          - paragraph [ref=e169]: Allegheny County
+        - link "Monroeville Allegheny County" [ref=e170] [cursor=pointer]:
+          - /url: /services/hoarder-cleanouts/in/monroeville
+          - paragraph [ref=e171]: Monroeville
+          - paragraph [ref=e172]: Allegheny County
+        - link "Shadyside Allegheny County" [ref=e173] [cursor=pointer]:
+          - /url: /services/hoarder-cleanouts/in/shadyside
+          - paragraph [ref=e174]: Shadyside
+          - paragraph [ref=e175]: Allegheny County
+        - link "Squirrel Hill Allegheny County" [ref=e176] [cursor=pointer]:
+          - /url: /services/hoarder-cleanouts/in/squirrel-hill
+          - paragraph [ref=e177]: Squirrel Hill
+          - paragraph [ref=e178]: Allegheny County
+        - link "Upper St. Clair Allegheny County" [ref=e179] [cursor=pointer]:
+          - /url: /services/hoarder-cleanouts/in/upper-st-clair
+          - paragraph [ref=e180]: Upper St. Clair
+          - paragraph [ref=e181]: Allegheny County
+        - link "Sewickley Allegheny County" [ref=e182] [cursor=pointer]:
+          - /url: /services/hoarder-cleanouts/in/sewickley
+          - paragraph [ref=e183]: Sewickley
+          - paragraph [ref=e184]: Allegheny County
+        - link "Bethel Park Allegheny County" [ref=e185] [cursor=pointer]:
+          - /url: /services/hoarder-cleanouts/in/bethel-park
+          - paragraph [ref=e186]: Bethel Park
+          - paragraph [ref=e187]: Allegheny County
+        - link "Ross Township Allegheny County" [ref=e188] [cursor=pointer]:
+          - /url: /services/hoarder-cleanouts/in/ross-township
+          - paragraph [ref=e189]: Ross Township
+          - paragraph [ref=e190]: Allegheny County
+        - link "Fox Chapel Allegheny County" [ref=e191] [cursor=pointer]:
+          - /url: /services/hoarder-cleanouts/in/fox-chapel
+          - paragraph [ref=e192]: Fox Chapel
+          - paragraph [ref=e193]: Allegheny County
+        - link "Shaler Township Allegheny County" [ref=e194] [cursor=pointer]:
+          - /url: /services/hoarder-cleanouts/in/shaler-township
+          - paragraph [ref=e195]: Shaler Township
+          - paragraph [ref=e196]: Allegheny County
+        - link "Penn Hills Allegheny County" [ref=e197] [cursor=pointer]:
+          - /url: /services/hoarder-cleanouts/in/penn-hills
+          - paragraph [ref=e198]: Penn Hills
+          - paragraph [ref=e199]: Allegheny County
+        - link "Plum Borough Allegheny County" [ref=e200] [cursor=pointer]:
+          - /url: /services/hoarder-cleanouts/in/plum-borough
+          - paragraph [ref=e201]: Plum Borough
+          - paragraph [ref=e202]: Allegheny County
+        - link "Moon Township Allegheny County" [ref=e203] [cursor=pointer]:
+          - /url: /services/hoarder-cleanouts/in/moon-township
+          - paragraph [ref=e204]: Moon Township
+          - paragraph [ref=e205]: Allegheny County
+        - link "Robinson Township Allegheny County" [ref=e206] [cursor=pointer]:
+          - /url: /services/hoarder-cleanouts/in/robinson-township
+          - paragraph [ref=e207]: Robinson Township
+          - paragraph [ref=e208]: Allegheny County
+        - link "Hampton Township Allegheny County" [ref=e209] [cursor=pointer]:
+          - /url: /services/hoarder-cleanouts/in/hampton-township
+          - paragraph [ref=e210]: Hampton Township
+          - paragraph [ref=e211]: Allegheny County
+        - link "McCandless Allegheny County" [ref=e212] [cursor=pointer]:
+          - /url: /services/hoarder-cleanouts/in/mccandless
+          - paragraph [ref=e213]: McCandless
+          - paragraph [ref=e214]: Allegheny County
+    - generic [ref=e216]:
+      - heading "Ready to Clear It Out?" [level=2] [ref=e217]
+      - paragraph [ref=e218]: Same-day service across Pittsburgh. Upfront pricing. No hidden fees. Call or text for a free quote.
+      - generic [ref=e219]:
+        - link "CALL (585) 200-0871" [ref=e220] [cursor=pointer]:
+          - /url: tel:5852000871
+          - img [ref=e221]
+          - generic [ref=e223]: CALL (585) 200-0871
+        - link "GET A FREE QUOTE" [ref=e224] [cursor=pointer]:
+          - /url: /contact
+          - generic [ref=e225]: GET A FREE QUOTE
+  - contentinfo [ref=e226]:
+    - generic [ref=e227]:
+      - generic [ref=e228]:
+        - generic [ref=e229]:
+          - img "Steel City Cleanouts, Pittsburgh, PA" [ref=e231]
+          - generic [ref=e232]:
+            - paragraph [ref=e233]: Same-Day Service
+            - link "(585) 200-0871" [ref=e234] [cursor=pointer]:
+              - /url: tel:5852000871
+            - link "hello@steelcitycleanouts.com" [ref=e235] [cursor=pointer]:
+              - /url: mailto:hello@steelcitycleanouts.com
+            - paragraph [ref=e236]: Open 7 Days A Week
+        - generic [ref=e237]:
+          - heading "Services" [level=3] [ref=e238]
+          - list [ref=e239]:
+            - listitem [ref=e240]:
+              - link "Estate Cleanouts" [ref=e241] [cursor=pointer]:
+                - /url: /services/estate-cleanouts
+            - listitem [ref=e242]:
+              - link "Junk Removal" [ref=e243] [cursor=pointer]:
+                - /url: /services/junk-removal
+            - listitem [ref=e244]:
+              - link "Appliance Removal" [ref=e245] [cursor=pointer]:
+                - /url: /services/appliance-removal
+            - listitem [ref=e246]:
+              - link "Furniture Removal" [ref=e247] [cursor=pointer]:
+                - /url: /services/furniture-removal
+            - listitem [ref=e248]:
+              - link "Garage Cleanouts" [ref=e249] [cursor=pointer]:
+                - /url: /services/garage-cleanouts
+            - listitem [ref=e250]:
+              - link "Hoarder Cleanouts" [ref=e251] [cursor=pointer]:
+                - /url: /services/hoarder-cleanouts
+            - listitem [ref=e252]:
+              - link "Foreclosure Cleanouts" [ref=e253] [cursor=pointer]:
+                - /url: /services/foreclosure-cleanouts
+            - listitem [ref=e254]:
+              - link "Eviction Cleanouts" [ref=e255] [cursor=pointer]:
+                - /url: /services/eviction-cleanouts
+            - listitem [ref=e256]:
+              - link "Construction Debris" [ref=e257] [cursor=pointer]:
+                - /url: /services/construction-debris
+            - listitem [ref=e258]:
+              - link "Yard Waste" [ref=e259] [cursor=pointer]:
+                - /url: /services/yard-waste-removal
+            - listitem [ref=e260]:
+              - link "Storage Unit Cleanouts" [ref=e261] [cursor=pointer]:
+                - /url: /services/storage-unit-cleanouts
+            - listitem [ref=e262]:
+              - link "Commercial Cleanouts" [ref=e263] [cursor=pointer]:
+                - /url: /services/commercial-cleanouts
+            - listitem [ref=e264]:
+              - link "Bereavement Cleanouts" [ref=e265] [cursor=pointer]:
+                - /url: /services/bereavement-cleanouts
+            - listitem [ref=e266]:
+              - link "All Services →" [ref=e267] [cursor=pointer]:
+                - /url: /services
+        - generic [ref=e268]:
+          - heading "Service Areas" [level=3] [ref=e269]
+          - list [ref=e270]:
+            - listitem [ref=e271]:
+              - link "Pittsburgh, PA" [ref=e272] [cursor=pointer]:
+                - /url: /service-areas/pittsburgh
+            - listitem [ref=e273]:
+              - link "Cranberry Township, PA" [ref=e274] [cursor=pointer]:
+                - /url: /service-areas/cranberry-township
+            - listitem [ref=e275]:
+              - link "Wexford, PA" [ref=e276] [cursor=pointer]:
+                - /url: /service-areas/wexford
+            - listitem [ref=e277]:
+              - link "Mt. Lebanon, PA" [ref=e278] [cursor=pointer]:
+                - /url: /service-areas/mt-lebanon
+            - listitem [ref=e279]:
+              - link "Monroeville, PA" [ref=e280] [cursor=pointer]:
+                - /url: /service-areas/monroeville
+            - listitem [ref=e281]:
+              - link "Shadyside, PA" [ref=e282] [cursor=pointer]:
+                - /url: /service-areas/shadyside
+            - listitem [ref=e283]:
+              - link "Squirrel Hill, PA" [ref=e284] [cursor=pointer]:
+                - /url: /service-areas/squirrel-hill
+            - listitem [ref=e285]:
+              - link "Upper St. Clair, PA" [ref=e286] [cursor=pointer]:
+                - /url: /service-areas/upper-st-clair
+            - listitem [ref=e287]:
+              - link "Sewickley, PA" [ref=e288] [cursor=pointer]:
+                - /url: /service-areas/sewickley
+            - listitem [ref=e289]:
+              - link "Bethel Park, PA" [ref=e290] [cursor=pointer]:
+                - /url: /service-areas/bethel-park
+            - listitem [ref=e291]:
+              - link "Ross Township, PA" [ref=e292] [cursor=pointer]:
+                - /url: /service-areas/ross-township
+            - listitem [ref=e293]:
+              - link "Fox Chapel, PA" [ref=e294] [cursor=pointer]:
+                - /url: /service-areas/fox-chapel
+            - listitem [ref=e295]:
+              - link "Shaler Township, PA" [ref=e296] [cursor=pointer]:
+                - /url: /service-areas/shaler-township
+            - listitem [ref=e297]:
+              - link "Penn Hills, PA" [ref=e298] [cursor=pointer]:
+                - /url: /service-areas/penn-hills
+            - listitem [ref=e299]:
+              - link "Plum Borough, PA" [ref=e300] [cursor=pointer]:
+                - /url: /service-areas/plum-borough
+            - listitem [ref=e301]:
+              - link "Moon Township, PA" [ref=e302] [cursor=pointer]:
+                - /url: /service-areas/moon-township
+            - listitem [ref=e303]:
+              - link "Robinson Township, PA" [ref=e304] [cursor=pointer]:
+                - /url: /service-areas/robinson-township
+            - listitem [ref=e305]:
+              - link "Hampton Township, PA" [ref=e306] [cursor=pointer]:
+                - /url: /service-areas/hampton-township
+            - listitem [ref=e307]:
+              - link "McCandless, PA" [ref=e308] [cursor=pointer]:
+                - /url: /service-areas/mccandless
+            - listitem [ref=e309]:
+              - link "All Areas →" [ref=e310] [cursor=pointer]:
+                - /url: /service-areas
+        - generic [ref=e311]:
+          - heading "Company" [level=3] [ref=e312]
+          - list [ref=e313]:
+            - listitem [ref=e314]:
+              - link "About Us" [ref=e315] [cursor=pointer]:
+                - /url: /about
+            - listitem [ref=e316]:
+              - link "Reviews" [ref=e317] [cursor=pointer]:
+                - /url: /reviews
+            - listitem [ref=e318]:
+              - link "Contact Us" [ref=e319] [cursor=pointer]:
+                - /url: /contact
+            - listitem [ref=e320]:
+              - link "Free Estimate" [ref=e321] [cursor=pointer]:
+                - /url: /contact
+        - generic [ref=e322]:
+          - heading "Resources" [level=3] [ref=e323]
+          - list [ref=e324]:
+            - listitem [ref=e325]:
+              - link "Estate Cleanout Guide" [ref=e326] [cursor=pointer]:
+                - /url: /resources/estate-cleanout-guide
+            - listitem [ref=e327]:
+              - link "What We Take" [ref=e328] [cursor=pointer]:
+                - /url: /resources/what-we-take
+            - listitem [ref=e329]:
+              - link "Pricing FAQ" [ref=e330] [cursor=pointer]:
+                - /url: /resources/pricing-faq
+            - listitem [ref=e331]:
+              - link "Donation Partners" [ref=e332] [cursor=pointer]:
+                - /url: /resources/donation-partners
+      - paragraph [ref=e336]: © 2026 Steel City Cleanouts. All rights reserved. Licensed & Insured.
+  - button "Open Next.js Dev Tools" [ref=e342] [cursor=pointer]:
+    - img [ref=e343]
+  - alert [ref=e346]
