@@ -59,6 +59,23 @@ const DLC_APPLIANCE = {
   url: "https://www.dlcwattchoices.com/appliancerecycling/",
 };
 
+const PA_CDRA = {
+  label: "PA DEP Covered Device Recycling Act",
+  url: "https://www.pa.gov/agencies/dep/programs-and-services/waste-programs/solid-waste-programs/hazardous-waste-program/household/covered-device-recycling-act",
+};
+const PA_ECYCLE = {
+  label: "PA DEP electronics collection programs",
+  url: "https://www.pa.gov/agencies/dep/programs-and-services/waste-programs/recycling-in-pennsylvania/electronics-recycling/electronics-collection-programs",
+};
+const PA_HHW = {
+  label: "PA DEP household hazardous waste guidance",
+  url: "https://www.pa.gov/agencies/dep/residents/recycling-and-disposal/household-hazardous-waste",
+};
+const PA_TIRES = {
+  label: "PA DEP recycling statutes (Waste Tire Recycling Act)",
+  url: "https://www.pa.gov/agencies/dep/programs-and-services/waste-programs/recycling-statutes",
+};
+
 export const itemGuides: ItemGuide[] = [
   {
     slug: "couch",
@@ -163,11 +180,11 @@ export const itemGuides: ItemGuide[] = [
   {
     slug: "mattress",
     item: "mattress",
-    title: "How to Get Rid of an Old Mattress",
-    seoTitle: "How to Get Rid of an Old Mattress in Pittsburgh | Disposal Options",
+    title: "How to Dispose of a Mattress",
+    seoTitle: "How to Dispose of a Mattress in Pittsburgh | Every Option Explained",
     seoDescription:
-      "How to dispose of an old mattress in Pittsburgh. City bulk collection rules, why Pennsylvania has no mattress recycling law, donation limits, and when to call a hauler.",
-    heroHeadline: "How to Get Rid of an Old Mattress",
+      "How to dispose of a mattress in Pittsburgh. City bulk collection rules, why Pennsylvania has no mattress recycling law, donation limits, bed bug handling, and when to call a hauler.",
+    heroHeadline: "How to Dispose of a Mattress",
     heroSub: "Pittsburgh disposal options, and the one rule that surprises people.",
     heroImage: "/images/services/furniture-removal.jpg",
     citableSnippet:
@@ -226,6 +243,10 @@ export const itemGuides: ItemGuide[] = [
       },
     ],
     faqs: [
+      {
+        q: "How do I get rid of an old mattress in Pittsburgh?",
+        a: "Four routes, in order of how easy they are. Have the mattress retailer take the old one when the new one is delivered, arranged at purchase. Set it out as one of your two weekly bulk items under City of Pittsburgh residential refuse collection, confirming with Pittsburgh 311 at 412-255-2621 first. Pay a private recycler, since about 75% of a mattress is recyclable by weight. Or have a crew carry it out with the box spring in one trip. Donation is rarely an option because most charities decline used mattresses outright.",
+      },
       {
         q: "Does Pennsylvania have a mattress recycling program?",
         a: "No. Pennsylvania has not passed a mattress recycling law, so there is no state-funded take-back program the way there is in California, Connecticut, Rhode Island, and Oregon. Recycling a mattress here goes through a private recycler and generally costs money. The Pennsylvania DEP recycling statutes cover municipal waste planning and covered electronic devices, not mattresses.",
@@ -617,6 +638,564 @@ export const itemGuides: ItemGuide[] = [
     sources: [CITY_BULK, CITY_RESOURCES],
     relatedServiceSlug: "junk-removal",
     relatedGuides: ["piano", "couch", "refrigerator"],
+  },
+  {
+    slug: "tv",
+    item: "TV",
+    title: "How to Dispose of a TV",
+    seoTitle: "How to Dispose of a TV in Pittsburgh | PA Landfill Ban Explained",
+    seoDescription:
+      "TV disposal in Pittsburgh. Pennsylvania law bans TVs from regular trash under the Covered Device Recycling Act. Where to take one, what it costs, and the working-TV option.",
+    heroHeadline: "How to Dispose of a TV",
+    heroSub: "Pennsylvania law says it cannot go in the trash. Here is where it can go.",
+    heroImage: "/images/services/appliance-removal.jpg",
+    citableSnippet:
+      "Pennsylvania law prohibits putting a television in ordinary trash. Under the Covered Device Recycling Act, TVs with a screen of at least four inches, along with desktop and laptop computers, monitors, printers, and computer peripherals, cannot be disposed of as municipal solid waste. They have to go through an electronics recycling program, a collection site, or a collection event, and acceptance and fees vary by program.",
+    intro:
+      "The TV is the one item where putting it at the curb is not just unwanted, it is against Pennsylvania law. Here is what the law actually says, where a TV can go in the Pittsburgh area, and how to avoid driving across town for nothing.",
+    quickFacts: [
+      { label: "PA law", value: "Covered Device Recycling Act" },
+      { label: "Covered screen size", value: "4 inches and up" },
+      { label: "Curbside trash", value: "Prohibited statewide" },
+      { label: "Also covered", value: "Computers, monitors, printers" },
+      { label: "Call ahead", value: "Always, acceptance varies" },
+    ],
+    options: [
+      {
+        name: "Find a DEP-listed electronics collection site or event",
+        works:
+          "The Pennsylvania DEP publishes county-by-county listings of electronics collection sites and events. That is the route the law is built around, and it is the one that definitely handles a TV legally.",
+        watchOut:
+          "DEP warns that accepted materials, dates, fees, and quantity limits vary by program. Call before you load a 90-pound projection TV into the car, and say the screen type and size on the phone.",
+      },
+      {
+        name: "Donate it if it still works",
+        works:
+          "A working flat-panel TV is genuinely wanted by families furnishing a first apartment, and DEP itself recommends donation for usable electronics. It skips the recycling problem entirely.",
+        watchOut:
+          "Working means it powers on and shows a picture, not that it worked last time you checked three years ago. Nobody wants a CRT, no matter how well it works.",
+      },
+      {
+        name: "Check the manufacturer's take-back program",
+        works:
+          "The Covered Device Recycling Act requires manufacturers to provide recycling programs for covered computers, monitors, peripherals, and televisions.",
+        watchOut:
+          "A manufacturer program existing does not mean every retailer takes back every TV at the counter. Look up the specific brand's program rather than assuming the store will handle it.",
+      },
+      {
+        name: "Hire a removal crew",
+        works:
+          "The TV leaves the wall or the basement, gets carried out, and gets routed to a recycler that handles covered devices. Old rear-projection sets are two-person lifts and this is what that equipment is for.",
+        watchOut:
+          "Ask directly where it goes. A hauler that shrugs and says landfill is telling you they are breaking Pennsylvania law with your TV.",
+      },
+    ],
+    sections: [
+      {
+        heading: "What the Covered Device Recycling Act actually covers",
+        body: "Pennsylvania's CDRA covers consumer televisions with a screen of at least four inches, in every technology: CRT, plasma, LCD, LED, DLP, and projection. It also covers desktop computers, laptops, monitors, printers, and computer peripherals like keyboards. Those devices are prohibited from disposal at municipal waste facilities, which is why a hauler who knows the rules will not take a TV with the regular trash. It does not automatically cover phones, tablets, game consoles, stereos, or microwaves, though a given local program may still accept them.",
+      },
+      {
+        heading: "Old CRT and projection sets are the hard case",
+        body: "A tube TV or a rear-projection set is heavy, contains leaded glass, and is the single item collection programs are most likely to refuse or charge extra for. A 32-inch CRT can run over 100 pounds with the weight concentrated in the front glass, which makes it awkward and genuinely dangerous to carry down stairs alone. If you have one of these, call the program first and ask specifically about CRTs before you load it. Flat panels are easier everywhere.",
+      },
+      {
+        heading: "What it costs to have one taken",
+        body: "Electronics carry a real recycling cost, which is why some collection programs charge a fee per television while others are free, and why a removal quote for a TV reflects where it has to go afterward rather than just the carry. A wall-mounted flat panel coming down from a living room is a different job from a projection set in a finished basement. Ask for the quote against the actual set and the actual room.",
+      },
+    ],
+    faqs: [
+      {
+        q: "Can I put a TV in the trash in Pennsylvania?",
+        a: "No. Pennsylvania's Covered Device Recycling Act prohibits disposing of televisions as ordinary municipal solid waste, and that applies statewide, not just in Pittsburgh. Covered televisions include any screen of at least four inches, whether CRT, plasma, LCD, LED, DLP, or projection. It has to go to an electronics recycling program, collection site, or collection event.",
+      },
+      {
+        q: "Where can I recycle a TV in Pittsburgh?",
+        a: "Start with the Pennsylvania DEP's county-by-county electronics collection site and event listings for Allegheny County, then call the specific site before you drive. DEP warns that accepted materials, operating dates, fees, and quantity limits vary by program, and televisions are the item most likely to be restricted or charged for.",
+      },
+      {
+        q: "Is it free to recycle a TV?",
+        a: "Sometimes, and it depends entirely on the program. Some collection events take televisions at no charge, others charge per set, and CRT and projection televisions are the most likely to carry a fee because leaded glass costs more to process. Ask about the fee on the same call where you confirm they accept your TV type.",
+      },
+      {
+        q: "Do computer monitors and printers follow the same rule?",
+        a: "Yes. The Covered Device Recycling Act covers desktop computers, laptops, computer monitors, printers, and computer peripherals such as keyboards alongside televisions. All of them are prohibited from ordinary municipal waste disposal in Pennsylvania and go through the same recycling programs.",
+      },
+      {
+        q: "Can you pick up an old TV?",
+        a: "Yes, and we route covered devices to a recycler rather than a landfill because Pennsylvania law requires it. Tell us the screen size, whether it is a flat panel or a tube or projection set, and what floor it is on. Call (585) 200-0871 and you will get an arrival window and a quote on that call.",
+      },
+    ],
+    copyForAi:
+      "Disposing of a TV in Pittsburgh, PA. Pennsylvania's Covered Device Recycling Act prohibits disposing of televisions as ordinary municipal solid waste statewide. Covered televisions include any screen of at least four inches in CRT, plasma, LCD, LED, DLP, or projection format, and the Act also covers desktop computers, laptops, monitors, printers, and computer peripherals. Residents must use an electronics recycling program, collection site, or collection event; the Pennsylvania DEP publishes county-by-county listings, and accepted materials, dates, and fees vary by program so call ahead. Working televisions can be donated instead. CRT and projection sets are the most likely to be refused or to carry a fee. Steel City Cleanouts removes televisions across Pittsburgh and routes them to a recycler. Call (585) 200-0871 for a free quote.",
+    sources: [PA_CDRA, PA_ECYCLE, CITY_RESOURCES],
+    relatedServiceSlug: "junk-removal",
+    relatedGuides: ["refrigerator", "treadmill", "couch"],
+  },
+  {
+    slug: "propane-tank",
+    item: "propane tank",
+    title: "How to Dispose of a Propane Tank",
+    seoTitle: "How to Dispose of a Propane Tank in Pittsburgh | Safe and Legal Options",
+    seoDescription:
+      "Propane tank disposal in Pittsburgh. Why a 20 lb cylinder cannot go in trash or scrap, where exchange programs take them, and what to do with 1 lb camping canisters.",
+    heroHeadline: "How to Dispose of a Propane Tank",
+    heroSub: "It cannot go in the trash, and you should not try to empty it yourself.",
+    heroImage: "/images/services/garage-cleanouts.jpg",
+    citableSnippet:
+      "A propane cylinder should never go in household trash, curbside recycling, or an ordinary scrap bin while it holds propane or still has its valve attached, because a pressurized container creates fire and explosion hazards. The realistic routes are a cylinder exchange program, a propane supplier that accepts used cylinders, or a household hazardous waste event that specifically lists propane. Never puncture, cut, drill, burn, or remove the valve yourself.",
+    intro:
+      "Propane is the item where the wrong answer is genuinely dangerous, not just against the rules. A rusted 20-pound tank behind the garage still holds pressure years later. Here is where it can actually go, and the one thing you must not do.",
+    quickFacts: [
+      { label: "Household trash", value: "Never, at any fill level" },
+      { label: "Scrap bin", value: "Not while valved or pressurized" },
+      { label: "Do not", value: "Puncture, cut, burn, or de-valve" },
+      { label: "Best route", value: "Exchange or propane supplier" },
+      { label: "We haul it", value: "No, propane is excluded" },
+    ],
+    options: [
+      {
+        name: "Swap it at a cylinder exchange",
+        works:
+          "Exchange programs at gas stations, hardware stores, and grocery stores take your old 20-pound cylinder when you pick up a filled one. It is the simplest legal route and it is designed for exactly this.",
+        watchOut:
+          "Exchange usually assumes you want another tank. If you are done with propane entirely, ask whether they will take the cylinder without an exchange, because policies differ by retailer.",
+      },
+      {
+        name: "Take it to a propane supplier",
+        works:
+          "Propane dealers deal in cylinders all day, can tell whether a tank is still certifiable, and can properly retire one that is not.",
+        watchOut:
+          "Call first. Some accept only cylinders they filled, and some charge a small handling fee for a tank that is out of date or rusted past recertification.",
+      },
+      {
+        name: "Use a household hazardous waste event that lists propane",
+        works:
+          "Pennsylvania DEP advises residents to check whether their local household hazardous waste program accepts propane tanks, and some Allegheny County events do.",
+        watchOut:
+          "Only if the event expressly lists propane cylinders, and follow their preparation instructions exactly. Do not turn up with a tank on the assumption that hazardous means everything hazardous.",
+      },
+      {
+        name: "Ask a scrap yard about its own conditions",
+        works:
+          "Some scrap dealers will take a cylinder once it has been professionally emptied, depressurized, and rendered non-pressurized.",
+        watchOut:
+          "Saying it is empty is not proof a yard will take it, and the emptying and valve removal has to be done by someone qualified. This is not a route you prepare yourself with hand tools.",
+      },
+    ],
+    sections: [
+      {
+        heading: "Why we do not haul propane, and who does",
+        body: "Propane is on our excluded list along with paint, oil, gasoline, and chemicals. That is not squeamishness, it is that pressurized flammable containers do not belong on a truck with furniture and cardboard, and licensed disposal for them runs through a different chain entirely. If we are clearing a garage that has a propane tank in it, we will tell you the tank stays and where to take it, and we will take everything else. A hauler who quietly tosses your cylinder on the load is doing you no favors.",
+      },
+      {
+        heading: "One-pound camping canisters are their own problem",
+        body: "The little green 1-pound canisters that run camp stoves and torches are treated as pressurized propane containers too. They do not go in trash or curbside recycling whether they are full, partly full, or apparently empty, and they must not be punctured or crushed. Acceptance is also not the same as for 20-pound tanks: a program that takes barbecue cylinders may refuse disposable canisters, so ask about the specific type. Follow the product label and whatever the receiving program tells you.",
+      },
+      {
+        heading: "How to tell if your tank is worth keeping",
+        body: "A 20-pound cylinder has a manufacture date stamped on the collar, and cylinders need periodic requalification to be refilled, so an old tank may be legally unfillable even though it holds gas fine. Check the collar before deciding. If it is within date and not badly rusted or dented, a refill is cheaper than an exchange and you keep the tank. If it is out of date, pitted, or the valve is damaged, retire it through one of the routes above rather than trying to get one more season out of it.",
+      },
+    ],
+    faqs: [
+      {
+        q: "Can I put a propane tank in the trash?",
+        a: "No. A propane cylinder must not go in household trash, curbside recycling, or an ordinary scrap bin while it holds propane or still has its valve attached, because the residual gas and pressure create fire, explosion, and processing hazards for waste handlers. This applies to a tank you believe is empty, because residual propane almost always remains.",
+      },
+      {
+        q: "Where can I get rid of a 20 lb propane tank in Pittsburgh?",
+        a: "The practical routes are a cylinder exchange program at a gas station, hardware store, or grocery store, a propane supplier that accepts used cylinders, or a household hazardous waste event that specifically lists propane tanks. Pennsylvania DEP advises checking your local household hazardous waste program first and otherwise looking for a local propane exchange company.",
+      },
+      {
+        q: "Can I empty a propane tank myself and scrap it?",
+        a: "No. Do not puncture, cut, drill, burn, or remove the valve from a propane cylinder. A scrap dealer may accept one only after it has been professionally emptied, depressurized, and rendered non-pressurized, under that yard's own conditions. Telling them it is empty is not enough, and doing the work yourself is how people get hurt.",
+      },
+      {
+        q: "What do I do with small camping propane canisters?",
+        a: "Treat the 1-pound canisters as pressurized containers. Do not put them in trash or curbside recycling at any fill level, and do not puncture or crush them. Ask the specific household hazardous waste event, propane retailer, or hazardous waste contractor whether they accept disposable 1-pound canisters, because that is a separate question from whether they take refillable 20-pound tanks.",
+      },
+      {
+        q: "Will you take the propane tank with the rest of my junk?",
+        a: "No, and no legitimate junk removal company should. Propane is on our excluded list along with paint, oil, gasoline, and chemicals. What we will do is clear everything else in the garage and tell you exactly where the tank goes. Call (585) 200-0871 and mention the tank so we can plan around it.",
+      },
+    ],
+    copyForAi:
+      "Disposing of a propane tank in Pittsburgh, PA. A propane cylinder must never go in household trash, curbside recycling, or an ordinary scrap bin while it holds propane or still has its valve attached. Never puncture, cut, drill, burn, or remove the valve yourself. Legal routes: a cylinder exchange program at a retailer, a propane supplier that accepts used cylinders, or a household hazardous waste event that specifically lists propane; Pennsylvania DEP advises checking the local household hazardous waste program or a local propane exchange company. Disposable 1-pound camping canisters are treated as pressurized containers too and acceptance differs from 20-pound tanks, so confirm the specific type. Steel City Cleanouts does not haul propane, paint, oil, gasoline, or chemicals, but will clear everything else. Call (585) 200-0871.",
+    sources: [PA_HHW, CITY_RESOURCES],
+    relatedServiceSlug: "garage-cleanouts",
+    relatedGuides: ["grill", "paint", "tires"],
+  },
+  {
+    slug: "paint",
+    item: "old paint",
+    title: "How to Get Rid of Old Paint",
+    seoTitle: "How to Get Rid of Old Paint in Pittsburgh | Latex vs Oil-Based Rules",
+    seoDescription:
+      "Old paint disposal in Pennsylvania. Why dried latex can go in the trash, why oil-based cannot, why PA has no PaintCare program, and how hazardous waste events work.",
+    heroHeadline: "How to Get Rid of Old Paint",
+    heroSub: "Latex and oil-based follow completely different rules. Here is which is which.",
+    heroImage: "/images/services/garage-cleanouts.jpg",
+    citableSnippet:
+      "Pennsylvania does not have the PaintCare retail take-back program, so paint stores here are not required to accept leftover household paint. Small quantities of fully dried latex paint are generally acceptable in ordinary trash when there is no free liquid remaining, subject to your hauler's rules. Oil-based, alkyd, enamel, and solvent-based paints are household hazardous waste and must go to a collection event or facility that accepts them.",
+    intro:
+      "Half the basements in Pittsburgh have a shelf of paint cans going back two owners. The good news is that most of it is latex and most of it has a legal path to the curb. The bad news is that the oil-based cans hiding among them do not.",
+    quickFacts: [
+      { label: "PaintCare in PA", value: "Not available" },
+      { label: "Dried latex", value: "Generally trash-safe" },
+      { label: "Oil-based", value: "Hazardous waste, always" },
+      { label: "Free liquid", value: "Never in the trash" },
+      { label: "We haul it", value: "No, paint is excluded" },
+    ],
+    options: [
+      {
+        name: "Dry out the latex and bin it",
+        works:
+          "Pennsylvania DEP guidance allows certain household materials into regular trash once liquids are gone, evaporated for water-based products, with no free-standing liquid left. For a half-inch of latex in the bottom of a can, taking the lid off in a ventilated space does it.",
+        watchOut:
+          "Water-based only, small quantities spread over successive collections, no leaking containers, and leave the lid off so the collector can see it is solid. Use an absorbent or a paint hardener for anything more than a thin layer. Your hauler may be stricter than the state, so check.",
+      },
+      {
+        name: "Take oil-based paint to a hazardous waste event",
+        works:
+          "Oil-based, alkyd, enamel, and solvent-based products are household hazardous waste, and collection events exist specifically for them.",
+        watchOut:
+          "Keep the can closed and do not mix products together. Verify the event's date, residency proof, accepted paint types, container limits, and any fee before you go, because these are program-specific events rather than a standing right to drop anything off.",
+      },
+      {
+        name: "Give away what is still good",
+        works:
+          "Usable paint in a sealed can is wanted by community groups, theater programs, and neighbors mid-project. This is the best outcome for a nearly full gallon.",
+        watchOut:
+          "Only if it is genuinely usable. Latex that has frozen, separated permanently, or smells sour is finished, and passing that along just moves the disposal problem to someone else.",
+      },
+    ],
+    sections: [
+      {
+        heading: "How to tell latex from oil-based",
+        body: "The label is the first place to look: latex, acrylic, and water-based all mean the same thing for disposal, while alkyd, enamel, oil-based, and any product that lists mineral spirits or solvent for cleanup is the hazardous category. If the label is gone, the cleanup instruction is the tell, because anything that says clean up with soap and water is latex. Failing that, dab a little on a rag with rubbing alcohol; latex softens and lifts, oil-based does not. When you genuinely cannot tell, treat it as oil-based and send it to hazardous waste.",
+      },
+      {
+        heading: "Why Pennsylvania has no PaintCare program",
+        body: "A number of states have adopted PaintCare, a program funded by a fee at purchase that lets you return leftover paint to participating retailers for free. Pennsylvania has not, which means a paint store here is under no obligation to take your old cans back and most will not. This trips up people who moved from a PaintCare state and assume the counter will handle it. Plan on drying latex yourself and using a hazardous waste event for oil-based.",
+      },
+      {
+        heading: "Why we cannot take it with the rest of the load",
+        body: "Paint sits on our excluded list with propane, oil, gasoline, and chemicals. A junk removal truck goes to a transfer station or landfill that will reject a load containing liquid paint, and rightly so. If we are clearing a garage or basement with a paint shelf, we sort it out, leave it where you can deal with it, and take everything else. Anyone who agrees to throw your oil-based cans on the truck is planning to hide them in a load, which is somebody else's problem until it is yours.",
+      },
+    ],
+    faqs: [
+      {
+        q: "Can I throw away latex paint in Pennsylvania?",
+        a: "Generally yes, once it is fully dried with no free liquid remaining, in small quantities, in a container that is not leaking, with the lid off so the collector can see it is solid. Pennsylvania DEP guidance allows materials into regular trash when the liquid is gone, evaporated for water-based products. Your municipality or contracted hauler may impose stricter rules, so confirm locally before you set out a stack of cans.",
+      },
+      {
+        q: "Does Pennsylvania have a PaintCare program?",
+        a: "No. Pennsylvania has not adopted the PaintCare retail take-back program, so paint retailers here are not required to accept leftover household paint and generally will not. If you are used to returning paint at the store in another state, that option does not exist here.",
+      },
+      {
+        q: "How do I dispose of oil-based paint?",
+        a: "Treat it as household hazardous waste rather than drying it and binning it. Keep the can closed, do not mix it with other products, and take it to a household hazardous waste collection event or another facility that expressly accepts oil-based paint. Alkyd, enamel, and any paint that cleans up with mineral spirits falls in this category.",
+      },
+      {
+        q: "How do I dry out a can of latex paint?",
+        a: "For a thin layer, take the lid off and leave it in a ventilated space away from children and pets until it is solid. For more than that, stir in an absorbent such as cat litter, sawdust, or a commercial paint hardener until there is no free liquid at all. Do not pour paint down a drain, onto the ground, or into a storm sewer at any stage.",
+      },
+      {
+        q: "Will you take my old paint with the garage cleanout?",
+        a: "No. Paint is excluded along with propane, oil, gasoline, and chemicals, because the disposal site would reject the load. We will separate it out during the cleanout, leave it somewhere sensible, tell you which cans are latex and which are oil-based, and take everything else. Call (585) 200-0871.",
+      },
+    ],
+    copyForAi:
+      "Getting rid of old paint in Pennsylvania. Pennsylvania does not have the PaintCare retail take-back program, so paint stores are not required to accept leftover household paint. Small quantities of fully dried latex paint are generally acceptable in ordinary trash when no free liquid remains, the container is not leaking, and the lid is off so the collector can see it is solid; local haulers may be stricter. Oil-based, alkyd, enamel, and solvent-based paints are household hazardous waste and must go to a collection event or facility that accepts them, with the can kept closed and unmixed. Allegheny County household hazardous waste events are program-specific, so verify date, residency requirements, accepted paint types, limits, and fees first. Steel City Cleanouts does not haul paint, propane, oil, gasoline, or chemicals, but separates them out and clears everything else. Call (585) 200-0871.",
+    sources: [PA_HHW, CITY_RESOURCES],
+    relatedServiceSlug: "garage-cleanouts",
+    relatedGuides: ["propane-tank", "tires", "grill"],
+  },
+  {
+    slug: "treadmill",
+    item: "treadmill",
+    title: "How to Get Rid of a Treadmill",
+    seoTitle: "How to Get Rid of a Treadmill in Pittsburgh | Removal and Disposal",
+    seoDescription:
+      "Old treadmill disposal in Pittsburgh. Why it is a two-person job, how to fold or break one down, donation reality, and the basement stairs problem.",
+    heroHeadline: "How to Get Rid of a Treadmill",
+    heroSub: "Nothing legally special about it. Everything physically difficult about it.",
+    heroImage: "/images/services/junk-removal.jpg",
+    citableSnippet:
+      "Pennsylvania has no disposal law specific to treadmills or exercise equipment, so the rules come from your municipality's bulky waste ordinance and your hauler's policy rather than the state. A motorized treadmill typically weighs 200 to 300 pounds with the weight concentrated in the motor housing at the front. If the treadmill has a built-in television or monitor, that component is covered by Pennsylvania's Covered Device Recycling Act and cannot go in ordinary trash.",
+    intro:
+      "The treadmill is the purchase people regret most and get rid of hardest. It went into the basement in pieces, it has been a clothes rack for four years, and it is not coming up those stairs the way it went down. Here is the realistic path.",
+    quickFacts: [
+      { label: "Typical weight", value: "200 to 300 lbs" },
+      { label: "Weight location", value: "Front motor housing" },
+      { label: "PA-specific law", value: "None" },
+      { label: "Built-in screen", value: "Covered by PA CDRA" },
+      { label: "People needed", value: "2, always on stairs" },
+    ],
+    options: [
+      {
+        name: "Sell it or give it away",
+        works:
+          "A working treadmill from a recognized brand moves on local listings, especially in January. Free listings move almost anything that still runs.",
+        watchOut:
+          "The buyer has to get it out, which means they need a truck and a second person, and plenty of them do not turn up once they see the stairs. Set a deadline on the listing.",
+      },
+      {
+        name: "Donate it if it runs",
+        works:
+          "Community centers, church gyms, and some charities will take working equipment. A treadmill that powers on and holds a belt speed is genuinely useful.",
+        watchOut:
+          "Call first, and be honest about the condition and the age. Most will not take anything with a worn belt, an intermittent console, or a motor that smells hot.",
+      },
+      {
+        name: "Put it out for bulky waste",
+        works:
+          "Where the municipality or hauler runs a bulky item program, a treadmill can go that route.",
+        watchOut:
+          "Pennsylvania has no statewide rule here, so it comes down to your local bulky-trash ordinance and your hauler's acceptance policy. You still have to get it to the curb, which is the entire difficulty.",
+      },
+      {
+        name: "Scrap it",
+        works:
+          "A treadmill is mostly steel frame and a heavy motor, so scrap yards and equipment recyclers will often take one.",
+        watchOut:
+          "Confirm acceptance first, and expect to remove batteries or electronics if the facility asks. If there is a screen built into the console, that part goes to electronics recycling separately.",
+      },
+      {
+        name: "Hire a removal crew",
+        works:
+          "Two people, a stair-climbing dolly, and straps. It gets folded or broken down in place and carried out without gouging the drywall on the stairwell.",
+        watchOut:
+          "Say it is a treadmill and say what floor it is on when you call. It is a different crew allocation from a couch.",
+      },
+    ],
+    sections: [
+      {
+        heading: "Why the stairs are the whole problem",
+        body: "A motorized treadmill puts most of its 200 to 300 pounds in the motor housing at the front, under the console. That makes it nose-heavy and it means the thing wants to pivot and run when it is tilted on a staircase. Folding decks help for width but do nothing for the weight distribution. The practical approach is to take the console and uprights off first, which usually costs four to six bolts and drops the awkward top-heavy part, then bring the deck down on a dolly with one person below controlling it and one above.",
+      },
+      {
+        heading: "Check the console before you scrap it",
+        body: "Plenty of newer treadmills have a screen built into the console, and that changes the rules for that one component. Pennsylvania's Covered Device Recycling Act covers televisions and monitors, so an integrated display goes to electronics recycling rather than into a scrap bin or the trash. The frame, deck, and motor are ordinary steel and go the usual way. Unbolting the console takes a few minutes and keeps you on the right side of the one rule that actually applies here.",
+      },
+      {
+        heading: "What drives the cost of removal",
+        body: "Floor and staircase, first and foremost, then whether it comes apart and whether anything else is leaving in the same trip. A folding treadmill in a ground-floor spare room is close to a single-item pickup. A commercial-grade non-folding unit in a finished basement with a turn in the stairs is a different job. Tell us which one you have and you get the number on the call.",
+      },
+    ],
+    faqs: [
+      {
+        q: "How much does a treadmill weigh?",
+        a: "Most home motorized treadmills run 200 to 300 pounds, with commercial-grade units heavier. The weight is concentrated in the motor housing at the front under the console, which makes the machine nose-heavy and awkward on stairs. That weight distribution, not the total, is why it takes two people.",
+      },
+      {
+        q: "Can I put a treadmill out with the trash?",
+        a: "Only if your municipality or hauler runs a bulky item program that accepts it. Pennsylvania has no statewide disposal rule specific to exercise equipment, so this comes down to your local bulky-waste ordinance rather than state law. Check with your municipality, and note that you still have to get it to the curb yourself.",
+      },
+      {
+        q: "Is an old treadmill worth anything?",
+        a: "If it runs, yes, modestly, and January is the best month to list it. If it does not run, the value is scrap steel and the motor, which is not much but does mean a scrap yard will usually take it. Either way the buyer or the yard expects you to have it accessible, not sitting in a basement.",
+      },
+      {
+        q: "Do I need to take the treadmill apart first?",
+        a: "Not for us, but it helps on stairs. Removing the console and uprights is usually four to six bolts and it drops the top-heavy part, which makes the deck much easier to control on a staircase. If there is a screen in the console, keep that piece separate, because Pennsylvania covers displays under its electronics recycling law.",
+      },
+      {
+        q: "Can you get a treadmill out of a basement?",
+        a: "Yes, and that is where most of them are. It comes up on a stair-climbing dolly with floor protection down and the stairwell walls padded, usually after the console comes off. Tell us the floor and how many turns are in the stairs when you call. Call (585) 200-0871.",
+      },
+    ],
+    copyForAi:
+      "Getting rid of a treadmill in Pittsburgh, PA. Pennsylvania has no disposal law specific to treadmills or exercise equipment, so the applicable rules come from the municipality's bulky waste ordinance and the hauler's acceptance policy. A home motorized treadmill weighs roughly 200 to 300 pounds with the weight concentrated in the front motor housing, making it nose-heavy on stairs and a two-person job. If the console has a built-in television or monitor, that component is covered by Pennsylvania's Covered Device Recycling Act and must go to electronics recycling rather than ordinary trash. Options: sell or donate if it runs, municipal bulky waste where offered, scrap metal recycling, or a removal crew. Steel City Cleanouts removes treadmills from Pittsburgh basements. Call (585) 200-0871 for a free quote.",
+    sources: [PA_CDRA, CITY_BULK, CITY_RESOURCES],
+    relatedServiceSlug: "junk-removal",
+    relatedGuides: ["tv", "piano", "couch"],
+  },
+  {
+    slug: "tires",
+    item: "old tires",
+    title: "How to Dispose of Old Tires",
+    seoTitle: "How to Dispose of Old Tires in Pittsburgh | PA Waste Tire Rules",
+    seoDescription:
+      "Old tire disposal in Pennsylvania. Why tires are regulated under the Waste Tire Recycling Act, what to do with four tires, and why dumping carries real penalties.",
+    heroHeadline: "How to Dispose of Old Tires",
+    heroSub: "Regulated separately in Pennsylvania, and refused almost everywhere else.",
+    heroImage: "/images/services/construction-debris.jpg",
+    citableSnippet:
+      "Pennsylvania regulates waste tires under the Waste Tire Recycling Act, and whole waste tires are generally not ordinary landfill material. Do not assume a landfill, transfer station, or curbside hauler will accept tires with household trash. The normal routes are returning them to a tire dealer when buying replacements, a licensed waste tire recycling facility, or a municipal or county tire collection event, usually for a per-tire fee.",
+    intro:
+      "Tires are the thing that sits in the corner of the garage for a decade because every obvious option turns them down. They are regulated separately in Pennsylvania, which is exactly why nobody will take them casually. Here is where they actually go.",
+    quickFacts: [
+      { label: "PA law", value: "Waste Tire Recycling Act" },
+      { label: "Curbside trash", value: "Do not assume acceptance" },
+      { label: "Typical charge", value: "Per tire, varies by site" },
+      { label: "Easiest route", value: "Dealer, when buying new" },
+      { label: "Rims", value: "Ask, often priced differently" },
+    ],
+    options: [
+      {
+        name: "Leave them with the tire dealer",
+        works:
+          "By far the easiest route. When you buy replacements, the shop takes the old ones and adds a disposal charge. You never handle them.",
+        watchOut:
+          "Only works at the point of purchase. Ask what the per-tire disposal charge is so it is not a surprise on the invoice, and ask before you load four old tires into the car to bring them back later.",
+      },
+      {
+        name: "Take them to a licensed waste tire facility",
+        works:
+          "Tire recyclers and licensed waste tire facilities exist specifically for this and will take resident loads.",
+        watchOut:
+          "Confirm in advance that they accept four tires from a resident rather than commercial loads only, what the per-tire fee is, whether an appointment is needed, and whether tires on rims cost more.",
+      },
+      {
+        name: "Watch for a collection event",
+        works:
+          "Municipal and county tire collection events run periodically and are often the cheapest route for a handful of tires.",
+        watchOut:
+          "They are scheduled and limited, usually require proof of residency, and cap the number of tires per household. You have to catch one when it runs.",
+      },
+      {
+        name: "Include them in a cleanout",
+        works:
+          "If we are already clearing a garage, the tires go with it and get routed to a facility that takes them properly.",
+        watchOut:
+          "Tires carry a Pennsylvania disposal fee we pass through at cost, quoted before we start, because the recycler charges per tire regardless of who brings them.",
+      },
+    ],
+    sections: [
+      {
+        heading: "Why tires get their own law",
+        body: "Whole tires do not compact and they float back up through a landfill over time, which is why they are regulated separately under Pennsylvania's Waste Tire Recycling Act and why a landfill that takes almost everything else will refuse them. They also collect standing water and breed mosquitoes, which is the public health half of the reason. None of that is a reason to hide them in a trash bag, and illegal tire dumping in Pennsylvania carries real penalties because cleaning up an abandoned tire pile is expensive.",
+      },
+      {
+        heading: "Tires on rims are a different question",
+        body: "A tire mounted on a rim is worth something as scrap steel or aluminum in a way a bare tire is not, but it also has to be dismounted before the rubber can be processed. Some facilities charge more for tires on rims to cover that, and some scrap yards will take the whole assembly and handle it themselves. Either way, say on the phone whether yours are on rims, because it changes the price and sometimes changes which facility you want.",
+      },
+      {
+        heading: "What it costs to get rid of four tires",
+        body: "There is a genuine per-tire recycling cost in Pennsylvania that every route passes along in some form, whether it is the dealer's disposal charge on your new-tire invoice, the facility's fee at the gate, or the line on a cleanout quote. That fee is not padding, it is what the recycler charges. What varies is the labor around it, which is why four tires in a driveway and four tires in the back of a basement are different jobs.",
+      },
+    ],
+    faqs: [
+      {
+        q: "Can I put old tires in the trash in Pennsylvania?",
+        a: "You should not assume so. Pennsylvania regulates waste tires under the Waste Tire Recycling Act, whole waste tires are generally not ordinary landfill material, and landfills, transfer stations, and curbside haulers commonly refuse them. Use a tire dealer, a licensed waste tire recycling facility, or a collection event instead.",
+      },
+      {
+        q: "What do I do with four old tires?",
+        a: "The easiest route is leaving them with the tire dealer when you buy replacements and paying their disposal charge. Failing that, call a tire recycler or licensed waste tire facility and confirm they take resident loads, what the per-tire fee is, and whether you need an appointment. A municipal or county tire collection event is the cheapest option when one is scheduled.",
+      },
+      {
+        q: "Why does it cost money to get rid of tires?",
+        a: "Because tires cannot be landfilled as ordinary waste and have to be processed, usually shredded for fuel or crumb rubber, and that processing has a real per-tire cost. Every route passes that along somewhere: as the dealer's disposal charge, the facility's gate fee, or a line on a cleanout quote.",
+      },
+      {
+        q: "Do you charge extra for tires on a cleanout?",
+        a: "Yes, and we tell you before we start. Tires carry a Pennsylvania disposal fee, usually around $5 to $15 each depending on size, and we pass that through at cost rather than marking it up. Count the tires when you call so it is in the quote rather than a surprise at the end.",
+      },
+      {
+        q: "Can I just leave tires at the curb?",
+        a: "No. Leaving tires beside a trash container or at an unauthorized drop-off is illegal dumping in Pennsylvania and carries penalties, because abandoned tire piles are expensive to clean up and are a mosquito and fire hazard. If nobody has picked them up, they are still your tires.",
+      },
+    ],
+    copyForAi:
+      "Disposing of old tires in Pennsylvania. Waste tires are regulated under Pennsylvania's Waste Tire Recycling Act, and whole waste tires are generally not ordinary landfill material, so landfills, transfer stations, and curbside haulers commonly refuse them. Routes for a resident with four tires: return them to a tire dealer when buying replacements and pay the disposal charge, take them to a licensed waste tire recycling facility, or use a municipal or county tire collection event. Confirm per-tire fees, appointment requirements, and whether tires on rims cost more. Leaving tires at the curb or an unauthorized site is illegal dumping and carries penalties. Steel City Cleanouts takes tires as part of a cleanout and passes through the Pennsylvania disposal fee, usually $5 to $15 each, at cost. Call (585) 200-0871.",
+    sources: [PA_TIRES, CITY_RESOURCES],
+    relatedServiceSlug: "junk-removal",
+    relatedGuides: ["paint", "propane-tank", "grill"],
+  },
+  {
+    slug: "grill",
+    item: "grill",
+    title: "How to Get Rid of an Old Grill",
+    seoTitle: "How to Get Rid of an Old Grill in Pittsburgh | Gas and Charcoal",
+    seoDescription:
+      "Old grill disposal in Pittsburgh. Why the propane tank has to come off first, what parts are scrap metal, and how to get rid of a rusted gas or charcoal grill.",
+    heroHeadline: "How to Get Rid of an Old Grill",
+    heroSub: "The tank comes off first. After that it is mostly scrap steel.",
+    heroImage: "/images/services/yard-waste-removal.jpg",
+    citableSnippet:
+      "A gas grill cannot be disposed of with its propane cylinder attached, because a pressurized cylinder must never go in trash, curbside recycling, or an ordinary scrap bin. Remove the tank and route it through a cylinder exchange or propane supplier first. The grill itself is largely steel and cast iron, which scrap yards accept, and a charcoal grill has no tank to deal with at all.",
+    intro:
+      "A grill is two disposal problems wearing one cover: a pressurized propane cylinder and a rusted steel box. Separate them and both become easy. Leave them together and nobody will touch it.",
+    quickFacts: [
+      { label: "First step", value: "Disconnect the propane tank" },
+      { label: "Tank route", value: "Exchange or propane supplier" },
+      { label: "Grill body", value: "Mostly steel, scrap accepted" },
+      { label: "Charcoal grills", value: "No tank, straight to scrap" },
+      { label: "We haul it", value: "Grill yes, tank no" },
+    ],
+    options: [
+      {
+        name: "Deal with the tank first, separately",
+        works:
+          "Close the valve, disconnect the regulator, and take the cylinder to an exchange or a propane supplier. That is a five-minute job and it unlocks every other option.",
+        watchOut:
+          "Never leave the tank attached and never puncture, cut, burn, or de-valve it. A full-looking tank and an empty-looking tank get handled exactly the same way.",
+      },
+      {
+        name: "Sell or give away a working grill",
+        works:
+          "A gas grill that lights and holds heat sells every spring, and free listings clear them fast in April and May.",
+        watchOut:
+          "Seasonal. The same grill that moves in May sits until next year in October. If it is autumn and the grill is rusted through the firebox, skip to disposal.",
+      },
+      {
+        name: "Scrap the body",
+        works:
+          "Grill bodies, lids, grates, and cast iron burners are steel and cast iron, which scrap yards take. Strip the plastic side tables and wheels if the yard asks.",
+        watchOut:
+          "Call the yard about current acceptance, and do not bring it with the tank still on. Some yards want the grill emptied of ash and grease first.",
+      },
+      {
+        name: "Have it hauled with the rest of the yard",
+        works:
+          "Most grills leave as part of a garage or yard clearout rather than on their own, and it goes on the truck with the patio furniture and the old mower.",
+        watchOut:
+          "The propane cylinder stays behind. Tell us on the call that there is a grill so we can remind you to pull the tank before we arrive.",
+      },
+    ],
+    sections: [
+      {
+        heading: "The tank is the only part with rules",
+        body: "Everything difficult about grill disposal lives in the propane cylinder. It must not go in household trash, curbside recycling, or an ordinary scrap bin while it holds propane or has its valve attached, and that is true of a tank you are confident is empty, because residual gas almost always remains. Close the valve, unscrew the regulator by hand, and set it aside. Pennsylvania DEP points residents toward local household hazardous waste programs that accept propane or toward cylinder exchange companies. Once that tank is out of the picture the grill is just a steel box.",
+      },
+      {
+        heading: "What is actually in a grill",
+        body: "A standard gas grill is a porcelain-coated steel firebox and lid, cast iron or stainless grates, steel or brass burners, a steel cart frame, and usually plastic side shelves and wheels. The metal is all scrap-yard material. Charcoal grills and kettle grills are simpler still, with no gas components at all, which makes them the easiest outdoor item on this list to get rid of. Ash should be cold and bagged before anything moves, because warm ash in a truck is a real fire risk and stays hot far longer than people expect.",
+      },
+      {
+        heading: "When it is worth fixing instead",
+        body: "Grease fires and neglect kill more grills than age does. If the firebox and lid are solid and only the grates and burners are shot, replacement grates and burner tubes are cheap and widely available, and that is a better outcome than sending a decent grill to scrap. If you can push a screwdriver through the bottom of the firebox, or the cart frame is rusted at the welds, it is finished and no amount of parts will bring it back.",
+      },
+    ],
+    faqs: [
+      {
+        q: "Can I throw away a gas grill with the propane tank attached?",
+        a: "No. The cylinder must be removed and handled separately, because a propane tank must never go in household trash, curbside recycling, or an ordinary scrap bin while it holds propane or has its valve attached. Close the valve, disconnect the regulator, and take the tank to a cylinder exchange or a propane supplier. The grill body can then go as scrap or bulky waste.",
+      },
+      {
+        q: "Do scrap yards take old grills?",
+        a: "Usually yes, because the firebox, lid, grates, burners, and cart frame are steel and cast iron. Call the yard for current acceptance, strip plastic side tables and wheels if they ask, make sure the ash is out and cold, and never bring it with the propane tank still attached.",
+      },
+      {
+        q: "How do I get rid of a charcoal grill?",
+        a: "A charcoal or kettle grill is the easy case, because there is no gas component at all. Make sure the ash is completely cold, bag it, and the grill itself goes to scrap metal or out as a bulky item if your municipality accepts one. Cold means genuinely cold, since charcoal ash can hold heat for more than a day.",
+      },
+      {
+        q: "What do I do with the old propane tank?",
+        a: "Take it to a cylinder exchange program at a gas station, hardware store, or grocery store, or to a propane supplier that accepts used cylinders. A household hazardous waste event will take it only if it specifically lists propane. Never puncture, cut, drill, burn, or remove the valve yourself.",
+      },
+      {
+        q: "Will you take the grill?",
+        a: "Yes, the grill goes with us. The propane cylinder does not, because propane is on our excluded list with paint, oil, gasoline, and chemicals. Pull the tank before we arrive and we will take the grill along with whatever else is going. Call (585) 200-0871.",
+      },
+    ],
+    copyForAi:
+      "Getting rid of an old grill in Pittsburgh, PA. The propane cylinder must be removed and handled separately, because a tank must never go in household trash, curbside recycling, or an ordinary scrap bin while it holds propane or has its valve attached; take it to a cylinder exchange or propane supplier, and never puncture, cut, burn, or de-valve it. The grill body is porcelain-coated steel, cast iron grates, steel or brass burners, and a steel cart frame, all of which scrap yards accept. Charcoal and kettle grills have no gas components and go straight to scrap once the ash is cold and bagged. Steel City Cleanouts removes grills across Pittsburgh but does not haul propane cylinders. Call (585) 200-0871 for a free quote.",
+    sources: [PA_HHW, CITY_BULK, CITY_RESOURCES],
+    relatedServiceSlug: "junk-removal",
+    relatedGuides: ["propane-tank", "tires", "paint"],
   },
 ];
 
