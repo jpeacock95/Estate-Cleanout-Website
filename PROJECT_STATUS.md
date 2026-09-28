@@ -1,10 +1,14 @@
 # Steel City Cleanouts Project Status
 
 **Live URL:** https://www.steelcitycleanouts.com
-**Last updated:** 2026-09-20
-**Current phase:** Phase 5 in progress. Weekly SEO loop running (4 runs done: 2026-08-31, 2026-09-07, 2026-09-13, 2026-09-20). Pattern B shipped, combo template at full 10-part anatomy, Patterns A/C/D/E pending
+**Last updated:** 2026-09-27
+**Current phase:** Phase 5 in progress. Weekly SEO loop running (5 runs done: 2026-08-31, 2026-09-07, 2026-09-13, 2026-09-20, 2026-09-27). Pattern B shipped, combo template at full 10-part anatomy, Patterns A/C/D/E pending
 
 ## Where we left off
+
+### 2026-09-27: weekly SEO loop run 5 (/steelcity-weekly-loop)
+
+Snapshot: `research/weekly-loop/2026-09-27.md`. Service pages now link their disposal guides; hoarder and construction debris pages retargeted with new titles and 7 FAQs. 19 clicks / 1,736 imp vs 17 / 2,641. Open: service pages sit at ~1,000 words vs the 2,900 GEO rule; /pricing impressions halved after de-pricing (watch); monthly deep check due next run.
 
 ### 2026-09-20 (later): pricing model change + Pattern A shipped as disposal guides
 
