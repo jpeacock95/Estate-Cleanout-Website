@@ -10,10 +10,12 @@ import type { Service } from "@/lib/services-data";
 import { siteConfig } from "@/lib/site-config";
 import { serviceAreas } from "@/lib/service-areas-data";
 import { comboServiceSlugs } from "@/lib/combo-data";
+import { itemGuides } from "@/lib/item-guides-data";
 
 export function ServicePageTemplate({ service }: { service: Service }) {
   const pageUrl = `https://www.steelcitycleanouts.com/services/${service.slug}`;
   const hasComboPages = comboServiceSlugs().includes(service.slug);
+  const guides = itemGuides.filter((g) => g.relatedServiceSlug === service.slug);
   return (
     <>
       <SiteHeader />
@@ -120,6 +122,31 @@ export function ServicePageTemplate({ service }: { service: Service }) {
             </div>
           </div>
         </section>
+
+        {guides.length > 0 ? (
+          <section className="bg-white py-14 lg:py-20">
+            <div className="mx-auto max-w-[820px] px-5">
+              <h2 className="mb-3 uppercase text-[#1d1d1d] font-[family-name:var(--font-heading)] text-[28px] lg:text-[36px]">
+                Disposal Guides
+              </h2>
+              <p className="mb-6 text-[16px] leading-[1.6] text-[#1d1d1d]/80 font-[family-name:var(--font-body)]">
+                Want to handle it yourself first? These guides cover every Pittsburgh option, including the free ones.
+              </p>
+              <ul className="m-0 grid list-none grid-cols-2 gap-3 p-0 max-md:grid-cols-1">
+                {guides.map((g) => (
+                  <li key={g.slug}>
+                    <Link
+                      href={`/how-to-get-rid-of/${g.slug}`}
+                      className="block rounded-xl border-2 border-[#1d1d1d]/10 bg-[#fafafa] p-4 text-[16px] font-semibold text-[#1d1d1d] transition-all hover:border-[#ed6623] hover:bg-white font-[family-name:var(--font-body)]"
+                    >
+                      {g.title}
+                    </Link>
+                  </li>
+                ))}
+              </ul>
+            </div>
+          </section>
+        ) : null}
 
         <PageFaq faqs={service.faqs} />
 

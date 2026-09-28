@@ -97,7 +97,7 @@ export const services: Service[] = [
   },
   {
     slug: "junk-removal",
-    updatedAt: "2026-09-20",
+    updatedAt: "2026-09-27",
     name: "Junk Removal",
     shortName: "Junk Removal",
     seoTitle: "Junk Removal Pittsburgh PA | Same-Day Pickup | Steel City Cleanouts",
@@ -167,7 +167,7 @@ export const services: Service[] = [
   },
   {
     slug: "appliance-removal",
-    updatedAt: "2026-09-20",
+    updatedAt: "2026-09-27",
     name: "Appliance Removal",
     shortName: "Appliance Removal",
     seoTitle: "Old Appliance Removal Pittsburgh PA | Fridge, Washer, Dryer Haul-Away",
@@ -249,7 +249,7 @@ export const services: Service[] = [
   },
   {
     slug: "furniture-removal",
-    updatedAt: "2026-09-20",
+    updatedAt: "2026-09-27",
     name: "Furniture Removal",
     shortName: "Furniture Removal",
     seoTitle: "Furniture Removal Pittsburgh PA | Couch, Mattress, Table Haul-Away",
@@ -315,7 +315,7 @@ export const services: Service[] = [
   },
   {
     slug: "garage-cleanouts",
-    updatedAt: "2026-09-20",
+    updatedAt: "2026-09-27",
     name: "Garage Cleanouts",
     shortName: "Garage Cleanouts",
     seoTitle: "Garage Cleanouts Pittsburgh PA | Full Garage Haul-Away | Steel City",
@@ -457,12 +457,12 @@ export const services: Service[] = [
 services.push(
   {
     slug: "hoarder-cleanouts",
-    updatedAt: "2026-09-20",
+    updatedAt: "2026-09-27",
     name: "Hoarder Cleanouts",
     shortName: "Hoarder Cleanouts",
-    seoTitle: "Hoarder Cleanouts Pittsburgh PA | Discreet, Compassionate Service",
+    seoTitle: "Hoarder Cleanout Services Pittsburgh PA | Discreet Hoarding Cleanup",
     seoDescription:
-      "Discreet, compassionate hoarder cleanouts in Pittsburgh and surrounding areas. Multi-day jobs, full-PPE crews, no judgment. Call (585) 200-0871.",
+      "Hoarder cleanout services in Pittsburgh and 20 nearby suburbs. Discreet hoarding cleanup and junk removal, full-PPE crews, sorting at your pace, no judgment. Call (585) 200-0871.",
     heroHeadline: "Pittsburgh Hoarder Cleanouts",
     heroSub: "Discreet, compassionate, done right.",
     citableSnippet:
@@ -514,6 +514,22 @@ services.push(
       {
         q: "Do you work with social workers or family members?",
         a: "Both. We regularly coordinate with adult children, siblings, and local social service agencies. We'll communicate at whatever pace works for the situation.",
+      },
+      {
+        q: "What do hoarder cleanout services include?",
+        a: "A full hoarder cleanout covers the private walk-through, room-by-room sorting into keep, donate, haul, and review piles, biohazard handling with full PPE, hauling every load to licensed disposal or donation, and a broom-swept finish. Deep cleaning, odor treatment, and repairs are separate trades that usually follow once the house is empty.",
+      },
+      {
+        q: "Where can I find hoarder cleanout services near me in the Pittsburgh area?",
+        a: "We cover the City of Pittsburgh plus the North Hills, South Hills, and eastern suburbs, including Cranberry Township, Wexford, Bethel Park, Mt. Lebanon, Monroeville, Penn Hills, and Shaler. Every area page on this site lists the neighborhoods and zip codes we serve. Call (585) 200-0871 and we will confirm coverage for your address on the first call.",
+      },
+      {
+        q: "Is hoarder junk removal different from regular junk removal?",
+        a: "Yes. Regular junk removal is load and go, usually under a few hours. Hoarder junk removal means sorting before anything leaves, protecting paperwork, medications, and valuables buried in the piles, working around pests or waste with PPE, and pacing the job over 2 to 5 days so the homeowner stays in control.",
+      },
+      {
+        q: "How much does a hoarding cleanup cost in Pittsburgh?",
+        a: "It is quoted per home after a free, private walk-through, because no two hoarding situations are alike. The drivers are clutter level (1 through 5), number of rooms affected, days on site, crew size, biohazard and PPE requirements, and how much sorting the family wants done before items leave the house.",
       },
     ],
   },
@@ -646,12 +662,12 @@ services.push(
 services.push(
   {
     slug: "construction-debris",
-    updatedAt: "2026-09-20",
+    updatedAt: "2026-09-27",
     name: "Construction Debris Removal",
     shortName: "Construction Debris",
-    seoTitle: "Construction Debris Removal Pittsburgh PA | Renovation Haul-Away",
+    seoTitle: "Construction Debris Removal Pittsburgh PA | Debris & Remodel Haul-Away",
     seoDescription:
-      "Construction and renovation debris removal in Pittsburgh. Drywall, lumber, flooring, cabinets, fixtures. Homeowner-generated only. Call (585) 200-0871.",
+      "Debris removal in Pittsburgh for renovations, remodels, and demo jobs. Drywall, lumber, flooring, cabinets, fixtures, loaded and hauled same day or next. Call (585) 200-0871.",
     heroHeadline: "Pittsburgh Construction Debris Removal",
     heroSub: "Renovation leftover, remodel junk, demo debris. We'll haul it.",
     citableSnippet:
@@ -661,7 +677,7 @@ services.push(
     typicalJob:
       "A typical job is a DIY homeowner mid-renovation. You demo a bathroom, rip out old cabinets, or tear up carpet, and you need the pile gone before you can keep going. You call or text us a photo. We give you a price based on volume, arrive the same day or next morning, and load everything onto the truck. Drywall, lumber, tile, carpet, and fixtures go together in one load. Scrap metal gets separated for recycling. Demo-related dust is your mess, but debris removal is ours.",
     whyUs:
-      "Most homeowners compare us to a 10-yard dumpster rental. A dumpster rental is $400 to $700 for a week or two, plus you have to load it yourself, plus you get charged for overage. We come, we load, we haul, same price. And we're there in under 24 hours so you're not staring at a pile for 2 weeks.",
+      "Most homeowners compare us to a 10-yard dumpster rental. A dumpster rental is $400 to $700 for a week or two, plus you have to load it yourself, plus you get charged for overage. We come, we load, we haul. And we're there in under 24 hours so you're not staring at a pile for 2 weeks.",
     keyPoints: [
       "Drywall, lumber, flooring, cabinets, fixtures",
       "Single-room or whole-house renovation debris",
@@ -699,6 +715,18 @@ services.push(
       {
         q: "Can you haul full dumpster loads?",
         a: "Yes. Instead of renting a dumpster, we can schedule multiple truckloads across a day or weekend. Often cheaper than a dumpster rental for 2-3 days of debris.",
+      },
+      {
+        q: "What kinds of debris removal do you handle?",
+        a: "Construction and renovation debris (drywall, plaster, lumber, trim, doors, windows), flooring tear-outs (carpet, tile, hardwood, vinyl), kitchen and bath remodel waste (cabinets, countertops, vanities, fixtures), and scrap metal and old pipes. We also haul deck tear-down and fencing debris. We do not take asbestos, confirmed lead-painted materials, or liquid chemicals.",
+      },
+      {
+        q: "Do you do remodeling and renovation debris removal mid-project?",
+        a: "Yes, and that is the most common job. Homeowners call after demo day or between phases of a remodel so the pile is gone before the next trade shows up. Text a photo of the pile, we confirm the volume, and a crew can usually be there the same day or next morning.",
+      },
+      {
+        q: "Why is construction waste removal priced differently than regular junk?",
+        a: "Construction waste is dense. A pickup-bed of drywall or tile weighs far more than the same space of furniture, and transfer stations charge disposal by the ton. So debris is quoted on weight and volume together, while household junk is quoted mostly on volume.",
       },
     ],
   },
